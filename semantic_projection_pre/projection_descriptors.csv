@@ -1,0 +1,151 @@
+document_id,participant_id,condition_label,time,sentence_number,sentence,needs_review,projection,y_pc1_residual
+1,1,Control,pre,1,a ansiedade está a aumentar,False,-0.34447855,0.062118866
+2,1,Control,pre,2,O medo está presente,False,-0.2903624,0.113932274
+3,1,Control,pre,3,quero ver se me desfecho,False,-0.23940685,0.08416461
+4,1,Control,pre,4,"Quanto mais depressa me desfecho, melhor",False,-0.07944033,-0.065433554
+5,2,VR Only,pre,1,estou muito assustada,False,-0.368637,0.105922595
+6,2,VR Only,pre,2,estou num carrossel de emoções,False,-0.21368466,-0.041335832
+7,2,VR Only,pre,3,estou no nono círculo do inferno Dante,False,-0.29677263,-0.027719775
+8,2,VR Only,pre,4,espero que seja só esta fase e que daqui para a frente corra tudo,False,0.061787847,-0.24615794
+9,2,VR Only,pre,5,"não há de ser assim muito, muito, muito mal, já sendo mal",False,-0.16242395,-0.057609662
+10,2,VR Only,pre,6,"vou ficar bem, sem ser bem",False,0.12706637,0.056008443
+11,2,VR Only,pre,7,talvez aí no final do dia consiga relaxar mais um bocadinho,False,0.22902574,0.09799249
+12,3,VR Art,pre,1,Estou confiante na equipa,False,0.06601352,-0.37811998
+13,3,VR Art,pre,2,Não digo que estou a 100%,False,-0.083771825,0.11046828
+14,3,VR Art,pre,3,"estou um bocadinho arreciosa, porque é uma coisa que é desconhecida",False,-0.14731592,0.12989503
+15,3,VR Art,pre,4,sinto-me segura,False,0.20145777,0.05760511
+16,4,Control,pre,1,Estou-me a sentir ótima,False,0.13947658,-0.35252997
+17,4,Control,pre,2,Acordei super bem disposta,False,0.15090601,-0.2686448
+18,4,Control,pre,3,Tenho andado super bem disposta,False,0.17880903,-0.3412794
+19,4,Control,pre,4,Venho completamente tranquila,False,0.41307554,0.0885598
+20,4,Control,pre,5,Sei que vai correr bem,False,0.07516202,-0.30174816
+21,4,Control,pre,6,"Estou muito habituada a fazer operações, isto para mim não é uma novidade, não é a primeira vez, já devo ter feito 10 operações na vida, perdi a conta, é um processo normal",False,0.10443208,-0.02676439
+22,4,Control,pre,7,"Hoje me acordei como se viesse a operar a hernia inguinal que fui operada em fevereiro, estou super tranquila",False,0.24714513,-0.03230881
+23,5,VR Only,pre,1,"Me senti muito bem, sinto que vai ser um momento só mesmo que me vai fazer ficar melhor e me vai fazer ultrapassar o drama que tenho vivido",False,0.13114505,-0.32498863
+24,7,VR Only,pre,1,"levemente nervosa, mas não muito",True,-0.05324005,0.4061308
+25,7,VR Only,pre,2,Não sei até que ponto isso está mascarado,True,-0.22514954,0.13091412
+26,7,VR Only,pre,3,"Fome, sono, incomodada nesse sentido",True,-0.20387733,0.12324556
+27,7,VR Only,pre,4,estou com sono,True,0.146118,0.07670422
+28,7,VR Only,pre,5,estou com fome,True,-0.17866819,0.0010603986
+29,7,VR Only,pre,6,estou com sede,True,-0.089277655,0.03787761
+30,7,VR Only,pre,7,Nariz entupido,True,-0.18486848,0.06438316
+31,9,Control,pre,1,sinto-me numa mistura de emoções,False,-0.15133019,0.0105662495
+32,9,Control,pre,2,estou ligeiramente nervosa,False,-0.11028047,0.39176974
+33,9,Control,pre,3,muito confiante porque sei que estou muito bem entregue nas mãos do meu cirurgião e de toda a equipa que me vai assistir nesta cirurgia,False,0.09898975,-0.3157291
+34,12,VR Art,pre,1,Ansiosa,False,-0.20873906,-0.14811252
+35,12,VR Art,pre,2,com esperança,False,0.03363739,-0.23400661
+36,13,Control,pre,1,"Sinto-me tranquila, relaxada, sem stress",False,0.3456625,0.12636444
+37,13,Control,pre,2,"com fome só, é a única coisa",False,-0.024172554,0.04157916
+38,13,Control,pre,3,de resto estou bem,False,0.25061953,-0.21072273
+39,14,VR Art,pre,1,"Senti bem, tranquila",False,0.4138355,0.0725531
+40,14,VR Art,pre,2,Estou tranquila,False,0.4284117,0.06692408
+41,15,VR Only,pre,1,"Um bocadinho ansiosa, não muito",True,-0.101226576,0.34033707
+42,15,VR Only,pre,2,"tem que tentar estar tranquila, mas um bocadinho, um bocadinho normal",True,0.22509558,0.26216093
+43,16,Control,pre,1,"Um bocadinho ansiosa, mas nada demais",True,-0.082974985,0.21456124
+44,16,Control,pre,2,"Estou confiante nos médicos, na equipa",True,0.11258642,-0.35354647
+45,16,Control,pre,3,isso ajuda-me a acalmar,True,0.2906193,0.027990496
+46,16,Control,pre,4,"Não sou uma pessoa, normalmente, que fico muito nervosa com atos médicos",True,-0.25646245,0.14831997
+47,16,Control,pre,5,Sinto-me relativamente tranquila,True,0.41997966,0.16609295
+48,16,Control,pre,6,"Sei que não estou super calma, mas tenho alguma tranquilidade",True,0.22636506,0.2031708
+49,17,VR Art,pre,1,"Tu me senti calma, tu me senti bem",False,0.25541738,0.09117447
+50,17,VR Art,pre,2,Não estou com stress,False,0.23292233,0.18837798
+51,18,VR Only,pre,1,tranquila e ao mesmo tempo um bocadinho ansiosa,False,0.02816327,0.2885682
+52,18,VR Only,pre,2,Estou tranquila e um pouco ansiosa,False,0.12393948,0.20995793
+53,19,VR Only,pre,1,"Estranhamente tranquila, mas consciente de alguma ansiedade de fundo",True,0.031494375,0.35419455
+54,19,VR Only,pre,2,"Só receio, porque é uma cirurgia. Não pelo tumor, mas pela cirurgia",True,-0.23108286,0.12302333
+55,20,Control,pre,1,Estou tranquila e feliz que me vou operar,False,0.21338701,-0.23053506
+56,21,VR Art,pre,1,"ansiosa, com medo, com receio, com incerteza",False,-0.1928627,0.19760258
+57,21,VR Art,pre,2,com vontade de chorar,False,-0.20329566,-0.10550899
+58,22,Control,pre,1,"Bem, relaxada",False,0.32337102,0.06990893
+59,22,Control,pre,2,"a conversar também, com as perguntas que está a fazer e isso também é bom",False,0.14077725,-0.10736109
+60,22,Control,pre,3,"Sempre me distraio mais um bocadinho do que para pensar, assim não tenho que pensar",False,-0.12794968,0.16481552
+61,22,Control,pre,4,Mas estou bem,False,0.20348349,-0.32620654
+62,23,VR Only,pre,1,"sinto-me um bocadinho, um bocado, ansiosa e apreensiva, porque não sei se vai correr bem ou não",True,-0.2684642,0.16074379
+63,23,VR Only,pre,2,"eu sou otimista, eu sou uma pessoa otimista",True,0.05484608,-0.40475187
+64,23,VR Only,pre,3,"Penso que vai correr bem, porque eu já passei por uma situação desta",True,0.08770088,-0.32853344
+65,23,VR Only,pre,4,"já sei como é que é, mais ou menos",True,-0.078805275,0.11567494
+66,24,VR Art,pre,1,"Feliz, porque tenho a possibilidade de me tratar, há um monte de gente que não tem e gostaria de estar no meu lugar",True,0.14570594,-0.3086772
+67,24,VR Art,pre,2,"apreensiva pelo pós, pelo que não posso fazer, porque era um paquete, e claro que não posso fazer essas coisas durante os primeiros tempos, daí a minha parte apreensiva",True,-0.21695304,0.1517291
+68,24,VR Art,pre,3,"como tenho dois filhos adolescentes, a vida é horror",True,-0.31227443,0.063551754
+69,24,VR Art,pre,4,Acho que está tudo bem,True,0.35632563,-0.198112
+70,24,VR Art,pre,5,"Sou uma nova Karina, completamente diferente, para melhor, acho eu",True,-0.05904571,-0.115010016
+71,24,VR Art,pre,6,"O cancro tira-nos muita coisa, mas dá-nos muita coisa",True,0.0037521024,-0.0964583
+72,25,VR Only,pre,1,"Sinto-me tranquila, calma, segura",False,0.39959717,0.15670717
+73,26,Control,pre,1,Sinto-me bem,False,0.17050661,-0.20218161
+74,26,Control,pre,2,um bocadinho intranquila,False,0.009218477,0.16290584
+75,27,VR Art,pre,1,Sinto-me com algum receio,False,-0.27730522,0.25923228
+76,27,VR Art,pre,2,mas ao mesmo tempo confiante na competência de quem me está a tratar e com esperança de que o problema fique resolvido,False,0.1454258,-0.24492101
+77,28,VR Only,pre,1,Expectant,False,-0.10254666,0.0029561766
+78,29,Control,pre,1,Desejamos que isto acabe e depois vamos ver o pós-operatório,False,-0.09884156,-0.042478826
+79,31,VR Art,pre,1,Fica bem,False,0.24808753,-0.24532416
+80,32,VR Only,pre,1,bem,True,-0.054183375,-0.05032285
+81,32,VR Only,pre,2,"Não muito bem, mas é bem dentro do possível",True,0.030633274,0.060184993
+82,35,VR Art,pre,1,bem disposta,False,0.0874194,-0.013811631
+83,35,VR Art,pre,2,com receio da cirurgia,False,-0.10546594,-0.005524528
+84,36,Control,pre,1,Pouco nervosa,False,-0.3038615,0.30504295
+85,36,Control,pre,2,Sempre que faço uma cirurgia tenho medo de não acordar,False,-0.2405545,0.1937654
+86,37,VR Only,pre,1,descontraída,False,-0.13736731,0.040283676
+87,37,VR Only,pre,2,mas um pouco ansiosa,False,-0.22847582,0.25358483
+88,37,VR Only,pre,3,"descontraída, também tomei um bocadinho de alparazola, caí para o meio e disse, tome, menina",False,-0.092507385,0.03073762
+89,37,VR Only,pre,4,"eu estou um pouco receosa, mas acho que também pelo facto de criar a imagem ou imaginar, eu que não percebo nada, nem nunca vi, mas a cortar, a tirar, é isso que me assusta, porque eu sei que não estou a sentir nada, mas não faço ideia o quanto",False,-0.264512,0.39978823
+90,37,VR Only,pre,5,mas fico com positiva quando penso que é para melhor e para eu ficar bem,False,0.16945231,-0.41086176
+91,38,VR Art,pre,1,"uns e outros, eu acho que eu já capto",True,0.014487089,-0.05733375
+92,39,Control,pre,1,"Estou com comissões por causa das meias, mas esse é o único desconforto que tenho",False,-0.042136263,0.15126231
+93,40,VR Only,pre,1,Na expectativa de correr bem,False,-0.05257258,-0.22173025
+94,41,VR Art,pre,1,parece que estou tranquila,False,0.3742163,0.07715087
+95,41,VR Art,pre,2,mas raciosa do que é que tudo isto está a acontecer,False,-0.1988863,-0.030478828
+96,42,Control,pre,1,"Sinto-me tranquila, confiante, bem acolhida, bem recebida, bem tratada",False,0.3303646,-0.1801164
+97,43,VR Only,pre,1,ligeiramente ansiosa,False,-0.13030943,0.3333587
+98,43,VR Only,pre,2,mas tranquila porque confio nos profissionais,False,0.32624662,-0.00054467306
+99,43,VR Only,pre,3,o facto de ter existido aqui um contratempo nos horários da última refeição e do jejum fiquei logo no início de manhã mais ansiosa e com estresse,False,-0.32718688,0.11093293
+100,43,VR Only,pre,4,"mas entretanto, conversando com os profissionais, ajudou a diminuir essa ansiedade",False,0.21154177,0.16950655
+101,44,VR Art,pre,1,"Não me sinto ansiosa, na verdade, nem sei",True,0.15247174,0.26679662
+102,44,VR Art,pre,2,"Eu acho que a ansiedade que tenho é... Nem sei bem se a sinto, eu acho que é uma coisa que se manifesta de outra forma",True,-0.22015376,0.22773021
+103,44,VR Art,pre,3,"Há dois ou três dias tenho um tico nervoso no olho, mas agora até parou",True,-0.04094096,0.25759724
+104,44,VR Art,pre,4,estou só a respirar fundo e tentar estar-me tranquila,True,0.12140237,0.16793017
+105,44,VR Art,pre,5,Não quero estressar com nada,True,0.18074578,0.19754146
+106,44,VR Art,pre,6,"fazer as coisas com calma com sensibilidade, não vale a pena estarmos a estressar, vai acontecer vai correr bem",True,0.2634996,0.0901515
+107,44,VR Art,pre,7,é importante manter-me serena,True,0.20484392,0.054210585
+108,44,VR Art,pre,8,sinto-me bem,True,0.1467201,-0.17347883
+109,44,VR Art,pre,9,Sinto um bocadinho de fome,True,-0.115682505,0.11035491
+110,44,VR Art,pre,10,Um bocadinho de sede,True,-0.027703732,0.15799221
+111,44,VR Art,pre,11,Estou muito otimista,True,0.0017452369,-0.44318467
+112,44,VR Art,pre,12,"Estou com uma energia positiva em relação àquilo, mesmo o pós-operatório",True,0.086555175,-0.3514042
+113,44,VR Art,pre,13,"vou ser uma boa paciente, vou fazer tudo o que me disserem e vai correr bem e vou me livrar disto",True,0.0972859,-0.29062304
+114,44,VR Art,pre,14,"Eu não sou assim muito de ficar nervosa, ansiosa, porque eu acho que no fundo não serve nada",True,0.22277713,0.24046744
+115,44,VR Art,pre,15,"eu aprendi a ser otimista, a olhar mais para o futuro, de pensar de uma forma positiva sobre o futuro",True,0.11841453,-0.40736872
+116,44,VR Art,pre,16,"saía muito fragilizada, porque era uma coisa que eu não escolhi",True,-0.1516252,0.14452851
+117,44,VR Art,pre,17,acho que até estou mais serena até do que os dias que se deu,True,0.23193361,-0.0135646975
+118,44,VR Art,pre,18,"eu também vinha assim um bocadinho abaixo, mas ficava assim sensibilizada",True,-0.039083533,0.17160946
+119,45,Control,pre,1,Sinta-te tranquila e confiante,False,0.29108036,-0.0357043
+120,45,Control,pre,2,acho que vai correr tudo bem,False,0.22732495,-0.22449607
+121,46,VR Only,pre,1,"Sinto-me bem, sinto-me meio disposta, muito pouco ansiosa e quero mesmo é despachar a situação",True,0.17313701,0.04177018
+122,47,VR Art,pre,1,"tenho mais receio depois da cirurgia do que antes, porque de outra vez a coisa não correu muito bem com a fisioterapia",False,-0.2295263,0.11598978
+123,49,VR Only,pre,1,Estou normal,False,0.29146013,-0.08862037
+124,50,VR Art,pre,1,preocupada,False,-0.32131362,0.19987369
+125,50,VR Art,pre,2,mas ao mesmo tempo também aliviada porque estou a avançar com isto de despachar,False,0.2172623,-0.112882294
+126,51,Control,pre,1,"Sinto-me um pouco ansiosa, com algum receio",False,-0.26656452,0.2871381
+127,51,Control,pre,2,"penso que isto vai, com a ajuda de todos, e minha também, isto vai correr bem",False,0.12859866,-0.3455011
+128,52,VR Only,pre,1,"eu estou preocupada por saber o que é que vai acontecer, é a primeira vez, logo é sempre um desconhecido",False,-0.2874272,0.19387655
+129,52,VR Only,pre,2,"espero que ocorra tudo bem, e acredito que sim",False,0.20554237,-0.30782992
+130,52,VR Only,pre,3,parece-me que estou bem entregue,False,0.2627304,-0.22579063
+131,53,VR Art,pre,1,ansiosa,True,-0.0376921,-0.046635732
+132,53,VR Art,pre,2,"Estou ansiosa, mas estou tranquila, sei que estou em boas mãos e vai correr tudo bem",True,0.2325733,-0.033266436
+133,54,VR Only,pre,1,estou apreensiva,False,-0.28251278,0.048288576
+134,54,VR Only,pre,2,acho que vai correr tudo bem,False,0.22732495,-0.22449607
+135,54,VR Only,pre,3,"mas fica sempre aquele medo de não se acordar, tenho filhos pequeninos",False,-0.14638133,0.16406406
+136,56,VR Art,pre,1,Estou tranquila e muito confiante,False,0.29413658,-0.13580023
+137,56,VR Art,pre,2,Estou otimista,False,0.053692296,-0.4290319
+138,57,VR Only,pre,1,Expectante,False,-0.12688743,-0.021226566
+139,57,VR Only,pre,2,"Não tenho grandes palavras neste momento, mas estou expectante",False,-0.032799147,0.036083654
+140,58,Control,pre,1,Espectando com alguma ansiedade e algum medo que algo corra mal,False,-0.3514076,0.20743778
+141,58,Control,pre,2,Perdemos o controle durante o momento da anestesia e isso traz alguma ansiedade,False,-0.21302782,0.28980243
+142,59,VR Art,pre,1,"Um bocadinho ansiosa, não muito",False,-0.101226576,0.34033707
+143,59,VR Art,pre,2,mas confiante,False,0.056672186,-0.20514171
+144,59,VR Art,pre,3,Quero que acabe este processo,False,-0.12954137,-0.055932265
+145,60,Control,pre,1,luta comigo própria para relaxar e para estar tranquila e confiante,False,0.31248868,-0.012694877
+146,60,Control,pre,2,estou confiante,False,0.08661387,-0.27856132
+147,60,Control,pre,3,sinto que tenho que fazer isto e estou inquieta para me despachar,False,-0.34800956,0.14577514
+148,60,Control,pre,4,"já que não há nada a resolver para trás, tenho que ir para a frente",False,0.009202277,-0.12432252
+149,60,Control,pre,5,"estou confiante, vou ficar melhor",False,0.09745524,-0.34791636
+150,60,Control,pre,6,"estou nas mãos certas, estou com as pessoas certas, num lugar certo",False,0.2026314,-0.27442372

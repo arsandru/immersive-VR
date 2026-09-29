@@ -1,0 +1,26 @@
+{
+ "pre_participants_in_file": 53,
+ "pre_missing_descriptors": [
+  48
+ ],
+ "pre_no_condition": [
+  33
+ ],
+ "pre_duplicates_dropped": 1,
+ "post_participants_in_file": 51,
+ "post_missing_descriptors": [],
+ "post_no_condition": [
+  33
+ ],
+ "post_duplicates_dropped": 1,
+ "units": {
+  "post": 125,
+  "pre": 150
+ },
+ "participants": {
+  "post": 50,
+  "pre": 51
+ },
+ "participants_both": 49,
+ "probe_sign_correct": 10
+}

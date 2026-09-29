@@ -1,0 +1,9 @@
+analysis,test,comparison,n,statistic,p_perm,p_fdr
+baseline (pre only),GJSD of PageRank vectors,all three,40,0.0904439741746059,0.9094181163767247,
+pre vs post (paired),JSD of 3-step path distributions,VR Art,9,0.4375605716419863,0.7482517482517482,
+pre vs post (paired),JSD of 3-step path distributions,VR Only,10,0.36627721637273736,0.8191808191808192,
+pre vs post (paired),JSD of 3-step path distributions,Control,12,0.5930449949401542,0.5084915084915085,
+interaction (change differs by condition),"PageRank change, omnibus",all three,31,0.6277138949749551,0.9816036792641472,
+interaction (change differs by condition),"PageRank change, pairwise",VR Art vs VR Only,19,0.10109575465999934,0.740251949610078,0.97000599880024
+interaction (change differs by condition),"PageRank change, pairwise",VR Art vs Control,21,0.04628655234646082,0.9632073585282943,0.97000599880024
+interaction (change differs by condition),"PageRank change, pairwise",VR Only vs Control,22,0.044679709761715834,0.97000599880024,0.97000599880024

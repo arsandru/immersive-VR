@@ -1,0 +1,25 @@
+analysis,test,comparison,n,statistic,p_perm,p_fdr
+baseline (pre only),topic composition (Hellinger PERMANOVA),all three,51,0.9251850067138072,0.5231476852314768,
+baseline (pre only),topic composition (Hellinger PERMANOVA),VR Art vs VR Only,35,1.172726740056162,0.3043695630436956,0.7014798520147986
+baseline (pre only),topic composition (Hellinger PERMANOVA),VR Art vs Control,33,0.9268437662216362,0.46765323467653236,0.7014798520147986
+baseline (pre only),topic composition (Hellinger PERMANOVA),VR Only vs Control,34,0.6720949051520615,0.7116288371162883,0.7116288371162883
+baseline (pre only),semantic space (centroid PERMANOVA),all three,51,0.9068822173713864,0.647035296470353,
+baseline (pre only),semantic space (centroid PERMANOVA),VR Art vs VR Only,35,0.875778658151948,0.6136386361363864,0.7661233876612338
+baseline (pre only),semantic space (centroid PERMANOVA),VR Art vs Control,33,0.7689506867468513,0.7661233876612339,0.7661233876612338
+baseline (pre only),semantic space (centroid PERMANOVA),VR Only vs Control,34,1.0724138274879143,0.33196680331966805,0.7661233876612338
+pre vs post (paired),topic composition (Hellinger),all conditions,49,0.10053241987292899,0.0010998900109989002,
+pre vs post (paired),semantic space (centroid),all conditions,49,0.04069646145962042,9.999000099990002e-05,
+pre vs post (paired),topic composition (Hellinger),VR Art,17,0.18509942227627113,0.029197080291970802,
+pre vs post (paired),semantic space (centroid),VR Art,17,0.07545781063618842,0.0022997700229977,
+pre vs post (paired),topic composition (Hellinger),VR Only,17,0.1800086533060762,0.023497650234976502,
+pre vs post (paired),semantic space (centroid),VR Only,17,0.08022743283678029,0.0028997100289971,
+pre vs post (paired),topic composition (Hellinger),Control,15,0.04789391939272121,0.8747125287471252,
+pre vs post (paired),semantic space (centroid),Control,15,0.037553927297725456,0.1792820717928207,
+interaction (change differs by condition),topic composition (Hellinger),all three,49,0.7265727986610798,0.7575242475752425,
+interaction (change differs by condition),topic composition (Hellinger),VR Art vs VR Only,34,0.7978404256377916,0.5971402859714029,0.8161183881611839
+interaction (change differs by condition),topic composition (Hellinger),VR Art vs Control,32,0.8286402426566105,0.5632436756324367,0.8161183881611839
+interaction (change differs by condition),topic composition (Hellinger),VR Only vs Control,32,0.552770717809091,0.8161183881611839,0.8161183881611839
+interaction (change differs by condition),semantic space (centroid),all three,49,1.1189024993088978,0.2263773622637736,
+interaction (change differs by condition),semantic space (centroid),VR Art vs VR Only,34,0.8472002760668447,0.6931306869313069,0.6931306869313069
+interaction (change differs by condition),semantic space (centroid),VR Art vs Control,32,1.1623600491658583,0.2176782321767823,0.3265173482651735
+interaction (change differs by condition),semantic space (centroid),VR Only vs Control,32,1.3843208555532949,0.068993100689931,0.206979302069793

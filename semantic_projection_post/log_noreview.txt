@@ -1,0 +1,33 @@
+
+===== post ( noreview ) descriptors: 83  participants: 38 
+Alternative hypothesis: two-sided 
+            Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt)
+      (Intercept)   0.0970 0.0436          0  2.223        10.1       0.0503
+  conditionVR Art   0.1135 0.0604          0  1.878        18.5       0.0762
+ conditionVR Only   0.0357 0.0647          0  0.553        21.9       0.5861
+ Sig.
+    .
+    .
+     
+           contrast estimate  ci_low ci_high   df p_value p_fdr
+  VR Art vs Control   0.1135 -0.0132    0.24 18.5  0.0762 0.229
+ VR Only vs Control   0.0357 -0.0984    0.17 21.9  0.5861 0.586
+  VR Art vs VR Only   0.0778 -0.0548    0.21 19.5  0.2347 0.352
+
+Participant-level means: F test for condition
+Analysis of Variance Table
+
+Response: mean_projection
+          Df  Sum Sq  Mean Sq F value Pr(>F)
+condition  2 0.05964 0.029818  1.1525 0.3275
+Residuals 35 0.90553 0.025872               
+ contrast             estimate         SE df t.ratio p.value   cohens_d
+ Control - VR Art  -0.09646166 0.06714215 35  -1.437  0.3581 -0.6687849
+ Control - VR Only -0.01992960 0.06229654 35  -0.320  0.7509 -0.1128753
+ VR Art - VR Only   0.07653205 0.06385031 35   1.199  0.3581  0.4861298
+
+P value adjustment: fdr method for 3 tests 
+  condition  n      mean        sd      F_p
+1   Control 12 0.1153944 0.1680646 0.327542
+2    VR Art 11 0.2118560 0.1123258 0.327542
+3   VR Only 15 0.1353240 0.1829637 0.327542

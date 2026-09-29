@@ -1,0 +1,126 @@
+document_id,participant_id,condition_label,time,sentence_number,sentence,needs_review,projection,y_pc1_residual
+151,1,Control,post,1,a ansiedade aumenta,False,-0.3296064,0.07449916
+152,1,Control,post,2,o receio de que algo possa correr mal,False,-0.23945437,0.03917188
+153,2,VR Only,post,1,"Um bocadinho menos ansiosa, muito mais relaxada, mais descontraída e talvez com um bocadinho mais de esperança",False,0.24310346,0.19410983
+154,3,VR Art,post,1,Estou mais tranquila,False,0.4171167,0.25008062
+155,3,VR Art,post,2,"Estou mais tranquila, sem dúvida alguma",False,0.41982514,0.20599899
+156,3,VR Art,post,3,Sinto mais tranquilidade dentro de mim,False,0.40092686,0.1653732
+157,4,Control,post,1,sinto-me igualmente otimista,False,0.077447906,-0.26566496
+158,4,Control,post,2,sinto-me igualmente sem medo,False,0.012141632,0.08862505
+159,4,Control,post,3,sinto-me mais tranquila,False,0.29070118,0.18963712
+160,4,Control,post,4,sinto-me ainda mais tranquila porque estive a descansar e a pensar com boas memórias quando os meus filhos eram pequeninos e quando estava a brincar com eles,False,0.33723894,0.07615909
+161,5,VR Only,post,1,"deixou-me muito mais tranquila, muito mais serena",True,0.39292768,0.1623445
+162,5,VR Only,post,2,estou muito mais tranquila agora para o procedimento,True,0.3337888,0.2210105
+163,7,VR Only,post,1,"tem uma conexão com a minha religião, ver aquilo foi um pouco emocionante",False,0.016272612,-0.23288107
+164,7,VR Only,post,2,para mim esse vídeo toca diferente,False,-0.014397458,-0.060840957
+165,7,VR Only,post,3,para mim veio uma emoção,False,-0.11905626,-0.1849759
+166,9,Control,post,1,"Não mudou muito, eu continuo a ter assim sempre um misto da emoção",False,-0.016300824,-0.009306621
+167,9,Control,post,2,É sempre uma cirurgia,False,-0.12736523,-0.00062472996
+168,9,Control,post,3,"na confiança que eu tenho, por exemplo, no caso do Dr. Carlos Mavioso, que já é terceira cirurgia com ele, e que toda a equipa que envolve todo este processo e toda a equipa que envolve normalmente este tipo de cirurgias, sinto-me mais confiante",False,0.0791816,-0.057917763
+169,12,VR Art,post,1,durante a experiência eu senti muito relaxamento,True,0.2914808,0.04956989
+170,12,VR Art,post,2,"voltei um bocadinho à realidade, porque o Zé falou em doutor Pedro, que estava à minha espera",True,0.026709843,0.050113548
+171,12,VR Art,post,3,durante o filme deixei mesmo ir,True,0.014867451,-0.053307105
+172,12,VR Art,post,4,agora estou a cair mesmo na realidade outra vez,True,-0.17112666,0.0424097
+173,13,Control,post,1,"sinto-me mais relaxada ainda, mais tranquila, porque também tenho o corpo relaxado e descansado e sinto-me muito bem",False,0.29577246,-0.09665552
+174,14,VR Art,post,1,"talvez me prestaria mais um bocadinho, talvez mais relaxada",False,0.16693945,0.07183591
+175,14,VR Art,post,2,"Estava a observar, estava descontraída",False,0.08996961,0.020563727
+176,15,VR Only,post,1,"Eu estou bem, fiquei bem",False,0.2091796,-0.28040585
+177,17,VR Art,post,1,"A sensação de nós estarmos a viajar com o vídeo, há momentos bem bonitos, quando vamos atrás do pássaro parece que estamos mesmo lá, isso cria um sentimento muito agradável, esquecendo-nos que estamos aqui",False,0.13218048,-0.28628471
+178,18,VR Only,post,1,"Foi agradável, bastante, e bastante relaxante",False,0.29262066,-0.11545567
+179,18,VR Only,post,2,Estou completamente relaxada,False,0.34960154,0.10690276
+180,18,VR Only,post,3,O acolhimento é cinco estrelas,False,0.08736813,-0.32266134
+181,19,VR Only,post,1,Sinto-me mais relaxada,False,0.2685195,0.13582411
+182,19,VR Only,post,2,sentindo que achava que me ia enervar por causa dos pássaros,False,-0.17943622,0.04439367
+183,19,VR Only,post,3,tentei-me focar no verde e naquilo que são os elementos da natureza,False,-0.0013298276,-0.1687563
+184,19,VR Only,post,4,se ficasse mais tempo ia acabar por relaxar ainda mais,False,0.19425087,0.19246088
+185,20,Control,post,1,"me sinto um pouco mais tranquila, relaxada, porque, na preparação, você fica mais tranquila e com fome",True,0.36497903,0.2530358
+186,21,VR Art,post,1,"durante o vídeo eu abstraí-me completamente do sítio onde estava, estava completamente envolvida no vídeo",False,-0.028160382,0.011394485
+187,21,VR Art,post,2,após tirar os óculos senti-me um bocadinho mais calma,False,0.35445762,0.2972
+188,21,VR Art,post,3,como entretanto entrou o doutor Pedro o meu pensamento voltou outra vez para a cirurgia,False,-0.048748285,0.10888751
+189,22,Control,post,1,estava um bocadinho mais relaxada até vocês saírem daqui,True,0.27742678,0.17125952
+190,22,Control,post,2,"que isto passe depressa, que corra tudo bem, que fique bem",True,0.116776906,-0.060073785
+191,22,Control,post,3,"O tempo me custou muito a passar, custou mais, até pensava que se tinha esquecido de mim",True,-0.09697513,0.039514456
+192,24,VR Art,post,1,igual,True,0.1383395,-0.19687739
+193,24,VR Art,post,2,"tenho uma experiência nova, é divertido",True,-0.009248483,-0.2888388
+194,24,VR Art,post,3,os meus valores já aumentaram,True,0.01960074,-0.18834089
+195,24,VR Art,post,4,de resto gostei,True,0.15896411,-0.3242956
+196,25,VR Only,post,1,"continuo a sentir-me tranquila, agora acho que até um bocadinho mais relaxada e com aqui boas memórias, porque as imagens levaram-me para sítios que também já visitei, então é uma experiência muito, muito agradável",False,0.323376,-0.02290272
+197,26,Control,post,1,ansiosa um bocadinho,False,0.016422505,-0.13120782
+198,26,Control,post,2,"Preocupada um bocadinho, não é uma situação confortável",False,-0.2946386,0.20010786
+199,26,Control,post,3,mas tudo bem,False,0.33175412,-0.17619987
+200,26,Control,post,4,Estou tranquila,False,0.42841178,0.17229949
+201,27,VR Art,post,1,sinto-me calma confiante e pouco preocupada,False,0.28329223,0.1627593
+202,28,VR Only,post,1,Tanto desjo que isto acabe,False,-0.18281311,-0.055502377
+203,29,Control,post,1,"Bem, dentro do normal, bem, dentro das circunstâncias",False,0.24079122,-0.049913123
+204,31,VR Art,post,1,Eu sinto-me bem,False,0.17863402,-0.302794
+205,32,VR Only,post,1,parece que estou assim um bocadinho mais agitada,False,-0.2704774,0.04896675
+206,32,VR Only,post,2,Não gostei muito das alturas,False,-0.16953877,-0.035495292
+207,34,Control,post,1,a minha intranquilidade deve-se ao facto desta experiência com o enfermeiro que bateu-me imenso nas mãos,True,-0.17828591,0.011107464
+208,34,Control,post,2,Isso pôs-me intranquila,True,-0.17029345,0.03523562
+209,34,Control,post,3,"fazer exercícios que eu já costumo fazer que é respiração profunda respirar, reter e depois deitar fora o ar pensando sempre que estou num riacho que estou a nadar numa água muito quente, eu situo-me num riacho com águas moras em que estou tranquilamente a nadar",True,0.24956942,0.008764659
+210,35,VR Art,post,1,Estou bem disposta,True,0.25300926,-0.09044057
+211,35,VR Art,post,2,Sinto uma calma,True,0.4286135,0.21970762
+212,35,VR Art,post,3,"O filme é um bocadinho assustador, tem muitas cores escuras e fantasmas, parece que vamos colidir contra as estruturas, as paredes",True,-0.35816434,0.116320476
+213,35,VR Art,post,4,Sensação de afogamento,True,-0.15568449,-0.02520035
+214,36,Control,post,1,Um bocadito mais calma que estive tanto acusada,False,0.2307222,0.22513099
+215,37,VR Only,post,1,estou relaxada,False,0.32038522,0.08516394
+216,37,VR Only,post,2,mas um pouquinho preocupada,False,-0.21823294,0.25312805
+217,37,VR Only,post,3,mas confiante,False,0.056672186,-0.17546663
+218,38,VR Art,post,1,"Foi muito bonito, a animação foi muito bonita",True,0.055323005,-0.3976351
+219,38,VR Art,post,2,Fez-me querer sair e passear e ver coisas novas,True,-0.15568742,-0.20652182
+220,38,VR Art,post,3,"coisas que eu adoro, natureza",True,0.023938973,-0.4344008
+221,38,VR Art,post,4,Fez-me levantar e sair,True,-0.15970132,-0.07314104
+222,39,Control,post,1,Muito tranquila,False,0.44433287,0.16655605
+223,39,Control,post,2,"Estive a pensar em coisas de trabalho, coisas que tenho que resolver",False,-0.033377092,0.14591607
+224,40,VR Only,post,1,"Sinto-me bem, sinto-me estável",False,0.30204505,-0.09193001
+225,41,VR Art,post,1,Estou mais calma,True,0.4171821,0.32598475
+226,41,VR Art,post,2,Não era medo,True,-0.023308083,0.12096562
+227,41,VR Art,post,3,"São imagens muito fortes, parece que vamos andar no mar, e no ar",True,-0.1458432,-0.20828529
+228,42,Control,post,1,Sinto bem,True,0.14655405,-0.32077137
+229,42,Control,post,2,Ligeiramente a aguardar a entrada para a cirurgia,True,-0.05915445,0.23159383
+230,42,Control,post,3,Confiante,True,0.20089412,-0.13392782
+231,42,Control,post,4,"é importante a pessoa manter-se positiva, o esforço é manter-se sempre positiva e neste nível de positividade, porque se vai abaixo, depois é muito mais difícil caminhar para cima",True,0.06379785,-0.20703326
+232,43,VR Only,post,1,"Foi uma sensação de estar numa ligação, de sensação de paz, de equilíbrio, de harmonia e ajudou-me a relaxar",False,0.40115184,-0.014385033
+233,43,VR Only,post,2,"comecei a fechar os olhos, a sentir mais sonolência, mas no sentido de estar relaxada, tranquila e em paz",False,0.35424668,0.19455144
+234,43,VR Only,post,3,Foi uma sensação muito de conforto e de relaxamento,False,0.40481752,0.014396635
+235,44,VR Art,post,1,calma sendo tranquila,False,0.4272108,0.17600544
+236,44,VR Art,post,2,gostei do vídeo da animação,False,0.06290709,-0.31088892
+237,44,VR Art,post,3,me despertou também a curiosidade de ver as várias coisas que estariam a acontecer,False,-0.15704739,-0.04266129
+238,44,VR Art,post,4,sinto-me ainda mais abstraída da cirurgia,False,-0.07958227,0.1759809
+239,45,Control,post,1,"um pouco, não diria ansiosa, mas pode ser ansiosa",False,-0.13076161,0.19040637
+240,45,Control,post,2,"Espero que isso passe tudo, e que a cirurgia seja feita rapidamente",False,0.018838277,0.0027967526
+241,45,Control,post,3,"tranquila e confiante, que vai correr tudo bem",False,0.32360926,-0.089338005
+242,46,VR Only,post,1,Sinto-me bem,False,0.17050661,-0.2960986
+243,46,VR Only,post,2,Relaxada,False,0.37741968,0.10679101
+244,46,VR Only,post,3,Bem,False,0.00036845135,-0.23130868
+245,47,VR Art,post,1,Bem,False,0.00036845135,-0.23130868
+246,47,VR Art,post,2,"Não, tudo bem",False,0.30052295,-0.04457844
+247,49,VR Only,post,1,Bem,False,0.00036845135,-0.23130868
+248,50,VR Art,post,1,"o filme, de facto, dá uma sensação de calma",True,0.43455002,0.22483909
+249,50,VR Art,post,2,"eu fiquei com uma sensação, não é bem assustadora, mas é de claustrofobia, penso que é uma certa falta de ar",True,-0.18332091,0.23366559
+250,50,VR Art,post,3,é a parte que eu mais gosto,True,0.03992553,-0.3828327
+251,50,VR Art,post,4,a música ajuda a que nós mantenhamos calmas,True,0.34010357,0.14019607
+252,51,Control,post,1,sinto muito tudo isto,False,-0.062717706,-0.32966864
+253,51,Control,post,2,estou descansada porque estou com um ótimo cirurgião,False,0.299237,0.020253792
+254,51,Control,post,3,sei que às vezes as coisas não correm tão bem como nós queremos,False,-0.08677363,0.08743653
+255,52,VR Only,post,1,"mais ou menos a mesma coisa, Eu estou me sentindo bem",True,0.21969505,-0.1551032
+256,52,VR Only,post,2,um bocadinho preocupada para o resultado que lá vem,True,-0.23477322,0.21610436
+257,52,VR Only,post,3,"essa ansiosa, ansiosa, pode mais depressa melhor, pode mais depressa isto, pode mais depressa sai",True,-0.05515066,0.02163321
+258,52,VR Only,post,4,"a preocupação é mesmo o cuidado e o pós, o que é que vai vir a seguir",True,-0.06787434,0.106202036
+259,52,VR Only,post,5,"vai correr tudo bem, é certo",True,0.2531274,-0.19799183
+260,52,VR Only,post,6,"não deixa de ser uma cirurgia, não deixa de ser tirar um bocadinho de mim e o resultado que vem de lá",True,-0.09954447,0.022503503
+261,53,VR Art,post,1,"Me sinto mais tranquila, gostei muito",False,0.30041513,-0.052012663
+262,53,VR Art,post,2,Me levou a outro lugar e me deixou mais calma e tranquila e sem ansiedade,False,0.4010194,0.27355605
+263,54,VR Only,post,1,Estou um bocadinho mais calma,False,0.41976863,0.31555817
+264,54,VR Only,post,2,"foi bom, gostei de ver as imagens, foi uma experiência boa",False,0.15426889,-0.43338925
+265,56,VR Art,post,1,"Sinto-me tranquila, estou em paz, nada, com medo de nada, sinto-me bem",False,0.25395718,0.06196858
+266,57,VR Only,post,1,Sinto-me bem,False,0.17050661,-0.2960986
+267,58,Control,post,1,"sinto-me de forma similar à anterior, os níveis de ansiedade são os mesmos",False,-0.11123683,0.13977346
+268,58,Control,post,2,estive a fazer aqui uma técnica própria que desenvolvi para não escalar a ansiedade durante o período que tenho de esperar até a entrada na sala de cirurgia,False,-0.012187256,0.25192365
+269,58,Control,post,3,"a minha técnica consta em fazer uma revisão do que tenho para fazer depois da cirurgia e organizar os meus pensamentos, organizar os meus planos, de maneira a que não foque no que realmente me preocupa no imediato que vai acontecer",False,0.09699993,0.19820936
+270,59,VR Art,post,1,estou um bocadinho mais calma,False,0.41159746,0.31162083
+271,59,VR Art,post,2,"Não é que antes estivesse estressada, mas estou um bocadinho mais calma",False,0.2722534,0.3696909
+272,59,VR Art,post,3,Ajudou de alguma forma,False,0.16833518,-0.20837797
+273,59,VR Art,post,4,"Mais um bocadinho eu acho que adormecia, o que significa que é bom",False,0.28470752,-0.059263233
+274,60,Control,post,1,"Estou tranquila, confiante",False,0.3604951,0.09264849
+275,60,Control,post,2,Estou a tentar estar relaxada,False,0.25241417,0.19875069

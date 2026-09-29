@@ -1,0 +1,102 @@
+participant_id,condition_label,time,mean_projection,n_descriptors,any_needs_review
+1,Control,post,-0.2845304,2,False
+1,Control,pre,-0.23842199,4,False
+2,VR Only,post,0.24310346,1,False
+2,VR Only,pre,-0.08909105,7,False
+3,VR Art,post,0.41262302,3,False
+3,VR Art,pre,0.009095896,4,False
+4,Control,post,0.17938232,4,False
+4,Control,pre,0.18700098,7,False
+5,VR Only,post,0.36335826,2,True
+5,VR Only,pre,0.13114505,1,False
+7,VR Only,post,-0.039060377,3,False
+7,VR Only,pre,-0.11270904,7,True
+9,Control,post,-0.0214948,3,False
+9,Control,pre,-0.054207057,3,False
+12,VR Art,post,0.04048291,4,True
+12,VR Art,pre,-0.087550834,2,False
+13,Control,post,0.29577246,1,False
+13,Control,pre,0.19070303,3,False
+14,VR Art,post,0.12845454,2,False
+14,VR Art,pre,0.42112362,2,False
+15,VR Only,post,0.2091796,1,False
+15,VR Only,pre,0.06193509,2,True
+16,Control,pre,0.11835209,6,True
+17,VR Art,post,0.13218048,1,False
+17,VR Art,pre,0.24416986,2,False
+18,VR Only,post,0.24319668,3,False
+18,VR Only,pre,0.07605137,2,False
+19,VR Only,post,0.07050093,4,False
+19,VR Only,pre,-0.09979424,2,True
+20,Control,post,0.36497903,1,True
+20,Control,pre,0.21338701,1,False
+21,VR Art,post,0.09251636,3,False
+21,VR Art,pre,-0.19807918,2,False
+22,Control,post,0.09907621,3,True
+22,Control,pre,0.1349206,4,False
+23,VR Only,pre,-0.0511806,4,True
+24,VR Art,post,0.076914,4,True
+24,VR Art,pre,-0.013748251,6,True
+25,VR Only,post,0.323376,1,False
+25,VR Only,pre,0.39959717,1,False
+26,Control,post,0.120487675,4,False
+26,Control,pre,0.08986254,2,False
+27,VR Art,post,0.28329223,1,False
+27,VR Art,pre,-0.06593971,2,False
+28,VR Only,post,-0.18281311,1,False
+28,VR Only,pre,-0.10254666,1,False
+29,Control,post,0.24079122,1,False
+29,Control,pre,-0.09884156,1,False
+31,VR Art,post,0.17863402,1,False
+31,VR Art,pre,0.24808753,1,False
+32,VR Only,post,-0.22000799,2,False
+32,VR Only,pre,-0.01177505,2,True
+34,Control,post,-0.033003315,3,True
+35,VR Art,post,0.041943487,4,True
+35,VR Art,pre,-0.0090232715,2,False
+36,Control,post,0.2307222,1,False
+36,Control,pre,-0.272208,2,False
+37,VR Only,post,0.052941505,3,False
+37,VR Only,pre,-0.11068197,5,False
+38,VR Art,post,-0.059031684,4,True
+38,VR Art,pre,0.014487089,1,True
+39,Control,post,0.20547765,2,False
+39,Control,pre,-0.042136837,1,False
+40,VR Only,post,0.3020456,1,False
+40,VR Only,pre,-0.052572016,1,False
+41,VR Art,post,0.08267694,3,True
+41,VR Art,pre,0.087665245,2,False
+42,Control,post,0.08802289,4,True
+42,Control,pre,0.3303646,1,False
+43,VR Only,post,0.3867387,3,False
+43,VR Only,pre,0.020073,4,False
+44,VR Art,post,0.06337201,4,False
+44,VR Art,pre,0.068511344,18,True
+45,Control,post,0.07056197,3,False
+45,Control,pre,0.25920248,2,False
+46,VR Only,post,0.1827649,3,False
+46,VR Only,pre,0.17313674,1,True
+47,VR Art,post,0.1504457,2,False
+47,VR Art,pre,-0.2295263,1,False
+49,VR Only,post,0.00036845135,1,False
+49,VR Only,pre,0.29146013,1,False
+50,VR Art,post,0.15781453,4,True
+50,VR Art,pre,-0.052025743,2,False
+51,Control,post,0.049915534,3,False
+51,Control,pre,-0.0689828,2,False
+52,VR Only,post,0.0025798988,6,True
+52,VR Only,pre,0.060281858,3,False
+53,VR Art,post,0.35071713,2,False
+53,VR Art,pre,0.09744049,2,True
+54,VR Only,post,0.28701895,2,False
+54,VR Only,pre,-0.06718976,3,False
+56,VR Art,post,0.25395742,1,False
+56,VR Art,pre,0.17391443,2,False
+57,VR Only,post,0.17050661,1,False
+57,VR Only,pre,-0.07984328,2,False
+58,Control,post,-0.008807871,3,False
+58,Control,pre,-0.2822177,2,False
+59,VR Art,post,0.28422323,4,False
+59,VR Art,pre,-0.058032017,3,False
+60,Control,post,0.30645496,2,False
+60,Control,pre,0.060063746,6,False

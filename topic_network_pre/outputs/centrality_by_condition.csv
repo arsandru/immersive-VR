@@ -1,0 +1,265 @@
+graph,scope,measure,condition,Topic,topic_label,value,ci_low,ci_high,rank
+flow,within_response,SBC_hop,VR Art,0,Anxiety & fear,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Art,1,Feeling fine,0.13333333333333336,0.010555555555555587,0.14444444444444443,3
+flow,within_response,SBC_hop,VR Art,2,Calm & tranquil,0.14814814814814817,0.0,0.16666666666666666,2
+flow,within_response,SBC_hop,VR Art,3,The surgery,0.014814814814814814,0.0,0.03888888888888889,5
+flow,within_response,SBC_hop,VR Art,4,Mixed emotions,0.014814814814814814,0.0,0.13333333333333333,5
+flow,within_response,SBC_hop,VR Art,5,Optimism,0.23888888888888885,0.022222222222222223,0.26666666666666666,1
+flow,within_response,SBC_hop,VR Art,6,Video & nature,0.0,0.0,0.044444444444444446,7
+flow,within_response,SBC_hop,VR Art,7,Expecting it to go well,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Art,8,Feeling calmer,0.016666666666666666,0.0,0.05555555555555555,4
+flow,within_response,SBC_hop,VR Art,9,Relaxed,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Art,10,Wanting it over,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Only,0,Anxiety & fear,0.22592592592592586,0.0,0.24444444444444444,1
+flow,within_response,SBC_hop,VR Only,1,Feeling fine,0.018518518518518517,0.0,0.06666666666666667,5
+flow,within_response,SBC_hop,VR Only,2,Calm & tranquil,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Only,3,The surgery,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Only,4,Mixed emotions,0.1111111111111111,0.0,0.2,3
+flow,within_response,SBC_hop,VR Only,5,Optimism,0.011111111111111112,0.0,0.044444444444444446,6
+flow,within_response,SBC_hop,VR Only,6,Video & nature,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Only,7,Expecting it to go well,0.17592592592592596,0.016388888888888904,0.2777777777777778,2
+flow,within_response,SBC_hop,VR Only,8,Feeling calmer,0.0,0.0,0.0,7
+flow,within_response,SBC_hop,VR Only,9,Relaxed,0.04629629629629629,0.0,0.10555555555555556,4
+flow,within_response,SBC_hop,VR Only,10,Wanting it over,0.0,0.0,0.06666666666666667,7
+flow,within_response,SBC_hop,Control,0,Anxiety & fear,0.2111111111111111,0.0,0.2222222222222222,4
+flow,within_response,SBC_hop,Control,1,Feeling fine,0.1,0.0,0.1,7
+flow,within_response,SBC_hop,Control,2,Calm & tranquil,0.32222222222222224,0.0,0.3277777777777778,2
+flow,within_response,SBC_hop,Control,3,The surgery,0.35555555555555557,0.0,0.35555555555555557,1
+flow,within_response,SBC_hop,Control,4,Mixed emotions,0.32222222222222224,0.0,0.32222222222222224,2
+flow,within_response,SBC_hop,Control,5,Optimism,0.0,0.0,0.0,8
+flow,within_response,SBC_hop,Control,6,Video & nature,0.0,0.0,0.0,8
+flow,within_response,SBC_hop,Control,7,Expecting it to go well,0.17777777777777778,0.0,0.2,5
+flow,within_response,SBC_hop,Control,8,Feeling calmer,0.0,0.0,0.0,8
+flow,within_response,SBC_hop,Control,9,Relaxed,0.0,0.0,0.0,8
+flow,within_response,SBC_hop,Control,10,Wanting it over,0.16666666666666666,0.0,0.17222222222222222,6
+flow,within_response,PSBC_hop,VR Art,0,Anxiety & fear,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Art,1,Feeling fine,0.13434343434343432,0.010555555555555587,0.14444444444444443,3
+flow,within_response,PSBC_hop,VR Art,2,Calm & tranquil,0.13867243867243867,0.0,0.15357142857142858,2
+flow,within_response,PSBC_hop,VR Art,3,The surgery,0.01904761904761905,0.0,0.04561111111111106,5
+flow,within_response,PSBC_hop,VR Art,4,Mixed emotions,0.01904761904761905,0.0,0.13333333333333333,5
+flow,within_response,PSBC_hop,VR Art,5,Optimism,0.23174603174603167,0.022222222222222223,0.2642866161616162,1
+flow,within_response,PSBC_hop,VR Art,6,Video & nature,0.0,0.0,0.044444444444444446,7
+flow,within_response,PSBC_hop,VR Art,7,Expecting it to go well,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Art,8,Feeling calmer,0.023809523809523805,0.0,0.05836111111111109,4
+flow,within_response,PSBC_hop,VR Art,9,Relaxed,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Art,10,Wanting it over,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Only,0,Anxiety & fear,0.20251025274201237,0.0,0.24444444444444444,1
+flow,within_response,PSBC_hop,VR Only,1,Feeling fine,0.041934191702432046,0.0,0.06666666666666667,4
+flow,within_response,PSBC_hop,VR Only,2,Calm & tranquil,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Only,3,The surgery,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Only,4,Mixed emotions,0.10606060606060605,0.0,0.19820707070707072,3
+flow,within_response,PSBC_hop,VR Only,5,Optimism,0.01616161616161616,0.0,0.04736111111111099,6
+flow,within_response,PSBC_hop,VR Only,6,Video & nature,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Only,7,Expecting it to go well,0.18485792027826872,0.016388888888888904,0.2777777777777778,2
+flow,within_response,PSBC_hop,VR Only,8,Feeling calmer,0.0,0.0,0.0,7
+flow,within_response,PSBC_hop,VR Only,9,Relaxed,0.03736430194395355,0.0,0.10235185185185183,5
+flow,within_response,PSBC_hop,VR Only,10,Wanting it over,0.0,0.0,0.06666666666666667,7
+flow,within_response,PSBC_hop,Control,0,Anxiety & fear,0.20268199233716472,0.0,0.2222222222222222,4
+flow,within_response,PSBC_hop,Control,1,Feeling fine,0.1,0.0,0.1,7
+flow,within_response,PSBC_hop,Control,2,Calm & tranquil,0.3306513409961686,0.0,0.3386581524052788,2
+flow,within_response,PSBC_hop,Control,3,The surgery,0.35555555555555557,0.0,0.35555555555555557,1
+flow,within_response,PSBC_hop,Control,4,Mixed emotions,0.3137931034482758,0.0,0.3114636015325669,3
+flow,within_response,PSBC_hop,Control,5,Optimism,0.0,0.0,0.0,8
+flow,within_response,PSBC_hop,Control,6,Video & nature,0.0,0.0,0.0,8
+flow,within_response,PSBC_hop,Control,7,Expecting it to go well,0.18620689655172415,0.0,0.2,5
+flow,within_response,PSBC_hop,Control,8,Feeling calmer,0.0,0.0,0.0,8
+flow,within_response,PSBC_hop,Control,9,Relaxed,0.0,0.0,0.0,8
+flow,within_response,PSBC_hop,Control,10,Wanting it over,0.16666666666666666,0.0,0.1693131313131313,6
+flow,within_response,SBC_prob,VR Art,0,Anxiety & fear,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,VR Art,1,Feeling fine,0.15185185185185185,0.010555555555555587,0.23333333333333334,2
+flow,within_response,SBC_prob,VR Art,2,Calm & tranquil,0.12222222222222222,0.0,0.23333333333333334,3
+flow,within_response,SBC_prob,VR Art,3,The surgery,0.022222222222222223,0.0,0.07777777777777778,7
+flow,within_response,SBC_prob,VR Art,4,Mixed emotions,0.05185185185185184,0.0,0.13333333333333333,4
+flow,within_response,SBC_prob,VR Art,5,Optimism,0.2148148148148148,0.030416666666666675,0.26666666666666666,1
+flow,within_response,SBC_prob,VR Art,6,Video & nature,0.03333333333333333,0.0,0.18888888888888888,6
+flow,within_response,SBC_prob,VR Art,7,Expecting it to go well,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,VR Art,8,Feeling calmer,0.04074074074074074,0.0,0.07777777777777778,5
+flow,within_response,SBC_prob,VR Art,9,Relaxed,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,VR Art,10,Wanting it over,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,VR Only,0,Anxiety & fear,0.17777777777777778,0.0,0.26666666666666666,2
+flow,within_response,SBC_prob,VR Only,1,Feeling fine,0.06666666666666667,0.0,0.06666666666666667,4
+flow,within_response,SBC_prob,VR Only,2,Calm & tranquil,0.0,0.0,0.0,6
+flow,within_response,SBC_prob,VR Only,3,The surgery,0.0,0.0,0.0,6
+flow,within_response,SBC_prob,VR Only,4,Mixed emotions,0.1111111111111111,0.0,0.18888888888888888,3
+flow,within_response,SBC_prob,VR Only,5,Optimism,0.03333333333333333,0.0,0.06666666666666667,5
+flow,within_response,SBC_prob,VR Only,6,Video & nature,0.0,0.0,0.0,6
+flow,within_response,SBC_prob,VR Only,7,Expecting it to go well,0.2388888888888889,0.016388888888888904,0.2777777777777778,1
+flow,within_response,SBC_prob,VR Only,8,Feeling calmer,0.0,0.0,0.0,6
+flow,within_response,SBC_prob,VR Only,9,Relaxed,0.0,0.0,0.1,6
+flow,within_response,SBC_prob,VR Only,10,Wanting it over,0.0,0.0,0.06666666666666667,6
+flow,within_response,SBC_prob,Control,0,Anxiety & fear,0.17777777777777778,0.0,0.2222222222222222,5
+flow,within_response,SBC_prob,Control,1,Feeling fine,0.1111111111111111,0.0,0.1111111111111111,7
+flow,within_response,SBC_prob,Control,2,Calm & tranquil,0.3611111111111111,0.0,0.3640277777777776,1
+flow,within_response,SBC_prob,Control,3,The surgery,0.3611111111111111,0.0,0.35555555555555557,1
+flow,within_response,SBC_prob,Control,4,Mixed emotions,0.3,0.0,0.3,3
+flow,within_response,SBC_prob,Control,5,Optimism,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,Control,6,Video & nature,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,Control,7,Expecting it to go well,0.2,0.0,0.2,4
+flow,within_response,SBC_prob,Control,8,Feeling calmer,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,Control,9,Relaxed,0.0,0.0,0.0,8
+flow,within_response,SBC_prob,Control,10,Wanting it over,0.16666666666666666,0.0,0.16666666666666666,6
+flow,within_response,PageRank,VR Art,0,Anxiety & fear,0.022009949437975497,0.017751479289949603,0.06884255806344074,9
+flow,within_response,PageRank,VR Art,1,Feeling fine,0.15644694542989782,0.07031873187647394,0.20037768139842485,2
+flow,within_response,PageRank,VR Art,2,Calm & tranquil,0.15486283907893386,0.06877654759117122,0.19774636264831244,3
+flow,within_response,PageRank,VR Art,3,The surgery,0.09094048669701797,0.03834643012162667,0.1635550559447511,5
+flow,within_response,PageRank,VR Art,4,Mixed emotions,0.09560161476307932,0.036896837744631594,0.14191702968450084,4
+flow,within_response,PageRank,VR Art,5,Optimism,0.23068430302965864,0.08062587397840416,0.2887128831279351,1
+flow,within_response,PageRank,VR Art,6,Video & nature,0.07520181360377529,0.020446538643873954,0.1615858073654827,6
+flow,within_response,PageRank,VR Art,7,Expecting it to go well,0.022009949437975497,0.017751479289949603,0.06884255806344074,9
+flow,within_response,PageRank,VR Art,8,Feeling calmer,0.06588759446959265,0.03298239767665428,0.09307953984561596,7
+flow,within_response,PageRank,VR Art,9,Relaxed,0.022009949437975497,0.017751479289949603,0.06884255806344074,9
+flow,within_response,PageRank,VR Art,10,Wanting it over,0.06434455461411809,0.017751479289949603,0.16986359551421043,8
+flow,within_response,PageRank,VR Only,0,Anxiety & fear,0.11142774773748926,0.03652138352881181,0.2037565573204939,4
+flow,within_response,PageRank,VR Only,1,Feeling fine,0.13798765941810096,0.04065863353734711,0.1958060815611846,3
+flow,within_response,PageRank,VR Only,2,Calm & tranquil,0.16595401430513565,0.036401162500950726,0.20754079581918838,1
+flow,within_response,PageRank,VR Only,3,The surgery,0.0605053969783705,0.035142879447909704,0.11655620381177452,7
+flow,within_response,PageRank,VR Only,4,Mixed emotions,0.11047327412788498,0.0485074377172444,0.2387923618099783,5
+flow,within_response,PageRank,VR Only,5,Optimism,0.0605053969783705,0.038331448183116665,0.10807259014961755,7
+flow,within_response,PageRank,VR Only,6,Video & nature,0.03682717287509816,0.032981051261656694,0.06129887711593624,10
+flow,within_response,PageRank,VR Only,7,Expecting it to go well,0.1586839918822843,0.07727917687978701,0.18999450805110138,2
+flow,within_response,PageRank,VR Only,8,Feeling calmer,0.03682717287509816,0.032981051261656694,0.06129887711593624,10
+flow,within_response,PageRank,VR Only,9,Relaxed,0.0721418878954333,0.04947295862270342,0.19762088665139865,6
+flow,within_response,PageRank,VR Only,10,Wanting it over,0.04866628492673433,0.04036345271151262,0.07688461789969911,9
+flow,within_response,PageRank,Control,0,Anxiety & fear,0.05098106621669396,0.014778325123152712,0.12329849249021484,8
+flow,within_response,PageRank,Control,1,Feeling fine,0.06354264257137376,0.01689969459820616,0.2735888459775153,6
+flow,within_response,PageRank,Control,2,Calm & tranquil,0.15317258944834908,0.035776286711750406,0.19609713856133,2
+flow,within_response,PageRank,Control,3,The surgery,0.2620898570044132,0.0631535174717157,0.32318923776915853,1
+flow,within_response,PageRank,Control,4,Mixed emotions,0.08518224762300464,0.01612903225806452,0.2798835054308648,5
+flow,within_response,PageRank,Control,5,Optimism,0.03873659742557923,0.01612903225806452,0.22195027212070093,9
+flow,within_response,PageRank,Control,6,Video & nature,0.014778325123152712,0.014778325123152712,0.0557779925574451,10
+flow,within_response,PageRank,Control,7,Expecting it to go well,0.13420053406162955,0.03953262675053441,0.2026851923630681,3
+flow,within_response,PageRank,Control,8,Feeling calmer,0.12616731420875035,0.02912162292948034,0.15475361327530177,4
+flow,within_response,PageRank,Control,9,Relaxed,0.014778325123152712,0.014778325123152712,0.0557779925574451,10
+flow,within_response,PageRank,Control,10,Wanting it over,0.05637050119390064,0.017751479290214305,0.22195027212070093,7
+semantic,centroids,SBC_hop,VR Art,0,Anxiety & fear,0.11851851851851851,0.007407407407407407,0.15009259259259253,2
+semantic,centroids,SBC_hop,VR Art,1,Feeling fine,0.16296296296296295,0.0044444444444444444,0.2518518518518519,1
+semantic,centroids,SBC_hop,VR Art,2,Calm & tranquil,0.057407407407407414,0.0,0.15414814814814812,3
+semantic,centroids,SBC_hop,VR Art,3,The surgery,0.029629629629629627,0.0,0.10837962962962959,4
+semantic,centroids,SBC_hop,VR Art,4,Mixed emotions,0.005555555555555556,0.0,0.03745370370370369,7
+semantic,centroids,SBC_hop,VR Art,5,Optimism,0.018518518518518517,0.0,0.14444444444444443,5
+semantic,centroids,SBC_hop,VR Art,6,Video & nature,0.005555555555555556,0.0,0.016666666666666666,7
+semantic,centroids,SBC_hop,VR Art,7,Expecting it to go well,0.0,0.0,0.0,10
+semantic,centroids,SBC_hop,VR Art,8,Feeling calmer,0.005555555555555556,0.0,0.02173148148148142,7
+semantic,centroids,SBC_hop,VR Art,9,Relaxed,0.0,0.0,0.0,10
+semantic,centroids,SBC_hop,VR Art,10,Wanting it over,0.018518518518518517,0.0,0.02884259259259246,5
+semantic,centroids,SBC_hop,VR Only,0,Anxiety & fear,0.034074074074074076,0.011111111111111112,0.20506481481481467,4
+semantic,centroids,SBC_hop,VR Only,1,Feeling fine,0.08296296296296296,0.0,0.2352777777777777,3
+semantic,centroids,SBC_hop,VR Only,2,Calm & tranquil,0.11999999999999998,0.0,0.1343055555555555,2
+semantic,centroids,SBC_hop,VR Only,3,The surgery,0.007407407407407407,0.0,0.02361111111111105,9
+semantic,centroids,SBC_hop,VR Only,4,Mixed emotions,0.022222222222222223,0.0,0.06724999999999999,6
+semantic,centroids,SBC_hop,VR Only,5,Optimism,0.011111111111111112,0.0,0.045768518518518486,8
+semantic,centroids,SBC_hop,VR Only,6,Video & nature,0.0,0.0,0.0,10
+semantic,centroids,SBC_hop,VR Only,7,Expecting it to go well,0.015555555555555555,0.0,0.050972222222222176,7
+semantic,centroids,SBC_hop,VR Only,8,Feeling calmer,0.0,0.0,0.0,10
+semantic,centroids,SBC_hop,VR Only,9,Relaxed,0.03111111111111112,0.0,0.0486177248677248,5
+semantic,centroids,SBC_hop,VR Only,10,Wanting it over,0.12000000000000001,0.0,0.28986111111111107,1
+semantic,centroids,SBC_hop,Control,0,Anxiety & fear,0.007407407407407407,0.005555555555555556,0.1063518518518518,8
+semantic,centroids,SBC_hop,Control,1,Feeling fine,0.3651851851851851,0.0026388888888888968,0.3259259259259258,1
+semantic,centroids,SBC_hop,Control,2,Calm & tranquil,0.022222222222222223,0.0,0.21024074074074048,7
+semantic,centroids,SBC_hop,Control,3,The surgery,0.11259259259259259,0.0,0.17037037037037037,2
+semantic,centroids,SBC_hop,Control,4,Mixed emotions,0.06740740740740739,0.0,0.11490740740740732,3
+semantic,centroids,SBC_hop,Control,5,Optimism,0.04592592592592593,0.0,0.13605555555555543,5
+semantic,centroids,SBC_hop,Control,6,Video & nature,0.0,0.0,0.0,9
+semantic,centroids,SBC_hop,Control,7,Expecting it to go well,0.04222222222222223,0.0,0.1046759259259259,6
+semantic,centroids,SBC_hop,Control,8,Feeling calmer,0.0,0.0,0.043916666666666646,9
+semantic,centroids,SBC_hop,Control,9,Relaxed,0.0,0.0,0.07816666666666666,9
+semantic,centroids,SBC_hop,Control,10,Wanting it over,0.048148148148148155,0.0,0.0726111111111111,4
+semantic,centroids,PSBC_hop,VR Art,0,Anxiety & fear,0.1328457044981276,0.01531507118855269,0.15259961194630386,2
+semantic,centroids,PSBC_hop,VR Art,1,Feeling fine,0.13974875661412453,0.003937143796870771,0.2007962194929076,1
+semantic,centroids,PSBC_hop,VR Art,2,Calm & tranquil,0.06496218536702866,0.0,0.14988364131502308,3
+semantic,centroids,PSBC_hop,VR Art,3,The surgery,0.03456061757955098,0.0,0.08645853744024405,4
+semantic,centroids,PSBC_hop,VR Art,4,Mixed emotions,0.00768838453821173,0.0,0.0349503948353452,6
+semantic,centroids,PSBC_hop,VR Art,5,Optimism,0.02919081335217692,0.0,0.12088271818697328,5
+semantic,centroids,PSBC_hop,VR Art,6,Video & nature,0.0041118963285982305,0.0,0.013704673352130263,8
+semantic,centroids,PSBC_hop,VR Art,7,Expecting it to go well,0.0,0.0,0.0,10
+semantic,centroids,PSBC_hop,VR Art,8,Feeling calmer,0.0015447531175529583,0.0,0.01014951739784291,9
+semantic,centroids,PSBC_hop,VR Art,9,Relaxed,0.0,0.0,0.0,10
+semantic,centroids,PSBC_hop,VR Art,10,Wanting it over,0.007569110826850621,0.0,0.026449110176546827,7
+semantic,centroids,PSBC_hop,VR Only,0,Anxiety & fear,0.058254651065439665,0.021363894293532092,0.24647165962971623,4
+semantic,centroids,PSBC_hop,VR Only,1,Feeling fine,0.08336032362114822,0.0,0.2026120198804915,3
+semantic,centroids,PSBC_hop,VR Only,2,Calm & tranquil,0.11215712890762146,0.0,0.12402582611140181,1
+semantic,centroids,PSBC_hop,VR Only,3,The surgery,0.003725760158623222,0.0,0.03229650994777446,9
+semantic,centroids,PSBC_hop,VR Only,4,Mixed emotions,0.03414624226955454,0.0,0.09283013752215041,6
+semantic,centroids,PSBC_hop,VR Only,5,Optimism,0.010050152512143334,0.0,0.04550306965581316,8
+semantic,centroids,PSBC_hop,VR Only,6,Video & nature,0.0,0.0,0.0,10
+semantic,centroids,PSBC_hop,VR Only,7,Expecting it to go well,0.017329369896513847,0.0,0.05839997196380649,7
+semantic,centroids,PSBC_hop,VR Only,8,Feeling calmer,0.0,0.0,0.0,10
+semantic,centroids,PSBC_hop,VR Only,9,Relaxed,0.03423932396138973,0.0,0.05036993077723498,5
+semantic,centroids,PSBC_hop,VR Only,10,Wanting it over,0.09118149205201041,0.0,0.23180942318119546,2
+semantic,centroids,PSBC_hop,Control,0,Anxiety & fear,0.017455897367858315,0.009093219041301745,0.12827223348933295,8
+semantic,centroids,PSBC_hop,Control,1,Feeling fine,0.36225515473473535,0.001359676006088674,0.3213626415179335,1
+semantic,centroids,PSBC_hop,Control,2,Calm & tranquil,0.03543113348871318,0.0,0.18108783107965534,6
+semantic,centroids,PSBC_hop,Control,3,The surgery,0.11930917077054601,0.0,0.1866082076917292,2
+semantic,centroids,PSBC_hop,Control,4,Mixed emotions,0.04184802417532702,0.0,0.10691409163473278,4
+semantic,centroids,PSBC_hop,Control,5,Optimism,0.03461377317759768,0.0,0.12765688967469183,7
+semantic,centroids,PSBC_hop,Control,6,Video & nature,0.0,0.0,0.0,9
+semantic,centroids,PSBC_hop,Control,7,Expecting it to go well,0.06106502727634917,0.0,0.10093686359485887,3
+semantic,centroids,PSBC_hop,Control,8,Feeling calmer,0.0,0.0,0.039139738047812775,9
+semantic,centroids,PSBC_hop,Control,9,Relaxed,0.0,0.0,0.06050145243225703,9
+semantic,centroids,PSBC_hop,Control,10,Wanting it over,0.039132930119984304,0.0,0.07194412296069379,5
+semantic,centroids,SBC_sim,VR Art,0,Anxiety & fear,0.08888888888888889,0.0,0.16722222222222172,2
+semantic,centroids,SBC_sim,VR Art,1,Feeling fine,0.17777777777777778,0.0,0.26666666666666666,1
+semantic,centroids,SBC_sim,VR Art,2,Calm & tranquil,0.08888888888888889,0.0,0.24444444444444444,2
+semantic,centroids,SBC_sim,VR Art,3,The surgery,0.022222222222222223,0.0,0.08888888888888889,5
+semantic,centroids,SBC_sim,VR Art,4,Mixed emotions,0.0,0.0,0.022222222222222223,6
+semantic,centroids,SBC_sim,VR Art,5,Optimism,0.044444444444444446,0.0,0.15555555555555556,4
+semantic,centroids,SBC_sim,VR Art,6,Video & nature,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Art,7,Expecting it to go well,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Art,8,Feeling calmer,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Art,9,Relaxed,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Art,10,Wanting it over,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Only,0,Anxiety & fear,0.06666666666666667,0.022222222222222223,0.26666666666666666,3
+semantic,centroids,SBC_sim,VR Only,1,Feeling fine,0.1111111111111111,0.0,0.24444444444444444,2
+semantic,centroids,SBC_sim,VR Only,2,Calm & tranquil,0.06666666666666667,0.0,0.13333333333333333,3
+semantic,centroids,SBC_sim,VR Only,3,The surgery,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Only,4,Mixed emotions,0.044444444444444446,0.0,0.08888888888888889,5
+semantic,centroids,SBC_sim,VR Only,5,Optimism,0.0,0.0,0.044444444444444446,6
+semantic,centroids,SBC_sim,VR Only,6,Video & nature,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Only,7,Expecting it to go well,0.0,0.0,0.044444444444444446,6
+semantic,centroids,SBC_sim,VR Only,8,Feeling calmer,0.0,0.0,0.0,6
+semantic,centroids,SBC_sim,VR Only,9,Relaxed,0.0,0.0,0.06666666666666667,6
+semantic,centroids,SBC_sim,VR Only,10,Wanting it over,0.15555555555555556,0.0,0.2783333333333328,1
+semantic,centroids,SBC_sim,Control,0,Anxiety & fear,0.022222222222222223,0.0,0.13333333333333333,5
+semantic,centroids,SBC_sim,Control,1,Feeling fine,0.4,0.0,0.35555555555555557,1
+semantic,centroids,SBC_sim,Control,2,Calm & tranquil,0.044444444444444446,0.0,0.26666666666666666,4
+semantic,centroids,SBC_sim,Control,3,The surgery,0.1111111111111111,0.0,0.2,2
+semantic,centroids,SBC_sim,Control,4,Mixed emotions,0.0,0.0,0.1111111111111111,7
+semantic,centroids,SBC_sim,Control,5,Optimism,0.0,0.0,0.15555555555555556,7
+semantic,centroids,SBC_sim,Control,6,Video & nature,0.0,0.0,0.0,7
+semantic,centroids,SBC_sim,Control,7,Expecting it to go well,0.1111111111111111,0.0,0.1111111111111111,2
+semantic,centroids,SBC_sim,Control,8,Feeling calmer,0.0,0.0,0.033888888888888385,7
+semantic,centroids,SBC_sim,Control,9,Relaxed,0.0,0.0,0.08888888888888889,7
+semantic,centroids,SBC_sim,Control,10,Wanting it over,0.022222222222222223,0.0,0.06666666666666667,5
+semantic,centroids,SemCentrality,VR Art,0,Anxiety & fear,0.7475809589728029,0.6393011132387495,0.7511125963401267,6
+semantic,centroids,SemCentrality,VR Art,1,Feeling fine,0.7798421108582607,0.6417755189395541,0.783285107244082,1
+semantic,centroids,SemCentrality,VR Art,2,Calm & tranquil,0.7660781087826533,0.6515862061400925,0.7699234901495313,2
+semantic,centroids,SemCentrality,VR Art,3,The surgery,0.7312771077603589,0.5291804206172045,0.7347908369759555,7
+semantic,centroids,SemCentrality,VR Art,4,Mixed emotions,0.7148802559253742,0.5542675963924155,0.7392792332906646,8
+semantic,centroids,SemCentrality,VR Art,5,Optimism,0.7549753484391138,0.6464017044819325,0.7541685325242728,5
+semantic,centroids,SemCentrality,VR Art,6,Video & nature,0.6591296224433468,0.5413785568504391,0.6607873456446937,11
+semantic,centroids,SemCentrality,VR Art,7,Expecting it to go well,0.756067415643294,0.6919627162803647,0.7568558305547326,4
+semantic,centroids,SemCentrality,VR Art,8,Feeling calmer,0.6601821682616217,0.6287715168173639,0.6956123454132164,10
+semantic,centroids,SemCentrality,VR Art,9,Relaxed,0.7579738689376938,0.6933902991504048,0.762308016988042,3
+semantic,centroids,SemCentrality,VR Art,10,Wanting it over,0.6740142014749688,0.5475346459750068,0.7582237104144878,9
+semantic,centroids,SemCentrality,VR Only,0,Anxiety & fear,0.7793060137900407,0.688578122929075,0.7770503089491059,2
+semantic,centroids,SemCentrality,VR Only,1,Feeling fine,0.7783374273185871,0.6434909756819356,0.7724085952421299,3
+semantic,centroids,SemCentrality,VR Only,2,Calm & tranquil,0.7613470345720286,0.587563697201591,0.7527541764342672,5
+semantic,centroids,SemCentrality,VR Only,3,The surgery,0.7041072918551898,0.5792402120200836,0.7485552921684023,9
+semantic,centroids,SemCentrality,VR Only,4,Mixed emotions,0.7722816918755852,0.6099594552546238,0.7657186885284354,4
+semantic,centroids,SemCentrality,VR Only,5,Optimism,0.7273254551787199,0.6058844427535202,0.7395834086920583,8
+semantic,centroids,SemCentrality,VR Only,6,Video & nature,0.6983646004757256,0.6410574535533079,0.7004641110876357,11
+semantic,centroids,SemCentrality,VR Only,7,Expecting it to go well,0.7380113773678515,0.6138142556875279,0.7435123675141525,6
+semantic,centroids,SemCentrality,VR Only,8,Feeling calmer,0.702367898031471,0.6574016257772685,0.6988505890288167,10
+semantic,centroids,SemCentrality,VR Only,9,Relaxed,0.7375915984182283,0.6090789844910224,0.742982832105969,7
+semantic,centroids,SemCentrality,VR Only,10,Wanting it over,0.7873548055869116,0.5754234516009792,0.787014294562857,1
+semantic,centroids,SemCentrality,Control,0,Anxiety & fear,0.7215139706780923,0.6450580592843891,0.7215060216905587,5
+semantic,centroids,SemCentrality,Control,1,Feeling fine,0.7397582663421886,0.6185248413426329,0.7530958841918673,1
+semantic,centroids,SemCentrality,Control,2,Calm & tranquil,0.7384059343916902,0.6421879561016987,0.7450996891037734,2
+semantic,centroids,SemCentrality,Control,3,The surgery,0.7383342973992928,0.6410764427684394,0.733168332573767,3
+semantic,centroids,SemCentrality,Control,4,Mixed emotions,0.7018268790621794,0.48091082112185474,0.7346485333598335,8
+semantic,centroids,SemCentrality,Control,5,Optimism,0.7332489570525546,0.6805631287822349,0.7657903136151233,4
+semantic,centroids,SemCentrality,Control,6,Video & nature,0.652041345098661,0.6115673934376465,0.6509012533514834,11
+semantic,centroids,SemCentrality,Control,7,Expecting it to go well,0.7170078741343707,0.5789439659262655,0.7172429838755737,6
+semantic,centroids,SemCentrality,Control,8,Feeling calmer,0.6718456733656211,0.6365739908734604,0.7006274995167834,10
+semantic,centroids,SemCentrality,Control,9,Relaxed,0.7072592515084631,0.6526232327260684,0.7394563881045708,7
+semantic,centroids,SemCentrality,Control,10,Wanting it over,0.6986412675749767,0.5850597553527385,0.748342748839785,9

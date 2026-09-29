@@ -1,0 +1,74 @@
+Coefficients (CR2):
+Alternative hypothesis: two-sided 
+                     Coef. Estimate     SE Null value  t-stat d.f. (Satt)
+               (Intercept)  0.02955 0.0480          0  0.6159        11.9
+                  timepost  0.07099 0.0404          0  1.7568        10.1
+           conditionVR Art -0.00231 0.0685          0 -0.0338        23.0
+          conditionVR Only -0.04876 0.0590          0 -0.8259        19.9
+  timepost:conditionVR Art  0.11809 0.0816          0  1.4466        19.2
+ timepost:conditionVR Only  0.08708 0.0657          0  1.3263        20.4
+ p-val (Satt) Sig.
+        0.550     
+        0.109     
+        0.973     
+        0.419     
+        0.164     
+        0.199     
+
+Contrasts (descriptor-level mixed model, CR2):
+      family                                      contrast estimate     se
+        time                           Control: post - pre  0.07099 0.0404
+        time                            VR Art: post - pre  0.18909 0.0709
+        time                           VR Only: post - pre  0.15808 0.0518
+      pooled    All conditions (equal weights): post - pre  0.13939 0.0322
+ interaction          VR Art vs Control: change difference  0.11809 0.0816
+ interaction         VR Only vs Control: change difference  0.08708 0.0657
+ interaction          VR Art vs VR Only: change difference  0.03101 0.0878
+     planned VR (Art + Only) vs Control: change difference  0.10259 0.0597
+    baseline                        Pre: VR Art vs Control -0.00231 0.0685
+    baseline                       Pre: VR Only vs Control -0.04876 0.0590
+    baseline                        Pre: VR Art vs VR Only  0.04645 0.0597
+        post                       Post: VR Art vs Control  0.11578 0.0598
+        post                      Post: VR Only vs Control  0.03832 0.0625
+        post                       Post: VR Art vs VR Only  0.07746 0.0645
+   ci_low ci_high    df        F  p_value p_fdr_within_family
+ -0.01896  0.1609 10.08  3.08617 0.109243            0.109243
+  0.03054  0.3476  9.77  7.10643 0.024110            0.036166
+  0.04347  0.2727 10.47  9.33074 0.011556            0.034667
+  0.07356  0.2052 29.66 18.71641 0.000158            0.000158
+ -0.05265  0.2888 19.21  2.09262 0.164134            0.299110
+ -0.04971  0.2239 20.39  1.75904 0.199406            0.299110
+ -0.15211  0.2141 20.05  0.12472 0.727653            0.727653
+ -0.02091  0.2261 22.78  2.95590 0.099126            0.099126
+ -0.14393  0.1393 23.02  0.00114 0.973333            0.973333
+ -0.17195  0.0744 19.92  0.68216 0.418627            0.668641
+ -0.07797  0.1709 20.55  0.60441 0.445761            0.668641
+ -0.00935  0.2409 18.85  3.75450 0.067797            0.203390
+ -0.09124  0.1679 22.28  0.37570 0.546121            0.546121
+ -0.05712  0.2120 19.79  1.44337 0.243773            0.365659
+
+Participant-level paired change (post - pre in mean projection):
+ condition  n mean_pre mean_post mean_change   ci_low ci_high    t      p_t
+    VR Art  9   0.0605     0.213       0.152 -0.04568   0.350 1.77 0.113955
+   VR Only 10   0.0285     0.183       0.154 -0.00985   0.318 2.13 0.062395
+   Control 12  -0.0225     0.115       0.138  0.01648   0.259 2.50 0.029524
+       ALL 31   0.0181     0.165       0.147  0.06789   0.227 3.79 0.000683
+ p_wilcoxon    dz p_fdr_conditions
+     0.1235 0.591           0.1140
+     0.0665 0.672           0.0936
+     0.0376 0.722           0.0886
+     0.0019 0.680               NA
+
+Does the mean change differ by condition? (F test)
+Analysis of Variance Table
+
+Response: change
+          Df  Sum Sq  Mean Sq F value Pr(>F)
+condition  2 0.00176 0.000878  0.0175 0.9827
+Residuals 28 1.40582 0.050208               
+ contrast          estimate     SE df t.ratio p.value
+ Control - VR Art  -0.01448 0.0988 28  -0.147  0.9867
+ Control - VR Only -0.01621 0.0959 28  -0.169  0.9867
+ VR Art - VR Only  -0.00173 0.1030 28  -0.017  0.9867
+
+P value adjustment: fdr method for 3 tests 

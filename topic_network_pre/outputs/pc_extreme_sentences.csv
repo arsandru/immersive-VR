@@ -1,0 +1,101 @@
+PC,end,score_sd,condition,topic,sentence
+1,low,-1.835921785947595,Control,Anxiety & fear,Espectando com alguma ansiedade e algum medo que algo corra mal
+1,low,-1.8034768928868634,VR Art,Anxiety & fear,"ansiosa, com medo, com receio, com incerteza"
+1,low,-1.6341839837199625,Control,Anxiety & fear,Pouco nervosa
+1,low,-1.6257902610450967,VR Only,Anxiety & fear,"eu estou um pouco receosa, mas acho que também pelo facto de criar a imagem ou imaginar, eu que não percebo nada, nem nunca vi, mas a cortar, a tirar, é isso que me assusta, porque eu sei que não estou a sentir nada, mas não faço ideia o quanto"
+1,low,-1.6109199465216282,VR Only,Anxiety & fear,mas um pouco ansiosa
+1,high,1.848035260096152,VR Art,Feeling fine,Acho que está tudo bem
+1,high,1.789912992359882,VR Art,Feeling fine,Fica bem
+1,high,1.7640157167459556,Control,Feeling fine,Mas estou bem
+1,high,1.708375048252219,Control,Feeling fine,Sinto-me bem
+1,high,1.6987074496637136,Control,Feeling fine,Estou-me a sentir ótima
+2,low,-2.0689129088698097,VR Only,Calm & tranquil,"Sinto-me tranquila, calma, segura"
+2,low,-2.055637235216042,Control,Calm & tranquil,"Sinto-me tranquila, relaxada, sem stress"
+2,low,-2.042882982350587,VR Art,Calm & tranquil,Estou tranquila
+2,low,-1.9763314059088632,Control,Calm & tranquil,Sinto-me relativamente tranquila
+2,low,-1.93899158261024,VR Art,Calm & tranquil,Não estou com stress
+2,high,1.9503450049146633,Control,The surgery,Desejamos que isto acabe e depois vamos ver o pós-operatório
+2,high,1.7934885248563355,Control,Wanting it over,"já que não há nada a resolver para trás, tenho que ir para a frente"
+2,high,1.7522000481960254,Control,Expecting it to go well,"penso que isto vai, com a ajuda de todos, e minha também, isto vai correr bem"
+2,high,1.7390976972412022,VR Only,Expecting it to go well,espero que seja só esta fase e que daqui para a frente corra tudo
+2,high,1.657448518380347,VR Only,Expecting it to go well,"Penso que vai correr bem, porque eu já passei por uma situação desta"
+3,low,-2.1394466112983155,Control,The surgery,muito confiante porque sei que estou muito bem entregue nas mãos do meu cirurgião e de toda a equipa que me vai assistir nesta cirurgia
+3,low,-1.9616436669534592,VR Art,Optimism,mas confiante
+3,low,-1.806733516472675,VR Art,Optimism,Estou confiante na equipa
+3,low,-1.7282384239702056,Control,Optimism,estou confiante
+3,low,-1.6957000412348493,Control,Optimism,"estou confiante, vou ficar melhor"
+3,high,2.5465782253546023,Control,Mixed emotions,"com fome só, é a única coisa"
+3,high,2.326584293525636,VR Art,Mixed emotions,Sinto um bocadinho de fome
+3,high,2.126448972458425,VR Only,Mixed emotions,estou com fome
+3,high,2.074134096824261,VR Only,Mixed emotions,"Fome, sono, incomodada nesse sentido"
+3,high,1.9898438516687507,VR Only,Mixed emotions,estou com sede
+4,low,-2.0890748056549757,VR Only,Anxiety & fear,Expectante
+4,low,-2.0369970065058998,VR Art,Anxiety & fear,Ansiosa
+4,low,-1.9665378250119736,VR Only,Anxiety & fear,Expectant
+4,low,-1.838461893346166,VR Art,Optimism,Estou otimista
+4,low,-1.777686371670164,VR Art,Optimism,Estou muito otimista
+4,high,2.2614415464187134,VR Art,Calm & tranquil,"fazer as coisas com calma com sensibilidade, não vale a pena estarmos a estressar, vai acontecer vai correr bem"
+4,high,2.1546552334964244,Control,The surgery,"Hoje me acordei como se viesse a operar a hernia inguinal que fui operada em fevereiro, estou super tranquila"
+4,high,2.130657556296261,VR Art,The surgery,"tenho mais receio depois da cirurgia do que antes, porque de outra vez a coisa não correu muito bem com a fisioterapia"
+4,high,1.8418789731719574,VR Only,The surgery,"mas entretanto, conversando com os profissionais, ajudou a diminuir essa ansiedade"
+4,high,1.8351176103208828,VR Only,The surgery,"Só receio, porque é uma cirurgia. Não pelo tumor, mas pela cirurgia"
+5,low,-2.1461011458412633,Control,The surgery,Sempre que faço uma cirurgia tenho medo de não acordar
+5,low,-1.909086392331721,VR Art,The surgery,"tenho mais receio depois da cirurgia do que antes, porque de outra vez a coisa não correu muito bem com a fisioterapia"
+5,low,-1.8998102007249882,VR Only,Anxiety & fear,estou muito assustada
+5,low,-1.8672519404377659,VR Art,The surgery,com receio da cirurgia
+5,low,-1.8293490945361512,Control,The surgery,"Hoje me acordei como se viesse a operar a hernia inguinal que fui operada em fevereiro, estou super tranquila"
+5,high,2.6739001155624127,Control,Anxiety & fear,"Um bocadinho ansiosa, mas nada demais"
+5,high,2.2430570322181724,VR Only,Calm & tranquil,"tem que tentar estar tranquila, mas um bocadinho, um bocadinho normal"
+5,high,2.1630322067470993,VR Art,Anxiety & fear,"Um bocadinho ansiosa, não muito"
+5,high,2.1630322067470993,VR Only,Anxiety & fear,"Um bocadinho ansiosa, não muito"
+5,high,2.101050747468192,VR Only,Anxiety & fear,tranquila e ao mesmo tempo um bocadinho ansiosa
+6,low,-2.3826275767433382,VR Only,Anxiety & fear,"eu estou um pouco receosa, mas acho que também pelo facto de criar a imagem ou imaginar, eu que não percebo nada, nem nunca vi, mas a cortar, a tirar, é isso que me assusta, porque eu sei que não estou a sentir nada, mas não faço ideia o quanto"
+6,low,-2.2647153847663,VR Art,Anxiety & fear,"Eu acho que a ansiedade que tenho é... Nem sei bem se a sinto, eu acho que é uma coisa que se manifesta de outra forma"
+6,low,-2.2216229267114924,VR Only,Anxiety & fear,"sinto-me um bocadinho, um bocado, ansiosa e apreensiva, porque não sei se vai correr bem ou não"
+6,low,-2.206707350432704,VR Only,Feeling fine,"já sei como é que é, mais ou menos"
+6,low,-2.165067437362932,Control,Mixed emotions,sinto-me numa mistura de emoções
+6,high,2.2083571383929725,VR Art,Wanting it over,Quero que acabe este processo
+6,high,1.7740903979683018,VR Only,Mixed emotions,estou com fome
+6,high,1.7321857503243168,VR Only,Relaxed,estou com sono
+6,high,1.7212189585904982,VR Only,Calm & tranquil,talvez aí no final do dia consiga relaxar mais um bocadinho
+6,high,1.65656022926901,Control,Mixed emotions,"com fome só, é a única coisa"
+7,low,-2.772377392344647,VR Only,Expecting it to go well,acho que vai correr tudo bem
+7,low,-2.772377392344647,Control,Expecting it to go well,acho que vai correr tudo bem
+7,low,-2.652040382014049,Control,Expecting it to go well,Sei que vai correr bem
+7,low,-2.081716246632199,VR Art,Wanting it over,Quero que acabe este processo
+7,low,-1.7509774824893631,VR Only,Expecting it to go well,Na expectativa de correr bem
+7,high,2.4332421251916596,VR Art,Optimism,"Feliz, porque tenho a possibilidade de me tratar, há um monte de gente que não tem e gostaria de estar no meu lugar"
+7,high,2.39707599428059,VR Only,Mixed emotions,"Fome, sono, incomodada nesse sentido"
+7,high,2.0030856061775784,VR Art,Feeling fine,"Tu me senti calma, tu me senti bem"
+7,high,1.978410321254035,Control,Mixed emotions,"com fome só, é a única coisa"
+7,high,1.9234140665858437,VR Only,Optimism,mas fico com positiva quando penso que é para melhor e para eu ficar bem
+8,low,-2.22138832895572,Control,Expecting it to go well,"Quanto mais depressa me desfecho, melhor"
+8,low,-1.9251265760934302,VR Only,Expecting it to go well,Na expectativa de correr bem
+8,low,-1.8528534409899071,VR Only,Optimism,"Me senti muito bem, sinto que vai ser um momento só mesmo que me vai fazer ficar melhor e me vai fazer ultrapassar o drama que tenho vivido"
+8,low,-1.8091162230693218,Control,Wanting it over,"já que não há nada a resolver para trás, tenho que ir para a frente"
+8,low,-1.7637497490686105,VR Art,Calm & tranquil,"fazer as coisas com calma com sensibilidade, não vale a pena estarmos a estressar, vai acontecer vai correr bem"
+8,high,2.5393537834586994,Control,The surgery,"Estou confiante nos médicos, na equipa"
+8,high,2.3863711995844645,VR Only,The surgery,mas tranquila porque confio nos profissionais
+8,high,2.3678442712045067,Control,The surgery,muito confiante porque sei que estou muito bem entregue nas mãos do meu cirurgião e de toda a equipa que me vai assistir nesta cirurgia
+8,high,2.046555720971747,VR Only,Feeling fine,"já sei como é que é, mais ou menos"
+8,high,1.9780646223078666,VR Art,Optimism,mas confiante
+9,low,-2.926433346856642,Control,Wanting it over,"já que não há nada a resolver para trás, tenho que ir para a frente"
+9,low,-2.138121517441962,VR Art,Optimism,"eu aprendi a ser otimista, a olhar mais para o futuro, de pensar de uma forma positiva sobre o futuro"
+9,low,-2.1187879695490652,VR Art,Video & nature,"estou um bocadinho arreciosa, porque é uma coisa que é desconhecida"
+9,low,-1.951017546838502,VR Art,Video & nature,"Sou uma nova Karina, completamente diferente, para melhor, acho eu"
+9,low,-1.9444876149974926,VR Only,Mixed emotions,"eu estou preocupada por saber o que é que vai acontecer, é a primeira vez, logo é sempre um desconhecido"
+9,high,2.051296522046333,VR Only,Mixed emotions,"Fome, sono, incomodada nesse sentido"
+9,high,1.9752613644523533,VR Art,Feeling fine,Fica bem
+9,high,1.966056111597076,Control,Expecting it to go well,Sei que vai correr bem
+9,high,1.8930759629684055,VR Only,Feeling fine,bem
+9,high,1.5842292676698744,Control,Expecting it to go well,acho que vai correr tudo bem
+10,low,-3.051626367348483,VR Only,Mixed emotions,estou num carrossel de emoções
+10,low,-2.91857051959849,VR Only,Relaxed,descontraída
+10,low,-2.2575266019242313,Control,Mixed emotions,sinto-me numa mistura de emoções
+10,low,-1.7973352938599403,Control,Feeling fine,Acordei super bem disposta
+10,low,-1.7573364466036998,VR Art,Calm & tranquil,acho que até estou mais serena até do que os dias que se deu
+10,high,2.427086054771531,Control,Mixed emotions,"com fome só, é a única coisa"
+10,high,2.002413183010899,VR Only,Feeling fine,"vou ficar bem, sem ser bem"
+10,high,1.8013141572275295,Control,Wanting it over,"já que não há nada a resolver para trás, tenho que ir para a frente"
+10,high,1.74384001932484,VR Only,Expecting it to go well,"espero que ocorra tudo bem, e acredito que sim"
+10,high,1.6054551981663068,VR Only,Mixed emotions,estou com fome

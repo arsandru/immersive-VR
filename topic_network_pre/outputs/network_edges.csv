@@ -1,0 +1,106 @@
+graph,scope,condition,source,target,source_label,target_label,count,probability
+flow,within_response,VR Art,0,2,Anxiety & fear,Calm & tranquil,1.0,0.16666666666666666
+flow,within_response,VR Art,0,3,Anxiety & fear,The surgery,1.0,0.16666666666666666
+flow,within_response,VR Art,0,4,Anxiety & fear,Mixed emotions,1.0,0.16666666666666666
+flow,within_response,VR Art,0,5,Anxiety & fear,Optimism,2.0,0.3333333333333333
+flow,within_response,VR Art,0,10,Anxiety & fear,Wanting it over,1.0,0.16666666666666666
+flow,within_response,VR Art,1,2,Feeling fine,Calm & tranquil,1.0,0.2
+flow,within_response,VR Art,1,3,Feeling fine,The surgery,1.0,0.2
+flow,within_response,VR Art,1,4,Feeling fine,Mixed emotions,1.0,0.2
+flow,within_response,VR Art,1,6,Feeling fine,Video & nature,2.0,0.4
+flow,within_response,VR Art,2,4,Calm & tranquil,Mixed emotions,1.0,0.3333333333333333
+flow,within_response,VR Art,2,5,Calm & tranquil,Optimism,1.0,0.3333333333333333
+flow,within_response,VR Art,2,8,Calm & tranquil,Feeling calmer,1.0,0.3333333333333333
+flow,within_response,VR Art,3,5,The surgery,Optimism,1.0,1.0
+flow,within_response,VR Art,4,5,Mixed emotions,Optimism,1.0,1.0
+flow,within_response,VR Art,5,1,Optimism,Feeling fine,2.0,0.4
+flow,within_response,VR Art,5,2,Optimism,Calm & tranquil,1.0,0.2
+flow,within_response,VR Art,5,3,Optimism,The surgery,1.0,0.2
+flow,within_response,VR Art,5,10,Optimism,Wanting it over,1.0,0.2
+flow,within_response,VR Art,6,2,Video & nature,Calm & tranquil,1.0,1.0
+flow,within_response,VR Art,8,1,Feeling calmer,Feeling fine,1.0,1.0
+semantic,centroids,VR Art,0,4,Anxiety & fear,Mixed emotions,,0.7874801342863386
+semantic,centroids,VR Art,0,3,Anxiety & fear,The surgery,,0.7580229936363744
+semantic,centroids,VR Art,0,6,Anxiety & fear,Video & nature,,0.6928861479489025
+semantic,centroids,VR Art,0,2,Anxiety & fear,Calm & tranquil,,0.7837942336291496
+semantic,centroids,VR Art,0,8,Anxiety & fear,Feeling calmer,,0.6437132006877865
+semantic,centroids,VR Art,1,2,Feeling fine,Calm & tranquil,,0.870426851276571
+semantic,centroids,VR Art,1,5,Feeling fine,Optimism,,0.8227014079070397
+semantic,centroids,VR Art,1,4,Feeling fine,Mixed emotions,,0.7548069309916637
+semantic,centroids,VR Art,1,8,Feeling fine,Feeling calmer,,0.67008572692312
+semantic,centroids,VR Art,1,10,Feeling fine,Wanting it over,,0.7145400688394133
+semantic,centroids,VR Art,1,6,Feeling fine,Video & nature,,0.6831552611246495
+semantic,centroids,VR Art,2,10,Calm & tranquil,Wanting it over,,0.6924990906228483
+semantic,centroids,VR Art,2,5,Calm & tranquil,Optimism,,0.7726508020531293
+semantic,centroids,VR Art,2,8,Calm & tranquil,Feeling calmer,,0.7715407162834966
+semantic,centroids,VR Art,3,10,The surgery,Wanting it over,,0.7296139147340621
+semantic,centroids,VR Art,3,5,The surgery,Optimism,,0.7847644105367115
+semantic,centroids,VR Art,4,6,Mixed emotions,Video & nature,,0.700828804642824
+flow,within_response,VR Only,0,2,Anxiety & fear,Calm & tranquil,1.0,0.125
+flow,within_response,VR Only,0,3,Anxiety & fear,The surgery,2.0,0.25
+flow,within_response,VR Only,0,4,Anxiety & fear,Mixed emotions,1.0,0.125
+flow,within_response,VR Only,0,5,Anxiety & fear,Optimism,2.0,0.25
+flow,within_response,VR Only,0,9,Anxiety & fear,Relaxed,1.0,0.125
+flow,within_response,VR Only,0,10,Anxiety & fear,Wanting it over,1.0,0.125
+flow,within_response,VR Only,1,2,Feeling fine,Calm & tranquil,1.0,1.0
+flow,within_response,VR Only,4,7,Mixed emotions,Expecting it to go well,3.0,0.75
+flow,within_response,VR Only,4,9,Mixed emotions,Relaxed,1.0,0.25
+flow,within_response,VR Only,5,7,Optimism,Expecting it to go well,1.0,1.0
+flow,within_response,VR Only,7,0,Expecting it to go well,Anxiety & fear,1.0,0.25
+flow,within_response,VR Only,7,1,Expecting it to go well,Feeling fine,3.0,0.75
+flow,within_response,VR Only,9,0,Relaxed,Anxiety & fear,2.0,0.6666666666666666
+flow,within_response,VR Only,9,4,Relaxed,Mixed emotions,1.0,0.3333333333333333
+flow,within_response,VR Only,10,4,Wanting it over,Mixed emotions,1.0,1.0
+semantic,centroids,VR Only,0,4,Anxiety & fear,Mixed emotions,,0.8404223828841897
+semantic,centroids,VR Only,0,10,Anxiety & fear,Wanting it over,,0.8380982484631327
+semantic,centroids,VR Only,0,3,Anxiety & fear,The surgery,,0.7662384302506524
+semantic,centroids,VR Only,0,2,Anxiety & fear,Calm & tranquil,,0.7945260633520965
+semantic,centroids,VR Only,1,2,Feeling fine,Calm & tranquil,,0.803452263308777
+semantic,centroids,VR Only,1,5,Feeling fine,Optimism,,0.8047713346090765
+semantic,centroids,VR Only,1,7,Feeling fine,Expecting it to go well,,0.8193087687231763
+semantic,centroids,VR Only,1,10,Feeling fine,Wanting it over,,0.8153772599432769
+semantic,centroids,VR Only,1,9,Feeling fine,Relaxed,,0.7564307073223453
+semantic,centroids,VR Only,2,3,Calm & tranquil,The surgery,,0.7251655524326457
+semantic,centroids,VR Only,2,9,Calm & tranquil,Relaxed,,0.770011831924741
+semantic,centroids,VR Only,2,5,Calm & tranquil,Optimism,,0.7363797712909738
+semantic,centroids,VR Only,3,10,The surgery,Wanting it over,,0.7254451212683036
+semantic,centroids,VR Only,4,10,Mixed emotions,Wanting it over,,0.7804685707267673
+semantic,centroids,VR Only,4,9,Mixed emotions,Relaxed,,0.8048138678053307
+semantic,centroids,VR Only,5,7,Optimism,Expecting it to go well,,0.8052811157226898
+semantic,centroids,VR Only,7,10,Expecting it to go well,Wanting it over,,0.7543209061600497
+flow,within_response,Control,0,3,Anxiety & fear,The surgery,3.0,0.6
+flow,within_response,Control,0,7,Anxiety & fear,Expecting it to go well,1.0,0.2
+flow,within_response,Control,0,10,Anxiety & fear,Wanting it over,1.0,0.2
+flow,within_response,Control,1,2,Feeling fine,Calm & tranquil,1.0,0.5
+flow,within_response,Control,1,4,Feeling fine,Mixed emotions,1.0,0.5
+flow,within_response,Control,2,4,Calm & tranquil,Mixed emotions,1.0,0.3333333333333333
+flow,within_response,Control,2,7,Calm & tranquil,Expecting it to go well,2.0,0.6666666666666666
+flow,within_response,Control,3,2,The surgery,Calm & tranquil,1.0,0.5
+flow,within_response,Control,3,8,The surgery,Feeling calmer,1.0,0.5
+flow,within_response,Control,4,0,Mixed emotions,Anxiety & fear,1.0,0.5
+flow,within_response,Control,4,1,Mixed emotions,Feeling fine,1.0,0.5
+flow,within_response,Control,5,10,Optimism,Wanting it over,1.0,1.0
+flow,within_response,Control,7,3,Expecting it to go well,The surgery,1.0,1.0
+flow,within_response,Control,8,3,Feeling calmer,The surgery,1.0,1.0
+flow,within_response,Control,9,1,Relaxed,Feeling fine,1.0,1.0
+flow,within_response,Control,10,5,Wanting it over,Optimism,1.0,0.5
+flow,within_response,Control,10,7,Wanting it over,Expecting it to go well,1.0,0.5
+semantic,centroids,Control,0,4,Anxiety & fear,Mixed emotions,,0.7805502403974758
+semantic,centroids,Control,0,10,Anxiety & fear,Wanting it over,,0.7660806238008333
+semantic,centroids,Control,0,3,Anxiety & fear,The surgery,,0.7773145269143827
+semantic,centroids,Control,1,3,Feeling fine,The surgery,,0.745857546924596
+semantic,centroids,Control,1,9,Feeling fine,Relaxed,,0.7490702128784115
+semantic,centroids,Control,1,2,Feeling fine,Calm & tranquil,,0.8308059088000337
+semantic,centroids,Control,1,5,Feeling fine,Optimism,,0.8156288700796981
+semantic,centroids,Control,1,8,Feeling fine,Feeling calmer,,0.7037498983445032
+semantic,centroids,Control,1,4,Feeling fine,Mixed emotions,,0.7079768365555655
+semantic,centroids,Control,1,7,Feeling fine,Expecting it to go well,,0.8180857572155484
+semantic,centroids,Control,2,5,Calm & tranquil,Optimism,,0.7832003592409015
+semantic,centroids,Control,2,8,Calm & tranquil,Feeling calmer,,0.7500564091131909
+semantic,centroids,Control,2,9,Calm & tranquil,Relaxed,,0.8545184800354404
+semantic,centroids,Control,3,10,The surgery,Wanting it over,,0.7261117344836734
+semantic,centroids,Control,3,5,The surgery,Optimism,,0.7440368573957239
+semantic,centroids,Control,4,10,Mixed emotions,Wanting it over,,0.6931397301540896
+semantic,centroids,Control,5,7,Optimism,Expecting it to go well,,0.7682447211517384
+semantic,centroids,Control,7,10,Expecting it to go well,Wanting it over,,0.7308650622094379
+semantic,centroids,Control,8,9,Feeling calmer,Relaxed,,0.7401428976525498

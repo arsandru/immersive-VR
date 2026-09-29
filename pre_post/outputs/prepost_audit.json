@@ -1,0 +1,32 @@
+{
+ "pre_participants_in_file": 53,
+ "pre_missing_descriptors": [
+  48
+ ],
+ "pre_no_condition": [
+  33
+ ],
+ "pre_duplicates_dropped": 1,
+ "post_participants_in_file": 51,
+ "post_missing_descriptors": [],
+ "post_no_condition": [
+  33
+ ],
+ "post_duplicates_dropped": 1,
+ "units": {
+  "post": 125,
+  "pre": 150
+ },
+ "participants": {
+  "post": 50,
+  "pre": 51
+ },
+ "participants_both": 49,
+ "n_topics_excl_outlier": 11,
+ "outlier_share": 0.06545454545454546,
+ "bertopic": {
+  "min_cluster_size": 8,
+  "min_samples": 2,
+  "cluster_selection_method": "eom"
+ }
+}
