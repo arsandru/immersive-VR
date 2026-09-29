@@ -1,0 +1,69 @@
+Model diagnostics report (Qwen no-instruct word-level mixed model)
+Generated: 2026-04-28 19:01:36
+
+summary(model_words):
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: projection_fear_vs_calm ~ condition + (1 | Participant)
+   Data: data
+
+REML criterion at convergence: -165.7
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-1.71439 -0.82388 -0.09697  0.54707  2.40494 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept) 0.00000  0.0000  
+ Residual                0.01532  0.1238  
+Number of obs: 135, groups:  Participant, 31
+
+Fixed effects:
+             Estimate Std. Error        df t value Pr(>|t|)   
+(Intercept)  -0.01936    0.02260 132.00000  -0.857  0.39312   
+condition1   -0.08669    0.02881 132.00000  -3.009  0.00314 **
+condition2   -0.06531    0.02792 132.00000  -2.339  0.02083 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) cndtn1
+condition1 -0.784       
+condition2 -0.809  0.635
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+check_singularity(model_words):
+[1] TRUE
+
+check_convergence(model_words):
+[1] TRUE
+attr(,"gradient")
+[1] 0
+
+check_heteroscedasticity(model_words):
+Warning: Heteroscedasticity (non-constant error variance) detected (p < .001).
+
+check_normality(model_words):
+Warning: Non-normality of residuals detected (p < .001).
+
+check_outliers(model_words):
+OK: No outliers detected.
+- Based on the following method and threshold: cook (0.7).
+- For variable: (Whole model)
+
+
+r2_nakagawa(model_words):
+# R2 for Mixed Models
+
+  Conditional R2: NA
+     Marginal R2: 0.065
+
+model_performance(model_words):
+# Indices of model performance
+
+AIC    |   AICc |    BIC | R2 (cond.) | R2 (marg.) |  RMSE | Sigma
+------------------------------------------------------------------
+-155.7 | -155.2 | -141.1 |            |      0.065 | 0.122 | 0.124

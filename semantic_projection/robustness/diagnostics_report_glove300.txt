@@ -1,0 +1,69 @@
+Model diagnostics report (GloVe 300d word-level mixed model)
+Generated: 2026-04-28 21:15:47
+
+summary(model_words):
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: projection_fear_vs_calm ~ condition + (1 | Participant)
+   Data: data
+
+REML criterion at convergence: 221.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.0674 -0.7128 -0.3816  0.8335  2.7100 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept) 0.0000   0.0000  
+ Residual                0.2871   0.5359  
+Number of obs: 135, groups:  Participant, 31
+
+Fixed effects:
+             Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)  -0.34378    0.09783 132.00000  -3.514 0.000605 ***
+condition1   -0.33362    0.12472 132.00000  -2.675 0.008417 ** 
+condition2   -0.15712    0.12087 132.00000  -1.300 0.195906    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) cndtn1
+condition1 -0.784       
+condition2 -0.809  0.635
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+check_singularity(model_words):
+[1] TRUE
+
+check_convergence(model_words):
+[1] TRUE
+attr(,"gradient")
+[1] 0
+
+check_heteroscedasticity(model_words):
+OK: Error variance appears to be homoscedastic (p = 0.796).
+
+check_normality(model_words):
+Warning: Non-normality of residuals detected (p < .001).
+
+check_outliers(model_words):
+OK: No outliers detected.
+- Based on the following method and threshold: cook (0.7).
+- For variable: (Whole model)
+
+
+r2_nakagawa(model_words):
+# R2 for Mixed Models
+
+  Conditional R2: NA
+     Marginal R2: 0.052
+
+model_performance(model_words):
+# Indices of model performance
+
+AIC   |  AICc |   BIC | R2 (cond.) | R2 (marg.) |  RMSE | Sigma
+---------------------------------------------------------------
+231.2 | 231.7 | 245.7 |            |      0.052 | 0.530 | 0.536

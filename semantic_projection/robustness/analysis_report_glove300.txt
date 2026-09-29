@@ -1,0 +1,33 @@
+Word-level GloVe 300d distress-relaxed projection analysis report
+Generated: 2026-04-28 21:15:47
+
+Saved tables:
+- coefficients_mixed_cr2_glove300.csv
+- coefficients_lm_cr2_glove300.csv
+- pairwise_comparison_mixed_vs_lm_cr2_glove300.csv
+- significant_pairwise_findings_glove300.csv
+
+Mixed-model coefficients (CR2):
+        Coef       beta        SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -0.3437794 0.0877455          0 -3.917915 4.176996 0.01589973
+  condition1 -0.3336229 0.1070174          0 -3.117463 9.164539 0.01210353
+  condition2 -0.1571157 0.1202528          0 -1.306545 8.710452 0.22480898
+
+Sensitivity LM coefficients (CR2):
+        Coef       beta        SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -0.3437794 0.0877455          0 -3.917915 4.176996 0.01589973
+  condition1 -0.3336229 0.1070174          0 -3.117463 9.164539 0.01210353
+  condition2 -0.1571157 0.1202528          0 -1.306545 8.710452 0.22480898
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref 0.001824146        0.005472438
+   2 vs ref 0.191367266        0.574101799
+     1 vs 2 0.085194393        0.255583179
+
+Model comparison of pairwise p values (mixed model vs sensitivity LM):
+ comparison p_mixed_CR2 p_mixed_CR2_bonferroni    p_lm_CR2 p_lm_CR2_bonferroni
+     1 vs 2 0.085194393            0.255583179 0.085194393         0.255583179
+   1 vs ref 0.001824146            0.005472438 0.001824146         0.005472438
+   2 vs ref 0.191367266            0.574101799 0.191367266         0.574101799

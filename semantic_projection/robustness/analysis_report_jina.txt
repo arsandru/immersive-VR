@@ -1,0 +1,33 @@
+Word-level Jina distress-relaxed projection analysis report
+Generated: 2026-04-28 18:39:23
+
+Saved tables:
+- coefficients_mixed_cr2_jina.csv
+- coefficients_lm_cr2_jina.csv
+- pairwise_comparison_mixed_vs_lm_cr2_jina.csv
+- significant_pairwise_findings_jina.csv
+
+Mixed-model coefficients (CR2):
+        Coef        beta         SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -0.08606097 0.02244602          0 -3.834131 4.375575 0.01568986
+  condition1 -0.09179073 0.03135861          0 -2.927131 9.530433 0.01586908
+  condition2 -0.06469622 0.03130957          0 -2.066340 9.060378 0.06856458
+
+Sensitivity LM coefficients (CR2):
+        Coef        beta         SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -0.08468838 0.02217434          0 -3.819206 4.176996 0.01734316
+  condition1 -0.09167628 0.03142748          0 -2.917074 9.164539 0.01679634
+  condition2 -0.06654929 0.03121074          0 -2.132256 8.710452 0.06279428
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref 0.003421053         0.01026316
+   2 vs ref 0.038796379         0.11638914
+     1 vs 2 0.380868362         1.00000000
+
+Model comparison of pairwise p values (mixed model vs sensitivity LM):
+ comparison p_mixed_CR2 p_mixed_CR2_bonferroni    p_lm_CR2 p_lm_CR2_bonferroni
+     1 vs 2 0.380868362             1.00000000 0.421795038          1.00000000
+   1 vs ref 0.003421053             0.01026316 0.003533323          0.01059997
+   2 vs ref 0.038796379             0.11638914 0.032985818          0.09895745

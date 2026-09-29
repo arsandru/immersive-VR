@@ -1,0 +1,4 @@
+"condition","n_words","distress_extremes","non_distress_words","distress_pct","relief_extremes","non_relief_words","relief_pct"
+"3",30,1,29,3.33333333333333,10,20,33.3333333333333
+"2",57,1,56,1.75438596491228,25,32,43.859649122807
+"1",48,0,48,0,30,18,62.5

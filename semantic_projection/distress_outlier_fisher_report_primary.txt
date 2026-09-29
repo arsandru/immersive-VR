@@ -1,0 +1,123 @@
+Distress-extreme Fisher report: primary
+Generated: 2026-08-17 19:13:38
+
+Input file: semantic_projection/semantic_projection_primary.csv
+Zero-centered thresholding rule:
+MAD0 = 0.265151
+Multiplier = 1.00
+Lower threshold = -0.265151
+Upper threshold = 0.265151
+
+Summary:
+Control has the highest rate of distress-extreme words (7/30, 23.3%).
+Flow has the highest rate of relief-extreme words (25/48, 52.1%).
+VR Only shows 3/57 distress-extreme words (5.3%) and 20/57 relief-extreme words (35.1%).
+
+Condition-level extreme counts:
+ condition n_words distress_extremes non_distress_words distress_pct
+         3      30                 7                 23    23.333333
+         2      57                 3                 54     5.263158
+         1      48                 2                 46     4.166667
+ relief_extremes non_relief_words relief_pct
+              10               20   33.33333
+              20               37   35.08772
+              25               23   52.08333
+
+Overall Fisher test on distress-extreme 3x2 table (simulated p-value):
+p = 0.015310
+
+Pairwise Fisher tests for distress-extreme words:
+ comparison     tail condition_a condition_b    p_value odds_ratio  conf_low
+     1_vs_3 distress           1           3 0.02340770   6.818936 1.1744396
+     2_vs_3 distress           2           3 0.02822904   5.359321 1.1047337
+     1_vs_2 distress           1           2 1.00000000   1.274836 0.1397056
+ conf_high bonferroni_p_value
+  72.22825         0.07022310
+  34.93729         0.08468711
+  15.87266         1.00000000
+
+Overall Fisher test on relief-extreme 3x2 table (simulated p-value):
+p = 0.151368
+
+Pairwise Fisher tests for relief-extreme words:
+ comparison   tail condition_a condition_b   p_value odds_ratio  conf_low
+     1_vs_3 relief           1           3 0.1599459  0.4646450 0.1581777
+     2_vs_3 relief           2           3 1.0000000  0.9258564 0.3212963
+     1_vs_2 relief           1           2 0.1129960  0.5006917 0.2104627
+ conf_high bonferroni_p_value
+  1.301545          0.4798376
+  2.570802          1.0000000
+  1.171349          0.3389880
+
+Distress-extreme words:
+ condition Participant              word projection_fear_vs_calm
+         3           5 extremely_nervous              -0.3716378
+         3           1      very_nervous              -0.3391380
+         3           5      very_nervous              -0.3391380
+         3           1          bothered              -0.3371163
+         3           1           nervous              -0.3320538
+         3           5           nervous              -0.3320538
+         3           6           nervous              -0.3320538
+         2          10           anxiety              -0.3794048
+         2          11      some_anxiety              -0.3367899
+         2          11           nervous              -0.3320538
+         1          37           nervous              -0.3320538
+         1          41           nervous              -0.3320538
+
+Relief-extreme words:
+ condition Participant          word projection_fear_vs_calm
+         3           5   comfortable               0.4395513
+         3          16       relaxed               0.3965400
+         3           6      peaceful               0.3945403
+         3          27      peaceful               0.3945403
+         3           3 very relaxing               0.3944232
+         3           1          calm               0.3793196
+         3           1          calm               0.3793196
+         3           5          calm               0.3793196
+         3           5          calm               0.3793196
+         3           5        calmer               0.3137298
+         2          17   comfortable               0.4395513
+         2           7       relaxed               0.3965400
+         2           9       relaxed               0.3965400
+         2          19       relaxed               0.3965400
+         2          21       relaxed               0.3965400
+         2          39       relaxed               0.3965400
+         2           9      relaxing               0.3892095
+         2          10      relaxing               0.3892095
+         2          22    comforting               0.3812331
+         2          22    comforting               0.3812331
+         2           9          calm               0.3793196
+         2          11          calm               0.3793196
+         2          19          calm               0.3793196
+         2          19          calm               0.3793196
+         2          21          calm               0.3793196
+         2          21          calm               0.3793196
+         2          22          calm               0.3793196
+         2          22          calm               0.3793196
+         2          36          calm               0.3793196
+         2          10       calming               0.3705380
+         1          32       relaxed               0.3965400
+         1          26      peaceful               0.3945403
+         1           4      relaxing               0.3892095
+         1          15      relaxing               0.3892095
+         1          20      relaxing               0.3892095
+         1          20      relaxing               0.3892095
+         1          26      relaxing               0.3892095
+         1          26      relaxing               0.3892095
+         1          30      relaxing               0.3892095
+         1          30      relaxing               0.3892095
+         1          37      relaxing               0.3892095
+         1          38        serene               0.3815315
+         1          13          calm               0.3793196
+         1          15          calm               0.3793196
+         1          26          calm               0.3793196
+         1          30          calm               0.3793196
+         1          37          calm               0.3793196
+         1          38          calm               0.3793196
+         1          38          calm               0.3793196
+         1          41          calm               0.3793196
+         1          41          calm               0.3793196
+         1          41          calm               0.3793196
+         1          32         relax               0.3583832
+         1          32         relax               0.3583832
+         1          38         relax               0.3583832

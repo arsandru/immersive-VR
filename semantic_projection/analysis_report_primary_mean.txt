@@ -1,0 +1,37 @@
+Mean-level primary Qwen relief-distress projection analysis report
+Generated: 2026-04-29 13:02:31
+
+Saved tables:
+- coefficients_lm_cr2_primary_mean.csv
+- significant_pairwise_findings_primary_mean.csv
+
+Model coefficients (CR2):
+        Coef       beta         SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) 0.13797128 0.04880911          0 2.8267527  6.00000 0.03008587
+  condition1 0.11045091 0.05632674          0 1.9608966 12.92553 0.07180144
+  condition2 0.01962046 0.05681110          0 0.3453632 12.40310 0.73560805
+
+Model emmeans:
+ condition emmean     SE df lower.CL upper.CL
+ 3          0.138 0.0403 28   0.0554    0.221
+ 1          0.248 0.0322 28   0.1825    0.314
+ 2          0.158 0.0296 28   0.0970    0.218
+
+Confidence level used: 0.95 
+
+Model emmeans pairwise comparisons:
+ contrast                estimate     SE df t.ratio p.value
+ condition3 - condition1  -0.1105 0.0516 28  -2.141  0.0998
+ condition3 - condition2  -0.0196 0.0500 28  -0.392  0.9190
+ condition1 - condition2   0.0908 0.0437 28   2.078  0.1128
+
+P value adjustment: tukey method for comparing a family of 3 estimates 
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref  0.04989108         0.14967325
+   2 vs ref  0.72982134         1.00000000
+     1 vs 2  0.02470716         0.07412148
+
+Bonferroni-adjusted alpha for 3 contrasts: 0.01667

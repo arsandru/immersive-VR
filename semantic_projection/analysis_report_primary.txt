@@ -1,0 +1,74 @@
+Word-level primary Qwen relief-distress projection analysis report
+Generated: 2026-04-29 12:29:53
+
+Saved tables:
+- coefficients_mixed_cr2_primary.csv
+- coefficients_lm_cr2_primary.csv
+- pairwise_comparison_mixed_vs_lm_cr2_primary.csv
+- significant_pairwise_findings_primary.csv
+- effect_sizes_primary.csv
+
+Mixed-model coefficients (CR2):
+        Coef       beta         SE null_value    tstat  df_Satt     p_Satt
+ (Intercept) 0.10323112 0.03729855          0 2.767698 4.176996 0.04807838
+  condition1 0.12300479 0.05005387          0 2.457448 9.164539 0.03586080
+  condition2 0.06249263 0.04884788          0 1.279331 8.710452 0.23380615
+
+Mixed-model emmeans:
+ condition emmean     SE   df lower.CL upper.CL
+ 3          0.103 0.0450 17.8  0.00861    0.198
+ 1          0.226 0.0351 21.6  0.15342    0.299
+ 2          0.166 0.0321 22.3  0.09913    0.232
+
+Degrees-of-freedom method: kenward-roger 
+Confidence level used: 0.95 
+
+Mixed-model emmeans pairwise comparisons:
+ contrast                estimate     SE   df t.ratio p.value
+ condition3 - condition1  -0.1230 0.0570 19.1  -2.156  0.1050
+ condition3 - condition2  -0.0625 0.0553 19.2  -1.130  0.5077
+ condition1 - condition2   0.0605 0.0476 21.9   1.272  0.4253
+
+Degrees-of-freedom method: kenward-roger 
+P value adjustment: tukey method for comparing a family of 3 estimates 
+
+Sensitivity LM coefficients (CR2):
+        Coef       beta         SE null_value    tstat  df_Satt     p_Satt
+ (Intercept) 0.10323112 0.03729855          0 2.767698 4.176996 0.04807838
+  condition1 0.12300479 0.05005387          0 2.457448 9.164539 0.03586080
+  condition2 0.06249263 0.04884788          0 1.279331 8.710452 0.23380615
+
+Sensitivity LM emmeans:
+ condition emmean     SE  df lower.CL upper.CL
+ 3          0.103 0.0438 132   0.0166    0.190
+ 1          0.226 0.0346 132   0.1578    0.295
+ 2          0.166 0.0318 132   0.1029    0.229
+
+Confidence level used: 0.95 
+
+Sensitivity LM emmeans pairwise comparisons:
+ contrast                estimate     SE  df t.ratio p.value
+ condition3 - condition1  -0.1230 0.0558 132  -2.204  0.0741
+ condition3 - condition2  -0.0625 0.0541 132  -1.156  0.4818
+ condition1 - condition2   0.0605 0.0470 132   1.288  0.4042
+
+P value adjustment: tukey method for comparing a family of 3 estimates 
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref   0.0139928          0.0419784
+   2 vs ref   0.2007803          0.6023410
+     1 vs 2   0.1876313          0.5628940
+
+Mixed-model standardized condition means (residual-SD scaled):
+ condition      mean      lower     upper
+         3 0.4305822 0.03591373 0.8252506
+         1 0.9436413 0.63991553 1.2473671
+         2 0.6912421 0.41345790 0.9690262
+
+Model comparison of pairwise p values (mixed model vs sensitivity LM):
+ comparison p_mixed_CR2 p_mixed_CR2_bonferroni  p_lm_CR2 p_lm_CR2_bonferroni
+     1 vs 2   0.1876313              0.5628940 0.1876313           0.5628940
+   1 vs ref   0.0139928              0.0419784 0.0139928           0.0419784
+   2 vs ref   0.2007803              0.6023410 0.2007803           0.6023410

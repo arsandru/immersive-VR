@@ -1,0 +1,4 @@
+"comparison","tail","condition_a","condition_b","p_value","odds_ratio","conf_low","conf_high","bonferroni_p_value"
+"1_vs_3","distress","1","3",0.384615384615385,Inf,0.0410254221191406,Inf,1
+"2_vs_3","distress","2","3",1,1.91552062594071,0.0237875512066541,154.047173708831,1
+"1_vs_2","distress","1","2",1,Inf,0.0216077302631579,Inf,1
