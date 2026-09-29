@@ -213,11 +213,11 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
   scale_color_manual(
     values = cond_colors,
     breaks = c("1", "2", "3"),
-    labels = c("VR+Meditation", "VR Only", "Control")
+    labels = c("VR Art", "VR Only", "Control")
   ) +
   scale_x_discrete(
     breaks = c("3", "1", "2"),
-    labels = c("Control", "VR+Meditation", "VR Only")
+    labels = c("Control", "VR Art", "VR Only")
   ) +
   labs(
     x = NULL,

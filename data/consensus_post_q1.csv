@@ -1,0 +1,52 @@
+participant_id,descriptors,source_rater,n_raters_agreeing_on_count,group_similarity,needs_review,review_reason
+1,a ansiedade aumenta; o receio de que algo possa correr mal,A,4,1.0,False,
+2,"Um bocadinho menos ansiosa, muito mais relaxada, mais descontraída e talvez com um bocadinho mais de esperança",A,4,1.0,False,
+3,"Estou mais tranquila; Estou mais tranquila, sem dúvida alguma; Sinto mais tranquilidade dentro de mim",A,4,1.0,False,
+4,sinto-me igualmente otimista; sinto-me igualmente sem medo; sinto-me mais tranquila; sinto-me ainda mais tranquila porque estive a descansar e a pensar com boas memórias quando os meus filhos eram pequeninos e quando estava a brincar com eles,C,3,0.775,False,
+5,"deixou-me muito mais tranquila, muito mais serena; estou muito mais tranquila agora para o procedimento",C,2,0.763,True,no majority segment count (counts: A=3 B=4 C=2 D=2)
+7,"tem uma conexão com a minha religião, ver aquilo foi um pouco emocionante; para mim esse vídeo toca diferente; para mim veio uma emoção",D,3,0.841,False,
+9,"Não mudou muito, eu continuo a ter assim sempre um misto da emoção; É sempre uma cirurgia; na confiança que eu tenho, por exemplo, no caso do Dr. Carlos Mavioso, que já é terceira cirurgia com ele, e que toda a equipa que envolve todo este processo e toda a equipa que envolve normalmente este tipo de cirurgias, sinto-me mais confiante",A,3,0.926,False,
+12,"durante a experiência eu senti muito relaxamento; voltei um bocadinho à realidade, porque o Zé falou em doutor Pedro, que estava à minha espera; durante o filme deixei mesmo ir; agora estou a cair mesmo na realidade outra vez",C,3,0.579,True,low group similarity (0.58)
+13,"sinto-me mais relaxada ainda, mais tranquila, porque também tenho o corpo relaxado e descansado e sinto-me muito bem",A,4,1.0,False,
+14,"talvez me prestaria mais um bocadinho, talvez mais relaxada; Estava a observar, estava descontraída",A,4,0.917,False,
+15,"Eu estou bem, fiquei bem",A,3,0.971,False,
+17,"A sensação de nós estarmos a viajar com o vídeo, há momentos bem bonitos, quando vamos atrás do pássaro parece que estamos mesmo lá, isso cria um sentimento muito agradável, esquecendo-nos que estamos aqui",B,4,0.83,False,
+18,"Foi agradável, bastante, e bastante relaxante; Estou completamente relaxada; O acolhimento é cinco estrelas",A,3,0.942,False,
+19,Sinto-me mais relaxada; sentindo que achava que me ia enervar por causa dos pássaros; tentei-me focar no verde e naquilo que são os elementos da natureza; se ficasse mais tempo ia acabar por relaxar ainda mais,A,4,0.737,False,
+20,"me sinto um pouco mais tranquila, relaxada, porque, na preparação, você fica mais tranquila e com fome",A,2,0.882,True,no majority segment count (counts: A=1 B=2 C=1 D=2)
+21,"durante o vídeo eu abstraí-me completamente do sítio onde estava, estava completamente envolvida no vídeo; após tirar os óculos senti-me um bocadinho mais calma; como entretanto entrou o doutor Pedro o meu pensamento voltou outra vez para a cirurgia",D,3,0.896,False,
+22,"estava um bocadinho mais relaxada até vocês saírem daqui; que isto passe depressa, que corra tudo bem, que fique bem; O tempo me custou muito a passar, custou mais, até pensava que se tinha esquecido de mim",B,2,0.741,True,no majority segment count (counts: A=3 B=3 C=4 D=5)
+24,"igual; tenho uma experiência nova, é divertido; os meus valores já aumentaram; de resto gostei",D,3,0.674,True,low group similarity (0.67)
+25,"continuo a sentir-me tranquila, agora acho que até um bocadinho mais relaxada e com aqui boas memórias, porque as imagens levaram-me para sítios que também já visitei, então é uma experiência muito, muito agradável",A,3,0.969,False,
+26,"ansiosa um bocadinho; Preocupada um bocadinho, não é uma situação confortável; mas tudo bem; Estou tranquila",A,3,0.972,False,
+27,sinto-me calma confiante e pouco preocupada,B,4,0.985,False,
+28,Tanto desjo que isto acabe,A,4,0.994,False,
+29,"Bem, dentro do normal, bem, dentro das circunstâncias",A,4,1.0,False,
+31,Eu sinto-me bem,A,4,0.963,False,
+32,parece que estou assim um bocadinho mais agitada; Não gostei muito das alturas,B,4,0.939,False,
+33,"continuo tranquila, foi interessante, porque me lembrei de uma viagem que fiz à Tailândia, e da cascata, e de estar lá embaixo, e a brincar; achei piada à repetição e ao voltar ao início das imagens; já de um ponto de vista muito racional, já não estava tão",D,2,0.77,True,no majority segment count (counts: A=5 B=3 C=4 D=3)
+34,"a minha intranquilidade deve-se ao facto desta experiência com o enfermeiro que bateu-me imenso nas mãos; Isso pôs-me intranquila; fazer exercícios que eu já costumo fazer que é respiração profunda respirar, reter e depois deitar fora o ar pensando sempre que estou num riacho que estou a nadar numa água muito quente, eu situo-me num riacho com águas moras em que estou tranquilamente a nadar",A,2,0.857,True,no majority segment count (counts: A=3 B=5 C=3 D=4)
+35,"Estou bem disposta; Sinto uma calma; O filme é um bocadinho assustador, tem muitas cores escuras e fantasmas, parece que vamos colidir contra as estruturas, as paredes; Sensação de afogamento",B,2,0.845,True,no majority segment count (counts: A=4 B=4 C=5 D=5)
+36,Um bocadito mais calma que estive tanto acusada,A,4,1.0,False,
+37,estou relaxada; mas um pouquinho preocupada; mas confiante,C,3,0.956,False,
+38,"Foi muito bonito, a animação foi muito bonita; Fez-me querer sair e passear e ver coisas novas; coisas que eu adoro, natureza; Fez-me levantar e sair",A,2,0.926,True,no majority segment count (counts: A=4 B=2 C=1 D=4)
+39,"Muito tranquila; Estive a pensar em coisas de trabalho, coisas que tenho que resolver",A,4,1.0,False,
+40,"Sinto-me bem, sinto-me estável",A,4,1.0,False,
+41,"Estou mais calma; Não era medo; São imagens muito fortes, parece que vamos andar no mar, e no ar",B,2,0.732,True,no majority segment count (counts: A=2 B=3 C=3 D=4)
+42,"Sinto bem; Sinto bem; Ligeiramente a aguardar a entrada para a cirurgia; Confiante; é importante a pessoa manter-se positiva, o esforço é manter-se sempre positiva e neste nível de positividade, porque se vai abaixo, depois é muito mais difícil caminhar para cima",B,2,0.735,True,no majority segment count (counts: A=6 B=5 C=5 D=7)
+43,"Foi uma sensação de estar numa ligação, de sensação de paz, de equilíbrio, de harmonia e ajudou-me a relaxar; comecei a fechar os olhos, a sentir mais sonolência, mas no sentido de estar relaxada, tranquila e em paz; Foi uma sensação muito de conforto e de relaxamento",A,4,1.0,False,
+44,calma sendo tranquila; gostei do vídeo da animação; me despertou também a curiosidade de ver as várias coisas que estariam a acontecer; sinto-me ainda mais abstraída da cirurgia,C,3,0.942,False,
+45,"um pouco, não diria ansiosa, mas pode ser ansiosa; Espero que isso passe tudo, e que a cirurgia seja feita rapidamente; tranquila e confiante, que vai correr tudo bem",A,3,0.98,False,
+46,Sinto-me bem; Relaxada; Bem,A,4,1.0,False,
+47,"Bem; Não, tudo bem",A,4,0.943,False,
+49,Bem,A,4,1.0,False,
+50,"o filme, de facto, dá uma sensação de calma; eu fiquei com uma sensação, não é bem assustadora, mas é de claustrofobia, penso que é uma certa falta de ar; é a parte que eu mais gosto; a música ajuda a que nós mantenhamos calmas",A,2,0.876,True,no majority segment count (counts: A=4 B=5 C=4 D=5)
+51,sinto muito tudo isto; estou descansada porque estou com um ótimo cirurgião; sei que às vezes as coisas não correm tão bem como nós queremos,D,4,0.823,False,
+52,"mais ou menos a mesma coisa, Eu estou me sentindo bem; um bocadinho preocupada para o resultado que lá vem; essa ansiosa, ansiosa, pode mais depressa melhor, pode mais depressa isto, pode mais depressa sai; a preocupação é mesmo o cuidado e o pós, o que é que vai vir a seguir; vai correr tudo bem, é certo; não deixa de ser uma cirurgia, não deixa de ser tirar um bocadinho de mim e o resultado que vem de lá",A,2,0.787,True,no majority segment count (counts: A=6 B=4 C=6 D=7)
+53,"Me sinto mais tranquila, gostei muito; Me levou a outro lugar e me deixou mais calma e tranquila e sem ansiedade",A,3,0.998,False,
+54,"Estou um bocadinho mais calma; foi bom, gostei de ver as imagens, foi uma experiência boa",A,3,0.994,False,
+56,"Sinto-me tranquila, estou em paz, nada, com medo de nada, sinto-me bem",A,4,0.985,False,
+57,Sinto-me bem,A,4,1.0,False,
+58,"sinto-me de forma similar à anterior, os níveis de ansiedade são os mesmos; estive a fazer aqui uma técnica própria que desenvolvi para não escalar a ansiedade durante o período que tenho de esperar até a entrada na sala de cirurgia; a minha técnica consta em fazer uma revisão do que tenho para fazer depois da cirurgia e organizar os meus pensamentos, organizar os meus planos, de maneira a que não foque no que realmente me preocupa no imediato que vai acontecer",C,4,0.9,False,
+59,"estou um bocadinho mais calma; Não é que antes estivesse estressada, mas estou um bocadinho mais calma; Ajudou de alguma forma; Mais um bocadinho eu acho que adormecia, o que significa que é bom",B,3,0.989,False,
+60,"Estou tranquila, confiante; Estou a tentar estar relaxada",A,4,1.0,False,

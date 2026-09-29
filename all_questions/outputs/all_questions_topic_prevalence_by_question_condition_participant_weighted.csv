@@ -1,0 +1,118 @@
+question_id,question_text,condition_number,condition_label,Topic,topic_name,topic_label,n_participants,mean_proportion,sd_proportion,se_proportion
+Q1,Como se sente agora?,1,VR Art,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,16,0.0,0.0,0.0
+Q1,Como se sente agora?,1,VR Art,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,16,0.5571428571428572,0.4052797807444532,0.1013199451861133
+Q1,Como se sente agora?,1,VR Art,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,16,0.0,0.0,0.0
+Q1,Como se sente agora?,1,VR Art,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,16,0.0323660714285714,0.0738341212853948,0.0184585303213487
+Q1,Como se sente agora?,1,VR Art,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,16,0.1026785714285714,0.2710131532817192,0.0677532883204298
+Q1,Como se sente agora?,1,VR Art,4,4_cima_ir_sítio_abaixo,Movement and sense of place,16,0.0599702380952381,0.1192037666429186,0.0298009416607296
+Q1,Como se sente agora?,1,VR Art,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,16,0.1406994047619047,0.2726906812208964,0.0681726703052241
+Q1,Como se sente agora?,1,VR Art,6,6_tempo_espera_tempo espera_agora,Waiting experience,16,0.0357142857142857,0.1428571428571428,0.0357142857142857
+Q1,Como se sente agora?,1,VR Art,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,16,0.0,0.0,0.0
+Q1,Como se sente agora?,1,VR Art,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,16,0.0,0.0,0.0
+Q1,Como se sente agora?,1,VR Art,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,16,0.0,0.0,0.0
+Q1,Como se sente agora?,1,VR Art,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,16,0.0714285714285714,0.2501700102202609,0.0625425025550652
+Q1,Como se sente agora?,1,VR Art,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,16,0.0,0.0,0.0
+Q1,Como se sente agora?,2,VR Only,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,16,0.0,0.0,0.0
+Q1,Como se sente agora?,2,VR Only,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,16,0.4322916666666666,0.4294901693351729,0.1073725423337932
+Q1,Como se sente agora?,2,VR Only,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,16,0.0,0.0,0.0
+Q1,Como se sente agora?,2,VR Only,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,16,0.0784722222222222,0.225,0.05625
+Q1,Como se sente agora?,2,VR Only,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,16,0.0125,0.05,0.0125
+Q1,Como se sente agora?,2,VR Only,4,4_cima_ir_sítio_abaixo,Movement and sense of place,16,0.0,0.0,0.0
+Q1,Como se sente agora?,2,VR Only,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,16,0.0746527777777777,0.1520500344063195,0.0380125086015798
+Q1,Como se sente agora?,2,VR Only,6,6_tempo_espera_tempo espera_agora,Waiting experience,16,0.0625,0.2499999999999999,0.0624999999999999
+Q1,Como se sente agora?,2,VR Only,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,16,0.03125,0.125,0.03125
+Q1,Como se sente agora?,2,VR Only,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,16,0.0333333333333333,0.0942809041582063,0.0235702260395515
+Q1,Como se sente agora?,2,VR Only,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,16,0.04375,0.1314977819838291,0.0328744454959572
+Q1,Como se sente agora?,2,VR Only,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,16,0.23125,0.402854398842394,0.1007135997105985
+Q1,Como se sente agora?,2,VR Only,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,16,0.0,0.0,0.0
+Q1,Como se sente agora?,3,Control,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,16,0.0044642857142857,0.0178571428571428,0.0044642857142857
+Q1,Como se sente agora?,3,Control,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,16,0.3925640331890332,0.4540004179920646,0.1135001044980161
+Q1,Como se sente agora?,3,Control,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,16,0.0304383116883116,0.0753067134129628,0.0188266783532407
+Q1,Como se sente agora?,3,Control,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,16,0.0426136363636363,0.0777765144719598,0.0194441286179899
+Q1,Como se sente agora?,3,Control,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,16,0.1059027777777777,0.185600736043677,0.0464001840109192
+Q1,Como se sente agora?,3,Control,4,4_cima_ir_sítio_abaixo,Movement and sense of place,16,0.0912472943722943,0.2049863617086149,0.0512465904271537
+Q1,Como se sente agora?,3,Control,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,16,0.0113636363636363,0.0454545454545454,0.0113636363636363
+Q1,Como se sente agora?,3,Control,6,6_tempo_espera_tempo espera_agora,Waiting experience,16,0.0267857142857142,0.1071428571428571,0.0267857142857142
+Q1,Como se sente agora?,3,Control,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,16,0.1073683261183261,0.2568284786300665,0.0642071196575166
+Q1,Como se sente agora?,3,Control,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,16,0.0379464285714285,0.0917226946894193,0.0229306736723548
+Q1,Como se sente agora?,3,Control,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,16,0.1354166666666666,0.2803354472109493,0.0700838618027373
+Q1,Como se sente agora?,3,Control,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,16,0.0138888888888888,0.0555555555555555,0.0138888888888888
+Q1,Como se sente agora?,3,Control,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,16,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,10,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,10,0.2575,0.4106312890605824,0.1298530151962423
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,10,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,10,0.1958333333333333,0.3322029444425445,0.1050517949852815
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,10,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,4,4_cima_ir_sítio_abaixo,Movement and sense of place,10,0.04,0.1264911064067351,0.0399999999999999
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,10,0.145,0.3148632860288555,0.0995685135416256
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,6,6_tempo_espera_tempo espera_agora,Waiting experience,10,0.0958333333333333,0.1779187808877764,0.0562628586125808
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,10,0.0333333333333333,0.1054092553389459,0.0333333333333333
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,10,0.22,0.4157990967870047,0.1314872194887734
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,10,0.0125,0.0395284707521047,0.0124999999999999
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,10,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,1,VR Art,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,10,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,9,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,9,0.5333333333333333,0.4444097208657794,0.1481365736219264
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,9,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,9,0.0694444444444444,0.1666666666666666,0.0555555555555555
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,9,0.0805555555555555,0.1991300524224753,0.0663766841408251
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,4,4_cima_ir_sítio_abaixo,Movement and sense of place,9,0.0277777777777777,0.0833333333333333,0.0277777777777777
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,9,0.0916666666666666,0.1695582495781317,0.0565194165260439
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,6,6_tempo_espera_tempo espera_agora,Waiting experience,9,0.0138888888888888,0.0416666666666666,0.0138888888888888
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,9,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,9,0.05,0.1,0.0333333333333333
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,9,0.1333333333333333,0.33166247903554,0.1105541596785133
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,9,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,2,VR Only,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,9,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,6,0.3333333333333333,0.408248290463863,0.1666666666666666
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,6,0.3333333333333333,0.5163977794943222,0.2108185106778919
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,4,4_cima_ir_sítio_abaixo,Movement and sense of place,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,6,6_tempo_espera_tempo espera_agora,Waiting experience,6,0.125,0.2091650066335189,0.0853912563829966
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,6,0.0,0.0,0.0
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,6,0.1666666666666666,0.408248290463863,0.1666666666666666
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,6,0.0416666666666666,0.1020620726159657,0.0416666666666666
+Q2,Sente alguma diferença em relação a como se sentia antes?,3,Control,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,6,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,13,0.0549450549450549,0.1462508972989688,0.0405627007149269
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,13,0.1263736263736263,0.2976007320371588,0.0825395922288919
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,13,0.2228327228327228,0.3762170075599081,0.1043438239583747
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,13,0.0341880341880341,0.1232667102722731,0.0341880341880341
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,4,4_cima_ir_sítio_abaixo,Movement and sense of place,13,0.1648351648351648,0.3727364968383874,0.103378503968279
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,6,6_tempo_espera_tempo espera_agora,Waiting experience,13,0.0225885225885225,0.0631477231578137,0.0175140272134078
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,13,0.2503052503052503,0.3784032795822015,0.1049501867182587
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,13,0.047008547008547,0.1395284420283291,0.0386982270860573
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,13,0.0384615384615384,0.1386750490563073,0.0384615384615384
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,1,VR Art,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,13,0.0384615384615384,0.1386750490563073,0.0384615384615384
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,16,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,16,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,16,0.2261904761904762,0.3026714015632514,0.0756678503908128
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,16,0.0267857142857142,0.1071428571428571,0.0267857142857142
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,16,0.0208333333333333,0.0833333333333333,0.0208333333333333
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,4,4_cima_ir_sítio_abaixo,Movement and sense of place,16,0.0625,0.2499999999999999,0.0624999999999999
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,16,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,6,6_tempo_espera_tempo espera_agora,Waiting experience,16,0.0833333333333333,0.2581988897471611,0.0645497224367902
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,16,0.09375,0.2719528145346787,0.0679882036336696
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,16,0.0922619047619047,0.1817183038389732,0.0454295759597433
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,16,0.0401785714285714,0.1276920988504908,0.0319230247126227
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,16,0.0625,0.25,0.0625
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,2,VR Only,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,16,0.2916666666666666,0.414996653266291,0.1037491633165727
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,-1,-1_será_será alguém_alguém_família,Unassigned or mixed content,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,0,0_tranquila_calma_relaxada_sinto,Calm and relaxation,13,0.1538461538461538,0.3001661458254662,0.0832511099947784
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,1,1_pessoas_cuidado_doentes_todas,Compassionate and professional care,13,0.3012820512820512,0.3688358524328756,0.1022966598597078
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects,13,0.0128205128205128,0.0462250163521024,0.0128205128205128
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,3,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping,13,0.0384615384615384,0.0998574482525463,0.027695473070119
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,4,4_cima_ir_sítio_abaixo,Movement and sense of place,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,5,5_água_natureza_ar_mar,Nature imagery and sensory responses,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,6,6_tempo_espera_tempo espera_agora,Waiting experience,13,0.0769230769230769,0.2773500981126145,0.0769230769230769
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,7,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism,13,0.1858974358974358,0.3698001308168194,0.1025641025641025
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,8,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals,13,0.0769230769230769,0.2773500981126145,0.0769230769230769
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,9,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,10,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable,13,0.0,0.0,0.0
+Q3,Que aspetos do cuidado prestado foram mais importantes para si?,3,Control,11,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed,13,0.1538461538461538,0.3755338080994053,0.1041543385209738

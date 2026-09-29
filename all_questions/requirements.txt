@@ -1,0 +1,2 @@
+-r ../q3/requirements.txt
+scipy>=1.13,<2

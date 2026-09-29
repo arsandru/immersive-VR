@@ -1,0 +1,34 @@
+condition_number,condition_label,Topic,topic_name,topic_label,n_participants,mean_proportion,sd_proportion,se_proportion
+1,VR Art,-1,-1_tranquilidade_às_fácil_simpático,Unassigned or mixed content,17,0.1764705882352941,0.2241541836308563,0.0543653750314187
+1,VR Art,0,0_tranquila_sinto_bocadinho_relaxada,Feeling calmer and more relaxed,17,0.2549019607843137,0.3541306210030787,0.0858892915094864
+1,VR Art,1,1_filme_gostei_achei_outra vez,Mixed emotional and sensory responses to VR,17,0.2352941176470588,0.2949742428103997,0.0715417623496393
+1,VR Art,2,2_cirurgia_fazer_pode_vai,Surgical anxiety and coping,17,0.0294117647058823,0.1212678125181665,0.0294117647058823
+1,VR Art,3,3_perfeito_ótimo sempr_sexta_sempr impecável,Positive appraisal and no complaints,17,0.0588235294117647,0.1761980466236414,0.0427343033680458
+1,VR Art,4,4_bocadinho_ansiedade_rápido_eventualmente,Waiting-related anxiety,17,0.0196078431372549,0.0808452083454443,0.0196078431372548
+1,VR Art,5,5_natureza_vídeo_experiência_tranquila,"Immersive nature, serenity, and personal meaning",17,0.0490196078431372,0.1414791146045275,0.034313725490196
+1,VR Art,6,6_pessoas_cuidado_faz_tratam,Personalized and compassionate care,17,0.0196078431372549,0.0808452083454443,0.0196078431372548
+1,VR Art,7,7_acolhida_acolheu_única_avisar,Feeling warmly welcomed,17,0.0294117647058823,0.1212678125181664,0.0294117647058823
+1,VR Art,8,8_sinto_sinto sinto_sinto estável_sinto contente,Feeling well and stable,17,0.0490196078431372,0.1414791146045275,0.034313725490196
+1,VR Art,9,9_fantástico_experiência_experiência sinto_sinto positivo,VR as a positive and enriching experience,17,0.0784313725490196,0.1457457720325343,0.0353485419163136
+2,VR Only,-1,-1_tranquilidade_às_fácil_simpático,Unassigned or mixed content,17,0.2745098039215686,0.2564526737162417,0.0621989095120074
+2,VR Only,0,0_tranquila_sinto_bocadinho_relaxada,Feeling calmer and more relaxed,17,0.1568627450980392,0.2317699727346877,0.0562124752018613
+2,VR Only,1,1_filme_gostei_achei_outra vez,Mixed emotional and sensory responses to VR,17,0.0196078431372549,0.0808452083454443,0.0196078431372548
+2,VR Only,2,2_cirurgia_fazer_pode_vai,Surgical anxiety and coping,17,0.0686274509803921,0.1565560727712873,0.0379704249628178
+2,VR Only,3,3_perfeito_ótimo sempr_sexta_sempr impecável,Positive appraisal and no complaints,17,0.0490196078431372,0.1414791146045275,0.034313725490196
+2,VR Only,4,4_bocadinho_ansiedade_rápido_eventualmente,Waiting-related anxiety,17,0.0490196078431372,0.1414791146045275,0.034313725490196
+2,VR Only,5,5_natureza_vídeo_experiência_tranquila,"Immersive nature, serenity, and personal meaning",17,0.1764705882352941,0.2462960915359445,0.0597355765046761
+2,VR Only,6,6_pessoas_cuidado_faz_tratam,Personalized and compassionate care,17,0.0588235294117647,0.1660527910387678,0.0402737174636151
+2,VR Only,7,7_acolhida_acolheu_única_avisar,Feeling warmly welcomed,17,0.0784313725490196,0.1779283471851131,0.043153962896223
+2,VR Only,8,8_sinto_sinto sinto_sinto estável_sinto contente,Feeling well and stable,17,0.0686274509803921,0.1565560727712873,0.0379704249628178
+2,VR Only,9,9_fantástico_experiência_experiência sinto_sinto positivo,VR as a positive and enriching experience,17,0.0,0.0,0.0
+3,Control,-1,-1_tranquilidade_às_fácil_simpático,Unassigned or mixed content,17,0.1470588235294117,0.2421141900958133,0.0587213164250536
+3,Control,0,0_tranquila_sinto_bocadinho_relaxada,Feeling calmer and more relaxed,17,0.2254901960784313,0.2564526737162417,0.0621989095120074
+3,Control,1,1_filme_gostei_achei_outra vez,Mixed emotional and sensory responses to VR,17,0.0,0.0,0.0
+3,Control,2,2_cirurgia_fazer_pode_vai,Surgical anxiety and coping,17,0.2058823529411764,0.3561435599503628,0.0863775009152259
+3,Control,3,3_perfeito_ótimo sempr_sexta_sempr impecável,Positive appraisal and no complaints,17,0.1176470588235294,0.2186186580488015,0.0530228128744704
+3,Control,4,4_bocadinho_ansiedade_rápido_eventualmente,Waiting-related anxiety,17,0.1470588235294117,0.2939337660486277,0.0712894096678871
+3,Control,5,5_natureza_vídeo_experiência_tranquila,"Immersive nature, serenity, and personal meaning",17,0.0,0.0,0.0
+3,Control,6,6_pessoas_cuidado_faz_tratam,Personalized and compassionate care,17,0.0980392156862745,0.1868862503991004,0.0453265735512424
+3,Control,7,7_acolhida_acolheu_única_avisar,Feeling warmly welcomed,17,0.0588235294117647,0.1660527910387678,0.0402737174636151
+3,Control,8,8_sinto_sinto sinto_sinto estável_sinto contente,Feeling well and stable,17,0.0,0.0,0.0
+3,Control,9,9_fantástico_experiência_experiência sinto_sinto positivo,VR as a positive and enriching experience,17,0.0,0.0,0.0

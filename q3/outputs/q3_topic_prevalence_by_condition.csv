@@ -1,0 +1,33 @@
+condition_number,condition_label,Topic,topic_name,n_sentences,n_condition_sentences,proportion_within_condition
+1,VR Art,-1,-1_melhor_amiga_vai_sítio,9,40,0.225
+1,VR Art,0,0_senti_cinco_cinco estrelas_estrelas,5,40,0.125
+1,VR Art,1,1_acolhida_acolhida acolhida_sentir_acarinhada,1,40,0.025
+1,VR Art,2,2_fantástico_correu_fantásticos_fantástico fantástico,6,40,0.15
+1,VR Art,3,3_cuidado_preocupação_atenção_carinho,3,40,0.075
+1,VR Art,4,4_espera_tempo espera_tempo_ansiedade,3,40,0.075
+1,VR Art,5,5_pessoas_todas_amável_perguntando trataram,1,40,0.025
+1,VR Art,6,6_será_será alguém_alguém_ver será,3,40,0.075
+1,VR Art,7,7_maravilhoso_realçar_realmente_positivo olha,3,40,0.075
+1,VR Art,8,8_exame_meia_fazer_às,3,40,0.075
+1,VR Art,9,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar,2,40,0.05
+1,VR Art,10,10_tratada_tratado tratada_tratado_tratada tratado,1,40,0.025
+2,VR Only,-1,-1_melhor_amiga_vai_sítio,4,31,0.12903225806451613
+2,VR Only,0,0_senti_cinco_cinco estrelas_estrelas,8,31,0.25806451612903225
+2,VR Only,1,1_acolhida_acolhida acolhida_sentir_acarinhada,7,31,0.22580645161290322
+2,VR Only,2,2_fantástico_correu_fantásticos_fantástico fantástico,1,31,0.03225806451612903
+2,VR Only,3,3_cuidado_preocupação_atenção_carinho,3,31,0.0967741935483871
+2,VR Only,4,4_espera_tempo espera_tempo_ansiedade,2,31,0.06451612903225806
+2,VR Only,5,5_pessoas_todas_amável_perguntando trataram,2,31,0.06451612903225806
+2,VR Only,6,6_será_será alguém_alguém_ver será,2,31,0.06451612903225806
+2,VR Only,8,8_exame_meia_fazer_às,1,31,0.03225806451612903
+2,VR Only,10,10_tratada_tratado tratada_tratado_tratada tratado,1,31,0.03225806451612903
+3,Control,-1,-1_melhor_amiga_vai_sítio,12,29,0.41379310344827586
+3,Control,0,0_senti_cinco_cinco estrelas_estrelas,1,29,0.034482758620689655
+3,Control,1,1_acolhida_acolhida acolhida_sentir_acarinhada,2,29,0.06896551724137931
+3,Control,2,2_fantástico_correu_fantásticos_fantástico fantástico,3,29,0.10344827586206896
+3,Control,3,3_cuidado_preocupação_atenção_carinho,1,29,0.034482758620689655
+3,Control,4,4_espera_tempo espera_tempo_ansiedade,2,29,0.06896551724137931
+3,Control,5,5_pessoas_todas_amável_perguntando trataram,3,29,0.10344827586206896
+3,Control,7,7_maravilhoso_realçar_realmente_positivo olha,1,29,0.034482758620689655
+3,Control,9,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar,2,29,0.06896551724137931
+3,Control,10,10_tratada_tratado tratada_tratado_tratada tratado,2,29,0.06896551724137931

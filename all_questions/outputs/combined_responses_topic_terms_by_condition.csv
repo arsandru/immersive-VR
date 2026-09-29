@@ -1,0 +1,29 @@
+Topic,Words,Frequency,Class,Human_Label
+-1,"agora, tentar, cinco estrelas, estrelas, cinco",12,VR Only,Unassigned or mixed content
+0,"relaxada, bocadinho, calma, sensação, tranquila",7,VR Only,Feeling calmer and more relaxed
+1,"despachar, quero despachar, daí, barulho, caso",1,VR Only,Mixed emotional and sensory responses to VR
+2,"pode, pode depressa, depressa, cirurgia, meia",3,VR Only,Surgical anxiety and coping
+3,"impecável, impecável sexta, vez perfeito, sexta vez, sexta",2,VR Only,Positive appraisal and no complaints
+4,"acabe, desjo acabe, tanto desjo, desjo, bocadinho agitada",2,VR Only,Waiting-related anxiety
+5,"natureza, experiência, tranquila, vídeo, imagens",6,VR Only,"Immersive nature, serenity, and personal meaning"
+6,"faz sentir, faz, acolhimento, sentir, pessoas",2,VR Only,Personalized and compassionate care
+7,"acolhida, única acolhida, pedem, pedem autorização, positivo forma",3,VR Only,Feeling warmly welcomed
+8,"sinto, estável, estável sinto, fiquei sinto, sinto estável",3,VR Only,Feeling well and stable
+-1,"será, às vezes, vezes, às, será alguém",7,VR Art,Unassigned or mixed content
+0,"tranquila, bocadinho, sinto, calma, pouco",8,VR Art,Feeling calmer and more relaxed
+1,"filme, gostei, outra vez, achei, ar",9,VR Art,Mixed emotional and sensory responses to VR
+2,"hoje, aí, manhã, exame, espera",1,VR Art,Surgical anxiety and coping
+3,"prejudicou melhorou, prejudicou, igual mesma, melhorou, mesma prejudicou",3,VR Art,Positive appraisal and no complaints
+4,"eventualmente, mim, estaria entregue, aconteceu estive, seria",1,VR Art,Waiting-related anxiety
+5,"natureza, sair, fez, estamos, sentimento",2,VR Art,"Immersive nature, serenity, and personal meaning"
+6,"cuidado, quero referenciar, explicar, atenção cuidado, importantes",1,VR Art,Personalized and compassionate care
+7,"tratada igual, igual, tratada, acolhida, colocar procedimentos",1,VR Art,Feeling warmly welcomed
+8,"contente reclamar, contente, reclamar, sinto contente, sinto",2,VR Art,Feeling well and stable
+9,"fantástico, experiência, valia fantástico, acontecer embranhada, rica conheço",4,VR Art,VR as a positive and enriching experience
+-1,"tranquilidade, fácil, traz tranquilidade, nadar, pôs",6,Control,Unassigned or mixed content
+0,"tranquila, sinto, relaxada, bocadinho, estive",9,Control,Feeling calmer and more relaxed
+2,"cirurgia, fazer, sei, vai, sou",5,Control,Surgical anxiety and coping
+3,"queixa fantásticos, ótimo sempr, sempr, razão queixa, razão",4,Control,Positive appraisal and no complaints
+4,"ansiedade, aumenta, rápido, bocadinho, ansiosa",5,Control,Waiting-related anxiety
+6,"pessoas, pacientes, cuidado, tratam, humana",4,Control,Personalized and compassionate care
+7,"acolheu, acolhida gente, gente acolheu, acolhida, gente",2,Control,Feeling warmly welcomed

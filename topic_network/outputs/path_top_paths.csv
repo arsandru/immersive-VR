@@ -1,0 +1,76 @@
+scope,target_label,condition,path,n_steps,probability
+within_response,Calm and relaxation,VR Art,Feeling well and stable > Calm and relaxation,1,0.046283309957924255
+within_response,Calm and relaxation,VR Art,No perceived change and brief appraisals > Calm and relaxation,1,0.03499469777306468
+within_response,Calm and relaxation,VR Art,Movement and sense of place > Calm and relaxation,1,0.02571953459889774
+within_response,Calm and relaxation,VR Art,Anxiety and nervousness > Calm and relaxation,1,0.022774327122153205
+within_response,Calm and relaxation,VR Art,Positive appraisal and optimism > Compassionate and professional care > Calm and relaxation,2,0.019212775247957087
+within_response,Calm and relaxation,VR Only,Feeling well and stable > Calm and relaxation,1,0.06571087216248506
+within_response,Calm and relaxation,VR Only,Compassionate and professional care > Subjective emotional and experiential effects > Calm and relaxation,2,0.008485970596662921
+within_response,Calm and relaxation,VR Only,Anxiety and nervousness > Nature imagery and sensory responses > Calm and relaxation,2,0.008250294653380478
+within_response,Calm and relaxation,VR Only,Feeling welcomed > Calm and relaxation,1,0.005973715651135005
+within_response,Calm and relaxation,VR Only,Feeling welcomed > Compassionate and professional care > Subjective emotional and experiential effects > Calm and relaxation,3,0.0057485607267716565
+within_response,Calm and relaxation,Control,Compassionate and professional care > Calm and relaxation,1,0.055384615384615386
+within_response,Calm and relaxation,Control,Anxiety and nervousness > Calm and relaxation,1,0.04292682926829268
+within_response,Calm and relaxation,Control,Compassionate and professional care > Surgical concerns and coping > Calm and relaxation,2,0.016381365113759483
+within_response,Calm and relaxation,Control,Subjective emotional and experiential effects > Calm and relaxation,1,0.0162962962962963
+within_response,Calm and relaxation,Control,Feeling well and stable > Calm and relaxation,1,0.014193548387096773
+within_response,Subjective emotional and experiential effects,VR Art,Calm and relaxation > Subjective emotional and experiential effects,1,0.06270996640537514
+within_response,Subjective emotional and experiential effects,VR Art,Calm and relaxation > Nature imagery and sensory responses > Subjective emotional and experiential effects,2,0.02738040786713563
+within_response,Subjective emotional and experiential effects,VR Art,Nature imagery and sensory responses > Subjective emotional and experiential effects,1,0.023350630096367682
+within_response,Subjective emotional and experiential effects,VR Art,Calm and relaxation > Waiting experience > Subjective emotional and experiential effects,2,0.016258139438430595
+within_response,Subjective emotional and experiential effects,VR Art,Calm and relaxation > Movement and sense of place > Nature imagery and sensory responses > Subjective emotional and experiential effects,3,0.015811221444402265
+within_response,Subjective emotional and experiential effects,VR Only,Calm and relaxation > Nature imagery and sensory responses > Subjective emotional and experiential effects,2,0.06098967820279299
+within_response,Subjective emotional and experiential effects,VR Only,Calm and relaxation > Subjective emotional and experiential effects,1,0.04753086419753088
+within_response,Subjective emotional and experiential effects,VR Only,Compassionate and professional care > Subjective emotional and experiential effects,1,0.0369718309859155
+within_response,Subjective emotional and experiential effects,VR Only,Feeling welcomed > Compassionate and professional care > Subjective emotional and experiential effects,2,0.02504543389368469
+within_response,Subjective emotional and experiential effects,VR Only,No perceived change and brief appraisals > Subjective emotional and experiential effects,1,0.0147887323943662
+within_response,Subjective emotional and experiential effects,Control,Calm and relaxation > Subjective emotional and experiential effects,1,0.048415492957746484
+within_response,Subjective emotional and experiential effects,Control,Compassionate and professional care > Subjective emotional and experiential effects,1,0.04326923076923077
+within_response,Subjective emotional and experiential effects,Control,Waiting experience > Subjective emotional and experiential effects,1,0.021516393442622954
+within_response,Subjective emotional and experiential effects,Control,No perceived change and brief appraisals > Subjective emotional and experiential effects,1,0.020220588235294122
+within_response,Subjective emotional and experiential effects,Control,Positive appraisal and optimism > Subjective emotional and experiential effects,1,0.019366197183098594
+within_response,Surgical concerns and coping,VR Art,Calm and relaxation > Surgical concerns and coping,1,0.03373586352309758
+within_response,Surgical concerns and coping,VR Art,Calm and relaxation > Waiting experience > Surgical concerns and coping,2,0.016697548612442235
+within_response,Surgical concerns and coping,VR Art,Waiting experience > Surgical concerns and coping,1,0.014014014014014017
+within_response,Surgical concerns and coping,VR Art,Positive appraisal and optimism > Compassionate and professional care > Surgical concerns and coping,2,0.011943076505486839
+within_response,Surgical concerns and coping,VR Art,Compassionate and professional care > Surgical concerns and coping,1,0.011658717541070484
+within_response,Surgical concerns and coping,VR Only,Calm and relaxation > Nature imagery and sensory responses > Surgical concerns and coping,2,0.03194697429670109
+within_response,Surgical concerns and coping,VR Only,Anxiety and nervousness > Surgical concerns and coping,1,0.030882352941176465
+within_response,Surgical concerns and coping,VR Only,Feeling well and stable > Anxiety and nervousness > Surgical concerns and coping,2,0.01826375711574952
+within_response,Surgical concerns and coping,VR Only,No perceived change and brief appraisals > Surgical concerns and coping,1,0.007746478873239438
+within_response,Surgical concerns and coping,VR Only,Calm and relaxation > No perceived change and brief appraisals > Surgical concerns and coping,2,0.007363936706659715
+within_response,Surgical concerns and coping,Control,Calm and relaxation > Surgical concerns and coping,1,0.044265593561368215
+within_response,Surgical concerns and coping,Control,Compassionate and professional care > Surgical concerns and coping,1,0.039560439560439566
+within_response,Surgical concerns and coping,Control,Anxiety and nervousness > Surgical concerns and coping,1,0.030662020905923338
+within_response,Surgical concerns and coping,Control,Subjective emotional and experiential effects > Surgical concerns and coping,1,0.022222222222222227
+within_response,Surgical concerns and coping,Control,No perceived change and brief appraisals > Surgical concerns and coping,1,0.018487394957983197
+across_questions,Calm and relaxation,VR Art,Feeling well and stable > Calm and relaxation,1,0.10731707317073175
+across_questions,Calm and relaxation,VR Art,Nature imagery and sensory responses > Movement and sense of place > Calm and relaxation,2,0.06897300230633566
+across_questions,Calm and relaxation,VR Art,Feeling well and stable > No perceived change and brief appraisals > Calm and relaxation,2,0.036945221911235525
+across_questions,Calm and relaxation,VR Art,Nature imagery and sensory responses > Subjective emotional and experiential effects > Calm and relaxation,2,0.035327635327635346
+across_questions,Calm and relaxation,VR Art,Feeling well and stable > Positive appraisal and optimism > Compassionate and professional care > Calm and relaxation,3,0.011855688140812549
+across_questions,Calm and relaxation,VR Only,Feeling well and stable > Calm and relaxation,1,0.3360655737704918
+across_questions,Calm and relaxation,VR Only,Subjective emotional and experiential effects > Calm and relaxation,1,0.013613861386138616
+across_questions,Calm and relaxation,VR Only,No perceived change and brief appraisals > Feeling well and stable > Calm and relaxation,2,0.011409633677393241
+across_questions,Calm and relaxation,VR Only,Anxiety and nervousness > Nature imagery and sensory responses > Calm and relaxation,2,0.005843958712811174
+across_questions,Calm and relaxation,VR Only,Feeling well and stable > Anxiety and nervousness > Nature imagery and sensory responses > Calm and relaxation,3,0.004215314481371995
+across_questions,Calm and relaxation,Control,Anxiety and nervousness > Calm and relaxation,1,0.13770491803278692
+across_questions,Calm and relaxation,Control,Feeling well and stable > Calm and relaxation,1,0.035483870967741936
+across_questions,Calm and relaxation,Control,Anxiety and nervousness > Surgical concerns and coping > Calm and relaxation,2,0.024572149162313105
+across_questions,Calm and relaxation,Control,Compassionate and professional care > Calm and relaxation,1,0.023076923076923078
+across_questions,Calm and relaxation,Control,No perceived change and brief appraisals > Anxiety and nervousness > Calm and relaxation,2,0.014850530376084867
+across_questions,Compassionate and professional care,VR Art,Calm and relaxation > Compassionate and professional care,1,0.038630377524143986
+across_questions,Compassionate and professional care,VR Art,Calm and relaxation > Positive appraisal and optimism > Compassionate and professional care,2,0.01978629092700058
+across_questions,Compassionate and professional care,VR Art,Feeling well and stable > Positive appraisal and optimism > Compassionate and professional care,2,0.01616684746474438
+across_questions,Compassionate and professional care,VR Art,Calm and relaxation > Subjective emotional and experiential effects > Compassionate and professional care,2,0.014784465472203254
+across_questions,Compassionate and professional care,VR Art,Nature imagery and sensory responses > Compassionate and professional care,1,0.014221073044602461
+across_questions,Compassionate and professional care,VR Only,Calm and relaxation > Compassionate and professional care,1,0.0690537084398977
+across_questions,Compassionate and professional care,VR Only,Calm and relaxation > Feeling welcomed > Compassionate and professional care,2,0.04677831862057586
+across_questions,Compassionate and professional care,VR Only,Waiting experience > Compassionate and professional care,1,0.020872865275142313
+across_questions,Compassionate and professional care,VR Only,Feeling well and stable > Calm and relaxation > Compassionate and professional care,2,0.0206280659091862
+across_questions,Compassionate and professional care,VR Only,Subjective emotional and experiential effects > Compassionate and professional care,1,0.0180547466511357
+across_questions,Compassionate and professional care,Control,Calm and relaxation > Compassionate and professional care,1,0.11879139072847682
+across_questions,Compassionate and professional care,Control,No perceived change and brief appraisals > Compassionate and professional care,1,0.026960784313725495
+across_questions,Compassionate and professional care,Control,Anxiety and nervousness > Calm and relaxation > Compassionate and professional care,2,0.023368798176093806
+across_questions,Compassionate and professional care,Control,Anxiety and nervousness > Positive appraisal and optimism > Compassionate and professional care,2,0.022313296903460844
+across_questions,Compassionate and professional care,Control,Positive appraisal and optimism > Compassionate and professional care,1,0.016203703703703706

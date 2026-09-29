@@ -1,0 +1,35 @@
+Topic,Words,Frequency,Class,Human_Label
+0,"tranquila, bocadinho, calma, bocadinho calma, relaxada",20,Q2,Calm and relaxation
+2,"diferença, bocadinho diferença, bocadinho, diferente, dimensão completamente",9,Q2,Subjective emotional and experiential effects
+3,"cirurgia, óculos, tentar, agora, gente agora",4,Q2,Surgical concerns and coping
+4,"quero despachar, despachar, sítio, ali, quero",4,Q2,Movement and sense of place
+5,"barulho, água, barulho água, ouvir, medo",7,Q2,Nature imagery and sensory responses
+6,"eventualmente, tempo, melhor, espera, tempo espera",6,Q2,Waiting experience
+7,"sinto positivo, positivo, sinto, manter, positiva",1,Q2,Positive appraisal and optimism
+8,"mesma prejudicou, seja importante, prejudicou melhorou, importante lá, significativo pensamento",7,Q2,No perceived change and brief appraisals
+9,"ansiedade, nervosismo, agitada, ansiedade nervosismo, aumenta",4,Q2,Anxiety and nervousness
+10,"quentinha, sentir quentinha, sentir, sinto, sinto sinto",1,Q2,Feeling well and stable
+-1,"será, alguém, será alguém, olha, alguém ver",4,Q3,Unassigned or mixed content
+0,"segura, fantástico, tranquilidade, felicidade, primeira operação",8,Q3,Calm and relaxation
+1,"pessoas, cuidado, simpático, todas, tratada",32,Q3,Compassionate and professional care
+2,"senti, caráter, açougue, olharam perguntaram, dá caráter",4,Q3,Subjective emotional and experiential effects
+3,"exame, meia, cirurgia, fazer, às",7,Q3,Surgical concerns and coping
+4,"outro sítio, outro, sítio, melhor, sítios grande",5,Q3,Movement and sense of place
+6,"espera, tempo espera, tempo, rápido, passei tempo",6,Q3,Waiting experience
+7,"correu, positivo, ótimo normalmente, razão, reclamar",13,Q3,Positive appraisal and optimism
+8,"estrelas, cinco, cinco estrelas, usar hoje, sempr pode",7,Q3,No perceived change and brief appraisals
+9,"ansiedade, preocupação falei, tal início, timings tinha, tinha compreendido",2,Q3,Anxiety and nervousness
+10,"cheguei, cuidada, cuidada desde, desde cheguei, contente",2,Q3,Feeling well and stable
+11,"acolhida, acolhimento, acolhida acolhida, sentir, acarinhada",10,Q3,Feeling welcomed
+-1,"família, será, será alguém, alguém, olha",1,Q1,Unassigned or mixed content
+0,"tranquila, relaxada, calma, sinto, bocadinho",55,Q1,Calm and relaxation
+1,"próxima, mão, desta, doente afastei, doente",5,Q1,Compassionate and professional care
+2,"mim, tipo, diferente, vídeo, pôs",20,Q1,Subjective emotional and experiential effects
+3,"cirurgia, vai, pode depressa, sou, depressa",14,Q1,Surgical concerns and coping
+4,"cima, abaixo, ir, trabalho, sair",15,Q1,Movement and sense of place
+5,"natureza, ar, água, mar, riacho",16,Q1,Nature imagery and sensory responses
+6,"tempo, agora, voltei, minutos, realidade",11,Q1,Waiting experience
+7,"positiva, manter, manter positiva, dentro, dentro circunstâncias",7,Q1,Positive appraisal and optimism
+8,"cinco, cinco estrelas, estrelas, mesma, mudou",6,Q1,No perceived change and brief appraisals
+9,"ansiedade, ansiosa, ansiosa bocadinho, bocadinho, durante",7,Q1,Anxiety and nervousness
+10,"sinto, sinto sinto, disposta sinto, estável, estável sinto",9,Q1,Feeling well and stable

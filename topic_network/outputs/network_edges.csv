@@ -1,0 +1,325 @@
+graph,scope,condition,source,target,source_label,target_label,count,probability
+flow,within_response,VR Art,0,1,Calm and relaxation,Compassionate and professional care,1.0,0.07692307692307693
+flow,within_response,VR Art,0,2,Calm and relaxation,Subjective emotional and experiential effects,2.0,0.15384615384615385
+flow,within_response,VR Art,0,3,Calm and relaxation,Surgical concerns and coping,1.0,0.07692307692307693
+flow,within_response,VR Art,0,4,Calm and relaxation,Movement and sense of place,4.0,0.3076923076923077
+flow,within_response,VR Art,0,5,Calm and relaxation,Nature imagery and sensory responses,3.0,0.23076923076923078
+flow,within_response,VR Art,0,6,Calm and relaxation,Waiting experience,2.0,0.15384615384615385
+flow,within_response,VR Art,1,0,Compassionate and professional care,Calm and relaxation,1.0,0.25
+flow,within_response,VR Art,1,3,Compassionate and professional care,Surgical concerns and coping,1.0,0.25
+flow,within_response,VR Art,1,4,Compassionate and professional care,Movement and sense of place,1.0,0.25
+flow,within_response,VR Art,1,6,Compassionate and professional care,Waiting experience,1.0,0.25
+flow,within_response,VR Art,2,0,Subjective emotional and experiential effects,Calm and relaxation,2.0,0.5
+flow,within_response,VR Art,2,4,Subjective emotional and experiential effects,Movement and sense of place,1.0,0.25
+flow,within_response,VR Art,2,7,Subjective emotional and experiential effects,Positive appraisal and optimism,1.0,0.25
+flow,within_response,VR Art,3,1,Surgical concerns and coping,Compassionate and professional care,1.0,0.25
+flow,within_response,VR Art,3,6,Surgical concerns and coping,Waiting experience,2.0,0.5
+flow,within_response,VR Art,3,7,Surgical concerns and coping,Positive appraisal and optimism,1.0,0.25
+flow,within_response,VR Art,4,0,Movement and sense of place,Calm and relaxation,2.0,0.3333333333333333
+flow,within_response,VR Art,4,5,Movement and sense of place,Nature imagery and sensory responses,3.0,0.5
+flow,within_response,VR Art,4,8,Movement and sense of place,No perceived change and brief appraisals,1.0,0.16666666666666666
+flow,within_response,VR Art,5,2,Nature imagery and sensory responses,Subjective emotional and experiential effects,2.0,0.3333333333333333
+flow,within_response,VR Art,5,4,Nature imagery and sensory responses,Movement and sense of place,3.0,0.5
+flow,within_response,VR Art,5,6,Nature imagery and sensory responses,Waiting experience,1.0,0.16666666666666666
+flow,within_response,VR Art,6,0,Waiting experience,Calm and relaxation,1.0,0.14285714285714285
+flow,within_response,VR Art,6,1,Waiting experience,Compassionate and professional care,1.0,0.14285714285714285
+flow,within_response,VR Art,6,2,Waiting experience,Subjective emotional and experiential effects,2.0,0.2857142857142857
+flow,within_response,VR Art,6,3,Waiting experience,Surgical concerns and coping,2.0,0.2857142857142857
+flow,within_response,VR Art,6,5,Waiting experience,Nature imagery and sensory responses,1.0,0.14285714285714285
+flow,within_response,VR Art,7,1,Positive appraisal and optimism,Compassionate and professional care,2.0,0.6666666666666666
+flow,within_response,VR Art,7,8,Positive appraisal and optimism,No perceived change and brief appraisals,1.0,0.3333333333333333
+flow,within_response,VR Art,8,0,No perceived change and brief appraisals,Calm and relaxation,1.0,0.3333333333333333
+flow,within_response,VR Art,8,6,No perceived change and brief appraisals,Waiting experience,1.0,0.3333333333333333
+flow,within_response,VR Art,8,11,No perceived change and brief appraisals,Feeling welcomed,1.0,0.3333333333333333
+flow,within_response,VR Art,9,0,Anxiety and nervousness,Calm and relaxation,1.0,1.0
+flow,within_response,VR Art,10,0,Feeling well and stable,Calm and relaxation,1.0,0.5
+flow,within_response,VR Art,10,7,Feeling well and stable,Positive appraisal and optimism,1.0,0.5
+flow,across_questions,VR Art,0,1,Calm and relaxation,Compassionate and professional care,1.0,0.05263157894736842
+flow,across_questions,VR Art,0,2,Calm and relaxation,Subjective emotional and experiential effects,3.0,0.15789473684210525
+flow,across_questions,VR Art,0,3,Calm and relaxation,Surgical concerns and coping,1.0,0.05263157894736842
+flow,across_questions,VR Art,0,4,Calm and relaxation,Movement and sense of place,4.0,0.21052631578947367
+flow,across_questions,VR Art,0,5,Calm and relaxation,Nature imagery and sensory responses,3.0,0.15789473684210525
+flow,across_questions,VR Art,0,6,Calm and relaxation,Waiting experience,3.0,0.15789473684210525
+flow,across_questions,VR Art,0,7,Calm and relaxation,Positive appraisal and optimism,1.0,0.05263157894736842
+flow,across_questions,VR Art,0,8,Calm and relaxation,No perceived change and brief appraisals,1.0,0.05263157894736842
+flow,across_questions,VR Art,0,9,Calm and relaxation,Anxiety and nervousness,1.0,0.05263157894736842
+flow,across_questions,VR Art,0,10,Calm and relaxation,Feeling well and stable,1.0,0.05263157894736842
+flow,across_questions,VR Art,1,0,Compassionate and professional care,Calm and relaxation,1.0,0.25
+flow,across_questions,VR Art,1,3,Compassionate and professional care,Surgical concerns and coping,1.0,0.25
+flow,across_questions,VR Art,1,4,Compassionate and professional care,Movement and sense of place,1.0,0.25
+flow,across_questions,VR Art,1,6,Compassionate and professional care,Waiting experience,1.0,0.25
+flow,across_questions,VR Art,2,0,Subjective emotional and experiential effects,Calm and relaxation,3.0,0.42857142857142855
+flow,across_questions,VR Art,2,1,Subjective emotional and experiential effects,Compassionate and professional care,1.0,0.14285714285714285
+flow,across_questions,VR Art,2,4,Subjective emotional and experiential effects,Movement and sense of place,1.0,0.14285714285714285
+flow,across_questions,VR Art,2,7,Subjective emotional and experiential effects,Positive appraisal and optimism,1.0,0.14285714285714285
+flow,across_questions,VR Art,2,8,Subjective emotional and experiential effects,No perceived change and brief appraisals,1.0,0.14285714285714285
+flow,across_questions,VR Art,3,1,Surgical concerns and coping,Compassionate and professional care,1.0,0.16666666666666666
+flow,across_questions,VR Art,3,6,Surgical concerns and coping,Waiting experience,3.0,0.5
+flow,across_questions,VR Art,3,7,Surgical concerns and coping,Positive appraisal and optimism,2.0,0.3333333333333333
+flow,across_questions,VR Art,4,0,Movement and sense of place,Calm and relaxation,3.0,0.42857142857142855
+flow,across_questions,VR Art,4,5,Movement and sense of place,Nature imagery and sensory responses,3.0,0.42857142857142855
+flow,across_questions,VR Art,4,8,Movement and sense of place,No perceived change and brief appraisals,1.0,0.14285714285714285
+flow,across_questions,VR Art,5,1,Nature imagery and sensory responses,Compassionate and professional care,1.0,0.125
+flow,across_questions,VR Art,5,2,Nature imagery and sensory responses,Subjective emotional and experiential effects,2.0,0.25
+flow,across_questions,VR Art,5,4,Nature imagery and sensory responses,Movement and sense of place,4.0,0.5
+flow,across_questions,VR Art,5,6,Nature imagery and sensory responses,Waiting experience,1.0,0.125
+flow,across_questions,VR Art,6,0,Waiting experience,Calm and relaxation,1.0,0.125
+flow,across_questions,VR Art,6,1,Waiting experience,Compassionate and professional care,1.0,0.125
+flow,across_questions,VR Art,6,2,Waiting experience,Subjective emotional and experiential effects,2.0,0.25
+flow,across_questions,VR Art,6,3,Waiting experience,Surgical concerns and coping,3.0,0.375
+flow,across_questions,VR Art,6,5,Waiting experience,Nature imagery and sensory responses,1.0,0.125
+flow,across_questions,VR Art,7,1,Positive appraisal and optimism,Compassionate and professional care,2.0,0.6666666666666666
+flow,across_questions,VR Art,7,8,Positive appraisal and optimism,No perceived change and brief appraisals,1.0,0.3333333333333333
+flow,across_questions,VR Art,8,0,No perceived change and brief appraisals,Calm and relaxation,2.0,0.4
+flow,across_questions,VR Art,8,6,No perceived change and brief appraisals,Waiting experience,1.0,0.2
+flow,across_questions,VR Art,8,7,No perceived change and brief appraisals,Positive appraisal and optimism,1.0,0.2
+flow,across_questions,VR Art,8,11,No perceived change and brief appraisals,Feeling welcomed,1.0,0.2
+flow,across_questions,VR Art,9,0,Anxiety and nervousness,Calm and relaxation,1.0,1.0
+flow,across_questions,VR Art,10,0,Feeling well and stable,Calm and relaxation,1.0,0.3333333333333333
+flow,across_questions,VR Art,10,7,Feeling well and stable,Positive appraisal and optimism,1.0,0.3333333333333333
+flow,across_questions,VR Art,10,8,Feeling well and stable,No perceived change and brief appraisals,1.0,0.3333333333333333
+semantic,centroids,VR Art,0,2,Calm and relaxation,Subjective emotional and experiential effects,,0.8738376401027375
+semantic,centroids,VR Art,0,5,Calm and relaxation,Nature imagery and sensory responses,,0.8333968393737113
+semantic,centroids,VR Art,0,7,Calm and relaxation,Positive appraisal and optimism,,0.8590118350769783
+semantic,centroids,VR Art,0,10,Calm and relaxation,Feeling well and stable,,0.8557596894956592
+semantic,centroids,VR Art,0,3,Calm and relaxation,Surgical concerns and coping,,0.7888837791389913
+semantic,centroids,VR Art,0,9,Calm and relaxation,Anxiety and nervousness,,0.6985806907042279
+semantic,centroids,VR Art,0,6,Calm and relaxation,Waiting experience,,0.8409126636969089
+semantic,centroids,VR Art,1,6,Compassionate and professional care,Waiting experience,,0.8051268127017174
+semantic,centroids,VR Art,1,2,Compassionate and professional care,Subjective emotional and experiential effects,,0.8224108798070751
+semantic,centroids,VR Art,1,11,Compassionate and professional care,Feeling welcomed,,0.7194487069555705
+semantic,centroids,VR Art,1,7,Compassionate and professional care,Positive appraisal and optimism,,0.8190020188389536
+semantic,centroids,VR Art,2,5,Subjective emotional and experiential effects,Nature imagery and sensory responses,,0.8528121843751444
+semantic,centroids,VR Art,2,11,Subjective emotional and experiential effects,Feeling welcomed,,0.6672469234358475
+semantic,centroids,VR Art,2,4,Subjective emotional and experiential effects,Movement and sense of place,,0.8005877863384159
+semantic,centroids,VR Art,2,10,Subjective emotional and experiential effects,Feeling well and stable,,0.7478689873405006
+semantic,centroids,VR Art,2,3,Subjective emotional and experiential effects,Surgical concerns and coping,,0.8034145360430371
+semantic,centroids,VR Art,2,9,Subjective emotional and experiential effects,Anxiety and nervousness,,0.678494876455575
+semantic,centroids,VR Art,2,6,Subjective emotional and experiential effects,Waiting experience,,0.850092052343668
+semantic,centroids,VR Art,3,6,Surgical concerns and coping,Waiting experience,,0.830827075073155
+semantic,centroids,VR Art,4,6,Movement and sense of place,Waiting experience,,0.8623292636215903
+semantic,centroids,VR Art,4,5,Movement and sense of place,Nature imagery and sensory responses,,0.8518152597571248
+semantic,centroids,VR Art,4,8,Movement and sense of place,No perceived change and brief appraisals,,0.7998897589875943
+semantic,centroids,VR Art,4,11,Movement and sense of place,Feeling welcomed,,0.6530305611355032
+semantic,centroids,VR Art,6,8,Waiting experience,No perceived change and brief appraisals,,0.8166315538312765
+semantic,centroids,VR Art,6,9,Waiting experience,Anxiety and nervousness,,0.7671194613053209
+semantic,centroids,VR Art,7,10,Positive appraisal and optimism,Feeling well and stable,,0.8972549465284211
+semantic,centroids,VR Art,7,8,Positive appraisal and optimism,No perceived change and brief appraisals,,0.7960514205541074
+flow,within_response,VR Only,0,2,Calm and relaxation,Subjective emotional and experiential effects,1.0,0.14285714285714285
+flow,within_response,VR Only,0,5,Calm and relaxation,Nature imagery and sensory responses,4.0,0.5714285714285714
+flow,within_response,VR Only,0,7,Calm and relaxation,Positive appraisal and optimism,1.0,0.14285714285714285
+flow,within_response,VR Only,0,8,Calm and relaxation,No perceived change and brief appraisals,1.0,0.14285714285714285
+flow,within_response,VR Only,1,2,Compassionate and professional care,Subjective emotional and experiential effects,2.0,0.3333333333333333
+flow,within_response,VR Only,1,7,Compassionate and professional care,Positive appraisal and optimism,1.0,0.16666666666666666
+flow,within_response,VR Only,1,8,Compassionate and professional care,No perceived change and brief appraisals,2.0,0.3333333333333333
+flow,within_response,VR Only,1,11,Compassionate and professional care,Feeling welcomed,1.0,0.16666666666666666
+flow,within_response,VR Only,2,0,Subjective emotional and experiential effects,Calm and relaxation,1.0,0.16666666666666666
+flow,within_response,VR Only,2,1,Subjective emotional and experiential effects,Compassionate and professional care,1.0,0.16666666666666666
+flow,within_response,VR Only,2,4,Subjective emotional and experiential effects,Movement and sense of place,1.0,0.16666666666666666
+flow,within_response,VR Only,2,5,Subjective emotional and experiential effects,Nature imagery and sensory responses,1.0,0.16666666666666666
+flow,within_response,VR Only,2,8,Subjective emotional and experiential effects,No perceived change and brief appraisals,1.0,0.16666666666666666
+flow,within_response,VR Only,2,9,Subjective emotional and experiential effects,Anxiety and nervousness,1.0,0.16666666666666666
+flow,within_response,VR Only,3,2,Surgical concerns and coping,Subjective emotional and experiential effects,1.0,0.3333333333333333
+flow,within_response,VR Only,3,8,Surgical concerns and coping,No perceived change and brief appraisals,2.0,0.6666666666666666
+flow,within_response,VR Only,4,5,Movement and sense of place,Nature imagery and sensory responses,1.0,0.5
+flow,within_response,VR Only,4,6,Movement and sense of place,Waiting experience,1.0,0.5
+flow,within_response,VR Only,5,0,Nature imagery and sensory responses,Calm and relaxation,2.0,0.4
+flow,within_response,VR Only,5,2,Nature imagery and sensory responses,Subjective emotional and experiential effects,2.0,0.4
+flow,within_response,VR Only,5,3,Nature imagery and sensory responses,Surgical concerns and coping,1.0,0.2
+flow,within_response,VR Only,6,8,Waiting experience,No perceived change and brief appraisals,1.0,1.0
+flow,within_response,VR Only,8,2,No perceived change and brief appraisals,Subjective emotional and experiential effects,2.0,0.3333333333333333
+flow,within_response,VR Only,8,3,No perceived change and brief appraisals,Surgical concerns and coping,1.0,0.16666666666666666
+flow,within_response,VR Only,8,4,No perceived change and brief appraisals,Movement and sense of place,1.0,0.16666666666666666
+flow,within_response,VR Only,8,9,No perceived change and brief appraisals,Anxiety and nervousness,1.0,0.16666666666666666
+flow,within_response,VR Only,8,10,No perceived change and brief appraisals,Feeling well and stable,1.0,0.16666666666666666
+flow,within_response,VR Only,9,3,Anxiety and nervousness,Surgical concerns and coping,2.0,0.5
+flow,within_response,VR Only,9,5,Anxiety and nervousness,Nature imagery and sensory responses,1.0,0.25
+flow,within_response,VR Only,9,11,Anxiety and nervousness,Feeling welcomed,1.0,0.25
+flow,within_response,VR Only,10,0,Feeling well and stable,Calm and relaxation,1.0,0.5
+flow,within_response,VR Only,10,9,Feeling well and stable,Anxiety and nervousness,1.0,0.5
+flow,within_response,VR Only,11,1,Feeling welcomed,Compassionate and professional care,2.0,1.0
+flow,across_questions,VR Only,0,1,Calm and relaxation,Compassionate and professional care,2.0,0.13333333333333333
+flow,across_questions,VR Only,0,2,Calm and relaxation,Subjective emotional and experiential effects,1.0,0.06666666666666667
+flow,across_questions,VR Only,0,5,Calm and relaxation,Nature imagery and sensory responses,4.0,0.26666666666666666
+flow,across_questions,VR Only,0,6,Calm and relaxation,Waiting experience,1.0,0.06666666666666667
+flow,across_questions,VR Only,0,7,Calm and relaxation,Positive appraisal and optimism,1.0,0.06666666666666667
+flow,across_questions,VR Only,0,8,Calm and relaxation,No perceived change and brief appraisals,2.0,0.13333333333333333
+flow,across_questions,VR Only,0,9,Calm and relaxation,Anxiety and nervousness,1.0,0.06666666666666667
+flow,across_questions,VR Only,0,10,Calm and relaxation,Feeling well and stable,1.0,0.06666666666666667
+flow,across_questions,VR Only,0,11,Calm and relaxation,Feeling welcomed,2.0,0.13333333333333333
+flow,across_questions,VR Only,1,2,Compassionate and professional care,Subjective emotional and experiential effects,2.0,0.3333333333333333
+flow,across_questions,VR Only,1,7,Compassionate and professional care,Positive appraisal and optimism,1.0,0.16666666666666666
+flow,across_questions,VR Only,1,8,Compassionate and professional care,No perceived change and brief appraisals,2.0,0.3333333333333333
+flow,across_questions,VR Only,1,11,Compassionate and professional care,Feeling welcomed,1.0,0.16666666666666666
+flow,across_questions,VR Only,2,0,Subjective emotional and experiential effects,Calm and relaxation,1.0,0.1111111111111111
+flow,across_questions,VR Only,2,1,Subjective emotional and experiential effects,Compassionate and professional care,3.0,0.3333333333333333
+flow,across_questions,VR Only,2,3,Subjective emotional and experiential effects,Surgical concerns and coping,1.0,0.1111111111111111
+flow,across_questions,VR Only,2,4,Subjective emotional and experiential effects,Movement and sense of place,1.0,0.1111111111111111
+flow,across_questions,VR Only,2,5,Subjective emotional and experiential effects,Nature imagery and sensory responses,1.0,0.1111111111111111
+flow,across_questions,VR Only,2,8,Subjective emotional and experiential effects,No perceived change and brief appraisals,1.0,0.1111111111111111
+flow,across_questions,VR Only,2,9,Subjective emotional and experiential effects,Anxiety and nervousness,1.0,0.1111111111111111
+flow,across_questions,VR Only,3,2,Surgical concerns and coping,Subjective emotional and experiential effects,1.0,0.25
+flow,across_questions,VR Only,3,8,Surgical concerns and coping,No perceived change and brief appraisals,2.0,0.5
+flow,across_questions,VR Only,3,11,Surgical concerns and coping,Feeling welcomed,1.0,0.25
+flow,across_questions,VR Only,4,5,Movement and sense of place,Nature imagery and sensory responses,1.0,0.5
+flow,across_questions,VR Only,4,6,Movement and sense of place,Waiting experience,1.0,0.5
+flow,across_questions,VR Only,5,0,Nature imagery and sensory responses,Calm and relaxation,2.0,0.2857142857142857
+flow,across_questions,VR Only,5,2,Nature imagery and sensory responses,Subjective emotional and experiential effects,2.0,0.2857142857142857
+flow,across_questions,VR Only,5,3,Nature imagery and sensory responses,Surgical concerns and coping,1.0,0.14285714285714285
+flow,across_questions,VR Only,5,9,Nature imagery and sensory responses,Anxiety and nervousness,1.0,0.14285714285714285
+flow,across_questions,VR Only,5,11,Nature imagery and sensory responses,Feeling welcomed,1.0,0.14285714285714285
+flow,across_questions,VR Only,6,1,Waiting experience,Compassionate and professional care,1.0,0.5
+flow,across_questions,VR Only,6,8,Waiting experience,No perceived change and brief appraisals,1.0,0.5
+flow,across_questions,VR Only,8,2,No perceived change and brief appraisals,Subjective emotional and experiential effects,2.0,0.2857142857142857
+flow,across_questions,VR Only,8,3,No perceived change and brief appraisals,Surgical concerns and coping,1.0,0.14285714285714285
+flow,across_questions,VR Only,8,4,No perceived change and brief appraisals,Movement and sense of place,1.0,0.14285714285714285
+flow,across_questions,VR Only,8,9,No perceived change and brief appraisals,Anxiety and nervousness,1.0,0.14285714285714285
+flow,across_questions,VR Only,8,10,No perceived change and brief appraisals,Feeling well and stable,1.0,0.14285714285714285
+flow,across_questions,VR Only,8,11,No perceived change and brief appraisals,Feeling welcomed,1.0,0.14285714285714285
+flow,across_questions,VR Only,9,3,Anxiety and nervousness,Surgical concerns and coping,2.0,0.4
+flow,across_questions,VR Only,9,4,Anxiety and nervousness,Movement and sense of place,1.0,0.2
+flow,across_questions,VR Only,9,5,Anxiety and nervousness,Nature imagery and sensory responses,1.0,0.2
+flow,across_questions,VR Only,9,11,Anxiety and nervousness,Feeling welcomed,1.0,0.2
+flow,across_questions,VR Only,10,0,Feeling well and stable,Calm and relaxation,4.0,0.8
+flow,across_questions,VR Only,10,9,Feeling well and stable,Anxiety and nervousness,1.0,0.2
+flow,across_questions,VR Only,11,1,Feeling welcomed,Compassionate and professional care,2.0,1.0
+semantic,centroids,VR Only,0,2,Calm and relaxation,Subjective emotional and experiential effects,,0.8135186037102674
+semantic,centroids,VR Only,0,5,Calm and relaxation,Nature imagery and sensory responses,,0.793547879461468
+semantic,centroids,VR Only,0,11,Calm and relaxation,Feeling welcomed,,0.773206368350959
+semantic,centroids,VR Only,0,1,Calm and relaxation,Compassionate and professional care,,0.7463789842900004
+semantic,centroids,VR Only,0,7,Calm and relaxation,Positive appraisal and optimism,,0.7682634945797834
+semantic,centroids,VR Only,0,10,Calm and relaxation,Feeling well and stable,,0.8556194599887379
+semantic,centroids,VR Only,0,9,Calm and relaxation,Anxiety and nervousness,,0.7855552740439512
+semantic,centroids,VR Only,1,2,Compassionate and professional care,Subjective emotional and experiential effects,,0.7499921724360333
+semantic,centroids,VR Only,1,11,Compassionate and professional care,Feeling welcomed,,0.8083721028605982
+semantic,centroids,VR Only,2,5,Subjective emotional and experiential effects,Nature imagery and sensory responses,,0.7984043936734656
+semantic,centroids,VR Only,2,8,Subjective emotional and experiential effects,No perceived change and brief appraisals,,0.8291818969756289
+semantic,centroids,VR Only,2,4,Subjective emotional and experiential effects,Movement and sense of place,,0.752236085045352
+semantic,centroids,VR Only,2,3,Subjective emotional and experiential effects,Surgical concerns and coping,,0.7588161979834269
+semantic,centroids,VR Only,2,9,Subjective emotional and experiential effects,Anxiety and nervousness,,0.8314425934055928
+semantic,centroids,VR Only,2,6,Subjective emotional and experiential effects,Waiting experience,,0.7642232014641317
+semantic,centroids,VR Only,3,4,Surgical concerns and coping,Movement and sense of place,,0.7558072692726051
+semantic,centroids,VR Only,3,9,Surgical concerns and coping,Anxiety and nervousness,,0.7960680802399387
+semantic,centroids,VR Only,4,8,Movement and sense of place,No perceived change and brief appraisals,,0.7542866962044865
+semantic,centroids,VR Only,5,9,Nature imagery and sensory responses,Anxiety and nervousness,,0.7400826299900398
+semantic,centroids,VR Only,6,8,Waiting experience,No perceived change and brief appraisals,,0.8358707655159396
+semantic,centroids,VR Only,6,9,Waiting experience,Anxiety and nervousness,,0.7658438889234538
+semantic,centroids,VR Only,7,10,Positive appraisal and optimism,Feeling well and stable,,0.8268781532220034
+semantic,centroids,VR Only,7,8,Positive appraisal and optimism,No perceived change and brief appraisals,,0.7664988493827062
+semantic,centroids,VR Only,10,11,Feeling well and stable,Feeling welcomed,,0.8251078567410897
+flow,within_response,Control,0,2,Calm and relaxation,Subjective emotional and experiential effects,1.0,0.16666666666666666
+flow,within_response,Control,0,3,Calm and relaxation,Surgical concerns and coping,1.0,0.16666666666666666
+flow,within_response,Control,0,4,Calm and relaxation,Movement and sense of place,1.0,0.16666666666666666
+flow,within_response,Control,0,5,Calm and relaxation,Nature imagery and sensory responses,1.0,0.16666666666666666
+flow,within_response,Control,0,6,Calm and relaxation,Waiting experience,1.0,0.16666666666666666
+flow,within_response,Control,0,7,Calm and relaxation,Positive appraisal and optimism,1.0,0.16666666666666666
+flow,within_response,Control,1,0,Compassionate and professional care,Calm and relaxation,2.0,0.25
+flow,within_response,Control,1,2,Compassionate and professional care,Subjective emotional and experiential effects,2.0,0.25
+flow,within_response,Control,1,3,Compassionate and professional care,Surgical concerns and coping,2.0,0.25
+flow,within_response,Control,1,6,Compassionate and professional care,Waiting experience,1.0,0.125
+flow,within_response,Control,1,7,Compassionate and professional care,Positive appraisal and optimism,1.0,0.125
+flow,within_response,Control,2,0,Subjective emotional and experiential effects,Calm and relaxation,1.0,0.14285714285714285
+flow,within_response,Control,2,1,Subjective emotional and experiential effects,Compassionate and professional care,1.0,0.14285714285714285
+flow,within_response,Control,2,3,Subjective emotional and experiential effects,Surgical concerns and coping,2.0,0.2857142857142857
+flow,within_response,Control,2,4,Subjective emotional and experiential effects,Movement and sense of place,1.0,0.14285714285714285
+flow,within_response,Control,2,6,Subjective emotional and experiential effects,Waiting experience,2.0,0.2857142857142857
+flow,within_response,Control,3,0,Surgical concerns and coping,Calm and relaxation,2.0,0.3333333333333333
+flow,within_response,Control,3,1,Surgical concerns and coping,Compassionate and professional care,1.0,0.16666666666666666
+flow,within_response,Control,3,4,Surgical concerns and coping,Movement and sense of place,2.0,0.3333333333333333
+flow,within_response,Control,3,8,Surgical concerns and coping,No perceived change and brief appraisals,1.0,0.16666666666666666
+flow,within_response,Control,4,1,Movement and sense of place,Compassionate and professional care,1.0,0.3333333333333333
+flow,within_response,Control,4,3,Movement and sense of place,Surgical concerns and coping,1.0,0.3333333333333333
+flow,within_response,Control,4,7,Movement and sense of place,Positive appraisal and optimism,1.0,0.3333333333333333
+flow,within_response,Control,6,2,Waiting experience,Subjective emotional and experiential effects,2.0,0.4
+flow,within_response,Control,6,7,Waiting experience,Positive appraisal and optimism,1.0,0.2
+flow,within_response,Control,6,8,Waiting experience,No perceived change and brief appraisals,1.0,0.2
+flow,within_response,Control,6,10,Waiting experience,Feeling well and stable,1.0,0.2
+flow,within_response,Control,7,1,Positive appraisal and optimism,Compassionate and professional care,2.0,0.3333333333333333
+flow,within_response,Control,7,2,Positive appraisal and optimism,Subjective emotional and experiential effects,1.0,0.16666666666666666
+flow,within_response,Control,7,3,Positive appraisal and optimism,Surgical concerns and coping,1.0,0.16666666666666666
+flow,within_response,Control,7,4,Positive appraisal and optimism,Movement and sense of place,1.0,0.16666666666666666
+flow,within_response,Control,7,6,Positive appraisal and optimism,Waiting experience,1.0,0.16666666666666666
+flow,within_response,Control,8,1,No perceived change and brief appraisals,Compassionate and professional care,1.0,0.25
+flow,within_response,Control,8,2,No perceived change and brief appraisals,Subjective emotional and experiential effects,1.0,0.25
+flow,within_response,Control,8,3,No perceived change and brief appraisals,Surgical concerns and coping,1.0,0.25
+flow,within_response,Control,8,9,No perceived change and brief appraisals,Anxiety and nervousness,1.0,0.25
+flow,within_response,Control,9,0,Anxiety and nervousness,Calm and relaxation,1.0,0.3333333333333333
+flow,within_response,Control,9,3,Anxiety and nervousness,Surgical concerns and coping,1.0,0.3333333333333333
+flow,within_response,Control,9,7,Anxiety and nervousness,Positive appraisal and optimism,1.0,0.3333333333333333
+flow,within_response,Control,10,0,Feeling well and stable,Calm and relaxation,1.0,0.5
+flow,within_response,Control,10,3,Feeling well and stable,Surgical concerns and coping,1.0,0.5
+flow,across_questions,Control,0,1,Calm and relaxation,Compassionate and professional care,4.0,0.2857142857142857
+flow,across_questions,Control,0,2,Calm and relaxation,Subjective emotional and experiential effects,2.0,0.14285714285714285
+flow,across_questions,Control,0,3,Calm and relaxation,Surgical concerns and coping,1.0,0.07142857142857142
+flow,across_questions,Control,0,4,Calm and relaxation,Movement and sense of place,1.0,0.07142857142857142
+flow,across_questions,Control,0,5,Calm and relaxation,Nature imagery and sensory responses,1.0,0.07142857142857142
+flow,across_questions,Control,0,6,Calm and relaxation,Waiting experience,3.0,0.21428571428571427
+flow,across_questions,Control,0,7,Calm and relaxation,Positive appraisal and optimism,1.0,0.07142857142857142
+flow,across_questions,Control,0,11,Calm and relaxation,Feeling welcomed,1.0,0.07142857142857142
+flow,across_questions,Control,1,0,Compassionate and professional care,Calm and relaxation,2.0,0.25
+flow,across_questions,Control,1,2,Compassionate and professional care,Subjective emotional and experiential effects,2.0,0.25
+flow,across_questions,Control,1,3,Compassionate and professional care,Surgical concerns and coping,2.0,0.25
+flow,across_questions,Control,1,6,Compassionate and professional care,Waiting experience,1.0,0.125
+flow,across_questions,Control,1,7,Compassionate and professional care,Positive appraisal and optimism,1.0,0.125
+flow,across_questions,Control,2,0,Subjective emotional and experiential effects,Calm and relaxation,1.0,0.1111111111111111
+flow,across_questions,Control,2,1,Subjective emotional and experiential effects,Compassionate and professional care,2.0,0.2222222222222222
+flow,across_questions,Control,2,3,Subjective emotional and experiential effects,Surgical concerns and coping,2.0,0.2222222222222222
+flow,across_questions,Control,2,4,Subjective emotional and experiential effects,Movement and sense of place,1.0,0.1111111111111111
+flow,across_questions,Control,2,6,Subjective emotional and experiential effects,Waiting experience,2.0,0.2222222222222222
+flow,across_questions,Control,2,7,Subjective emotional and experiential effects,Positive appraisal and optimism,1.0,0.1111111111111111
+flow,across_questions,Control,3,0,Surgical concerns and coping,Calm and relaxation,3.0,0.375
+flow,across_questions,Control,3,1,Surgical concerns and coping,Compassionate and professional care,1.0,0.125
+flow,across_questions,Control,3,2,Surgical concerns and coping,Subjective emotional and experiential effects,1.0,0.125
+flow,across_questions,Control,3,4,Surgical concerns and coping,Movement and sense of place,2.0,0.25
+flow,across_questions,Control,3,8,Surgical concerns and coping,No perceived change and brief appraisals,1.0,0.125
+flow,across_questions,Control,4,1,Movement and sense of place,Compassionate and professional care,1.0,0.2
+flow,across_questions,Control,4,3,Movement and sense of place,Surgical concerns and coping,1.0,0.2
+flow,across_questions,Control,4,7,Movement and sense of place,Positive appraisal and optimism,2.0,0.4
+flow,across_questions,Control,4,8,Movement and sense of place,No perceived change and brief appraisals,1.0,0.2
+flow,across_questions,Control,5,0,Nature imagery and sensory responses,Calm and relaxation,1.0,1.0
+flow,across_questions,Control,6,2,Waiting experience,Subjective emotional and experiential effects,2.0,0.4
+flow,across_questions,Control,6,7,Waiting experience,Positive appraisal and optimism,1.0,0.2
+flow,across_questions,Control,6,8,Waiting experience,No perceived change and brief appraisals,1.0,0.2
+flow,across_questions,Control,6,10,Waiting experience,Feeling well and stable,1.0,0.2
+flow,across_questions,Control,7,1,Positive appraisal and optimism,Compassionate and professional care,2.0,0.2857142857142857
+flow,across_questions,Control,7,2,Positive appraisal and optimism,Subjective emotional and experiential effects,1.0,0.14285714285714285
+flow,across_questions,Control,7,3,Positive appraisal and optimism,Surgical concerns and coping,1.0,0.14285714285714285
+flow,across_questions,Control,7,4,Positive appraisal and optimism,Movement and sense of place,1.0,0.14285714285714285
+flow,across_questions,Control,7,6,Positive appraisal and optimism,Waiting experience,1.0,0.14285714285714285
+flow,across_questions,Control,7,11,Positive appraisal and optimism,Feeling welcomed,1.0,0.14285714285714285
+flow,across_questions,Control,8,1,No perceived change and brief appraisals,Compassionate and professional care,1.0,0.25
+flow,across_questions,Control,8,2,No perceived change and brief appraisals,Subjective emotional and experiential effects,1.0,0.25
+flow,across_questions,Control,8,3,No perceived change and brief appraisals,Surgical concerns and coping,1.0,0.25
+flow,across_questions,Control,8,9,No perceived change and brief appraisals,Anxiety and nervousness,1.0,0.25
+flow,across_questions,Control,9,0,Anxiety and nervousness,Calm and relaxation,2.0,0.4
+flow,across_questions,Control,9,3,Anxiety and nervousness,Surgical concerns and coping,1.0,0.2
+flow,across_questions,Control,9,7,Anxiety and nervousness,Positive appraisal and optimism,2.0,0.4
+flow,across_questions,Control,10,0,Feeling well and stable,Calm and relaxation,1.0,0.5
+flow,across_questions,Control,10,3,Feeling well and stable,Surgical concerns and coping,1.0,0.5
+semantic,centroids,Control,0,2,Calm and relaxation,Subjective emotional and experiential effects,,0.8326986097956998
+semantic,centroids,Control,0,5,Calm and relaxation,Nature imagery and sensory responses,,0.7297348269656347
+semantic,centroids,Control,0,11,Calm and relaxation,Feeling welcomed,,0.7095669449353963
+semantic,centroids,Control,0,1,Calm and relaxation,Compassionate and professional care,,0.8084808714229469
+semantic,centroids,Control,0,7,Calm and relaxation,Positive appraisal and optimism,,0.8846827321008331
+semantic,centroids,Control,0,10,Calm and relaxation,Feeling well and stable,,0.8304991634415179
+semantic,centroids,Control,0,9,Calm and relaxation,Anxiety and nervousness,,0.8002406846817682
+semantic,centroids,Control,1,3,Compassionate and professional care,Surgical concerns and coping,,0.7933145919747684
+semantic,centroids,Control,1,11,Compassionate and professional care,Feeling welcomed,,0.7833052158459725
+semantic,centroids,Control,1,7,Compassionate and professional care,Positive appraisal and optimism,,0.842537460686326
+semantic,centroids,Control,2,5,Subjective emotional and experiential effects,Nature imagery and sensory responses,,0.7449977617853406
+semantic,centroids,Control,2,8,Subjective emotional and experiential effects,No perceived change and brief appraisals,,0.8478924193016598
+semantic,centroids,Control,2,4,Subjective emotional and experiential effects,Movement and sense of place,,0.8108035530187675
+semantic,centroids,Control,2,10,Subjective emotional and experiential effects,Feeling well and stable,,0.7962738173044795
+semantic,centroids,Control,2,9,Subjective emotional and experiential effects,Anxiety and nervousness,,0.7749227637150987
+semantic,centroids,Control,2,6,Subjective emotional and experiential effects,Waiting experience,,0.8373273488651541
+semantic,centroids,Control,3,4,Surgical concerns and coping,Movement and sense of place,,0.7639215323134597
+semantic,centroids,Control,3,7,Surgical concerns and coping,Positive appraisal and optimism,,0.7458128406941277
+semantic,centroids,Control,4,6,Movement and sense of place,Waiting experience,,0.8047005425245729
+semantic,centroids,Control,4,5,Movement and sense of place,Nature imagery and sensory responses,,0.7370692816111524
+semantic,centroids,Control,4,8,Movement and sense of place,No perceived change and brief appraisals,,0.8057170083834301
+semantic,centroids,Control,4,7,Movement and sense of place,Positive appraisal and optimism,,0.8295498618413266
+semantic,centroids,Control,6,8,Waiting experience,No perceived change and brief appraisals,,0.7984751818038938
+semantic,centroids,Control,6,9,Waiting experience,Anxiety and nervousness,,0.7553308047095316
+semantic,centroids,Control,7,10,Positive appraisal and optimism,Feeling well and stable,,0.847871783991251
+semantic,centroids,Control,7,11,Positive appraisal and optimism,Feeling welcomed,,0.7554341359698165
+semantic,centroids,Control,7,8,Positive appraisal and optimism,No perceived change and brief appraisals,,0.8291312611033306

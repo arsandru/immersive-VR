@@ -1,0 +1,664 @@
+participant_id,condition_number,condition_label,Topic,n_sentences,n_unit_sentences,participant_topic_proportion,topic_name,topic_label
+1,3,Control,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+1,3,Control,0,0,2,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+1,3,Control,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+1,3,Control,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+1,3,Control,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+1,3,Control,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+1,3,Control,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+1,3,Control,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+1,3,Control,7,1,2,0.5,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+1,3,Control,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+1,3,Control,9,1,2,0.5,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+1,3,Control,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+1,3,Control,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+2,2,VR Only,-1,0,3,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+2,2,VR Only,0,1,3,0.3333333333333333,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+2,2,VR Only,1,1,3,0.3333333333333333,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+2,2,VR Only,2,0,3,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+2,2,VR Only,3,0,3,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+2,2,VR Only,4,0,3,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+2,2,VR Only,5,0,3,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+2,2,VR Only,6,0,3,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+2,2,VR Only,7,0,3,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+2,2,VR Only,8,1,3,0.3333333333333333,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+2,2,VR Only,9,0,3,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+2,2,VR Only,10,0,3,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+2,2,VR Only,11,0,3,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+3,1,VR Art,-1,0,5,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+3,1,VR Art,0,3,5,0.6,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+3,1,VR Art,1,0,5,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+3,1,VR Art,2,0,5,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+3,1,VR Art,3,0,5,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+3,1,VR Art,4,0,5,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+3,1,VR Art,5,0,5,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+3,1,VR Art,6,0,5,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+3,1,VR Art,7,0,5,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+3,1,VR Art,8,1,5,0.2,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+3,1,VR Art,9,0,5,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+3,1,VR Art,10,0,5,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+3,1,VR Art,11,1,5,0.2,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+4,3,Control,-1,0,8,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+4,3,Control,0,2,8,0.25,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+4,3,Control,1,4,8,0.5,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+4,3,Control,2,1,8,0.125,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+4,3,Control,3,0,8,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+4,3,Control,4,0,8,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+4,3,Control,5,0,8,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+4,3,Control,6,0,8,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+4,3,Control,7,1,8,0.125,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+4,3,Control,8,0,8,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+4,3,Control,9,0,8,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+4,3,Control,10,0,8,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+4,3,Control,11,0,8,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+5,2,VR Only,-1,0,7,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+5,2,VR Only,0,3,7,0.4285714285714285,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+5,2,VR Only,1,1,7,0.1428571428571428,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+5,2,VR Only,2,0,7,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+5,2,VR Only,3,0,7,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+5,2,VR Only,4,0,7,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+5,2,VR Only,5,1,7,0.1428571428571428,5_água_natureza_ar_mar,Nature imagery and sensory responses
+5,2,VR Only,6,0,7,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+5,2,VR Only,7,0,7,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+5,2,VR Only,8,0,7,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+5,2,VR Only,9,0,7,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+5,2,VR Only,10,0,7,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+5,2,VR Only,11,2,7,0.2857142857142857,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+7,2,VR Only,-1,0,16,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+7,2,VR Only,0,0,16,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+7,2,VR Only,1,2,16,0.125,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+7,2,VR Only,2,11,16,0.6875,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+7,2,VR Only,3,0,16,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+7,2,VR Only,4,0,16,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+7,2,VR Only,5,1,16,0.0625,5_água_natureza_ar_mar,Nature imagery and sensory responses
+7,2,VR Only,6,0,16,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+7,2,VR Only,7,0,16,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+7,2,VR Only,8,1,16,0.0625,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+7,2,VR Only,9,1,16,0.0625,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+7,2,VR Only,10,0,16,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+7,2,VR Only,11,0,16,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+9,3,Control,-1,0,7,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+9,3,Control,0,0,7,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+9,3,Control,1,0,7,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+9,3,Control,2,1,7,0.1428571428571428,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+9,3,Control,3,4,7,0.5714285714285714,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+9,3,Control,4,0,7,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+9,3,Control,5,0,7,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+9,3,Control,6,0,7,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+9,3,Control,7,0,7,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+9,3,Control,8,2,7,0.2857142857142857,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+9,3,Control,9,0,7,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+9,3,Control,10,0,7,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+9,3,Control,11,0,7,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+12,1,VR Art,-1,0,16,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+12,1,VR Art,0,2,16,0.125,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+12,1,VR Art,1,1,16,0.0625,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+12,1,VR Art,2,0,16,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+12,1,VR Art,3,5,16,0.3125,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+12,1,VR Art,4,0,16,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+12,1,VR Art,5,0,16,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+12,1,VR Art,6,6,16,0.375,6_tempo_espera_tempo espera_agora,Waiting experience
+12,1,VR Art,7,1,16,0.0625,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+12,1,VR Art,8,1,16,0.0625,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+12,1,VR Art,9,0,16,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+12,1,VR Art,10,0,16,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+12,1,VR Art,11,0,16,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+13,3,Control,-1,0,5,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+13,3,Control,0,2,5,0.4,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+13,3,Control,1,1,5,0.2,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+13,3,Control,2,2,5,0.4,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+13,3,Control,3,0,5,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+13,3,Control,4,0,5,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+13,3,Control,5,0,5,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+13,3,Control,6,0,5,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+13,3,Control,7,0,5,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+13,3,Control,8,0,5,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+13,3,Control,9,0,5,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+13,3,Control,10,0,5,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+13,3,Control,11,0,5,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+14,1,VR Art,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+14,1,VR Art,0,2,4,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+14,1,VR Art,1,1,4,0.25,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+14,1,VR Art,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+14,1,VR Art,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+14,1,VR Art,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+14,1,VR Art,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+14,1,VR Art,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+14,1,VR Art,7,1,4,0.25,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+14,1,VR Art,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+14,1,VR Art,9,0,4,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+14,1,VR Art,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+14,1,VR Art,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+15,2,VR Only,-1,0,5,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+15,2,VR Only,0,1,5,0.2,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+15,2,VR Only,1,1,5,0.2,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+15,2,VR Only,2,1,5,0.2,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+15,2,VR Only,3,0,5,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+15,2,VR Only,4,0,5,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+15,2,VR Only,5,0,5,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+15,2,VR Only,6,0,5,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+15,2,VR Only,7,1,5,0.2,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+15,2,VR Only,8,0,5,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+15,2,VR Only,9,0,5,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+15,2,VR Only,10,1,5,0.2,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+15,2,VR Only,11,0,5,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+17,1,VR Art,-1,1,4,0.25,-1_será_será alguém_alguém_família,Unassigned or mixed content
+17,1,VR Art,0,2,4,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+17,1,VR Art,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+17,1,VR Art,2,1,4,0.25,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+17,1,VR Art,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+17,1,VR Art,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+17,1,VR Art,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+17,1,VR Art,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+17,1,VR Art,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+17,1,VR Art,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+17,1,VR Art,9,0,4,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+17,1,VR Art,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+17,1,VR Art,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+18,2,VR Only,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+18,2,VR Only,0,2,4,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+18,2,VR Only,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+18,2,VR Only,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+18,2,VR Only,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+18,2,VR Only,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+18,2,VR Only,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+18,2,VR Only,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+18,2,VR Only,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+18,2,VR Only,8,1,4,0.25,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+18,2,VR Only,9,0,4,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+18,2,VR Only,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+18,2,VR Only,11,1,4,0.25,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+19,2,VR Only,-1,0,8,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+19,2,VR Only,0,3,8,0.375,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+19,2,VR Only,1,1,8,0.125,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+19,2,VR Only,2,1,8,0.125,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+19,2,VR Only,3,0,8,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+19,2,VR Only,4,0,8,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+19,2,VR Only,5,2,8,0.25,5_água_natureza_ar_mar,Nature imagery and sensory responses
+19,2,VR Only,6,0,8,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+19,2,VR Only,7,0,8,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+19,2,VR Only,8,1,8,0.125,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+19,2,VR Only,9,0,8,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+19,2,VR Only,10,0,8,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+19,2,VR Only,11,0,8,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+20,3,Control,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+20,3,Control,0,2,4,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+20,3,Control,1,1,4,0.25,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+20,3,Control,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+20,3,Control,3,1,4,0.25,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+20,3,Control,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+20,3,Control,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+20,3,Control,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+20,3,Control,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+20,3,Control,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+20,3,Control,9,0,4,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+20,3,Control,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+20,3,Control,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+21,1,VR Art,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+21,1,VR Art,0,0,2,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+21,1,VR Art,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+21,1,VR Art,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+21,1,VR Art,3,1,2,0.5,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+21,1,VR Art,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+21,1,VR Art,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+21,1,VR Art,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+21,1,VR Art,7,1,2,0.5,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+21,1,VR Art,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+21,1,VR Art,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+21,1,VR Art,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+21,1,VR Art,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+22,3,Control,-1,1,18,0.0555555555555555,-1_será_será alguém_alguém_família,Unassigned or mixed content
+22,3,Control,0,1,18,0.0555555555555555,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+22,3,Control,1,4,18,0.2222222222222222,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+22,3,Control,2,3,18,0.1666666666666666,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+22,3,Control,3,0,18,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+22,3,Control,4,0,18,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+22,3,Control,5,0,18,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+22,3,Control,6,6,18,0.3333333333333333,6_tempo_espera_tempo espera_agora,Waiting experience
+22,3,Control,7,2,18,0.1111111111111111,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+22,3,Control,8,1,18,0.0555555555555555,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+22,3,Control,9,0,18,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+22,3,Control,10,0,18,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+22,3,Control,11,0,18,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+24,1,VR Art,-1,0,3,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+24,1,VR Art,0,0,3,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+24,1,VR Art,1,0,3,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+24,1,VR Art,2,0,3,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+24,1,VR Art,3,0,3,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+24,1,VR Art,4,1,3,0.3333333333333333,4_cima_ir_sítio_abaixo,Movement and sense of place
+24,1,VR Art,5,2,3,0.6666666666666666,5_água_natureza_ar_mar,Nature imagery and sensory responses
+24,1,VR Art,6,0,3,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+24,1,VR Art,7,0,3,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+24,1,VR Art,8,0,3,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+24,1,VR Art,9,0,3,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+24,1,VR Art,10,0,3,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+24,1,VR Art,11,0,3,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+25,2,VR Only,-1,0,3,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+25,2,VR Only,0,1,3,0.3333333333333333,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+25,2,VR Only,1,1,3,0.3333333333333333,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+25,2,VR Only,2,0,3,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+25,2,VR Only,3,0,3,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+25,2,VR Only,4,0,3,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+25,2,VR Only,5,0,3,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+25,2,VR Only,6,0,3,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+25,2,VR Only,7,0,3,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+25,2,VR Only,8,0,3,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+25,2,VR Only,9,0,3,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+25,2,VR Only,10,0,3,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+25,2,VR Only,11,1,3,0.3333333333333333,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+26,3,Control,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+26,3,Control,0,2,4,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+26,3,Control,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+26,3,Control,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+26,3,Control,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+26,3,Control,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+26,3,Control,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+26,3,Control,6,1,4,0.25,6_tempo_espera_tempo espera_agora,Waiting experience
+26,3,Control,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+26,3,Control,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+26,3,Control,9,1,4,0.25,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+26,3,Control,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+26,3,Control,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+27,1,VR Art,-1,0,6,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+27,1,VR Art,0,1,6,0.1666666666666666,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+27,1,VR Art,1,3,6,0.5,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+27,1,VR Art,2,1,6,0.1666666666666666,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+27,1,VR Art,3,0,6,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+27,1,VR Art,4,0,6,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+27,1,VR Art,5,0,6,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+27,1,VR Art,6,1,6,0.1666666666666666,6_tempo_espera_tempo espera_agora,Waiting experience
+27,1,VR Art,7,0,6,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+27,1,VR Art,8,0,6,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+27,1,VR Art,9,0,6,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+27,1,VR Art,10,0,6,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+27,1,VR Art,11,0,6,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+28,2,VR Only,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+28,2,VR Only,0,0,2,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+28,2,VR Only,1,1,2,0.5,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+28,2,VR Only,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+28,2,VR Only,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+28,2,VR Only,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+28,2,VR Only,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+28,2,VR Only,6,1,2,0.5,6_tempo_espera_tempo espera_agora,Waiting experience
+28,2,VR Only,7,0,2,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+28,2,VR Only,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+28,2,VR Only,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+28,2,VR Only,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+28,2,VR Only,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+29,3,Control,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+29,3,Control,0,0,2,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+29,3,Control,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+29,3,Control,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+29,3,Control,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+29,3,Control,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+29,3,Control,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+29,3,Control,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+29,3,Control,7,1,2,0.5,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+29,3,Control,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+29,3,Control,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+29,3,Control,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+29,3,Control,11,1,2,0.5,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+31,1,VR Art,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+31,1,VR Art,0,0,4,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+31,1,VR Art,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+31,1,VR Art,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+31,1,VR Art,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+31,1,VR Art,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+31,1,VR Art,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+31,1,VR Art,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+31,1,VR Art,7,1,4,0.25,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+31,1,VR Art,8,2,4,0.5,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+31,1,VR Art,9,0,4,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+31,1,VR Art,10,1,4,0.25,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+31,1,VR Art,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+32,2,VR Only,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+32,2,VR Only,0,0,4,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+32,2,VR Only,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+32,2,VR Only,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+32,2,VR Only,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+32,2,VR Only,4,1,4,0.25,4_cima_ir_sítio_abaixo,Movement and sense of place
+32,2,VR Only,5,1,4,0.25,5_água_natureza_ar_mar,Nature imagery and sensory responses
+32,2,VR Only,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+32,2,VR Only,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+32,2,VR Only,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+32,2,VR Only,9,2,4,0.5,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+32,2,VR Only,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+32,2,VR Only,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+34,3,Control,-1,0,18,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+34,3,Control,0,4,18,0.2222222222222222,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+34,3,Control,1,7,18,0.3888888888888889,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+34,3,Control,2,2,18,0.1111111111111111,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+34,3,Control,3,1,18,0.0555555555555555,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+34,3,Control,4,1,18,0.0555555555555555,4_cima_ir_sítio_abaixo,Movement and sense of place
+34,3,Control,5,2,18,0.1111111111111111,5_água_natureza_ar_mar,Nature imagery and sensory responses
+34,3,Control,6,0,18,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+34,3,Control,7,1,18,0.0555555555555555,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+34,3,Control,8,0,18,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+34,3,Control,9,0,18,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+34,3,Control,10,0,18,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+34,3,Control,11,0,18,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+35,1,VR Art,-1,0,9,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+35,1,VR Art,0,4,9,0.4444444444444444,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+35,1,VR Art,1,0,9,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+35,1,VR Art,2,1,9,0.1111111111111111,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+35,1,VR Art,3,0,9,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+35,1,VR Art,4,1,9,0.1111111111111111,4_cima_ir_sítio_abaixo,Movement and sense of place
+35,1,VR Art,5,1,9,0.1111111111111111,5_água_natureza_ar_mar,Nature imagery and sensory responses
+35,1,VR Art,6,0,9,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+35,1,VR Art,7,0,9,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+35,1,VR Art,8,1,9,0.1111111111111111,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+35,1,VR Art,9,0,9,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+35,1,VR Art,10,1,9,0.1111111111111111,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+35,1,VR Art,11,0,9,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+36,3,Control,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+36,3,Control,0,1,2,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+36,3,Control,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+36,3,Control,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+36,3,Control,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+36,3,Control,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+36,3,Control,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+36,3,Control,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+36,3,Control,7,0,2,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+36,3,Control,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+36,3,Control,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+36,3,Control,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+36,3,Control,11,1,2,0.5,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+37,2,VR Only,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+37,2,VR Only,0,2,4,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+37,2,VR Only,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+37,2,VR Only,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+37,2,VR Only,3,0,4,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+37,2,VR Only,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+37,2,VR Only,5,1,4,0.25,5_água_natureza_ar_mar,Nature imagery and sensory responses
+37,2,VR Only,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+37,2,VR Only,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+37,2,VR Only,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+37,2,VR Only,9,0,4,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+37,2,VR Only,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+37,2,VR Only,11,1,4,0.25,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+38,1,VR Art,-1,0,7,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+38,1,VR Art,0,3,7,0.4285714285714285,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+38,1,VR Art,1,0,7,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+38,1,VR Art,2,0,7,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+38,1,VR Art,3,0,7,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+38,1,VR Art,4,2,7,0.2857142857142857,4_cima_ir_sítio_abaixo,Movement and sense of place
+38,1,VR Art,5,2,7,0.2857142857142857,5_água_natureza_ar_mar,Nature imagery and sensory responses
+38,1,VR Art,6,0,7,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+38,1,VR Art,7,0,7,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+38,1,VR Art,8,0,7,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+38,1,VR Art,9,0,7,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+38,1,VR Art,10,0,7,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+38,1,VR Art,11,0,7,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+39,3,Control,-1,0,5,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+39,3,Control,0,1,5,0.2,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+39,3,Control,1,0,5,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+39,3,Control,2,0,5,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+39,3,Control,3,0,5,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+39,3,Control,4,3,5,0.6,4_cima_ir_sítio_abaixo,Movement and sense of place
+39,3,Control,5,0,5,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+39,3,Control,6,0,5,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+39,3,Control,7,1,5,0.2,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+39,3,Control,8,0,5,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+39,3,Control,9,0,5,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+39,3,Control,10,0,5,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+39,3,Control,11,0,5,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+40,2,VR Only,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+40,2,VR Only,0,1,2,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+40,2,VR Only,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+40,2,VR Only,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+40,2,VR Only,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+40,2,VR Only,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+40,2,VR Only,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+40,2,VR Only,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+40,2,VR Only,7,0,2,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+40,2,VR Only,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+40,2,VR Only,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+40,2,VR Only,10,1,2,0.5,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+40,2,VR Only,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+41,1,VR Art,-1,0,7,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+41,1,VR Art,0,3,7,0.4285714285714285,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+41,1,VR Art,1,1,7,0.1428571428571428,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+41,1,VR Art,2,0,7,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+41,1,VR Art,3,0,7,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+41,1,VR Art,4,1,7,0.1428571428571428,4_cima_ir_sítio_abaixo,Movement and sense of place
+41,1,VR Art,5,2,7,0.2857142857142857,5_água_natureza_ar_mar,Nature imagery and sensory responses
+41,1,VR Art,6,0,7,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+41,1,VR Art,7,0,7,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+41,1,VR Art,8,0,7,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+41,1,VR Art,9,0,7,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+41,1,VR Art,10,0,7,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+41,1,VR Art,11,0,7,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+42,3,Control,-1,0,10,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+42,3,Control,0,1,10,0.1,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+42,3,Control,1,0,10,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+42,3,Control,2,0,10,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+42,3,Control,3,1,10,0.1,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+42,3,Control,4,3,10,0.3,4_cima_ir_sítio_abaixo,Movement and sense of place
+42,3,Control,5,0,10,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+42,3,Control,6,0,10,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+42,3,Control,7,2,10,0.2,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+42,3,Control,8,1,10,0.1,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+42,3,Control,9,0,10,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+42,3,Control,10,2,10,0.2,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+42,3,Control,11,0,10,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+43,2,VR Only,-1,0,6,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+43,2,VR Only,0,4,6,0.6666666666666666,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+43,2,VR Only,1,0,6,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+43,2,VR Only,2,0,6,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+43,2,VR Only,3,0,6,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+43,2,VR Only,4,0,6,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+43,2,VR Only,5,0,6,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+43,2,VR Only,6,0,6,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+43,2,VR Only,7,0,6,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+43,2,VR Only,8,0,6,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+43,2,VR Only,9,1,6,0.1666666666666666,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+43,2,VR Only,10,0,6,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+43,2,VR Only,11,1,6,0.1666666666666666,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+44,1,VR Art,-1,3,19,0.1578947368421052,-1_será_será alguém_alguém_família,Unassigned or mixed content
+44,1,VR Art,0,3,19,0.1578947368421052,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+44,1,VR Art,1,4,19,0.2105263157894736,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+44,1,VR Art,2,1,19,0.0526315789473684,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+44,1,VR Art,3,1,19,0.0526315789473684,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+44,1,VR Art,4,2,19,0.1052631578947368,4_cima_ir_sítio_abaixo,Movement and sense of place
+44,1,VR Art,5,0,19,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+44,1,VR Art,6,2,19,0.1052631578947368,6_tempo_espera_tempo espera_agora,Waiting experience
+44,1,VR Art,7,3,19,0.1578947368421052,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+44,1,VR Art,8,0,19,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+44,1,VR Art,9,0,19,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+44,1,VR Art,10,0,19,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+44,1,VR Art,11,0,19,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+45,3,Control,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+45,3,Control,0,0,4,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+45,3,Control,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+45,3,Control,2,1,4,0.25,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+45,3,Control,3,1,4,0.25,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+45,3,Control,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+45,3,Control,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+45,3,Control,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+45,3,Control,7,1,4,0.25,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+45,3,Control,8,0,4,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+45,3,Control,9,1,4,0.25,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+45,3,Control,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+45,3,Control,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+46,2,VR Only,-1,0,11,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+46,2,VR Only,0,1,11,0.0909090909090909,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+46,2,VR Only,1,0,11,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+46,2,VR Only,2,1,11,0.0909090909090909,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+46,2,VR Only,3,1,11,0.0909090909090909,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+46,2,VR Only,4,2,11,0.1818181818181818,4_cima_ir_sítio_abaixo,Movement and sense of place
+46,2,VR Only,5,1,11,0.0909090909090909,5_água_natureza_ar_mar,Nature imagery and sensory responses
+46,2,VR Only,6,2,11,0.1818181818181818,6_tempo_espera_tempo espera_agora,Waiting experience
+46,2,VR Only,7,0,11,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+46,2,VR Only,8,2,11,0.1818181818181818,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+46,2,VR Only,9,0,11,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+46,2,VR Only,10,1,11,0.0909090909090909,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+46,2,VR Only,11,0,11,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+50,1,VR Art,-1,0,16,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+50,1,VR Art,0,5,16,0.3125,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+50,1,VR Art,1,0,16,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+50,1,VR Art,2,2,16,0.125,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+50,1,VR Art,3,0,16,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+50,1,VR Art,4,2,16,0.125,4_cima_ir_sítio_abaixo,Movement and sense of place
+50,1,VR Art,5,5,16,0.3125,5_água_natureza_ar_mar,Nature imagery and sensory responses
+50,1,VR Art,6,1,16,0.0625,6_tempo_espera_tempo espera_agora,Waiting experience
+50,1,VR Art,7,0,16,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+50,1,VR Art,8,0,16,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+50,1,VR Art,9,1,16,0.0625,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+50,1,VR Art,10,0,16,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+50,1,VR Art,11,0,16,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+51,3,Control,-1,0,9,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+51,3,Control,0,1,9,0.1111111111111111,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+51,3,Control,1,1,9,0.1111111111111111,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+51,3,Control,2,1,9,0.1111111111111111,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+51,3,Control,3,3,9,0.3333333333333333,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+51,3,Control,4,2,9,0.2222222222222222,4_cima_ir_sítio_abaixo,Movement and sense of place
+51,3,Control,5,0,9,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+51,3,Control,6,1,9,0.1111111111111111,6_tempo_espera_tempo espera_agora,Waiting experience
+51,3,Control,7,0,9,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+51,3,Control,8,0,9,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+51,3,Control,9,0,9,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+51,3,Control,10,0,9,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+51,3,Control,11,0,9,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+52,2,VR Only,-1,0,11,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+52,2,VR Only,0,0,11,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+52,2,VR Only,1,0,11,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+52,2,VR Only,2,1,11,0.0909090909090909,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+52,2,VR Only,3,4,11,0.3636363636363636,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+52,2,VR Only,4,0,11,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+52,2,VR Only,5,0,11,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+52,2,VR Only,6,0,11,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+52,2,VR Only,7,0,11,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+52,2,VR Only,8,2,11,0.1818181818181818,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+52,2,VR Only,9,2,11,0.1818181818181818,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+52,2,VR Only,10,1,11,0.0909090909090909,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+52,2,VR Only,11,1,11,0.0909090909090909,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+53,1,VR Art,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+53,1,VR Art,0,2,2,1.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+53,1,VR Art,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+53,1,VR Art,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+53,1,VR Art,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+53,1,VR Art,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+53,1,VR Art,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+53,1,VR Art,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+53,1,VR Art,7,0,2,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+53,1,VR Art,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+53,1,VR Art,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+53,1,VR Art,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+53,1,VR Art,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+54,2,VR Only,-1,0,3,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+54,2,VR Only,0,1,3,0.3333333333333333,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+54,2,VR Only,1,0,3,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+54,2,VR Only,2,0,3,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+54,2,VR Only,3,0,3,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+54,2,VR Only,4,0,3,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+54,2,VR Only,5,0,3,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+54,2,VR Only,6,0,3,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+54,2,VR Only,7,2,3,0.6666666666666666,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+54,2,VR Only,8,0,3,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+54,2,VR Only,9,0,3,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+54,2,VR Only,10,0,3,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+54,2,VR Only,11,0,3,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+56,1,VR Art,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+56,1,VR Art,0,2,2,1.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+56,1,VR Art,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+56,1,VR Art,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+56,1,VR Art,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+56,1,VR Art,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+56,1,VR Art,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+56,1,VR Art,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+56,1,VR Art,7,0,2,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+56,1,VR Art,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+56,1,VR Art,9,0,2,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+56,1,VR Art,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+56,1,VR Art,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+57,2,VR Only,-1,0,3,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+57,2,VR Only,0,1,3,0.3333333333333333,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+57,2,VR Only,1,0,3,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+57,2,VR Only,2,0,3,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+57,2,VR Only,3,0,3,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+57,2,VR Only,4,0,3,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+57,2,VR Only,5,0,3,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+57,2,VR Only,6,0,3,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+57,2,VR Only,7,0,3,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+57,2,VR Only,8,0,3,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+57,2,VR Only,9,0,3,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+57,2,VR Only,10,2,3,0.6666666666666666,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+57,2,VR Only,11,0,3,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+58,3,Control,-1,0,4,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+58,3,Control,0,0,4,0.0,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+58,3,Control,1,0,4,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+58,3,Control,2,0,4,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+58,3,Control,3,1,4,0.25,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+58,3,Control,4,0,4,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+58,3,Control,5,0,4,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+58,3,Control,6,0,4,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+58,3,Control,7,0,4,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+58,3,Control,8,1,4,0.25,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+58,3,Control,9,2,4,0.5,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+58,3,Control,10,0,4,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+58,3,Control,11,0,4,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+59,1,VR Art,-1,0,6,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+59,1,VR Art,0,3,6,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+59,1,VR Art,1,0,6,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+59,1,VR Art,2,1,6,0.1666666666666666,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+59,1,VR Art,3,0,6,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+59,1,VR Art,4,0,6,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+59,1,VR Art,5,0,6,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+59,1,VR Art,6,0,6,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+59,1,VR Art,7,1,6,0.1666666666666666,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+59,1,VR Art,8,0,6,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+59,1,VR Art,9,0,6,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+59,1,VR Art,10,1,6,0.1666666666666666,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+59,1,VR Art,11,0,6,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+60,3,Control,-1,0,7,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+60,3,Control,0,4,7,0.5714285714285714,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+60,3,Control,1,1,7,0.1428571428571428,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+60,3,Control,2,0,7,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+60,3,Control,3,0,7,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+60,3,Control,4,0,7,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+60,3,Control,5,0,7,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+60,3,Control,6,1,7,0.1428571428571428,6_tempo_espera_tempo espera_agora,Waiting experience
+60,3,Control,7,0,7,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+60,3,Control,8,0,7,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+60,3,Control,9,0,7,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+60,3,Control,10,1,7,0.1428571428571428,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+60,3,Control,11,0,7,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+16,3,Control,-1,0,2,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+16,3,Control,0,1,2,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+16,3,Control,1,0,2,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+16,3,Control,2,0,2,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+16,3,Control,3,0,2,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+16,3,Control,4,0,2,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+16,3,Control,5,0,2,0.0,5_água_natureza_ar_mar,Nature imagery and sensory responses
+16,3,Control,6,0,2,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+16,3,Control,7,0,2,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+16,3,Control,8,0,2,0.0,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+16,3,Control,9,1,2,0.5,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+16,3,Control,10,0,2,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+16,3,Control,11,0,2,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+47,1,VR Art,-1,0,6,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+47,1,VR Art,0,1,6,0.1666666666666666,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+47,1,VR Art,1,0,6,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+47,1,VR Art,2,0,6,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+47,1,VR Art,3,0,6,0.0,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+47,1,VR Art,4,3,6,0.5,4_cima_ir_sítio_abaixo,Movement and sense of place
+47,1,VR Art,5,1,6,0.1666666666666666,5_água_natureza_ar_mar,Nature imagery and sensory responses
+47,1,VR Art,6,0,6,0.0,6_tempo_espera_tempo espera_agora,Waiting experience
+47,1,VR Art,7,0,6,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+47,1,VR Art,8,1,6,0.1666666666666666,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+47,1,VR Art,9,0,6,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+47,1,VR Art,10,0,6,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+47,1,VR Art,11,0,6,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed
+49,2,VR Only,-1,0,8,0.0,-1_será_será alguém_alguém_família,Unassigned or mixed content
+49,2,VR Only,0,4,8,0.5,0_tranquila_calma_relaxada_sinto,Calm and relaxation
+49,2,VR Only,1,0,8,0.0,1_pessoas_cuidado_doentes_todas,Compassionate and professional care
+49,2,VR Only,2,0,8,0.0,2_mim_diferente_diferença_bocadinho,Subjective emotional and experiential effects
+49,2,VR Only,3,1,8,0.125,3_cirurgia_vai_fazer_pode depressa,Surgical concerns and coping
+49,2,VR Only,4,0,8,0.0,4_cima_ir_sítio_abaixo,Movement and sense of place
+49,2,VR Only,5,1,8,0.125,5_água_natureza_ar_mar,Nature imagery and sensory responses
+49,2,VR Only,6,1,8,0.125,6_tempo_espera_tempo espera_agora,Waiting experience
+49,2,VR Only,7,0,8,0.0,7_manter_correu_positiva_manter positiva,Positive appraisal and optimism
+49,2,VR Only,8,1,8,0.125,8_cinco_estrelas_cinco estrelas_mesma,No perceived change and brief appraisals
+49,2,VR Only,9,0,8,0.0,9_ansiedade_ansiosa_bocadinho_nervosismo,Anxiety and nervousness
+49,2,VR Only,10,0,8,0.0,10_sinto_sinto sinto_estável sinto_desde cheguei,Feeling well and stable
+49,2,VR Only,11,0,8,0.0,11_acolhida_acolhimento_acolhida acolhida_sentir,Feeling welcomed

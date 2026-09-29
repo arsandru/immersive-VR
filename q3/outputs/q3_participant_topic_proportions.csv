@@ -1,0 +1,505 @@
+participant_id,condition_number,condition_label,Topic,n_sentences,n_participant_sentences,participant_topic_proportion,topic_name
+1,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+1,3,Control,0,1,1,1.0,0_senti_cinco_cinco estrelas_estrelas
+1,3,Control,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+1,3,Control,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+1,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+1,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+1,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+1,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+1,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+1,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+1,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+1,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+2,2,VR Only,-1,0,2,0.0,-1_melhor_amiga_vai_sítio
+2,2,VR Only,0,1,2,0.5,0_senti_cinco_cinco estrelas_estrelas
+2,2,VR Only,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+2,2,VR Only,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+2,2,VR Only,3,1,2,0.5,3_cuidado_preocupação_atenção_carinho
+2,2,VR Only,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+2,2,VR Only,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+2,2,VR Only,6,0,2,0.0,6_será_será alguém_alguém_ver será
+2,2,VR Only,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+2,2,VR Only,8,0,2,0.0,8_exame_meia_fazer_às
+2,2,VR Only,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+2,2,VR Only,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+3,1,VR Art,-1,0,2,0.0,-1_melhor_amiga_vai_sítio
+3,1,VR Art,0,1,2,0.5,0_senti_cinco_cinco estrelas_estrelas
+3,1,VR Art,1,1,2,0.5,1_acolhida_acolhida acolhida_sentir_acarinhada
+3,1,VR Art,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+3,1,VR Art,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+3,1,VR Art,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+3,1,VR Art,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+3,1,VR Art,6,0,2,0.0,6_será_será alguém_alguém_ver será
+3,1,VR Art,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+3,1,VR Art,8,0,2,0.0,8_exame_meia_fazer_às
+3,1,VR Art,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+3,1,VR Art,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+4,3,Control,-1,2,6,0.3333333333333333,-1_melhor_amiga_vai_sítio
+4,3,Control,0,0,6,0.0,0_senti_cinco_cinco estrelas_estrelas
+4,3,Control,1,0,6,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+4,3,Control,2,0,6,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+4,3,Control,3,1,6,0.16666666666666666,3_cuidado_preocupação_atenção_carinho
+4,3,Control,4,0,6,0.0,4_espera_tempo espera_tempo_ansiedade
+4,3,Control,5,2,6,0.3333333333333333,5_pessoas_todas_amável_perguntando trataram
+4,3,Control,6,0,6,0.0,6_será_será alguém_alguém_ver será
+4,3,Control,7,1,6,0.16666666666666666,7_maravilhoso_realçar_realmente_positivo olha
+4,3,Control,8,0,6,0.0,8_exame_meia_fazer_às
+4,3,Control,9,0,6,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+4,3,Control,10,0,6,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+5,2,VR Only,-1,1,3,0.3333333333333333,-1_melhor_amiga_vai_sítio
+5,2,VR Only,0,0,3,0.0,0_senti_cinco_cinco estrelas_estrelas
+5,2,VR Only,1,1,3,0.3333333333333333,1_acolhida_acolhida acolhida_sentir_acarinhada
+5,2,VR Only,2,0,3,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+5,2,VR Only,3,1,3,0.3333333333333333,3_cuidado_preocupação_atenção_carinho
+5,2,VR Only,4,0,3,0.0,4_espera_tempo espera_tempo_ansiedade
+5,2,VR Only,5,0,3,0.0,5_pessoas_todas_amável_perguntando trataram
+5,2,VR Only,6,0,3,0.0,6_será_será alguém_alguém_ver será
+5,2,VR Only,7,0,3,0.0,7_maravilhoso_realçar_realmente_positivo olha
+5,2,VR Only,8,0,3,0.0,8_exame_meia_fazer_às
+5,2,VR Only,9,0,3,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+5,2,VR Only,10,0,3,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+7,2,VR Only,-1,1,7,0.14285714285714285,-1_melhor_amiga_vai_sítio
+7,2,VR Only,0,3,7,0.42857142857142855,0_senti_cinco_cinco estrelas_estrelas
+7,2,VR Only,1,0,7,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+7,2,VR Only,2,0,7,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+7,2,VR Only,3,0,7,0.0,3_cuidado_preocupação_atenção_carinho
+7,2,VR Only,4,0,7,0.0,4_espera_tempo espera_tempo_ansiedade
+7,2,VR Only,5,1,7,0.14285714285714285,5_pessoas_todas_amável_perguntando trataram
+7,2,VR Only,6,2,7,0.2857142857142857,6_será_será alguém_alguém_ver será
+7,2,VR Only,7,0,7,0.0,7_maravilhoso_realçar_realmente_positivo olha
+7,2,VR Only,8,0,7,0.0,8_exame_meia_fazer_às
+7,2,VR Only,9,0,7,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+7,2,VR Only,10,0,7,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+12,1,VR Art,-1,0,9,0.0,-1_melhor_amiga_vai_sítio
+12,1,VR Art,0,1,9,0.1111111111111111,0_senti_cinco_cinco estrelas_estrelas
+12,1,VR Art,1,0,9,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+12,1,VR Art,2,0,9,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+12,1,VR Art,3,1,9,0.1111111111111111,3_cuidado_preocupação_atenção_carinho
+12,1,VR Art,4,3,9,0.3333333333333333,4_espera_tempo espera_tempo_ansiedade
+12,1,VR Art,5,0,9,0.0,5_pessoas_todas_amável_perguntando trataram
+12,1,VR Art,6,0,9,0.0,6_será_será alguém_alguém_ver será
+12,1,VR Art,7,1,9,0.1111111111111111,7_maravilhoso_realçar_realmente_positivo olha
+12,1,VR Art,8,3,9,0.3333333333333333,8_exame_meia_fazer_às
+12,1,VR Art,9,0,9,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+12,1,VR Art,10,0,9,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+13,3,Control,-1,1,2,0.5,-1_melhor_amiga_vai_sítio
+13,3,Control,0,0,2,0.0,0_senti_cinco_cinco estrelas_estrelas
+13,3,Control,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+13,3,Control,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+13,3,Control,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+13,3,Control,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+13,3,Control,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+13,3,Control,6,0,2,0.0,6_será_será alguém_alguém_ver será
+13,3,Control,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+13,3,Control,8,0,2,0.0,8_exame_meia_fazer_às
+13,3,Control,9,1,2,0.5,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+13,3,Control,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+14,1,VR Art,-1,1,2,0.5,-1_melhor_amiga_vai_sítio
+14,1,VR Art,0,0,2,0.0,0_senti_cinco_cinco estrelas_estrelas
+14,1,VR Art,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+14,1,VR Art,2,1,2,0.5,2_fantástico_correu_fantásticos_fantástico fantástico
+14,1,VR Art,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+14,1,VR Art,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+14,1,VR Art,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+14,1,VR Art,6,0,2,0.0,6_será_será alguém_alguém_ver será
+14,1,VR Art,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+14,1,VR Art,8,0,2,0.0,8_exame_meia_fazer_às
+14,1,VR Art,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+14,1,VR Art,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+15,2,VR Only,-1,0,2,0.0,-1_melhor_amiga_vai_sítio
+15,2,VR Only,0,1,2,0.5,0_senti_cinco_cinco estrelas_estrelas
+15,2,VR Only,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+15,2,VR Only,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+15,2,VR Only,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+15,2,VR Only,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+15,2,VR Only,5,1,2,0.5,5_pessoas_todas_amável_perguntando trataram
+15,2,VR Only,6,0,2,0.0,6_será_será alguém_alguém_ver será
+15,2,VR Only,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+15,2,VR Only,8,0,2,0.0,8_exame_meia_fazer_às
+15,2,VR Only,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+15,2,VR Only,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+16,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+16,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+16,3,Control,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+16,3,Control,2,1,1,1.0,2_fantástico_correu_fantásticos_fantástico fantástico
+16,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+16,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+16,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+16,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+16,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+16,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+16,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+16,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+17,1,VR Art,-1,0,2,0.0,-1_melhor_amiga_vai_sítio
+17,1,VR Art,0,0,2,0.0,0_senti_cinco_cinco estrelas_estrelas
+17,1,VR Art,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+17,1,VR Art,2,1,2,0.5,2_fantástico_correu_fantásticos_fantástico fantástico
+17,1,VR Art,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+17,1,VR Art,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+17,1,VR Art,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+17,1,VR Art,6,0,2,0.0,6_será_será alguém_alguém_ver será
+17,1,VR Art,7,1,2,0.5,7_maravilhoso_realçar_realmente_positivo olha
+17,1,VR Art,8,0,2,0.0,8_exame_meia_fazer_às
+17,1,VR Art,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+17,1,VR Art,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+18,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+18,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+18,2,VR Only,1,1,1,1.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+18,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+18,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+18,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+18,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+18,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+18,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+18,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+18,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+18,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+19,2,VR Only,-1,0,2,0.0,-1_melhor_amiga_vai_sítio
+19,2,VR Only,0,1,2,0.5,0_senti_cinco_cinco estrelas_estrelas
+19,2,VR Only,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+19,2,VR Only,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+19,2,VR Only,3,1,2,0.5,3_cuidado_preocupação_atenção_carinho
+19,2,VR Only,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+19,2,VR Only,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+19,2,VR Only,6,0,2,0.0,6_será_será alguém_alguém_ver será
+19,2,VR Only,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+19,2,VR Only,8,0,2,0.0,8_exame_meia_fazer_às
+19,2,VR Only,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+19,2,VR Only,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+20,3,Control,-1,2,3,0.6666666666666666,-1_melhor_amiga_vai_sítio
+20,3,Control,0,0,3,0.0,0_senti_cinco_cinco estrelas_estrelas
+20,3,Control,1,0,3,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+20,3,Control,2,0,3,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+20,3,Control,3,0,3,0.0,3_cuidado_preocupação_atenção_carinho
+20,3,Control,4,1,3,0.3333333333333333,4_espera_tempo espera_tempo_ansiedade
+20,3,Control,5,0,3,0.0,5_pessoas_todas_amável_perguntando trataram
+20,3,Control,6,0,3,0.0,6_será_será alguém_alguém_ver será
+20,3,Control,7,0,3,0.0,7_maravilhoso_realçar_realmente_positivo olha
+20,3,Control,8,0,3,0.0,8_exame_meia_fazer_às
+20,3,Control,9,0,3,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+20,3,Control,10,0,3,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+21,1,VR Art,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+21,1,VR Art,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+21,1,VR Art,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+21,1,VR Art,2,1,1,1.0,2_fantástico_correu_fantásticos_fantástico fantástico
+21,1,VR Art,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+21,1,VR Art,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+21,1,VR Art,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+21,1,VR Art,6,0,1,0.0,6_será_será alguém_alguém_ver será
+21,1,VR Art,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+21,1,VR Art,8,0,1,0.0,8_exame_meia_fazer_às
+21,1,VR Art,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+21,1,VR Art,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+22,3,Control,-1,1,4,0.25,-1_melhor_amiga_vai_sítio
+22,3,Control,0,0,4,0.0,0_senti_cinco_cinco estrelas_estrelas
+22,3,Control,1,0,4,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+22,3,Control,2,1,4,0.25,2_fantástico_correu_fantásticos_fantástico fantástico
+22,3,Control,3,0,4,0.0,3_cuidado_preocupação_atenção_carinho
+22,3,Control,4,0,4,0.0,4_espera_tempo espera_tempo_ansiedade
+22,3,Control,5,0,4,0.0,5_pessoas_todas_amável_perguntando trataram
+22,3,Control,6,0,4,0.0,6_será_será alguém_alguém_ver será
+22,3,Control,7,0,4,0.0,7_maravilhoso_realçar_realmente_positivo olha
+22,3,Control,8,0,4,0.0,8_exame_meia_fazer_às
+22,3,Control,9,0,4,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+22,3,Control,10,2,4,0.5,10_tratada_tratado tratada_tratado_tratada tratado
+24,1,VR Art,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+24,1,VR Art,0,1,1,1.0,0_senti_cinco_cinco estrelas_estrelas
+24,1,VR Art,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+24,1,VR Art,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+24,1,VR Art,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+24,1,VR Art,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+24,1,VR Art,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+24,1,VR Art,6,0,1,0.0,6_será_será alguém_alguém_ver será
+24,1,VR Art,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+24,1,VR Art,8,0,1,0.0,8_exame_meia_fazer_às
+24,1,VR Art,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+24,1,VR Art,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+25,2,VR Only,-1,1,2,0.5,-1_melhor_amiga_vai_sítio
+25,2,VR Only,0,0,2,0.0,0_senti_cinco_cinco estrelas_estrelas
+25,2,VR Only,1,1,2,0.5,1_acolhida_acolhida acolhida_sentir_acarinhada
+25,2,VR Only,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+25,2,VR Only,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+25,2,VR Only,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+25,2,VR Only,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+25,2,VR Only,6,0,2,0.0,6_será_será alguém_alguém_ver será
+25,2,VR Only,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+25,2,VR Only,8,0,2,0.0,8_exame_meia_fazer_às
+25,2,VR Only,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+25,2,VR Only,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+26,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+26,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+26,3,Control,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+26,3,Control,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+26,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+26,3,Control,4,1,1,1.0,4_espera_tempo espera_tempo_ansiedade
+26,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+26,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+26,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+26,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+26,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+26,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+27,1,VR Art,-1,1,3,0.3333333333333333,-1_melhor_amiga_vai_sítio
+27,1,VR Art,0,0,3,0.0,0_senti_cinco_cinco estrelas_estrelas
+27,1,VR Art,1,0,3,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+27,1,VR Art,2,0,3,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+27,1,VR Art,3,2,3,0.6666666666666666,3_cuidado_preocupação_atenção_carinho
+27,1,VR Art,4,0,3,0.0,4_espera_tempo espera_tempo_ansiedade
+27,1,VR Art,5,0,3,0.0,5_pessoas_todas_amável_perguntando trataram
+27,1,VR Art,6,0,3,0.0,6_será_será alguém_alguém_ver será
+27,1,VR Art,7,0,3,0.0,7_maravilhoso_realçar_realmente_positivo olha
+27,1,VR Art,8,0,3,0.0,8_exame_meia_fazer_às
+27,1,VR Art,9,0,3,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+27,1,VR Art,10,0,3,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+28,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+28,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+28,2,VR Only,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+28,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+28,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+28,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+28,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+28,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+28,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+28,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+28,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+28,2,VR Only,10,1,1,1.0,10_tratada_tratado tratada_tratado_tratada tratado
+29,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+29,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+29,3,Control,1,1,1,1.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+29,3,Control,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+29,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+29,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+29,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+29,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+29,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+29,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+29,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+29,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+31,1,VR Art,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+31,1,VR Art,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+31,1,VR Art,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+31,1,VR Art,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+31,1,VR Art,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+31,1,VR Art,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+31,1,VR Art,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+31,1,VR Art,6,0,1,0.0,6_será_será alguém_alguém_ver será
+31,1,VR Art,7,1,1,1.0,7_maravilhoso_realçar_realmente_positivo olha
+31,1,VR Art,8,0,1,0.0,8_exame_meia_fazer_às
+31,1,VR Art,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+31,1,VR Art,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+32,2,VR Only,-1,1,1,1.0,-1_melhor_amiga_vai_sítio
+32,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+32,2,VR Only,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+32,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+32,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+32,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+32,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+32,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+32,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+32,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+32,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+32,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+34,3,Control,-1,5,6,0.8333333333333334,-1_melhor_amiga_vai_sítio
+34,3,Control,0,0,6,0.0,0_senti_cinco_cinco estrelas_estrelas
+34,3,Control,1,0,6,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+34,3,Control,2,0,6,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+34,3,Control,3,0,6,0.0,3_cuidado_preocupação_atenção_carinho
+34,3,Control,4,0,6,0.0,4_espera_tempo espera_tempo_ansiedade
+34,3,Control,5,0,6,0.0,5_pessoas_todas_amável_perguntando trataram
+34,3,Control,6,0,6,0.0,6_será_será alguém_alguém_ver será
+34,3,Control,7,0,6,0.0,7_maravilhoso_realçar_realmente_positivo olha
+34,3,Control,8,0,6,0.0,8_exame_meia_fazer_às
+34,3,Control,9,1,6,0.16666666666666666,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+34,3,Control,10,0,6,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+35,1,VR Art,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+35,1,VR Art,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+35,1,VR Art,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+35,1,VR Art,2,1,1,1.0,2_fantástico_correu_fantásticos_fantástico fantástico
+35,1,VR Art,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+35,1,VR Art,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+35,1,VR Art,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+35,1,VR Art,6,0,1,0.0,6_será_será alguém_alguém_ver será
+35,1,VR Art,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+35,1,VR Art,8,0,1,0.0,8_exame_meia_fazer_às
+35,1,VR Art,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+35,1,VR Art,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+36,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+36,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+36,3,Control,1,1,1,1.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+36,3,Control,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+36,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+36,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+36,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+36,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+36,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+36,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+36,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+36,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+37,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+37,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+37,2,VR Only,1,1,1,1.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+37,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+37,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+37,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+37,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+37,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+37,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+37,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+37,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+37,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+39,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+39,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+39,3,Control,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+39,3,Control,2,1,1,1.0,2_fantástico_correu_fantásticos_fantástico fantástico
+39,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+39,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+39,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+39,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+39,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+39,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+39,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+39,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+41,1,VR Art,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+41,1,VR Art,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+41,1,VR Art,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+41,1,VR Art,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+41,1,VR Art,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+41,1,VR Art,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+41,1,VR Art,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+41,1,VR Art,6,0,1,0.0,6_será_será alguém_alguém_ver será
+41,1,VR Art,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+41,1,VR Art,8,0,1,0.0,8_exame_meia_fazer_às
+41,1,VR Art,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+41,1,VR Art,10,1,1,1.0,10_tratada_tratado tratada_tratado_tratada tratado
+42,3,Control,-1,1,1,1.0,-1_melhor_amiga_vai_sítio
+42,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+42,3,Control,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+42,3,Control,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+42,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+42,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+42,3,Control,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+42,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+42,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+42,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+42,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+42,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+43,2,VR Only,-1,0,2,0.0,-1_melhor_amiga_vai_sítio
+43,2,VR Only,0,0,2,0.0,0_senti_cinco_cinco estrelas_estrelas
+43,2,VR Only,1,1,2,0.5,1_acolhida_acolhida acolhida_sentir_acarinhada
+43,2,VR Only,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+43,2,VR Only,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+43,2,VR Only,4,1,2,0.5,4_espera_tempo espera_tempo_ansiedade
+43,2,VR Only,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+43,2,VR Only,6,0,2,0.0,6_será_será alguém_alguém_ver será
+43,2,VR Only,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+43,2,VR Only,8,0,2,0.0,8_exame_meia_fazer_às
+43,2,VR Only,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+43,2,VR Only,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+44,1,VR Art,-1,5,14,0.35714285714285715,-1_melhor_amiga_vai_sítio
+44,1,VR Art,0,1,14,0.07142857142857142,0_senti_cinco_cinco estrelas_estrelas
+44,1,VR Art,1,0,14,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+44,1,VR Art,2,2,14,0.14285714285714285,2_fantástico_correu_fantásticos_fantástico fantástico
+44,1,VR Art,3,0,14,0.0,3_cuidado_preocupação_atenção_carinho
+44,1,VR Art,4,0,14,0.0,4_espera_tempo espera_tempo_ansiedade
+44,1,VR Art,5,1,14,0.07142857142857142,5_pessoas_todas_amável_perguntando trataram
+44,1,VR Art,6,3,14,0.21428571428571427,6_será_será alguém_alguém_ver será
+44,1,VR Art,7,0,14,0.0,7_maravilhoso_realçar_realmente_positivo olha
+44,1,VR Art,8,0,14,0.0,8_exame_meia_fazer_às
+44,1,VR Art,9,2,14,0.14285714285714285,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+44,1,VR Art,10,0,14,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+46,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+46,2,VR Only,0,1,1,1.0,0_senti_cinco_cinco estrelas_estrelas
+46,2,VR Only,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+46,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+46,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+46,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+46,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+46,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+46,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+46,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+46,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+46,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+47,1,VR Art,-1,1,1,1.0,-1_melhor_amiga_vai_sítio
+47,1,VR Art,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+47,1,VR Art,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+47,1,VR Art,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+47,1,VR Art,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+47,1,VR Art,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+47,1,VR Art,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+47,1,VR Art,6,0,1,0.0,6_será_será alguém_alguém_ver será
+47,1,VR Art,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+47,1,VR Art,8,0,1,0.0,8_exame_meia_fazer_às
+47,1,VR Art,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+47,1,VR Art,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+49,2,VR Only,-1,0,3,0.0,-1_melhor_amiga_vai_sítio
+49,2,VR Only,0,1,3,0.3333333333333333,0_senti_cinco_cinco estrelas_estrelas
+49,2,VR Only,1,0,3,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+49,2,VR Only,2,0,3,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+49,2,VR Only,3,0,3,0.0,3_cuidado_preocupação_atenção_carinho
+49,2,VR Only,4,1,3,0.3333333333333333,4_espera_tempo espera_tempo_ansiedade
+49,2,VR Only,5,0,3,0.0,5_pessoas_todas_amável_perguntando trataram
+49,2,VR Only,6,0,3,0.0,6_será_será alguém_alguém_ver será
+49,2,VR Only,7,0,3,0.0,7_maravilhoso_realçar_realmente_positivo olha
+49,2,VR Only,8,1,3,0.3333333333333333,8_exame_meia_fazer_às
+49,2,VR Only,9,0,3,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+49,2,VR Only,10,0,3,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+52,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+52,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+52,2,VR Only,1,1,1,1.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+52,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+52,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+52,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+52,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+52,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+52,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+52,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+52,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+52,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+54,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+54,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+54,2,VR Only,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+54,2,VR Only,2,1,1,1.0,2_fantástico_correu_fantásticos_fantástico fantástico
+54,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+54,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+54,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+54,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+54,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+54,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+54,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+54,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+57,2,VR Only,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+57,2,VR Only,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+57,2,VR Only,1,1,1,1.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+57,2,VR Only,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+57,2,VR Only,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+57,2,VR Only,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+57,2,VR Only,5,0,1,0.0,5_pessoas_todas_amável_perguntando trataram
+57,2,VR Only,6,0,1,0.0,6_será_será alguém_alguém_ver será
+57,2,VR Only,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+57,2,VR Only,8,0,1,0.0,8_exame_meia_fazer_às
+57,2,VR Only,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+57,2,VR Only,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+59,1,VR Art,-1,1,2,0.5,-1_melhor_amiga_vai_sítio
+59,1,VR Art,0,1,2,0.5,0_senti_cinco_cinco estrelas_estrelas
+59,1,VR Art,1,0,2,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+59,1,VR Art,2,0,2,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+59,1,VR Art,3,0,2,0.0,3_cuidado_preocupação_atenção_carinho
+59,1,VR Art,4,0,2,0.0,4_espera_tempo espera_tempo_ansiedade
+59,1,VR Art,5,0,2,0.0,5_pessoas_todas_amável_perguntando trataram
+59,1,VR Art,6,0,2,0.0,6_será_será alguém_alguém_ver será
+59,1,VR Art,7,0,2,0.0,7_maravilhoso_realçar_realmente_positivo olha
+59,1,VR Art,8,0,2,0.0,8_exame_meia_fazer_às
+59,1,VR Art,9,0,2,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+59,1,VR Art,10,0,2,0.0,10_tratada_tratado tratada_tratado_tratada tratado
+60,3,Control,-1,0,1,0.0,-1_melhor_amiga_vai_sítio
+60,3,Control,0,0,1,0.0,0_senti_cinco_cinco estrelas_estrelas
+60,3,Control,1,0,1,0.0,1_acolhida_acolhida acolhida_sentir_acarinhada
+60,3,Control,2,0,1,0.0,2_fantástico_correu_fantásticos_fantástico fantástico
+60,3,Control,3,0,1,0.0,3_cuidado_preocupação_atenção_carinho
+60,3,Control,4,0,1,0.0,4_espera_tempo espera_tempo_ansiedade
+60,3,Control,5,1,1,1.0,5_pessoas_todas_amável_perguntando trataram
+60,3,Control,6,0,1,0.0,6_será_será alguém_alguém_ver será
+60,3,Control,7,0,1,0.0,7_maravilhoso_realçar_realmente_positivo olha
+60,3,Control,8,0,1,0.0,8_exame_meia_fazer_às
+60,3,Control,9,0,1,0.0,9_segura_tranquilidade_tranquilidade traz_tranquilidade alentar
+60,3,Control,10,0,1,0.0,10_tratada_tratado tratada_tratado_tratada tratado

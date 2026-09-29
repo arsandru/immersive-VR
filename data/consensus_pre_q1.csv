@@ -1,0 +1,54 @@
+participant_id,descriptors,source_rater,n_raters_agreeing_on_count,group_similarity,needs_review,review_reason
+1,"a ansiedade está a aumentar; O medo está presente; quero ver se me desfecho; Quanto mais depressa me desfecho, melhor",B,3,0.986,False,
+2,"estou muito assustada; estou num carrossel de emoções; estou no nono círculo do inferno Dante; espero que seja só esta fase e que daqui para a frente corra tudo; não há de ser assim muito, muito, muito mal, já sendo mal; vou ficar bem, sem ser bem; talvez aí no final do dia consiga relaxar mais um bocadinho",C,3,0.93,False,
+3,"Estou confiante na equipa; Não digo que estou a 100%; estou um bocadinho arreciosa, porque é uma coisa que é desconhecida; sinto-me segura; Sinto-me segura",B,4,0.981,False,
+4,"Estou-me a sentir ótima; Acordei super bem disposta; Tenho andado super bem disposta; Venho completamente tranquila; Sei que vai correr bem; Estou muito habituada a fazer operações, isto para mim não é uma novidade, não é a primeira vez, já devo ter feito 10 operações na vida, perdi a conta, é um processo normal; Hoje me acordei como se viesse a operar a hernia inguinal que fui operada em fevereiro, estou super tranquila",B,3,0.812,False,
+5,"Me senti muito bem, sinto que vai ser um momento só mesmo que me vai fazer ficar melhor e me vai fazer ultrapassar o drama que tenho vivido",A,3,0.999,False,
+7,"levemente nervosa, mas não muito; Não sei até que ponto isso está mascarado; Fome, sono, incomodada nesse sentido; estou com sono; estou com fome; estou com sede; Nariz entupido",A,1,0.877,True,no majority segment count (counts: A=7 B=5 C=4 D=6)
+9,sinto-me numa mistura de emoções; estou ligeiramente nervosa; muito confiante porque sei que estou muito bem entregue nas mãos do meu cirurgião e de toda a equipa que me vai assistir nesta cirurgia,A,4,0.997,False,
+12,Ansiosa; com esperança,A,4,0.971,False,
+13,"Sinto-me tranquila, relaxada, sem stress; com fome só, é a única coisa; de resto estou bem",A,4,0.934,False,
+14,"Senti bem, tranquila; Estou tranquila",A,4,1.0,False,
+15,"Um bocadinho ansiosa, não muito; tem que tentar estar tranquila, mas um bocadinho, um bocadinho normal",A,2,0.964,True,no majority segment count (counts: A=2 B=2 C=3 D=3)
+16,"Um bocadinho ansiosa, mas nada demais; Estou confiante nos médicos, na equipa; isso ajuda-me a acalmar; Não sou uma pessoa, normalmente, que fico muito nervosa com atos médicos; Sinto-me relativamente tranquila; Sei que não estou super calma, mas tenho alguma tranquilidade",B,2,0.986,True,no majority segment count (counts: A=5 B=6 C=7 D=6)
+17,"Tu me senti calma, tu me senti bem; Não estou com stress",A,3,0.977,False,
+18,tranquila e ao mesmo tempo um bocadinho ansiosa; Estou tranquila e um pouco ansiosa,A,3,0.956,False,
+19,"Estranhamente tranquila, mas consciente de alguma ansiedade de fundo; Só receio, porque é uma cirurgia. Não pelo tumor, mas pela cirurgia",A,2,0.988,True,no majority segment count (counts: A=2 B=2 C=3 D=3)
+20,Estou tranquila e feliz que me vou operar,A,4,1.0,False,
+21,"ansiosa, com medo, com receio, com incerteza; com vontade de chorar",C,3,0.93,False,
+22,"Bem, relaxada; a conversar também, com as perguntas que está a fazer e isso também é bom; Sempre me distraio mais um bocadinho do que para pensar, assim não tenho que pensar; Mas estou bem",B,3,0.902,False,
+23,"sinto-me um bocadinho, um bocado, ansiosa e apreensiva, porque não sei se vai correr bem ou não; eu sou otimista, eu sou uma pessoa otimista; Penso que vai correr bem, porque eu já passei por uma situação desta; já sei como é que é, mais ou menos",A,2,0.985,True,no majority segment count (counts: A=4 B=3 C=3 D=4)
+24,"Feliz, porque tenho a possibilidade de me tratar, há um monte de gente que não tem e gostaria de estar no meu lugar; apreensiva pelo pós, pelo que não posso fazer, porque era um paquete, e claro que não posso fazer essas coisas durante os primeiros tempos, daí a minha parte apreensiva; como tenho dois filhos adolescentes, a vida é horror; Acho que está tudo bem; Sou uma nova Karina, completamente diferente, para melhor, acho eu; O cancro tira-nos muita coisa, mas dá-nos muita coisa",A,2,0.739,True,no majority segment count (counts: A=6 B=6 C=5 D=7)
+25,"Sinto-me tranquila, calma, segura",A,4,1.0,False,
+26,Sinto-me bem; um bocadinho intranquila,A,3,0.996,False,
+27,Sinto-me com algum receio; mas ao mesmo tempo confiante na competência de quem me está a tratar e com esperança de que o problema fique resolvido,B,3,0.957,False,
+28,Expectant,A,4,1.0,False,
+29,Desejamos que isto acabe e depois vamos ver o pós-operatório,A,4,1.0,False,
+31,Fica bem,A,4,1.0,False,
+32,"bem; Não muito bem, mas é bem dentro do possível",A,2,0.993,True,no majority segment count (counts: A=2 B=2 C=3 D=1)
+33,Estou calma; quero muito que isto cabe; Estou à espera há imenso tempo; Estou feliz por finalmente estar aqui a resolver,B,3,0.993,False,
+35,bem disposta; com receio da cirurgia,A,4,0.982,False,
+36,Pouco nervosa; Sempre que faço uma cirurgia tenho medo de não acordar,A,4,1.0,False,
+37,"descontraída; mas um pouco ansiosa; descontraída, também tomei um bocadinho de alparazola, caí para o meio e disse, tome, menina; eu estou um pouco receosa, mas acho que também pelo facto de criar a imagem ou imaginar, eu que não percebo nada, nem nunca vi, mas a cortar, a tirar, é isso que me assusta, porque eu sei que não estou a sentir nada, mas não faço ideia o quanto; mas fico com positiva quando penso que é para melhor e para eu ficar bem",C,3,0.822,False,
+38,"uns e outros, eu acho que eu já capto",A,3,0.667,True,low group similarity (0.67)
+39,"Estou com comissões por causa das meias, mas esse é o único desconforto que tenho",A,3,0.998,False,
+40,Na expectativa de correr bem,A,4,1.0,False,
+41,parece que estou tranquila; mas raciosa do que é que tudo isto está a acontecer,C,3,0.923,False,
+42,"Sinto-me tranquila, confiante, bem acolhida, bem recebida, bem tratada",A,4,1.0,False,
+43,"ligeiramente ansiosa; mas tranquila porque confio nos profissionais; o facto de ter existido aqui um contratempo nos horários da última refeição e do jejum fiquei logo no início de manhã mais ansiosa e com estresse; mas entretanto, conversando com os profissionais, ajudou a diminuir essa ansiedade",C,3,0.937,False,
+44,"Não me sinto ansiosa, na verdade, nem sei; Eu acho que a ansiedade que tenho é... Nem sei bem se a sinto, eu acho que é uma coisa que se manifesta de outra forma; Há dois ou três dias tenho um tico nervoso no olho, mas agora até parou; estou só a respirar fundo e tentar estar-me tranquila; Não quero estressar com nada; fazer as coisas com calma com sensibilidade, não vale a pena estarmos a estressar, vai acontecer vai correr bem; é importante manter-me serena; sinto-me bem; Sinto um bocadinho de fome; Um bocadinho de sede; Estou muito otimista; Estou com uma energia positiva em relação àquilo, mesmo o pós-operatório; vou ser uma boa paciente, vou fazer tudo o que me disserem e vai correr bem e vou me livrar disto; Eu não sou assim muito de ficar nervosa, ansiosa, porque eu acho que no fundo não serve nada; eu aprendi a ser otimista, a olhar mais para o futuro, de pensar de uma forma positiva sobre o futuro; saía muito fragilizada, porque era uma coisa que eu não escolhi; acho que até estou mais serena até do que os dias que se deu; eu também vinha assim um bocadinho abaixo, mas ficava assim sensibilizada",B,2,0.515,True,no majority segment count (counts: A=18 B=18 C=14 D=19)
+45,Sinta-te tranquila e confiante; acho que vai correr tudo bem,A,4,0.961,False,
+46,"Sinto-me bem, sinto-me meio disposta, muito pouco ansiosa e quero mesmo é despachar a situação",A,2,0.678,True,no majority segment count (counts: A=1 B=2 C=3 D=1)
+47,"tenho mais receio depois da cirurgia do que antes, porque de outra vez a coisa não correu muito bem com a fisioterapia",A,4,0.968,False,
+48,,A,4,1.0,False,
+49,Estou normal,A,4,1.0,False,
+50,preocupada; mas ao mesmo tempo também aliviada porque estou a avançar com isto de despachar,B,4,0.936,False,
+51,"Sinto-me um pouco ansiosa, com algum receio; penso que isto vai, com a ajuda de todos, e minha também, isto vai correr bem",A,4,0.982,False,
+52,"eu estou preocupada por saber o que é que vai acontecer, é a primeira vez, logo é sempre um desconhecido; espero que ocorra tudo bem, e acredito que sim; parece-me que estou bem entregue",C,3,0.973,False,
+53,"ansiosa; Estou ansiosa, mas estou tranquila, sei que estou em boas mãos e vai correr tudo bem",B,2,0.972,True,no majority segment count (counts: A=2 B=2 C=3 D=3)
+54,"estou apreensiva; acho que vai correr tudo bem; mas fica sempre aquele medo de não se acordar, tenho filhos pequeninos",C,3,0.97,False,
+56,Estou tranquila e muito confiante; Estou otimista,A,4,1.0,False,
+57,"Expectante; Não tenho grandes palavras neste momento, mas estou expectante",A,3,0.998,False,
+58,Espectando com alguma ansiedade e algum medo que algo corra mal; Perdemos o controle durante o momento da anestesia e isso traz alguma ansiedade,A,4,1.0,False,
+59,"Um bocadinho ansiosa, não muito; mas confiante; Quero que acabe este processo",A,3,0.989,False,
+60,"luta comigo própria para relaxar e para estar tranquila e confiante; estou confiante; sinto que tenho que fazer isto e estou inquieta para me despachar; já que não há nada a resolver para trás, tenho que ir para a frente; estou confiante, vou ficar melhor; estou nas mãos certas, estou com as pessoas certas, num lugar certo",D,3,0.704,False,

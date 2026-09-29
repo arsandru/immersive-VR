@@ -1,0 +1,39 @@
+Topic,Words,Frequency,Class,Human_Label
+-1,"família, será, será alguém, alguém, olha",1,Control,Unassigned or mixed content
+0,"tranquila, sinto, relaxada, calma, tranquilidade",22,Control,Calm and relaxation
+1,"pessoas, doentes, outra enfermeira, enfermeira, assertividade",19,Control,Compassionate and professional care
+2,"pôs, logo, bocadinho, emoção, lembro",11,Control,Subjective emotional and experiential effects
+3,"cirurgia, vai, sou, fazer, equipa",12,Control,Surgical concerns and coping
+4,"cima, abaixo, trabalho, vou, ir",9,Control,Movement and sense of place
+5,"respiração, riacho, nadar, água, ar",2,Control,Nature imagery and sensory responses
+6,"agora, tempo, rápido, minutos, passar",9,Control,Waiting experience
+7,"manter, manter positiva, positiva, dentro, correu",10,Control,Positive appraisal and optimism
+8,"comigo, similar, anterior, seja falar, mudou ponto",5,Control,No perceived change and brief appraisals
+9,"ansiedade, ansiosa, aumenta, durante, pouco",6,Control,Anxiety and nervousness
+10,"sinto, sinto sentir, quentinha, sentir quentinha, sinto sinto",3,Control,Feeling well and stable
+11,"gente acolheu, acolheu, acolhida gente, acolhida, gente",2,Control,Feeling welcomed
+0,"relaxada, tranquila, bocadinho, calma, sinto",25,VR Only,Calm and relaxation
+1,"carinho, preocupação, pessoas, cuidado, simpático",8,VR Only,Compassionate and professional care
+2,"mim, vídeo, diferente, tipo, bocadinho",15,VR Only,Subjective emotional and experiential effects
+3,"cirurgia, pode depressa, depressa, vai, pode",6,VR Only,Surgical concerns and coping
+4,"quero despachar, despachar, quero, lado lembrar, despachar quero",3,VR Only,Movement and sense of place
+5,"água, barulho, natureza, verde, pássaros",8,VR Only,Nature imagery and sensory responses
+6,"impecável, acabe, daí minutos, sexta vez, sexta",4,VR Only,Waiting experience
+7,"nenhuma falha, nenhuma, perfeito, falha, experiência",3,VR Only,Positive appraisal and optimism
+8,"cinco, cinco estrelas, estrelas, mesma, importante lá",9,VR Only,No perceived change and brief appraisals
+9,"ansiedade, agitada, ansiedade nervosismo, nervosismo, bocadinho agitada",6,VR Only,Anxiety and nervousness
+10,"sinto, sinto sinto, cheguei, estável, estável sinto",6,VR Only,Feeling well and stable
+11,"acolhida, acolhimento, sentir, acolhida acolhida, facto chegar",7,VR Only,Feeling welcomed
+-1,"será, alguém, será alguém, olha, alguém ver",4,VR Art,Unassigned or mixed content
+0,"calma, tranquila, sinto, bocadinho, filme",36,VR Art,Calm and relaxation
+1,"pessoas, todas, cuidado, vezes, às vezes",10,VR Art,Compassionate and professional care
+2,"diferença, sensação, diferente, disposta digamos, explotar bocadinho",7,VR Art,Subjective emotional and experiential effects
+3,"cirurgia, vídeo, exame, doutor, pedro",7,VR Art,Surgical concerns and coping
+4,"sítio, outro sítio, outro, vamos, cima",12,VR Art,Movement and sense of place
+5,"ar, mar, água, natureza, falta",13,VR Art,Nature imagery and sensory responses
+6,"espera, tempo, tempo espera, eventualmente, voltei",10,VR Art,Waiting experience
+7,"positivo, correu, aí realçar, sinto positivo, positivo excelente",8,VR Art,Positive appraisal and optimism
+8,"cinco, cinco estrelas, estrelas, mesma prejudicou, igual mesma",6,VR Art,No perceived change and brief appraisals
+9,"continuo realidade, ansiosa continuo, sou ansiosa, continuo, realidade",1,VR Art,Anxiety and nervousness
+10,"contente, sinto disposta, disposta, sinto, sinto sinto",3,VR Art,Feeling well and stable
+11,"acolhida, acarinhada, acolhida acarinhada, acolhida acolhida, acolhimento",1,VR Art,Feeling welcomed

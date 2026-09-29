@@ -1,21 +1,35 @@
 # Immersive VR
 
-Analysis workspace for the publication support pipeline in this repository.
+Analysis workspace for the Immersive VR project.
 
-Current primary workflow:
-- semantic projection using `Qwen/Qwen3-Embedding-0.6B`
-- word-level mixed-effects modeling with CR2-robust inference
-- participant-level mean models as a sensitivity check
+Current workflows:
+- Q3 interview topic analysis using BERTopic and `Qwen/Qwen3-Embedding-0.6B`
+- all-questions interview topic analysis using the same shared-topic pipeline
+- semantic projection using the same Qwen embedding model
 - WhisperX transcription/diarization utilities for audio processing
 
 ## Repository Layout
 
 ```text
-flow_scripts/
+immersive VR/
   data/
-    emotion_words_checked.csv
-    Flow_current.csv
+    participant_conditions.csv
+    immerse_interviewPost.csv
     audio/                # local recordings, not tracked
+
+  q3/
+    q3_topic_analysis.py
+    requirements.txt
+    README.md
+    outputs/              # generated topic-analysis outputs
+
+  all_questions/
+    all_questions_topic_analysis.py
+    test_topic_differences.py
+    plot_topic_differences.py
+    requirements.txt
+    README.md
+    outputs/              # generated all-question topic outputs
 
   semantic_projection/
     semantic_projection.py
@@ -33,11 +47,48 @@ flow_scripts/
 
 ```
 
-## Inputs
+## Q3 topic analysis
 
-Core analysis inputs:
-- `data/emotion_words_checked.csv`
-- `data/Flow_current.csv`
+The Q3 analysis maps `Participant` in `data/immerse_interviewPost.csv` to
+`enrollment_number` in `data/participant_conditions.csv`, embeds responses to
+the care question, fits one shared BERTopic model, and summarizes topics by
+condition.
+
+Install and run from the repository root:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r q3/requirements.txt
+python q3/q3_topic_analysis.py
+```
+
+See `q3/README.md` for the method, configuration, and output definitions.
+
+## All-questions topic analysis
+
+The parallel all-questions analysis stacks the three post-interview text
+columns, preserves question identifiers, and fits one shared BERTopic model.
+It reports overall and question-specific participant-weighted topic prevalence
+and condition comparisons.
+
+```bash
+source .venv/bin/activate
+python -m pip install -r all_questions/requirements.txt
+python all_questions/all_questions_topic_analysis.py
+python all_questions/test_topic_differences.py
+python all_questions/plot_topic_differences.py
+
+# Parallel combined-response analysis
+python all_questions/combined_response_topic_analysis.py
+python all_questions/test_response_topic_differences.py
+python all_questions/plot_response_topic_differences.py
+```
+
+See `all_questions/README.md` for methodological and output details.
+
+## Other inputs
 
 Audio workflow inputs:
 - `data/audio/`

@@ -264,7 +264,7 @@ plot_df.to_csv(OUTPUT_DIR / "semantic_projection_primary_plot_points.csv", index
 condition_order = ["3", "1", "2"]
 condition_titles = {
     "3": "Control",
-    "1": "VR+Meditation",
+    "1": "VR Art",
     "2": "VR Only",
 }
 

@@ -1,0 +1,51 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "embedding_instruction": "Instruct: Represent the main topic and semantic meaning of this Portuguese interview sentence.\nText:",
+  "embedding_text": "Original sentence with stopwords retained for semantic context.",
+  "topic_representation_text": "Stopwords removed by CountVectorizer.",
+  "source_question_column": "Que aspetos do cuidado prestado foram mais importantes para si?",
+  "n_interview_rows": 60,
+  "n_responses_with_text": 50,
+  "n_sentence_rows": 127,
+  "n_analyzed_sentences": 100,
+  "n_participants_analyzed": 42,
+  "n_blank_responses": 10,
+  "n_unmatched_participants": 2,
+  "n_sentences_without_substantive_tokens": 26,
+  "unmatched_participant_ids": [
+    "11",
+    "33"
+  ],
+  "condition_counts": [
+    {
+      "condition_number": "1",
+      "condition_label": "VR Art",
+      "n_sentences": 40,
+      "n_participants": 13
+    },
+    {
+      "condition_number": "2",
+      "condition_label": "VR Only",
+      "n_sentences": 31,
+      "n_participants": 16
+    },
+    {
+      "condition_number": "3",
+      "condition_label": "Control",
+      "n_sentences": 29,
+      "n_participants": 13
+    }
+  ],
+  "min_cluster_size": 4,
+  "min_samples": 2,
+  "cluster_selection_method": "leaf",
+  "random_state": 42,
+  "package_versions": {
+    "bertopic": "0.17.3",
+    "sentence-transformers": "5.1.2",
+    "transformers": "4.57.6",
+    "umap-learn": "0.5.11",
+    "hdbscan": "0.8.41",
+    "pandas": "2.3.3"
+  }
+}

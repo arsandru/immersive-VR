@@ -210,7 +210,7 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
   scale_color_manual(
     values = cond_colors,
     breaks = c("1", "2", "3"),
-    labels = c("Flow (VR+Meditation)", "VR Only", "Control (Care as Usual)")
+    labels = c("VR Art", "VR Only", "Control (Care as Usual)")
   ) +
   scale_x_discrete(
     breaks = c("3", "1", "2"),

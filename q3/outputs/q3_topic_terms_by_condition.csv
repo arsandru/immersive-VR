@@ -1,0 +1,33 @@
+Topic,Words,Frequency,Class
+-1,"outro, outro sítio, sítio, às vezes, vezes",9,VR Art
+0,"cinco, cinco estrelas, estrelas, reclamar, falsa",5,VR Art
+1,"acolhida, acarinhada, acolhida acarinhada, acolhida acolhida, sentir",1,VR Art
+2,"fantástico, correu, normalmente, espetacular, fantástico fantástico",6,VR Art
+3,"cuidado, atenção, preocupação, alguma, cuidado picar",3,VR Art
+4,"espera, tempo, tempo espera, passei tempo, hoje manhã",3,VR Art
+5,"pessoas encontrei, todas atenciosas, atenciosas, encontrei todas, encontrei",1,VR Art
+6,"será, alguém, será alguém, saber será, aspecto",3,VR Art
+7,"olha acolhimento, realçar, experiência entender, maravilhoso, maravilhoso mim",3,VR Art
+8,"exame, fazer, difícil normal, exame manhã, dias exames",3,VR Art
+9,"segura, alentar sinto, alentar, segura segura, sinto segura",2,VR Art
+10,"tratada, tratada igual, igual, tratada tratada, tratada tratado",1,VR Art
+-1,"operar, agradável, amiga, assertividade, pacientes",12,Control
+0,"razão, razão queixa, queixa, cinco estrelas, cinco",1,Control
+1,"gente acolheu, acolheu, acolhida gente, gente, acolhida",2,Control
+2,"fantásticos, ótimo, correu, fantástico, fantástico fantástico",3,Control
+3,"cuidadosos, serem cuidadosos, serem, preocupação, cuidado",1,Control
+4,"pensava, pensava ia, ia rápido, ia, operação pensava",2,Control
+5,"pessoas, amável, gente amável, amável sensível, atenciosidade",3,Control
+7,"valorizei, olha acolhimento, entender valia, excelente experiência, experiência entender",1,Control
+9,"tranquilidade, faz tranquilidade, tranquilidade traz, traz, traz tranquilidade",2,Control
+10,"tratada, tratada tratado, tratado, igual, tratada igual",2,Control
+-1,"acolhimento, possível, desagradável, ali, atenciosa",4,VR Only
+0,"senti, cinco estrelas, estrelas, cinco, outra palavra",8,VR Only
+1,"acolhida, sentir, acolhida acolhida, única acolhida, caloroso positivo",7,VR Only
+2,"perfeito, fantástico, correu, fantástico fantástico, fantásticos",1,VR Only
+3,"carinho, preocupação, cuidado, atenção, trato pessoas",3,VR Only
+4,"espera, tempo espera, tempo, tribulação timings, picos aumentos",2,VR Only
+5,"às perguntas, simpático perguntando, trataram, perguntando, perguntando trataram",2,VR Only
+6,"pessoas olharam, perguntaram, olharam perguntaram, olharam, preocupação falei",2,VR Only
+8,"meia, às, exame, às três, nove meia",1,VR Only
+10,"tratada, igual, tratada igual, tratada tratada, tratada tratado",1,VR Only

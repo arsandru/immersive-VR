@@ -1,0 +1,66 @@
+{
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "embedding_instruction": "Instruct: Represent the main topic and semantic meaning of this Portuguese interview sentence.\nText:",
+  "question_columns": {
+    "Q1": "Como se sente agora?",
+    "Q2": "Sente alguma diferença em relação a como se sentia antes?",
+    "Q3": "Que aspetos do cuidado prestado foram mais importantes para si?"
+  },
+  "topic_model_scope": "One shared BERTopic model across all three questions.",
+  "n_interview_rows": 60,
+  "n_response_rows": 180,
+  "n_responses_with_text": 132,
+  "n_sentence_rows": 375,
+  "n_analyzed_sentences": 329,
+  "n_participants_analyzed": 51,
+  "n_topics_excluding_outlier": 12,
+  "question_counts": [
+    {
+      "question_id": "Q1",
+      "n_sentences": 166,
+      "n_participants": 48
+    },
+    {
+      "question_id": "Q2",
+      "n_sentences": 63,
+      "n_participants": 25
+    },
+    {
+      "question_id": "Q3",
+      "n_sentences": 100,
+      "n_participants": 42
+    }
+  ],
+  "condition_counts": [
+    {
+      "condition_number": "1",
+      "condition_label": "VR Art",
+      "n_sentences": 118,
+      "n_participants": 17
+    },
+    {
+      "condition_number": "2",
+      "condition_label": "VR Only",
+      "n_sentences": 100,
+      "n_participants": 17
+    },
+    {
+      "condition_number": "3",
+      "condition_label": "Control",
+      "n_sentences": 111,
+      "n_participants": 17
+    }
+  ],
+  "min_cluster_size": 10,
+  "min_samples": 2,
+  "cluster_selection_method": "eom",
+  "random_state": 42,
+  "package_versions": {
+    "bertopic": "0.17.3",
+    "sentence-transformers": "5.1.2",
+    "transformers": "4.57.6",
+    "umap-learn": "0.5.11",
+    "hdbscan": "0.8.41",
+    "pandas": "2.3.3"
+  }
+}

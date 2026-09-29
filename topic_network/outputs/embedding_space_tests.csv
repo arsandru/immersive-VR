@@ -1,0 +1,13 @@
+test,comparison,statistic,p_perm,p_holm
+"sentence PERMANOVA (cosine), pseudo-F",all three,2.4973096777043438,0.08238352329534093,
+"sentence PERMANOVA (cosine), pseudo-F",VR Art vs VR Only,1.0493852443932037,0.9090181963607279,0.9090181963607279
+"sentence PERMANOVA (cosine), pseudo-F",VR Art vs Control,3.865263991867809,0.0033993201359728054,0.010197960407918417
+"sentence PERMANOVA (cosine), pseudo-F",VR Only vs Control,2.4799030918306038,0.14837032593481303,0.29674065186962606
+"participant-centroid PERMANOVA, pseudo-F",all three,1.2813391262617768,0.06858628274345131,
+"participant-centroid PERMANOVA, pseudo-F",VR Art vs VR Only,0.8102608496478023,0.7262547490501899,0.7262547490501899
+"participant-centroid PERMANOVA, pseudo-F",VR Art vs Control,1.6438100575562036,0.011397720455908818,0.03419316136772645
+"participant-centroid PERMANOVA, pseudo-F",VR Only vs Control,1.3741715139957251,0.07698460307938412,0.15396920615876825
+"dispersion of participant centroids, F",all three,0.15446819966771622,0.8848230353929214,
+"dispersion of participant centroids, F",VR Art vs VR Only,0.10242860739793436,0.7656468706258748,1.0
+"dispersion of participant centroids, F",VR Art vs Control,0.05415349398868425,0.8334333133373325,1.0
+"dispersion of participant centroids, F",VR Only vs Control,0.32165131777754896,0.5852829434113177,1.0

@@ -1,0 +1,496 @@
+scope,target_topic,target_label,condition,smooth,source_topic,source_label,entry_mass,entry_share,n_observed_transitions,ci_low,ci_high
+within_response,0,Calm and relaxation,VR Art,0.02,1,Compassionate and professional care,0.07929406375213184,0.15837644976276985,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,2,Subjective emotional and experiential effects,0.08470766410693956,0.16918919871342336,2.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,3,Surgical concerns and coping,0.001016730274020441,0.0020307463578741903,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,4,Movement and sense of place,0.08885219719097628,0.17746720093343737,2.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,5,Nature imagery and sensory responses,0.0008449775312048876,0.0016876993710382546,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,6,Waiting experience,0.0442752563191776,0.08843231859181218,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,7,Positive appraisal and optimism,0.0019008476033027229,0.0037966208402714302,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,8,No perceived change and brief appraisals,0.08098907185862243,0.16176194110376418,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,9,Anxiety and nervousness,0.04676458223040855,0.09340432508848553,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,10,Feeling well and stable,0.06545902860351084,0.13074331248239154,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.02,11,Feeling welcomed,0.00656385457490193,0.013110186754732111,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,1,Compassionate and professional care,0.001448271617065444,0.006214707549054015,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,2,Subjective emotional and experiential effects,0.051734317106910066,0.22199817166957556,1.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,3,Surgical concerns and coping,0.001327558274867813,0.005696712091442793,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,4,Movement and sense of place,0.0010802493853464222,0.004635479927153751,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,5,Nature imagery and sensory responses,0.04753491672110442,0.20397803996800445,2.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,6,Waiting experience,0.0025630044759099835,0.01099816020490115,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,7,Positive appraisal and optimism,0.009781317643067706,0.04197280943697541,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,8,No perceived change and brief appraisals,0.001331194354148914,0.005712314944589225,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,9,Anxiety and nervousness,0.0013568933151610063,0.0058225922745615616,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,10,Feeling well and stable,0.11206250591607018,0.48087367954753013,1.0,,
+within_response,0,Calm and relaxation,VR Only,0.02,11,Feeling welcomed,0.0028191548836154568,0.012097332386212035,0.0,,
+within_response,0,Calm and relaxation,Control,0.02,1,Compassionate and professional care,0.11417869512981725,0.28348024941547495,2.0,,
+within_response,0,Calm and relaxation,Control,0.02,2,Subjective emotional and experiential effects,0.051495918874004815,0.12785288805135178,1.0,,
+within_response,0,Calm and relaxation,Control,0.02,3,Surgical concerns and coping,0.11682520897323326,0.290050953377016,2.0,,
+within_response,0,Calm and relaxation,Control,0.02,4,Movement and sense of place,0.0010410531577690046,0.002584702938526195,0.0,,
+within_response,0,Calm and relaxation,Control,0.02,5,Nature imagery and sensory responses,0.0013011488867003744,0.0032304626577586994,0.0,,
+within_response,0,Calm and relaxation,Control,0.02,6,Waiting experience,0.000977813085853877,0.0024276919362619795,0.0,,
+within_response,0,Calm and relaxation,Control,0.02,7,Positive appraisal and optimism,0.0010580552533037628,0.002626915351947973,0.0,,
+within_response,0,Calm and relaxation,Control,0.02,8,No perceived change and brief appraisals,0.0009713243584473247,0.0024115818724579825,0.0,,
+within_response,0,Calm and relaxation,Control,0.02,9,Anxiety and nervousness,0.06607764801855862,0.16405607122932744,1.0,,
+within_response,0,Calm and relaxation,Control,0.02,10,Feeling well and stable,0.04087509007466985,0.1014837375402922,1.0,,
+within_response,0,Calm and relaxation,Control,0.02,11,Feeling welcomed,0.007972824318706386,0.019794745629584845,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.1,1,Compassionate and professional care,0.0658408714475338,0.14243960298873368,1.0,0.004179132072661931,0.1432256602460128
+within_response,0,Calm and relaxation,VR Art,0.1,2,Subjective emotional and experiential effects,0.07831873617594304,0.16943411352582516,2.0,0.00575489959750239,0.16497261549470404
+within_response,0,Calm and relaxation,VR Art,0.1,3,Surgical concerns and coping,0.004324298310268706,0.009355151609898658,0.0,0.0024671350199043144,0.015036173056184812
+within_response,0,Calm and relaxation,VR Art,0.1,4,Movement and sense of place,0.0819005861330848,0.1771830584386677,2.0,0.0035430279904761653,0.17313648591259417
+within_response,0,Calm and relaxation,VR Art,0.1,5,Nature imagery and sensory responses,0.0038699898991219036,0.008372304507551916,0.0,0.001184862926624414,0.013261081374704121
+within_response,0,Calm and relaxation,VR Art,0.1,6,Waiting experience,0.04128514571311985,0.08931594669725598,1.0,0.0031711789245753514,0.10111972123410357
+within_response,0,Calm and relaxation,VR Art,0.1,7,Positive appraisal and optimism,0.0075553282606890875,0.01634513538842937,0.0,0.004134397742758764,0.019006525514042256
+within_response,0,Calm and relaxation,VR Art,0.1,8,No perceived change and brief appraisals,0.06892766560039958,0.14911754822207576,1.0,0.004987579355865162,0.20372624445698903
+within_response,0,Calm and relaxation,VR Art,0.1,9,Anxiety and nervousness,0.04299533512284723,0.09301575648411792,1.0,0.0029927648954487275,0.1528753587627356
+within_response,0,Calm and relaxation,VR Art,0.1,10,Feeling well and stable,0.05935669051274777,0.12841177896769193,1.0,0.003507720601245096,0.16912768564247613
+within_response,0,Calm and relaxation,VR Art,0.1,11,Feeling welcomed,0.007862469932338832,0.017009603169751912,0.0,0.0024645923883427354,0.02082405137469606
+within_response,0,Calm and relaxation,VR Only,0.1,1,Compassionate and professional care,0.00588365068647504,0.024169955956745173,0.0,0.003531242254162972,0.01210886287815637
+within_response,0,Calm and relaxation,VR Only,0.1,2,Subjective emotional and experiential effects,0.0460493840460741,0.18917023520573287,1.0,0.003314595936191695,0.1272786037933973
+within_response,0,Calm and relaxation,VR Only,0.1,3,Surgical concerns and coping,0.0051868284282194,0.02130741972045327,0.0,0.0023863699359318925,0.016574630227469595
+within_response,0,Calm and relaxation,VR Only,0.1,4,Movement and sense of place,0.00448186410698629,0.01841143600162899,0.0,0.002504808629813969,0.014505293005025299
+within_response,0,Calm and relaxation,VR Only,0.1,5,Nature imagery and sensory responses,0.04776580985609114,0.1962212887848479,2.0,0.002237119228455597,0.11334363108530095
+within_response,0,Calm and relaxation,VR Only,0.1,6,Waiting experience,0.008635758038350833,0.035475575040485235,0.0,0.004230154474153492,0.020439299238178613
+within_response,0,Calm and relaxation,VR Only,0.1,7,Positive appraisal and optimism,0.011598316948633176,0.04764572622661666,0.0,0.003516652369270715,0.024199959129774278
+within_response,0,Calm and relaxation,VR Only,0.1,8,No perceived change and brief appraisals,0.005150266838340205,0.021157225212964904,0.0,0.0028374455540046595,0.014385394204331168
+within_response,0,Calm and relaxation,VR Only,0.1,9,Anxiety and nervousness,0.005528915005388105,0.022712706666289086,0.0,0.0036087788365059053,0.009109338668265524
+within_response,0,Calm and relaxation,VR Only,0.1,10,Feeling well and stable,0.09290945679776468,0.38167076844469583,1.0,0.00535594411795176,0.23981866738501628
+within_response,0,Calm and relaxation,VR Only,0.1,11,Feeling welcomed,0.010238024293129647,0.042057662739540085,0.0,0.005643372863375642,0.026152096707494767
+within_response,0,Calm and relaxation,Control,0.1,1,Compassionate and professional care,0.10481297534742164,0.27620099361317463,2.0,0.004761706908290137,0.22708355356091914
+within_response,0,Calm and relaxation,Control,0.1,2,Subjective emotional and experiential effects,0.04842536857515644,0.12760953376438458,1.0,0.00346028467290363,0.1293586948495019
+within_response,0,Calm and relaxation,Control,0.1,3,Surgical concerns and coping,0.09809520250876375,0.258498457006856,2.0,0.00345824583079801,0.2520519382523209
+within_response,0,Calm and relaxation,Control,0.1,4,Movement and sense of place,0.003999519493727092,0.010539451384535652,0.0,0.002208132068539921,0.010944403899414657
+within_response,0,Calm and relaxation,Control,0.1,5,Nature imagery and sensory responses,0.003359555720570685,0.008853032032004752,0.0,0.0022017480159608922,0.006047279739357616
+within_response,0,Calm and relaxation,Control,0.1,6,Waiting experience,0.00419536178871964,0.011055530966182187,0.0,0.0026737891482918057,0.010989343347063701
+within_response,0,Calm and relaxation,Control,0.1,7,Positive appraisal and optimism,0.004597760899829227,0.012115924814836159,0.0,0.0023850430739510743,0.010962454117749543
+within_response,0,Calm and relaxation,Control,0.1,8,No perceived change and brief appraisals,0.0041967224478908546,0.011059116547202217,0.0,0.0026771538090372784,0.009427106055729129
+within_response,0,Calm and relaxation,Control,0.1,9,Anxiety and nervousness,0.06013044653712365,0.1584545140991075,1.0,0.0037325880105846406,0.19015101526538286
+within_response,0,Calm and relaxation,Control,0.1,10,Feeling well and stable,0.037636660344637585,0.09917935206985028,1.0,0.002928531127352743,0.12240376702567686
+within_response,0,Calm and relaxation,Control,0.1,11,Feeling welcomed,0.010031231152576696,0.026434093701865998,0.0,0.0023357779979800665,0.02267860384714678
+within_response,0,Calm and relaxation,VR Art,0.5,1,Compassionate and professional care,0.04262624400852452,0.1163673025941255,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,2,Subjective emotional and experiential effects,0.05419799068434545,0.14795753481581805,2.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,3,Surgical concerns and coping,0.012214106062612865,0.03334383803134458,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,4,Movement and sense of place,0.058709950842363495,0.16027493798405695,2.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,5,Nature imagery and sensory responses,0.01249817119598598,0.034119320227830374,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,6,Waiting experience,0.033360124069617206,0.09107130460310732,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,7,Positive appraisal and optimism,0.018580743350251505,0.05072440779511563,0.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,8,No perceived change and brief appraisals,0.04697719068984768,0.1282451478233506,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,9,Anxiety and nervousness,0.03199163042840618,0.08733539220104128,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,10,Feeling well and stable,0.04422305307406949,0.12072650355206481,1.0,,
+within_response,0,Calm and relaxation,VR Art,0.5,11,Feeling welcomed,0.010928538905681424,0.029834310372144922,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,1,Compassionate and professional care,0.015943707380272627,0.06354364435042915,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,2,Subjective emotional and experiential effects,0.03344676486046971,0.1333020783858476,1.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,3,Surgical concerns and coping,0.012238298796709417,0.04877573876917771,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,4,Movement and sense of place,0.011427256737807784,0.045543330715336214,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,5,Nature imagery and sensory responses,0.0370764806115758,0.1477683101900525,2.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,6,Waiting experience,0.01724183991217995,0.068717351441247,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,7,Positive appraisal and optimism,0.01493395321145453,0.059519269200134395,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,8,No perceived change and brief appraisals,0.012862133061616971,0.05126203017665455,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,9,Anxiety and nervousness,0.014411953920448216,0.057438841072111745,0.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,10,Feeling well and stable,0.059591482505803775,0.23750184824320744,1.0,,
+within_response,0,Calm and relaxation,VR Only,0.5,11,Feeling welcomed,0.02173568169188154,0.0866275574558016,0.0,,
+within_response,0,Calm and relaxation,Control,0.5,1,Compassionate and professional care,0.07894515437017359,0.2451171221120767,2.0,,
+within_response,0,Calm and relaxation,Control,0.5,2,Subjective emotional and experiential effects,0.03943012654294902,0.12242675588932946,1.0,,
+within_response,0,Calm and relaxation,Control,0.5,3,Surgical concerns and coping,0.05718209900625276,0.17754492541769032,2.0,,
+within_response,0,Calm and relaxation,Control,0.5,4,Movement and sense of place,0.009385382842851588,0.029140712317474487,0.0,,
+within_response,0,Calm and relaxation,Control,0.5,5,Nature imagery and sensory responses,0.008304056537993612,0.02578329799577911,0.0,,
+within_response,0,Calm and relaxation,Control,0.5,6,Waiting experience,0.012016208817573175,0.037309174293971556,0.0,,
+within_response,0,Calm and relaxation,Control,0.5,7,Positive appraisal and optimism,0.013927119731937228,0.043242369151570564,0.0,,
+within_response,0,Calm and relaxation,Control,0.5,8,No perceived change and brief appraisals,0.01248862506461003,0.03877598136828151,0.0,,
+within_response,0,Calm and relaxation,Control,0.5,9,Anxiety and nervousness,0.04612877590098873,0.14322541878105663,1.0,,
+within_response,0,Calm and relaxation,Control,0.5,10,Feeling well and stable,0.02928787315909778,0.09093603323491478,1.0,,
+within_response,0,Calm and relaxation,Control,0.5,11,Feeling welcomed,0.014975731969999623,0.04649820943785504,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,0,Calm and relaxation,0.10287967694019531,0.326358089095136,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,1,Compassionate and professional care,0.001204615871843349,0.003821319678686388,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,3,Surgical concerns and coping,0.0009379492419112634,0.0029753915580074545,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,4,Movement and sense of place,0.0011852935318987742,0.003760024755056099,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,5,Nature imagery and sensory responses,0.1140530923059123,0.36180274245987565,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,6,Waiting experience,0.08727201317300351,0.27684697597936375,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,7,Positive appraisal and optimism,0.001107885126458973,0.0035144674202102623,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,8,No perceived change and brief appraisals,0.0010821904185323986,0.003432957874027987,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,9,Anxiety and nervousness,0.0005827783241455718,0.0018487074016064018,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,10,Feeling well and stable,0.0007921624887236975,0.002512922316260748,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.02,11,Feeling welcomed,0.004137908594569767,0.013126401461769258,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,0,Calm and relaxation,0.07329332197901721,0.1554009873160611,1.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,1,Compassionate and professional care,0.09599060706606707,0.20352516038781027,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,3,Surgical concerns and coping,0.06107471241906935,0.12949434346399294,1.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,4,Movement and sense of place,0.0007116379380124199,0.0015088583133174946,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,5,Nature imagery and sensory responses,0.11600540896269043,0.24596176841276896,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,6,Waiting experience,0.0018080456555663177,0.003833529063779629,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,7,Positive appraisal and optimism,0.011915535713043587,0.02526404813165475,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,8,No perceived change and brief appraisals,0.10638037122321409,0.22555417427892438,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,9,Anxiety and nervousness,0.0009085156710499385,0.0019262905331769954,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,10,Feeling well and stable,0.0016044957337190103,0.003401950060821701,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.02,11,Feeling welcomed,0.0019473497059128793,0.0041288900376918155,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,0,Calm and relaxation,0.08664997621672936,0.2279079426931763,1.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,1,Compassionate and professional care,0.09136875123404747,0.2403193287452511,2.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,3,Surgical concerns and coping,0.0010061049213540836,0.002646270810112683,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,4,Movement and sense of place,0.001184806153751744,0.003116293215319331,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,5,Nature imagery and sensory responses,0.007270714997968276,0.01912353320156419,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,6,Waiting experience,0.08520016612052443,0.22409463251412437,2.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,7,Positive appraisal and optimism,0.05668678677408673,0.14909835542545183,1.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,8,No perceived change and brief appraisals,0.04228590758497345,0.11122096766074382,1.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,9,Anxiety and nervousness,0.0010506774690710494,0.002763506129662671,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,10,Feeling well and stable,0.0007234985717143284,0.001902955756253616,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.02,11,Feeling welcomed,0.006769873784284086,0.017806213848339955,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,0,Calm and relaxation,0.09694807115017876,0.3135315937716834,2.0,0.004522803618875839,0.21209383221289801
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,1,Compassionate and professional care,0.004736405416971996,0.015317609948440182,0.0,0.002125568643516373,0.020544775845858267
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,3,Surgical concerns and coping,0.00390720214694473,0.012635953472679953,0.0,0.0023468389437932597,0.014691286819744541
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,4,Movement and sense of place,0.004965596305911391,0.01605881690423205,0.0,0.0022059665367749784,0.0123180154056522
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,5,Nature imagery and sensory responses,0.10083014928503359,0.3260862957923331,2.0,0.005404622595454989,0.20819795682040562
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,6,Waiting experience,0.07716178031333291,0.24954241660387244,2.0,0.003333438442151881,0.1500821208809747
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,7,Positive appraisal and optimism,0.00457915928121349,0.01480907346108262,0.0,0.0023680157596790755,0.012091786468625377
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,8,No perceived change and brief appraisals,0.004362686053374806,0.014108995622215391,0.0,0.002468570421058359,0.010427440366135734
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,9,Anxiety and nervousness,0.0027240832431224137,0.008809728245752022,0.0,0.00222550773347797,0.005410772156396391
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,10,Feeling well and stable,0.0035099889658324764,0.011351359769435186,0.0,0.0023268785930526973,0.007876182890926507
+within_response,2,Subjective emotional and experiential effects,VR Art,0.1,11,Feeling welcomed,0.005487962184464267,0.017748156408273607,0.0,0.0019899213625814514,0.013687405068728925
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,0,Calm and relaxation,0.06956773495120164,0.16072812463148908,1.0,0.004974091167498632,0.20576116833396296
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,1,Compassionate and professional care,0.08354496145133986,0.19302087362630113,2.0,0.003300745484262465,0.20233069326131053
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,3,Surgical concerns and coping,0.051015855411215366,0.11786617420370991,1.0,0.0034316629436685225,0.12062055330999848
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,4,Movement and sense of place,0.003156478812216479,0.007292675552574128,0.0,0.0015373854249447064,0.011387440697637198
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,5,Nature imagery and sensory responses,0.10026398646209084,0.2316482277802048,2.0,0.004686561826205264,0.22348472537088537
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,6,Waiting experience,0.006396968917846106,0.014779449384294943,0.0,0.0032349273824842616,0.01581688468472392
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,7,Positive appraisal and optimism,0.01312967342389904,0.030334576624170283,0.0,0.0033057517434236156,0.026910031334935
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,8,No perceived change and brief appraisals,0.08833689834410241,0.20409208401810744,2.0,0.004250034835580889,0.17206329683319802
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,9,Anxiety and nervousness,0.003836993767953672,0.008864925859358488,0.0,0.0026222191981798855,0.00569631226390201
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,10,Feeling well and stable,0.0062815837096687295,0.014512865340218008,0.0,0.003071290895392906,0.019548701365073445
+within_response,2,Subjective emotional and experiential effects,VR Only,0.1,11,Feeling welcomed,0.0072975007491889125,0.01686002297957181,0.0,0.004412452336821101,0.018021034685703173
+within_response,2,Subjective emotional and experiential effects,Control,0.1,0,Calm and relaxation,0.07979717985050122,0.21818379533597215,1.0,0.00504472428827056,0.25209326106917296
+within_response,2,Subjective emotional and experiential effects,Control,0.1,1,Compassionate and professional care,0.0843573905792496,0.23065245758937747,2.0,0.0038326573827554234,0.17980259935678494
+within_response,2,Subjective emotional and experiential effects,Control,0.1,3,Surgical concerns and coping,0.004105997730044621,0.011226739717624178,0.0,0.002379083940235608,0.00902365007679615
+within_response,2,Subjective emotional and experiential effects,Control,0.1,4,Movement and sense of place,0.004466001483661575,0.01221107256555815,0.0,0.0014942429835379208,0.02446509002549202
+within_response,2,Subjective emotional and experiential effects,Control,0.1,5,Nature imagery and sensory responses,0.008423276996335613,0.023031171623731864,0.0,0.0028512944347609172,0.01710604095788579
+within_response,2,Subjective emotional and experiential effects,Control,0.1,6,Waiting experience,0.07643930252920732,0.2090025884361159,2.0,0.0037959255840175686,0.15213406069298283
+within_response,2,Subjective emotional and experiential effects,Control,0.1,7,Positive appraisal and optimism,0.051898184516292016,0.14190154200969612,1.0,0.0036843887343627132,0.13634903844475119
+within_response,2,Subjective emotional and experiential effects,Control,0.1,8,No perceived change and brief appraisals,0.03984454262702945,0.10894411995609651,1.0,0.0026225792060563056,0.12047293584646494
+within_response,2,Subjective emotional and experiential effects,Control,0.1,9,Anxiety and nervousness,0.004533871681960899,0.01239664525726097,0.0,0.0028045550266157077,0.010385931527147911
+within_response,2,Subjective emotional and experiential effects,Control,0.1,10,Feeling well and stable,0.0031273752098135766,0.008550961249446617,0.0,0.002225893091379932,0.0067600750736826086
+within_response,2,Subjective emotional and experiential effects,Control,0.1,11,Feeling welcomed,0.008740636847262975,0.02389890625912017,0.0,0.0026313955929201265,0.018273866342259918
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,0,Calm and relaxation,0.08152731930145893,0.28219421967780184,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,1,Compassionate and professional care,0.011785162043482978,0.04079251758959299,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,3,Surgical concerns and coping,0.010722152090480875,0.0371130728737921,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,4,Movement and sense of place,0.013374435674241894,0.0462935427174791,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,5,Nature imagery and sensory responses,0.0667084598687234,0.23090102728577622,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,6,Waiting experience,0.0527589889378454,0.182617088871198,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,7,Positive appraisal and optimism,0.012529655428600272,0.04336946641691326,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,8,No perceived change and brief appraisals,0.011518190092007025,0.03986843542709671,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,9,Anxiety and nervousness,0.008386007958344911,0.029026870897920352,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,10,Feeling well and stable,0.010603044319786498,0.03670079972784971,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Art,0.5,11,Feeling welcomed,0.008991578138351863,0.03112295851457954,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,0,Calm and relaxation,0.05936802897119072,0.1704213236747646,1.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,1,Compassionate and professional care,0.0587962692930144,0.16878003554599835,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,3,Surgical concerns and coping,0.032727611814046015,0.09394758462960169,1.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,4,Movement and sense of place,0.009220924973463027,0.026469503312057573,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,5,Nature imagery and sensory responses,0.05993609483630376,0.17205200837736762,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,6,Waiting experience,0.013861412823123573,0.039790445501658965,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,7,Positive appraisal and optimism,0.01536792815575569,0.04411503470518603,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,8,No perceived change and brief appraisals,0.0559431906123294,0.16059001385020416,2.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,9,Anxiety and nervousness,0.01101677225944768,0.03162464618775846,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,10,Feeling well and stable,0.01547277682531488,0.044416012341827564,0.0,,
+within_response,2,Subjective emotional and experiential effects,VR Only,0.5,11,Feeling welcomed,0.01664932188178994,0.04779339187357487,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,0,Calm and relaxation,0.06351196032548992,0.19641240245971417,1.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,1,Compassionate and professional care,0.06512490333579252,0.20140047100712744,2.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,3,Surgical concerns and coping,0.010438184586152801,0.032280359500435785,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,4,Movement and sense of place,0.01000720916673531,0.030947556716596977,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,5,Nature imagery and sensory responses,0.01121156188732111,0.03467204908066298,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,6,Waiting experience,0.05344774608640089,0.1652885560623074,2.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,7,Positive appraisal and optimism,0.040548407090480125,0.12539701202325115,1.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,8,No perceived change and brief appraisals,0.03314052310313885,0.10248793657289702,1.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,9,Anxiety and nervousness,0.013276010796413008,0.04105641145763938,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,10,Feeling well and stable,0.009124376978174318,0.0282173750274256,0.0,,
+within_response,2,Subjective emotional and experiential effects,Control,0.5,11,Feeling welcomed,0.013529350163353961,0.04183987009194208,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,0,Calm and relaxation,0.05799739553655761,0.2931344236621,1.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,1,Compassionate and professional care,0.05470435917334139,0.27649053288908654,1.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,2,Subjective emotional and experiential effects,0.0011395529326314793,0.005759606772839086,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,4,Movement and sense of place,0.0013239944737895232,0.006691823889944509,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,5,Nature imagery and sensory responses,0.0011670870794284528,0.005898771750467623,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,6,Waiting experience,0.07359786395188075,0.37198338361068967,2.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,7,Positive appraisal and optimism,0.0011652327939428988,0.0058893996932901545,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,8,No perceived change and brief appraisals,0.0011047366375283578,0.0055836358606164834,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,9,Anxiety and nervousness,0.0005975773140820793,0.003020316342422316,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,10,Feeling well and stable,0.0008130407164924928,0.004109326283326302,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.02,11,Feeling welcomed,0.004241717312392779,0.02143877924521729,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,0,Calm and relaxation,0.0015025117351594045,0.006337814598399994,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,1,Compassionate and professional care,0.0010213288354012037,0.004308114639840654,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,2,Subjective emotional and experiential effects,0.0010902473832581233,0.004598823170421131,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,4,Movement and sense of place,0.0008939851677868835,0.003770960395561683,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,5,Nature imagery and sensory responses,0.06385675544630978,0.26935714870216554,1.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,6,Waiting experience,0.0018374217322638705,0.0077505140263838925,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,7,Positive appraisal and optimism,0.012024738306534473,0.05072210765329462,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,8,No perceived change and brief appraisals,0.049853900638492224,0.21029105587671,1.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,9,Anxiety and nervousness,0.10144059670832496,0.4278912967160423,2.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,10,Feeling well and stable,0.0015878500044745841,0.0066977839193787456,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.02,11,Feeling welcomed,0.001961615208461163,0.008274380301801526,0.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,0,Calm and relaxation,0.0756365655330312,0.15295681919669674,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,1,Compassionate and professional care,0.0855908598045412,0.17308699272306005,2.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,2,Subjective emotional and experiential effects,0.0994922292836897,0.2011991795076387,2.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,4,Movement and sense of place,0.04794506680330414,0.09695740231890776,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,5,Nature imagery and sensory responses,0.0068558685957886365,0.013864350474565076,0.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,6,Waiting experience,0.0010428609384858087,0.0021089362121500693,0.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,7,Positive appraisal and optimism,0.053830911614493465,0.10886011226165021,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,8,No perceived change and brief appraisals,0.032741766217523456,0.06621237202166688,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,9,Anxiety and nervousness,0.04912510482767336,0.09934374629773168,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,10,Feeling well and stable,0.036013991272041926,0.07282966264701006,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.02,11,Feeling welcomed,0.0062209729923434634,0.012580426338922885,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.1,0,Calm and relaxation,0.0560848277464675,0.27221465364849057,1.0,0.004217399805072379,0.13301960298863286
+within_response,3,Surgical concerns and coping,VR Art,0.1,1,Compassionate and professional care,0.04721615672788977,0.22916946109556166,1.0,0.0035346062076439346,0.11287072902235636
+within_response,3,Surgical concerns and coping,VR Art,0.1,2,Subjective emotional and experiential effects,0.0046868741380470475,0.0227483237703784,0.0,0.0023418860784655713,0.013206077177724292
+within_response,3,Surgical concerns and coping,VR Art,0.1,4,Movement and sense of place,0.005487107812688434,0.026632356963189344,0.0,0.002676047789165391,0.012485190385531895
+within_response,3,Surgical concerns and coping,VR Art,0.1,5,Nature imagery and sensory responses,0.004948008683740235,0.024015772611139158,0.0,0.002627375477566481,0.012851124939782738
+within_response,3,Surgical concerns and coping,VR Art,0.1,6,Waiting experience,0.06639819521457585,0.32227185924376944,2.0,0.0024492636898197397,0.22323768587890624
+within_response,3,Surgical concerns and coping,VR Art,0.1,7,Positive appraisal and optimism,0.004771115462920755,0.023157199468045685,0.0,0.002144282592598179,0.012596004990702441
+within_response,3,Surgical concerns and coping,VR Art,0.1,8,No perceived change and brief appraisals,0.004455556813169151,0.0216255965016208,0.0,0.0024800989433968433,0.010054522545297954
+within_response,3,Surgical concerns and coping,VR Art,0.1,9,Anxiety and nervousness,0.002785122400463836,0.01351793631315321,0.0,0.002300297040116103,0.005487938163401837
+within_response,3,Surgical concerns and coping,VR Art,0.1,10,Feeling well and stable,0.0035960658091998745,0.017453950526043628,0.0,0.002333118302571509,0.007993395355348312
+within_response,3,Surgical concerns and coping,VR Art,0.1,11,Feeling welcomed,0.005602595316628574,0.02719288985860818,0.0,0.002012435314906435,0.013887228604370559
+within_response,3,Surgical concerns and coping,VR Only,0.1,0,Calm and relaxation,0.006580912454265202,0.027392515763409345,0.0,0.0045509398287434735,0.011771101921381996
+within_response,3,Surgical concerns and coping,VR Only,0.1,1,Compassionate and professional care,0.004254720596530238,0.017709930320349503,0.0,0.0027115504153281166,0.008411085813509654
+within_response,3,Surgical concerns and coping,VR Only,0.1,2,Subjective emotional and experiential effects,0.004396213181121747,0.018298881758431078,0.0,0.002864082901191136,0.010896708423265873
+within_response,3,Surgical concerns and coping,VR Only,0.1,4,Movement and sense of place,0.0037523678834771182,0.015618927787383045,0.0,0.0021155727916219356,0.011304860246781512
+within_response,3,Surgical concerns and coping,VR Only,0.1,5,Nature imagery and sensory responses,0.056682378349938,0.23593581486589982,1.0,0.003951689508043609,0.15992940838968764
+within_response,3,Surgical concerns and coping,VR Only,0.1,6,Waiting experience,0.00645007867205585,0.026847930728057082,0.0,0.0032075463527888037,0.015965389574655334
+within_response,3,Surgical concerns and coping,VR Only,0.1,7,Positive appraisal and optimism,0.01321478855032289,0.05500548840157136,0.0,0.0032983098091071655,0.02694666270689824
+within_response,3,Surgical concerns and coping,VR Only,0.1,8,No perceived change and brief appraisals,0.04316969919119122,0.17969038090302042,1.0,0.002129597179600715,0.1528071612544775
+within_response,3,Surgical concerns and coping,VR Only,0.1,9,Anxiety and nervousness,0.0881659949801202,0.3669838223914302,2.0,0.0035621572905515366,0.2213721571377119
+within_response,3,Surgical concerns and coping,VR Only,0.1,10,Feeling well and stable,0.006242894462954381,0.025985543216722966,0.0,0.0030101966034721313,0.019012270855383963
+within_response,3,Surgical concerns and coping,VR Only,0.1,11,Feeling welcomed,0.007334860583247596,0.030530763863725274,0.0,0.004319022583613427,0.018477280852682142
+within_response,3,Surgical concerns and coping,Control,0.1,0,Calm and relaxation,0.07089092657321765,0.15351061739685445,1.0,0.004561130474247734,0.19606755339240003
+within_response,3,Surgical concerns and coping,Control,0.1,1,Compassionate and professional care,0.07952651553754794,0.1722105365202227,2.0,0.003520757199512835,0.170827941078662
+within_response,3,Surgical concerns and coping,Control,0.1,2,Subjective emotional and experiential effects,0.08872735975986328,0.1921344865292711,2.0,0.0036404291100535107,0.1994944227342424
+within_response,3,Surgical concerns and coping,Control,0.1,4,Movement and sense of place,0.04093711070916603,0.08864718579911524,1.0,0.003343283498221121,0.09285378874862463
+within_response,3,Surgical concerns and coping,Control,0.1,5,Nature imagery and sensory responses,0.00800242899567684,0.017328844115643834,0.0,0.0027470323001955624,0.016620753768957035
+within_response,3,Surgical concerns and coping,Control,0.1,6,Waiting experience,0.004349724199692046,0.009419101705648044,0.0,0.0025398494256798224,0.017760094003192325
+within_response,3,Surgical concerns and coping,Control,0.1,7,Positive appraisal and optimism,0.04921801404430509,0.10657905162496163,1.0,0.002760854572606067,0.17374461808582667
+within_response,3,Surgical concerns and coping,Control,0.1,8,No perceived change and brief appraisals,0.03252047712446854,0.07042140317155197,1.0,0.0025968805238600536,0.08170845425651199
+within_response,3,Surgical concerns and coping,Control,0.1,9,Anxiety and nervousness,0.04612124312366535,0.09987315513095768,1.0,0.0032398354204866545,0.14420336351638094
+within_response,3,Surgical concerns and coping,Control,0.1,10,Feeling well and stable,0.033360854318145935,0.07224119631129056,1.0,0.00232748624450879,0.10977511676165402
+within_response,3,Surgical concerns and coping,Control,0.1,11,Feeling welcomed,0.008143544171104041,0.017634421694482805,0.0,0.0024878871029089897,0.017497776395116918
+within_response,3,Surgical concerns and coping,VR Art,0.5,0,Calm and relaxation,0.05231298680424169,0.23017658240137986,1.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,1,Compassionate and professional care,0.03368888975381365,0.14823075458197582,1.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,2,Subjective emotional and experiential effects,0.011934257365050565,0.05251060475795853,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,4,Movement and sense of place,0.014303207299681323,0.0629339591321551,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,5,Nature imagery and sensory responses,0.013654968095880148,0.06008171356896643,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,6,Waiting experience,0.04833596002875658,0.21267770712733952,2.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,7,Positive appraisal and optimism,0.012831435968393489,0.05645818101648662,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,8,No perceived change and brief appraisals,0.011742223410399384,0.051665657411479625,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,9,Anxiety and nervousness,0.00852962049323306,0.03753023893779978,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,10,Feeling well and stable,0.010816675634297106,0.04759325709624574,0.0,,
+within_response,3,Surgical concerns and coping,VR Art,0.5,11,Feeling welcomed,0.009123054897269441,0.040141343968212964,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,0,Calm and relaxation,0.02028212704661217,0.08334875821035893,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,1,Compassionate and professional care,0.01227756766195684,0.05045427514165449,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,2,Subjective emotional and experiential effects,0.011082535531649399,0.04554332848139074,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,4,Movement and sense of place,0.009996003185691773,0.041078258245767545,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,5,Nature imagery and sensory responses,0.03782110703941367,0.15542464055330663,1.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,6,Waiting experience,0.013907459236087846,0.05715226290246177,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,7,Positive appraisal and optimism,0.015428306684255889,0.0634021372840234,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,8,No perceived change and brief appraisals,0.032240063803862344,0.13248952028054276,1.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,9,Anxiety and nervousness,0.05813653209823792,0.2389102358893956,2.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,10,Feeling well and stable,0.015472785638178135,0.06358492213530625,0.0,,
+within_response,3,Surgical concerns and coping,VR Only,0.5,11,Feeling welcomed,0.016695994669167488,0.06861166087579199,0.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,0,Calm and relaxation,0.05836915088009046,0.1548772087715041,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,1,Compassionate and professional care,0.06205585087790269,0.1646595303682678,2.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,2,Subjective emotional and experiential effects,0.06090603573202642,0.16160860093531526,2.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,4,Movement and sense of place,0.027617513578363992,0.07328054891552502,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,5,Nature imagery and sensory responses,0.010880808724083268,0.028871231788596404,0.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,6,Waiting experience,0.011734413653520244,0.031136194476444754,0.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,7,Positive appraisal and optimism,0.03852107798366104,0.10221216082507478,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,8,No perceived change and brief appraisals,0.029729729532740837,0.07888512096092903,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,9,Anxiety and nervousness,0.0375628686362252,0.099669639871592,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,10,Feeling well and stable,0.026577657852483203,0.0705213867567276,1.0,,
+within_response,3,Surgical concerns and coping,Control,0.5,11,Feeling welcomed,0.012918619439245545,0.03427837633002316,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,1,Compassionate and professional care,0.05826432894410585,0.12303037332270497,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,2,Subjective emotional and experiential effects,0.0593820294381764,0.12539049848917497,3.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,3,Surgical concerns and coping,0.0009060609600792184,0.001913229246639278,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,4,Movement and sense of place,0.09940214524399452,0.20989657411447024,3.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,5,Nature imagery and sensory responses,0.0012350612043513865,0.002607942866612425,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,6,Waiting experience,0.024739393579845774,0.05223945565091183,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,7,Positive appraisal and optimism,0.0014623307625033005,0.0030878429888834594,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,8,No perceived change and brief appraisals,0.09035348758203418,0.19078951924238363,2.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,9,Anxiety and nervousness,0.0065108909432302605,0.013748332091449794,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,10,Feeling well and stable,0.1284060422580187,0.27114091249639655,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.02,11,Feeling welcomed,0.002915016429337046,0.006155319490372943,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,1,Compassionate and professional care,0.0005100020179654228,0.0010744634751733513,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,2,Subjective emotional and experiential effects,0.027717543462580017,0.05839484359469978,1.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,3,Surgical concerns and coping,0.0007375372379428594,0.0015538307611237074,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,4,Movement and sense of place,0.0009081403641206817,0.001913254491562532,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,5,Nature imagery and sensory responses,0.028050871892368587,0.05909709419455718,2.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,6,Waiting experience,0.0014196372565886861,0.0029908673426136487,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,7,Positive appraisal and optimism,0.002096110773342321,0.004416050106739746,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,8,No perceived change and brief appraisals,0.0007723688233225007,0.0016272133458085862,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,9,Anxiety and nervousness,0.001079467412159171,0.0022742033681199332,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,10,Feeling well and stable,0.4102408133323035,0.8642882859746912,4.0,,
+across_questions,0,Calm and relaxation,VR Only,0.02,11,Feeling welcomed,0.0011248873658288605,0.0023698933449102914,0.0,,
+across_questions,0,Calm and relaxation,Control,0.02,1,Compassionate and professional care,0.07571122120207338,0.16124079105570535,2.0,,
+across_questions,0,Calm and relaxation,Control,0.02,2,Subjective emotional and experiential effects,0.032240782143663826,0.0686625989458568,1.0,,
+across_questions,0,Calm and relaxation,Control,0.02,3,Surgical concerns and coping,0.11844296979368178,0.2522458077059423,3.0,,
+across_questions,0,Calm and relaxation,Control,0.02,4,Movement and sense of place,0.0004743712239413676,0.0010102596443164306,0.0,,
+across_questions,0,Calm and relaxation,Control,0.02,5,Nature imagery and sensory responses,0.006522629125577703,0.013891122917752262,1.0,,
+across_questions,0,Calm and relaxation,Control,0.02,6,Waiting experience,0.0004290398720494347,0.0009137183004755835,0.0,,
+across_questions,0,Calm and relaxation,Control,0.02,7,Positive appraisal and optimism,0.0009568688421897163,0.0020378259206708126,0.0,,
+across_questions,0,Calm and relaxation,Control,0.02,8,No perceived change and brief appraisals,0.0011881865947209554,0.0025304590708324884,0.0,,
+across_questions,0,Calm and relaxation,Control,0.02,9,Anxiety and nervousness,0.17579794982480126,0.3743936505801057,2.0,,
+across_questions,0,Calm and relaxation,Control,0.02,10,Feeling well and stable,0.05369594089226176,0.11435525472294959,1.0,,
+across_questions,0,Calm and relaxation,Control,0.02,11,Feeling welcomed,0.004093809766142917,0.008718511135392692,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.1,1,Compassionate and professional care,0.04722030259236925,0.10600099470237924,1.0,0.002348389472092679,0.10058282291162843
+across_questions,0,Calm and relaxation,VR Art,0.1,2,Subjective emotional and experiential effects,0.05903062262164526,0.13251301606030666,3.0,0.0030181192009204843,0.10787938875531225
+across_questions,0,Calm and relaxation,VR Art,0.1,3,Surgical concerns and coping,0.004159089743631798,0.009336400354890521,0.0,0.0005196279966848256,0.013853658459517774
+across_questions,0,Calm and relaxation,VR Art,0.1,4,Movement and sense of place,0.09272671180993708,0.20815461036292812,3.0,0.006986325603653073,0.2715760933392214
+across_questions,0,Calm and relaxation,VR Art,0.1,5,Nature imagery and sensory responses,0.005667584644993562,0.012722697165145489,0.0,0.0006602353252249363,0.013835398445130221
+across_questions,0,Calm and relaxation,VR Art,0.1,6,Waiting experience,0.02458301723310619,0.05518440451324183,1.0,0.0011341748646009364,0.05530483401866528
+across_questions,0,Calm and relaxation,VR Art,0.1,7,Positive appraisal and optimism,0.005368252504352272,0.012050750927776467,0.0,0.00115869227439781,0.023605680324954744
+across_questions,0,Calm and relaxation,VR Art,0.1,8,No perceived change and brief appraisals,0.0718699734998347,0.16133502459696694,2.0,0.002741833064668967,0.17410126206753457
+across_questions,0,Calm and relaxation,VR Art,0.1,9,Anxiety and nervousness,0.016808893514439704,0.0377329100950088,1.0,0.0024755211883928283,0.03371345862395264
+across_questions,0,Calm and relaxation,VR Art,0.1,10,Feeling well and stable,0.11347860839385507,0.25473884551375675,1.0,0.0010029543116285204,0.3942756543146855
+across_questions,0,Calm and relaxation,VR Art,0.1,11,Feeling welcomed,0.004557315912871732,0.010230345707599306,0.0,0.002064131991516253,0.01241688514162729
+across_questions,0,Calm and relaxation,VR Only,0.1,1,Compassionate and professional care,0.0022337823414796433,0.004928330478611531,0.0,0.0005752877204249541,0.007191348680802553
+across_questions,0,Calm and relaxation,VR Only,0.1,2,Subjective emotional and experiential effects,0.027992053443853176,0.061758071762213214,1.0,0.001058522857029199,0.08996171474111077
+across_questions,0,Calm and relaxation,VR Only,0.1,3,Surgical concerns and coping,0.0030873773132730313,0.006811592799099009,0.0,0.0011916481879803728,0.006938814468450654
+across_questions,0,Calm and relaxation,VR Only,0.1,4,Movement and sense of place,0.003545773679552819,0.00782293967084705,0.0,0.0011330450497272994,0.015011059373462391
+across_questions,0,Calm and relaxation,VR Only,0.1,5,Nature imagery and sensory responses,0.02816615843358096,0.06214219465163736,2.0,0.0010794725262850693,0.06813754371465863
+across_questions,0,Calm and relaxation,VR Only,0.1,6,Waiting experience,0.005543800436656109,0.01223112930564869,0.0,0.0008761889215600193,0.011152983062360806
+across_questions,0,Calm and relaxation,VR Only,0.1,7,Positive appraisal and optimism,0.003817017091441792,0.008421376299659118,0.0,0.0018714533410960701,0.009028408437419653
+across_questions,0,Calm and relaxation,VR Only,0.1,8,No perceived change and brief appraisals,0.0033907939048511537,0.007481012199648297,0.0,0.000685533342845291,0.007294131574386483
+across_questions,0,Calm and relaxation,VR Only,0.1,9,Anxiety and nervousness,0.004657341136756933,0.010275359352320155,0.0,0.0014610565520145839,0.007859771982238263
+across_questions,0,Calm and relaxation,VR Only,0.1,10,Feeling well and stable,0.366637702612951,0.8089023405918009,4.0,0.08051810764313963,0.7291594399350462
+across_questions,0,Calm and relaxation,VR Only,0.1,11,Feeling welcomed,0.004181558156544477,0.009225652888514697,0.0,0.001015011646123797,0.014432414408711203
+across_questions,0,Calm and relaxation,Control,0.1,1,Compassionate and professional care,0.06982596252718459,0.15646977032727777,2.0,0.0019774082172238842,0.1917674808326805
+across_questions,0,Calm and relaxation,Control,0.1,2,Subjective emotional and experiential effects,0.031524754726254225,0.07064236500456945,1.0,0.0013294777732399737,0.10505261095408176
+across_questions,0,Calm and relaxation,Control,0.1,3,Surgical concerns and coping,0.10248612943120838,0.22965642797390326,3.0,0.005230377330080398,0.24424440948777237
+across_questions,0,Calm and relaxation,Control,0.1,4,Movement and sense of place,0.0020811249739531167,0.004663496712559183,0.0,0.0009692176408244169,0.0035522499145110346
+across_questions,0,Calm and relaxation,Control,0.1,5,Nature imagery and sensory responses,0.015288624885736846,0.03425957248437234,1.0,0.002263071216060531,0.023950598593924937
+across_questions,0,Calm and relaxation,Control,0.1,6,Waiting experience,0.001992720306799792,0.004465394782206919,0.0,0.000823944221754406,0.0034650691071453146
+across_questions,0,Calm and relaxation,Control,0.1,7,Positive appraisal and optimism,0.004167635020706451,0.009339060585723816,0.0,0.0015135026889308081,0.009329327524140738
+across_questions,0,Calm and relaxation,Control,0.1,8,No perceived change and brief appraisals,0.005196090345313815,0.011643678561745703,0.0,0.0016125793574642971,0.008746575778540851
+across_questions,0,Calm and relaxation,Control,0.1,9,Anxiety and nervousness,0.15987953160719648,0.3582666487536272,2.0,0.006259937862785829,0.4317028600769678
+across_questions,0,Calm and relaxation,Control,0.1,10,Feeling well and stable,0.04832559440709497,0.10829058969095474,1.0,0.002110663229567087,0.12248630075732803
+across_questions,0,Calm and relaxation,Control,0.1,11,Feeling welcomed,0.005490315954564574,0.012302995123059789,0.0,0.001940171025596988,0.019821231290965233
+across_questions,0,Calm and relaxation,VR Art,0.5,1,Compassionate and professional care,0.02968450995904616,0.08193644447440784,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,2,Subjective emotional and experiential effects,0.047797847500086865,0.13193364765294327,3.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,3,Surgical concerns and coping,0.01391337059975256,0.038404276141707806,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,4,Movement and sense of place,0.06487228316456935,0.17906322977118794,3.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,5,Nature imagery and sensory responses,0.019448405312241252,0.05368231391324064,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,6,Waiting experience,0.02223574150970497,0.06137603760583588,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,7,Positive appraisal and optimism,0.01135280564293697,0.03133649605382063,0.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,8,No perceived change and brief appraisals,0.04145054449475885,0.11441355245932827,2.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,9,Anxiety and nervousness,0.020358197176653728,0.05619356003738235,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,10,Feeling well and stable,0.08239851639403538,0.227439882706772,1.0,,
+across_questions,0,Calm and relaxation,VR Art,0.5,11,Feeling welcomed,0.008774794109074096,0.024220559183373267,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,1,Compassionate and professional care,0.0070638395153235466,0.01847952174054602,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,2,Subjective emotional and experiential effects,0.028180771620863215,0.07372296336905826,1.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,3,Surgical concerns and coping,0.008448392104439267,0.022101612760024866,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,4,Movement and sense of place,0.008830435495181917,0.02310106626257763,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,5,Nature imagery and sensory responses,0.025982012561079418,0.06797084856529546,2.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,6,Waiting experience,0.014103722434478709,0.03689637127021256,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,7,Positive appraisal and optimism,0.008237632633736837,0.021550250542292895,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,8,No perceived change and brief appraisals,0.010951895997839703,0.02865096237722323,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,9,Anxiety and nervousness,0.013603011491341976,0.035586474755809554,0.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,10,Feeling well and stable,0.24733254895004264,0.6470400701420278,4.0,,
+across_questions,0,Calm and relaxation,VR Only,0.5,11,Feeling welcomed,0.009518027839360708,0.02489985821493174,0.0,,
+across_questions,0,Calm and relaxation,Control,0.5,1,Compassionate and professional care,0.05295447318840839,0.14308766140953666,2.0,,
+across_questions,0,Calm and relaxation,Control,0.5,2,Subjective emotional and experiential effects,0.028918308377529553,0.0781398221626777,1.0,,
+across_questions,0,Calm and relaxation,Control,0.5,3,Surgical concerns and coping,0.06415227580333448,0.1733451126241793,3.0,,
+across_questions,0,Calm and relaxation,Control,0.5,4,Movement and sense of place,0.006631197311590321,0.017918080542218766,0.0,,
+across_questions,0,Calm and relaxation,Control,0.5,5,Nature imagery and sensory responses,0.01932224751682592,0.05221041857072144,1.0,,
+across_questions,0,Calm and relaxation,Control,0.5,6,Waiting experience,0.006797811147293867,0.018368285835064765,0.0,,
+across_questions,0,Calm and relaxation,Control,0.5,7,Positive appraisal and optimism,0.012405642646755621,0.03352114160952961,0.0,,
+across_questions,0,Calm and relaxation,Control,0.5,8,No perceived change and brief appraisals,0.01577509434803972,0.04262569756373109,0.0,,
+across_questions,0,Calm and relaxation,Control,0.5,9,Anxiety and nervousness,0.1168830304931715,0.31582826690056526,2.0,,
+across_questions,0,Calm and relaxation,Control,0.5,10,Feeling well and stable,0.03705763499105398,0.1001330012173331,1.0,,
+across_questions,0,Calm and relaxation,Control,0.5,11,Feeling welcomed,0.009186417683814434,0.024822511564442352,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,0,Calm and relaxation,0.05214180217873822,0.1855828255604915,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,2,Subjective emotional and experiential effects,0.030347447104728784,0.10801247265940613,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,3,Surgical concerns and coping,0.026128131915028677,0.0929951084311681,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,4,Movement and sense of place,0.0008060519581506246,0.0028688958511518,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,5,Nature imagery and sensory responses,0.04259416825022504,0.1516009375582926,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,6,Waiting experience,0.026130338573411155,0.09300296235797068,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,7,Positive appraisal and optimism,0.09864274002957685,0.3510887167452498,2.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,8,No perceived change and brief appraisals,0.0006498835752468961,0.0023130621716188605,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,9,Anxiety and nervousness,0.0007161983479516489,0.002549089358649387,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,10,Feeling well and stable,0.0010000166966255787,0.0035592541188213815,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.02,11,Feeling welcomed,0.0018056542962144966,0.006426675187179654,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,0,Calm and relaxation,0.10732332993846629,0.2583974052579408,2.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,2,Subjective emotional and experiential effects,0.07008739795989963,0.16874617834260583,3.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,3,Surgical concerns and coping,0.0005956383315365879,0.0014340907930220608,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,4,Movement and sense of place,0.0006641124366518856,0.001598952720985878,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,5,Nature imagery and sensory responses,0.0006990901682029215,0.0016831669834372809,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,6,Waiting experience,0.05845949197186896,0.14075020824353143,1.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,7,Positive appraisal and optimism,0.004823751471029108,0.011613922755077992,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,8,No perceived change and brief appraisals,0.000654128278794983,0.0015749143270468483,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,9,Anxiety and nervousness,0.0008631361856377731,0.0020781329733331245,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,10,Feeling well and stable,0.0012006323114268705,0.002890706746794226,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.02,11,Feeling welcomed,0.16997142579235386,0.4092323208562244,2.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,0,Calm and relaxation,0.19448628730949474,0.43906939972210235,4.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,2,Subjective emotional and experiential effects,0.06008637542630738,0.1356501229720256,2.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,3,Surgical concerns and coping,0.02920858124126521,0.06594086611324028,1.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,4,Movement and sense of place,0.026212370463659804,0.0591766644527365,1.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,5,Nature imagery and sensory responses,0.0008033091920717685,0.001813539091282655,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,6,Waiting experience,0.0007383992502372895,0.001666999355286214,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,7,Positive appraisal and optimism,0.07798559814763593,0.17605914658220723,2.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,8,No perceived change and brief appraisals,0.044823066801965294,0.10119190050208647,1.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,9,Anxiety and nervousness,0.0011055463055353995,0.0024958651813017474,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,10,Feeling well and stable,0.0008455914866298958,0.0019089949815016241,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.02,11,Feeling welcomed,0.006656005637339012,0.01502650104622927,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.1,0,Calm and relaxation,0.052079511371171325,0.19307741862998185,1.0,0.00397826578597862,0.1353926925715984
+across_questions,1,Compassionate and professional care,VR Art,0.1,2,Subjective emotional and experiential effects,0.029354875937379,0.10882904852540347,1.0,0.0018268049451167488,0.09697817351081954
+across_questions,1,Compassionate and professional care,VR Art,0.1,3,Surgical concerns and coping,0.02599017566884436,0.09635489841899736,1.0,0.0024294192171503575,0.062386516554207586
+across_questions,1,Compassionate and professional care,VR Art,0.1,4,Movement and sense of place,0.0035397201347706336,0.013123011493391323,0.0,0.0020515232339591055,0.006860340368411947
+across_questions,1,Compassionate and professional care,VR Art,0.1,5,Nature imagery and sensory responses,0.04110739228998111,0.1523998398025112,1.0,0.00273786357883924,0.12712710061142807
+across_questions,1,Compassionate and professional care,VR Art,0.1,6,Waiting experience,0.025672630759439614,0.09517764560320197,1.0,0.00202456327627568,0.05947553123826269
+across_questions,1,Compassionate and professional care,VR Art,0.1,7,Positive appraisal and optimism,0.07916727467472565,0.29350146788489306,2.0,0.002718858257430258,0.2191551014460064
+across_questions,1,Compassionate and professional care,VR Art,0.1,8,No perceived change and brief appraisals,0.002647930303476656,0.009816826891167479,0.0,0.0014311500393616383,0.004266980108625445
+across_questions,1,Compassionate and professional care,VR Art,0.1,9,Anxiety and nervousness,0.0027758842432418903,0.010291198016067916,0.0,0.001769739659913753,0.0035994298011344434
+across_questions,1,Compassionate and professional care,VR Art,0.1,10,Feeling well and stable,0.00424766928777818,0.015747632796187253,0.0,0.0019313310988185355,0.005133896391963142
+across_questions,1,Compassionate and professional care,VR Art,0.1,11,Feeling welcomed,0.003150764073700238,0.011681011938197176,0.0,0.0015610440747641085,0.009704332863757685
+across_questions,1,Compassionate and professional care,VR Only,0.1,0,Calm and relaxation,0.1030566683333576,0.2778231674551487,2.0,0.004726847840150032,0.25416097486398487
+across_questions,1,Compassionate and professional care,VR Only,0.1,2,Subjective emotional and experiential effects,0.06660203570057195,0.17954770726179697,3.0,0.0016613023363528164,0.1707242891086724
+across_questions,1,Compassionate and professional care,VR Only,0.1,3,Surgical concerns and coping,0.0025345705283435116,0.006832769035819289,0.0,0.0016049776322742658,0.005254972980387264
+across_questions,1,Compassionate and professional care,VR Only,0.1,4,Movement and sense of place,0.0027186133996264456,0.0073289171674663384,0.0,0.0013387020427987298,0.009505269427761424
+across_questions,1,Compassionate and professional care,VR Only,0.1,5,Nature imagery and sensory responses,0.0030612140937105016,0.00825251009495045,0.0,0.0019495592041709857,0.004099695427911597
+across_questions,1,Compassionate and professional care,VR Only,0.1,6,Waiting experience,0.04922144557425305,0.13269260628459387,1.0,0.0025943959481433553,0.16063369858728532
+across_questions,1,Compassionate and professional care,VR Only,0.1,7,Positive appraisal and optimism,0.006195731909666798,0.016702634498901293,0.0,0.0018662491193026241,0.015153332160952646
+across_questions,1,Compassionate and professional care,VR Only,0.1,8,No perceived change and brief appraisals,0.002884942301509549,0.007777311464582801,0.0,0.002056274685490863,0.0037515634546762535
+across_questions,1,Compassionate and professional care,VR Only,0.1,9,Anxiety and nervousness,0.0037004484511833115,0.009975776690031796,0.0,0.002759723695167491,0.004680232366156635
+across_questions,1,Compassionate and professional care,VR Only,0.1,10,Feeling well and stable,0.005288163398261214,0.014255984877882648,0.0,0.0032776360884848176,0.007319026707884386
+across_questions,1,Compassionate and professional care,VR Only,0.1,11,Feeling welcomed,0.12567955910628453,0.3388106151688259,2.0,0.007250089710082362,0.27364934983507827
+across_questions,1,Compassionate and professional care,Control,0.1,0,Calm and relaxation,0.18017905814225388,0.4259420152312654,4.0,0.046848837245677025,0.34558720732430737
+across_questions,1,Compassionate and professional care,Control,0.1,2,Subjective emotional and experiential effects,0.05583809241852854,0.1320008543536733,2.0,0.0022399310441583485,0.14814424415458577
+across_questions,1,Compassionate and professional care,Control,0.1,3,Surgical concerns and coping,0.027273643713366685,0.06447470025511601,1.0,0.0014489505463695191,0.10362652095721056
+across_questions,1,Compassionate and professional care,Control,0.1,4,Movement and sense of place,0.024643998558763265,0.05825823776472716,1.0,0.0014971165784202621,0.06503153983075832
+across_questions,1,Compassionate and professional care,Control,0.1,5,Nature imagery and sensory responses,0.0030073734396877795,0.007109409476667672,0.0,0.0020122253180954387,0.003932719089000388
+across_questions,1,Compassionate and professional care,Control,0.1,6,Waiting experience,0.003165847512956164,0.0074840410616355,0.0,0.0013833442951481118,0.013298834396949772
+across_questions,1,Compassionate and professional care,Control,0.1,7,Positive appraisal and optimism,0.0706231352937173,0.16695259082332756,2.0,0.003723047877014948,0.13118966007033886
+across_questions,1,Compassionate and professional care,Control,0.1,8,No perceived change and brief appraisals,0.042207388696760786,0.0997779674536528,1.0,0.003424467830913576,0.09018598350299596
+across_questions,1,Compassionate and professional care,Control,0.1,9,Anxiety and nervousness,0.004922069584485877,0.011635737579831296,0.0,0.003766035682762602,0.006047049874195434
+across_questions,1,Compassionate and professional care,Control,0.1,10,Feeling well and stable,0.0034879008196442643,0.008245372793952137,0.0,0.0014725004874652557,0.005433287521288195
+across_questions,1,Compassionate and professional care,Control,0.1,11,Feeling welcomed,0.00766460557529711,0.018119073206151044,0.0,0.0018905890961941553,0.02076039576587709
+across_questions,1,Compassionate and professional care,VR Art,0.5,0,Calm and relaxation,0.05440324404595992,0.2158961220745762,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,2,Subjective emotional and experiential effects,0.025168268414354523,0.09987881504641088,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,3,Surgical concerns and coping,0.024200625945433235,0.09603878197010596,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,4,Movement and sense of place,0.010464589161308822,0.04152811580724097,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,5,Nature imagery and sensory responses,0.035886359438410884,0.14241293830900945,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,6,Waiting experience,0.023194976993457222,0.09204792236775278,1.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,7,Positive appraisal and optimism,0.04494289738294165,0.17835328443972237,2.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,8,No perceived change and brief appraisals,0.007216867502351671,0.02863972056459499,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,9,Anxiety and nervousness,0.007417133528411901,0.029434464686345585,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,10,Feeling well and stable,0.012269946351299445,0.048692571220031275,0.0,,
+across_questions,1,Compassionate and professional care,VR Art,0.5,11,Feeling welcomed,0.0068231469880291485,0.027077263514209724,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,0,Calm and relaxation,0.08971546012422424,0.29334834157905143,2.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,2,Subjective emotional and experiential effects,0.052951836808403215,0.17313998601580455,3.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,3,Surgical concerns and coping,0.007235655994114352,0.02365888424549081,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,4,Movement and sense of place,0.007406925969448457,0.024218896568416845,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,5,Nature imagery and sensory responses,0.009144351598848023,0.02989986756600843,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,6,Waiting experience,0.03365696545877906,0.11005031893327347,1.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,7,Positive appraisal and optimism,0.009548188360700073,0.031220318290932775,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,8,No perceived change and brief appraisals,0.009221258898111111,0.030151336250033592,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,9,Anxiety and nervousness,0.010618947642946287,0.03472144796515366,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,10,Feeling well and stable,0.01640434105966123,0.05363831649400875,0.0,,
+across_questions,1,Compassionate and professional care,VR Only,0.5,11,Feeling welcomed,0.05992857983955681,0.19595228609182566,2.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,0,Calm and relaxation,0.14260802396570377,0.3883848506705577,4.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,2,Subjective emotional and experiential effects,0.0433435370167183,0.11804366040315083,2.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,3,Surgical concerns and coping,0.02233454777469323,0.06082687187612108,1.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,4,Movement and sense of place,0.020710667580469026,0.05640432643160724,1.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,5,Nature imagery and sensory responses,0.0077596199865600166,0.02113288415289427,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,6,Waiting experience,0.009042432341354142,0.024626550715267245,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,7,Positive appraisal and optimism,0.05045414061469386,0.13740898529708123,2.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,8,No perceived change and brief appraisals,0.03510413903486386,0.09560412813975291,1.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,9,Anxiety and nervousness,0.01577901226834853,0.0429732433922881,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,10,Feeling well and stable,0.0097371275508216,0.026518513647559593,0.0,,
+across_questions,1,Compassionate and professional care,Control,0.5,11,Feeling welcomed,0.0103090034893549,0.028075985273719673,0.0,,

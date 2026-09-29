@@ -1,0 +1,23 @@
+Topic,Words,Frequency,Class,Human_Label
+-1,"às, será, simpático, vezes, às vezes",15,Q3,Unassigned or mixed content
+2,"exame, hoje, espera, meia, manhã",3,Q3,Surgical anxiety and coping
+3,"razão, razão queixa, impecável sexta, perfeito, impecável",7,Q3,Positive appraisal and no complaints
+4,"ia rápido, pensava ia, rápido, pensava, ia",1,Q3,Waiting-related anxiety
+6,"pessoas, cuidado, faz, pacientes, faz sentir",7,Q3,Personalized and compassionate care
+7,"acolhida, única acolhida, tratada igual, vai desagradável, única",6,Q3,Feeling warmly welcomed
+8,"contente reclamar, contente, reclamar, sinto, sinto sinto",1,Q3,Feeling well and stable
+9,"fantástico, valia fantástico, maravilhoso mim, entender, valia",2,Q3,VR as a positive and enriching experience
+-1,"tentar, óculos, diferença, gente, agora",5,Q2,Unassigned or mixed content
+0,"bocadinho, calma, sinto, tranquila, relaxada",8,Q2,Feeling calmer and more relaxed
+1,"estamos, filme, achei, daí, vamos",3,Q2,Mixed emotional and sensory responses to VR
+3,"prejudicou melhorou, prejudicou, igual mesma, melhorou, mesma prejudicou",2,Q2,Positive appraisal and no complaints
+4,"eventualmente, ansiedade, bocadinho, mim, aumenta",4,Q2,Waiting-related anxiety
+5,"ouvir, tranquila, sei porquê, faz efeito, normal tranquila",1,Q2,"Immersive nature, serenity, and personal meaning"
+9,"conheço, conhecia sinto, embranhada, durante minutinhos, deu desligar",2,Q2,VR as a positive and enriching experience
+-1,"bastante, fácil, riacho, respiração, pôs",5,Q1,Unassigned or mixed content
+0,"tranquila, sinto, relaxada, bocadinho, calma",16,Q1,Feeling calmer and more relaxed
+1,"filme, outra vez, vídeo, sensação, calma",7,Q1,Mixed emotional and sensory responses to VR
+2,"cirurgia, vai, pode, fazer, pode depressa",6,Q1,Surgical anxiety and coping
+4,"aumenta, bocadinho, aumenta receio, confortável tranquila, algo possa",3,Q1,Waiting-related anxiety
+5,"natureza, vídeo, experiência, imagens, ver",7,Q1,"Immersive nature, serenity, and personal meaning"
+8,"sinto, sinto sinto, estável, estável sinto, fiquei sinto",4,Q1,Feeling well and stable
