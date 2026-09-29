@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Figures for the topic-network centrality analysis.
 
-For each graph (flow within responses, flow across questions, semantic kNN):
+For each graph (flow within responses, semantic kNN):
   * <name>_network.*     one network panel per condition, shared node layout
   * <name>_centrality.*  centrality per topic and condition, bootstrap 95% CI
 """
@@ -23,16 +23,14 @@ from sklearn.manifold import MDS
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from all_questions.topic_labels import short_topic_label, topic_label  # noqa: E402
+from post_topic_labels import short_topic_label, topic_label  # noqa: E402
 from q3.plot_topic_differences import CONDITION_COLORS, CONDITION_ORDER  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_OUTPUT = HERE / "outputs"
-ASSIGNMENTS = (BASE_DIR / "all_questions" / "outputs"
-               / "combined_questions_sentence_topic_assignments.csv")
+ASSIGNMENTS = HERE / "outputs" / "post_descriptor_topic_assignments.csv"
 GRAPHS = [
     ("flow", "within_response", "Flow graph: transitions within one response"),
-    ("flow", "across_questions", "Flow graph: transitions across Q1-Q3 (per participant)"),
     ("semantic", "centroids", "Semantic graph: kNN on topic embedding centroids"),
 ]
 MEASURE_TITLES = {
@@ -161,7 +159,6 @@ def draw_centrality(out, graph, scope, title, cent, topics, labels):
 
 CENTRAL_PANELS = [
     ("flow", "within_response", "PageRank", "PageRank\n(flow within responses)"),
-    ("flow", "across_questions", "PageRank", "PageRank\n(flow across Q1-Q3)"),
     ("semantic", "centroids", "SemCentrality", "Semantic centrality\n(similarity to rest of condition)"),
 ]
 
@@ -175,7 +172,7 @@ def draw_central(out, cent, topics, labels):
              .sort_values(ascending=False).index.tolist())
     ypos = {t: len(order) - 1 - i for i, t in enumerate(order)}
     offsets = {"VR Art": 0.24, "VR Only": 0.0, "Control": -0.24}
-    fig, axes = plt.subplots(1, 3, figsize=(17, 7), sharey=True)
+    fig, axes = plt.subplots(1, len(CENTRAL_PANELS), figsize=(12, 7), sharey=True)
     for ax, (g, sc, m, title) in zip(axes, CENTRAL_PANELS):
         sub = panel(g, sc, m)
         for cond in CONDITION_ORDER:
@@ -201,7 +198,7 @@ def draw_central(out, cent, topics, labels):
         ax.tick_params(axis="y", length=0)
     axes[0].set_yticks([ypos[t] for t in order])
     axes[0].set_yticklabels([labels[t] for t in order], fontsize=10.5)
-    axes[0].legend(loc="lower center", bbox_to_anchor=(1.65, 1.13), ncol=3,
+    axes[0].legend(loc="lower center", bbox_to_anchor=(1.0, 1.13), ncol=3,
                    frameon=False, fontsize=12)
     fig.suptitle("What is central to each condition  (points: observed, bars: "
                  "participant-bootstrap 95% CI)", fontsize=12, y=1.10)
@@ -443,10 +440,9 @@ def draw_global_tests(out, contrib, labels):
     panels = [("composition_gjsd", "Topic composition\n(pooled GJSD, bits)"),
               ("composition_permanova_F", "Topic composition\n(participant PERMANOVA F)"),
               ("transition_gjsd__within_response", "Transitions within responses\n(source-weighted GJSD)"),
-              ("transition_gjsd__across_questions", "Transitions across Q1-Q3\n(source-weighted GJSD)"),
               ("stationary_gjsd__within_response", "Stationary distribution, within\n(GJSD of PageRank)"),
-              ("stationary_gjsd__across_questions", "Stationary distribution, across\n(GJSD of PageRank)")]
-    fig, axes = plt.subplots(2, 3, figsize=(13, 7))
+              ]
+    fig, axes = plt.subplots(2, 2, figsize=(9.5, 7))
     for ax, (key, title) in zip(axes.ravel(), panels):
         nl, ob = z[key], float(z["obs__" + key])
         p = (1 + np.sum(nl >= ob - 1e-12)) / (1 + len(nl))
@@ -464,11 +460,11 @@ def draw_global_tests(out, contrib, labels):
 
     specs = [("topic (composition)", "all", "Topic composition\n(contribution to GJSD)"),
              ("source topic (transitions)", "within_response", "Transitions within responses\n(contribution by source topic)"),
-             ("source topic (transitions)", "across_questions", "Transitions across Q1-Q3\n(contribution by source topic)")]
+]
     order = (contrib[contrib.family == "topic (composition)"].sort_values("contribution", ascending=False)
              ["Topic"].tolist())
     ypos = {t: len(order) - 1 - i for i, t in enumerate(order)}
-    fig, axes = plt.subplots(1, 3, figsize=(16, 6.4), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(11.5, 6.4), sharey=True)
     for ax, (fam, scope, title) in zip(axes, specs):
         d = contrib[(contrib.family == fam) & (contrib.scope == scope)].set_index("Topic")
         for t in order:
@@ -500,8 +496,8 @@ def draw_path_graph_jsd(out, tests):
     z = np.load(out / "path_graph_jsd_null.npz")
     main = tests[(tests.path_length == 3) & (tests.start == "pooled") & (tests.smooth == 0.1)]
     cmp_names = ["all three", "VR Art vs VR Only", "VR Art vs Control", "VR Only vs Control"]
-    fig, axes = plt.subplots(2, 4, figsize=(16, 6.6))
-    for r, scope in enumerate(("within_response", "across_questions")):
+    fig, axes = plt.subplots(1, 4, figsize=(16, 3.9), squeeze=False)
+    for r, scope in enumerate(("within_response",)):
         nl, ob = z[scope], z["obs_" + scope]
         for c, name in enumerate(cmp_names):
             ax = axes[r, c]
@@ -522,8 +518,9 @@ def draw_path_graph_jsd(out, tests):
     full2short = {}
     for t in range(-1, 12):
         full2short[topic_label(t)] = short_topic_label(t)
-    fig, axes = plt.subplots(1, 2, figsize=(19, 6.2))
-    for ax, scope in zip(axes, ("within_response", "across_questions")):
+    fig, axes = plt.subplots(1, 1, figsize=(11, 6.2), squeeze=False)
+    axes = axes.ravel()
+    for ax, scope in zip(axes, ("within_response",)):
         d = top[top.scope == scope].head(8).iloc[::-1].reset_index(drop=True)
         y = np.arange(len(d))
         for k, cond in enumerate(CONDITION_ORDER):
@@ -561,7 +558,7 @@ def main() -> None:
     reach = pd.read_csv(out / "path_reach_by_condition.csv")
     routes = pd.read_csv(out / "path_entry_routes_by_condition.csv")
     ptests = pd.read_csv(out / "path_condition_tests.csv")
-    for scope in ("within_response", "across_questions"):
+    for scope in ("within_response",):
         draw_path_distributions(out, scope, reach, routes, ptests, labels)
         draw_pagerank_vs_null(out, scope, tests, labels)
         draw_contributions(out, scope, contrib, labels)

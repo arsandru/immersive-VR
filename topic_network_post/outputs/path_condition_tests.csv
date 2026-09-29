@@ -1,586 +1,298 @@
 scope,target_topic,target_label,smooth,condition_a,condition_b,test,source_label,value_a,value_b,difference,p_perm,p_fdr
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,reach_probability,,0.5006682740451971,0.2330393836932674,0.2676288903519297,0.13543228385807096,0.13543228385807096
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.6724518476815801,0.5452273863068465,0.5452273863068465
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Compassionate and professional care,0.07929406375213184,0.001448271617065444,0.0778457921350664,0.4312843578210895,0.7377311344327836
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.08470766410693956,0.051734317106910066,0.03297334700002949,0.670664667666167,0.7377311344327836
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.001016730274020441,0.001327558274867813,-0.00031082800084737184,0.9765117441279361,0.9765117441279361
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Movement and sense of place,0.08885219719097628,0.0010802493853464222,0.08777194780562986,0.10344827586206896,0.37931034482758624
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.0008449775312048876,0.04753491672110442,-0.04668993918989953,0.2368815592203898,0.651424287856072
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Waiting experience,0.0442752563191776,0.0025630044759099835,0.041712251843267614,0.3588205897051474,0.7377311344327836
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.0019008476033027229,0.009781317643067706,-0.007880470039764984,0.04997501249375312,0.37931034482758624
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.08098907185862243,0.001331194354148914,0.07965787750447352,0.10044977511244378,0.37931034482758624
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.04676458223040855,0.0013568933151610063,0.045407688915247546,0.6331834082958521,0.7377311344327836
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Feeling well and stable,0.06545902860351084,0.11206250591607018,-0.046603477312559344,0.656671664167916,0.7377311344327836
-within_response,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Feeling welcomed,0.00656385457490193,0.0028191548836154568,0.003744699691286473,0.5892053973013494,0.7377311344327836
-within_response,0,Calm and relaxation,0.02,VR Art,Control,reach_probability,,0.5006682740451971,0.4027747801310645,0.0978934939141326,0.5752123938030984,0.5752123938030984
-within_response,0,Calm and relaxation,0.02,VR Art,Control,route_distribution_jsd,,,,0.5934137721020529,0.7621189405297352,0.7621189405297352
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Compassionate and professional care,0.07929406375213184,0.11417869512981725,-0.03488463137768541,0.7446276861569215,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.08470766410693956,0.051495918874004815,0.03321174523293474,0.6601699150424788,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Surgical concerns and coping,0.001016730274020441,0.11682520897323326,-0.11580847869921282,0.16691654172913542,0.6120273196734966
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Movement and sense of place,0.08885219719097628,0.0010410531577690046,0.08781114403320728,0.08995502248875563,0.5387306346826587
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.0008449775312048876,0.0013011488867003744,-0.0004561713554954868,0.9695152423788106,0.9695152423788106
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Waiting experience,0.0442752563191776,0.000977813085853877,0.043297443233323726,0.34832583708145926,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Positive appraisal and optimism,0.0019008476033027229,0.0010580552533037628,0.0008427923499989601,0.5012493753123438,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.08098907185862243,0.0009713243584473247,0.08001774750017511,0.09795102448775612,0.5387306346826587
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Anxiety and nervousness,0.04676458223040855,0.06607764801855862,-0.019313065788150063,0.775112443778111,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Feeling well and stable,0.06545902860351084,0.04087509007466985,0.02458393852884099,0.8195902048975512,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Feeling welcomed,0.00656385457490193,0.007972824318706386,-0.001408969743804456,0.8160919540229885,0.9015492253873063
-within_response,0,Calm and relaxation,0.02,VR Only,Control,reach_probability,,0.2330393836932674,0.4027747801310645,-0.1697353964377971,0.35782108945527236,0.35782108945527236
-within_response,0,Calm and relaxation,0.02,VR Only,Control,route_distribution_jsd,,,,0.7305677675369739,0.3428285857071464,0.3428285857071464
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Compassionate and professional care,0.001448271617065444,0.11417869512981725,-0.11273042351275181,0.2193903048475762,0.6665417291354323
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.051734317106910066,0.051495918874004815,0.00023839823290525142,0.9945027486256871,0.9960019990004998
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Surgical concerns and coping,0.001327558274867813,0.11682520897323326,-0.11549765069836544,0.18190904547726136,0.6665417291354323
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Movement and sense of place,0.0010802493853464222,0.0010410531577690046,3.9196227577417654e-05,0.9960019990004998,0.9960019990004998
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.04753491672110442,0.0013011488867003744,0.04623376783440405,0.24237881059470265,0.6665417291354323
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Waiting experience,0.0025630044759099835,0.000977813085853877,0.0015851913900561065,0.719640179910045,0.989505247376312
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Positive appraisal and optimism,0.009781317643067706,0.0010580552533037628,0.008723262389763944,0.04147926036981509,0.456271864067966
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.001331194354148914,0.0009713243584473247,0.0003598699957015892,0.863568215892054,0.9960019990004998
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Anxiety and nervousness,0.0013568933151610063,0.06607764801855862,-0.06472075470339761,0.37831084457771114,0.7955308060255587
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Feeling well and stable,0.11206250591607018,0.04087509007466985,0.07118741584140034,0.5062468765617192,0.7955308060255587
-within_response,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Feeling welcomed,0.0028191548836154568,0.007972824318706386,-0.005153669435090929,0.48875562218890556,0.7955308060255587
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,reach_probability,,0.4622371171080946,0.2434282750454526,0.218808842062642,0.1294352823588206,0.1294352823588206
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.5365564752468494,0.6291854072963519,0.6291854072963519
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Compassionate and professional care,0.0658408714475338,0.00588365068647504,0.059957220761058756,0.4447776111944028,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.07831873617594304,0.0460493840460741,0.032269352129868936,0.6156921539230384,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.004324298310268706,0.0051868284282194,-0.0008625301179506937,0.9730134932533733,0.9730134932533733
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Movement and sense of place,0.0819005861330848,0.00448186410698629,0.07741872202609851,0.07096451774112944,0.475512243878061
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.0038699898991219036,0.04776580985609114,-0.043895819956969236,0.2063968015992004,0.7567882725304015
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Waiting experience,0.04128514571311985,0.008635758038350833,0.03264938767476902,0.45177411294352826,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.0075553282606890875,0.011598316948633176,-0.004042988687944089,0.3248375812093953,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.06892766560039958,0.005150266838340205,0.06377739876205937,0.0864567716141929,0.475512243878061
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.04299533512284723,0.005528915005388105,0.037466420117459126,0.6341829085457271,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Feeling well and stable,0.05935669051274777,0.09290945679776468,-0.033552766285016904,0.6866566716641679,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Feeling welcomed,0.007862469932338832,0.010238024293129647,-0.002375554360790816,0.7096451774112944,0.7806096951524238
-within_response,0,Calm and relaxation,0.1,VR Art,Control,reach_probability,,0.4622371171080946,0.37948080481641727,0.08275631229167735,0.5487256371814093,0.5487256371814093
-within_response,0,Calm and relaxation,0.1,VR Art,Control,route_distribution_jsd,,,,0.5212986312126985,0.6756621689155422,0.6756621689155422
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Compassionate and professional care,0.0658408714475338,0.10481297534742164,-0.03897210389988784,0.6376811594202898,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.07831873617594304,0.04842536857515644,0.029893367600786598,0.6286856571714143,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Surgical concerns and coping,0.004324298310268706,0.09809520250876375,-0.09377090419849504,0.12843578210894552,0.47093120106613356
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Movement and sense of place,0.0819005861330848,0.003999519493727092,0.07790106663935771,0.06196901549225387,0.43978010994502753
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.0038699898991219036,0.003359555720570685,0.0005104341785512187,0.9880059970014993,0.9880059970014993
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Waiting experience,0.04128514571311985,0.00419536178871964,0.03708978392440021,0.33833083458270863,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Positive appraisal and optimism,0.0075553282606890875,0.004597760899829227,0.0029575673608598606,0.44677661169415295,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.06892766560039958,0.0041967224478908546,0.06473094315250873,0.079960019990005,0.43978010994502753
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Anxiety and nervousness,0.04299533512284723,0.06013044653712365,-0.01713511141427642,0.7616191904047976,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Feeling well and stable,0.05935669051274777,0.037636660344637585,0.021720030168110187,0.7936031984007996,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Feeling welcomed,0.007862469932338832,0.010031231152576696,-0.0021687612202378644,0.7271364317841079,0.8729635182408796
-within_response,0,Calm and relaxation,0.1,VR Only,Control,reach_probability,,0.2434282750454526,0.37948080481641727,-0.13605252977096466,0.35782108945527236,0.35782108945527236
-within_response,0,Calm and relaxation,0.1,VR Only,Control,route_distribution_jsd,,,,0.6140397602349188,0.3258370814592704,0.3258370814592704
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Compassionate and professional care,0.00588365068647504,0.10481297534742164,-0.0989293246609466,0.1729135432283858,0.566216891554223
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.0460493840460741,0.04842536857515644,-0.002375984529082338,0.967016491754123,0.9825087456271864
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Surgical concerns and coping,0.0051868284282194,0.09809520250876375,-0.09290837408054435,0.14192903548225888,0.566216891554223
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Movement and sense of place,0.00448186410698629,0.003999519493727092,0.00048234461325919777,0.9825087456271864,0.9825087456271864
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.04776580985609114,0.003359555720570685,0.044406254135520455,0.20589705147426288,0.566216891554223
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Waiting experience,0.008635758038350833,0.00419536178871964,0.004440396249631193,0.711144427786107,0.9825087456271864
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Positive appraisal and optimism,0.011598316948633176,0.004597760899829227,0.007000556048803949,0.11494252873563218,0.566216891554223
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.005150266838340205,0.0041967224478908546,0.0009535443904493505,0.8905547226386806,0.9825087456271864
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Anxiety and nervousness,0.005528915005388105,0.06013044653712365,-0.054601531531735546,0.375312343828086,0.8256871564217892
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Feeling well and stable,0.09290945679776468,0.037636660344637585,0.05527279645312709,0.5207396301849075,0.9546893220056639
-within_response,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Feeling welcomed,0.010238024293129647,0.010031231152576696,0.00020679314055295148,0.9770114942528736,0.9825087456271864
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,reach_probability,,0.3663077433117058,0.25090955269022036,0.11539819062148543,0.14192903548225888,0.14192903548225888
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.31527714822708613,0.729135432283858,0.729135432283858
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Compassionate and professional care,0.04262624400852452,0.015943707380272627,0.026682536628251895,0.5677161419290355,0.7806096951524238
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.05419799068434545,0.03344676486046971,0.020751225823875737,0.552223888055972,0.7806096951524238
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.012214106062612865,0.012238298796709417,-2.4192734096551913e-05,0.9995002498750625,0.9995002498750624
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Movement and sense of place,0.058709950842363495,0.011427256737807784,0.04728269410455571,0.031484257871064465,0.3463268365817091
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.01249817119598598,0.0370764806115758,-0.02457830941558982,0.2478760619690155,0.6816591704147926
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Waiting experience,0.033360124069617206,0.01724183991217995,0.016118284157437254,0.5077461269365318,0.7806096951524238
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.018580743350251505,0.01493395321145453,0.0036467901387969744,0.5292353823088456,0.7806096951524238
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.04697719068984768,0.012862133061616971,0.03411505762823071,0.06746626686656672,0.34632683658170915
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.03199163042840618,0.014411953920448216,0.017579676507957963,0.6616691654172914,0.7927036481759121
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Feeling well and stable,0.04422305307406949,0.059591482505803775,-0.015368429431734283,0.7206396801599201,0.7927036481759121
-within_response,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Feeling welcomed,0.010928538905681424,0.02173568169188154,-0.010807142786200118,0.0944527736131934,0.34632683658170915
-within_response,0,Calm and relaxation,0.5,VR Art,Control,reach_probability,,0.3663077433117058,0.3220711539444271,0.0442365893672787,0.5622188905547226,0.5622188905547226
-within_response,0,Calm and relaxation,0.5,VR Art,Control,route_distribution_jsd,,,,0.3575984446412856,0.5077461269365318,0.5077461269365318
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Compassionate and professional care,0.04262624400852452,0.07894515437017359,-0.03631891036164907,0.4077961019490255,0.7714476095285691
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.05419799068434545,0.03943012654294902,0.014767864141396428,0.6586706646676662,0.8229385307346326
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Surgical concerns and coping,0.012214106062612865,0.05718209900625276,-0.0449679929436399,0.127936031984008,0.4690987839413627
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Movement and sense of place,0.058709950842363495,0.009385382842851588,0.049324567999511904,0.026486756621689155,0.2913543228385807
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.01249817119598598,0.008304056537993612,0.004194114657992368,0.8585707146426786,0.8585707146426788
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Waiting experience,0.033360124069617206,0.012016208817573175,0.02134391525204403,0.32983508245877063,0.7714476095285691
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Positive appraisal and optimism,0.018580743350251505,0.013927119731937228,0.004653623618314277,0.4207896051974013,0.7714476095285691
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.04697719068984768,0.01248862506461003,0.03448856562523765,0.06196901549225387,0.3408295852073963
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Anxiety and nervousness,0.03199163042840618,0.04612877590098873,-0.014137145472582553,0.7041479260369815,0.8229385307346326
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Feeling well and stable,0.04422305307406949,0.02928787315909778,0.014935179914971713,0.7481259370314842,0.8229385307346326
-within_response,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Feeling welcomed,0.010928538905681424,0.014975731969999623,-0.004047193064318199,0.5322338830584707,0.8229385307346326
-within_response,0,Calm and relaxation,0.5,VR Only,Control,reach_probability,,0.25090955269022036,0.3220711539444271,-0.07116160125420673,0.37231384307846077,0.37231384307846077
-within_response,0,Calm and relaxation,0.5,VR Only,Control,route_distribution_jsd,,,,0.39032535667767404,0.31584207896051975,0.31584207896051975
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Compassionate and professional care,0.015943707380272627,0.07894515437017359,-0.06300144698990096,0.136431784107946,0.6376811594202899
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.03344676486046971,0.03943012654294902,-0.005983361682479309,0.8710644677661169,0.9715142428785607
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Surgical concerns and coping,0.012238298796709417,0.05718209900625276,-0.04494380020954335,0.12393803098450774,0.6376811594202899
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Movement and sense of place,0.011427256737807784,0.009385382842851588,0.0020418738949561956,0.9245377311344328,0.9715142428785607
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.0370764806115758,0.008304056537993612,0.028772424073582187,0.17391304347826086,0.6376811594202899
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Waiting experience,0.01724183991217995,0.012016208817573175,0.005225631094606777,0.7221389305347327,0.9715142428785607
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Positive appraisal and optimism,0.01493395321145453,0.013927119731937228,0.001006833479517303,0.8760619690154923,0.9715142428785607
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.012862133061616971,0.01248862506461003,0.0003735079970069409,0.9715142428785607,0.9715142428785607
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Anxiety and nervousness,0.014411953920448216,0.04612877590098873,-0.031716821980540516,0.35932033983008493,0.7905047476261868
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Feeling well and stable,0.059591482505803775,0.02928787315909778,0.030303609346705996,0.5012493753123438,0.9189571880726303
-within_response,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Feeling welcomed,0.02173568169188154,0.014975731969999623,0.006759949721881918,0.312343828085957,0.7905047476261868
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,reach_probability,,0.31523556601719493,0.4716400020673623,-0.15640443605016735,0.4367816091954023,0.4367816091954023
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.6422636775248162,0.3818090954522739,0.3818090954522739
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Calm and relaxation,0.10287967694019531,0.07329332197901721,0.029586354961178105,0.7561219390304847,0.8317341329335332
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Compassionate and professional care,0.001204615871843349,0.09599060706606707,-0.09478599119422372,0.3243378310844578,0.7861069465267366
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.0009379492419112634,0.06107471241906935,-0.06013676317715809,0.1794102948525737,0.7861069465267366
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Movement and sense of place,0.0011852935318987742,0.0007116379380124199,0.0004736555938863543,0.6711644177911045,0.8233660947304126
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.1140530923059123,0.11600540896269043,-0.0019523166567781275,0.9785107446276862,0.9785107446276862
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Waiting experience,0.08727201317300351,0.0018080456555663177,0.08546396751743719,0.26686656671664166,0.7861069465267366
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.001107885126458973,0.011915535713043587,-0.010807650586584614,0.6736631684157921,0.8233660947304126
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.0010821904185323986,0.10638037122321409,-0.10529818080468169,0.05647176411794103,0.6211894052973513
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.0005827783241455718,0.0009085156710499385,-0.00032573734690436677,0.4287856071964018,0.7861069465267366
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Feeling well and stable,0.0007921624887236975,0.0016044957337190103,-0.0008123332449953128,0.37231384307846077,0.7861069465267366
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,VR Only,entry_mass,Feeling welcomed,0.004137908594569767,0.0019473497059128793,0.0021905588886568872,0.631184407796102,0.8233660947304126
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,reach_probability,,0.31523556601719493,0.38019726382850505,-0.06496169781131012,0.7481259370314842,0.7481259370314842
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,route_distribution_jsd,,,,0.6023265654071198,0.4917541229385307,0.4917541229385307
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Calm and relaxation,0.10287967694019531,0.08664997621672936,0.016229700723465953,0.8790604697651174,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Compassionate and professional care,0.001204615871843349,0.09136875123404747,-0.09016413536220412,0.33833083458270863,0.9304097951024487
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Surgical concerns and coping,0.0009379492419112634,0.0010061049213540836,-6.815567944282023e-05,0.9845077461269365,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Movement and sense of place,0.0011852935318987742,0.001184806153751744,4.873781470301521e-07,0.999000499750125,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.1140530923059123,0.007270714997968276,0.10678237730794403,0.280359820089955,0.9304097951024487
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Waiting experience,0.08727201317300351,0.08520016612052443,0.0020718470524790783,0.9650174912543729,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Positive appraisal and optimism,0.001107885126458973,0.05668678677408673,-0.05557890164762776,0.328335832083958,0.9304097951024487
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.0010821904185323986,0.04228590758497345,-0.04120371716644105,0.5282358820589705,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Anxiety and nervousness,0.0005827783241455718,0.0010506774690710494,-0.0004678991449254777,0.27386306846576713,0.9304097951024487
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Feeling well and stable,0.0007921624887236975,0.0007234985717143284,6.86639170093691e-05,0.9320339830084957,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Art,Control,entry_mass,Feeling welcomed,0.004137908594569767,0.006769873784284086,-0.002631965189714319,0.6111944027986007,0.999000499750125
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,reach_probability,,0.4716400020673623,0.38019726382850505,0.09144273823885724,0.63968015992004,0.63968015992004
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,route_distribution_jsd,,,,0.546682580318787,0.657671164417791,0.657671164417791
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Calm and relaxation,0.07329332197901721,0.08664997621672936,-0.013356654237712151,0.8855572213893054,0.9370314842578711
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Compassionate and professional care,0.09599060706606707,0.09136875123404747,0.0046218558320196,0.9370314842578711,0.9370314842578711
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Surgical concerns and coping,0.06107471241906935,0.0010061049213540836,0.06006860749771527,0.18140929535232383,0.7003498250874562
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Movement and sense of place,0.0007116379380124199,0.001184806153751744,-0.00047316821573932413,0.6676661669165417,0.917430173801988
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.11600540896269043,0.007270714997968276,0.10873469396472216,0.2708645677161419,0.7003498250874562
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Waiting experience,0.0018080456555663177,0.08520016612052443,-0.08339212046495811,0.28835582208895555,0.7003498250874562
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Positive appraisal and optimism,0.011915535713043587,0.05668678677408673,-0.04477125106104314,0.456271864067966,0.7169986435353751
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.10638037122321409,0.04228590758497345,0.06409446363824065,0.30334832583708143,0.7003498250874562
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Anxiety and nervousness,0.0009085156710499385,0.0010506774690710494,-0.0001421617980211109,0.750624687656172,0.917430173801988
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Feeling well and stable,0.0016044957337190103,0.0007234985717143284,0.0008809971620046819,0.3183408295852074,0.7003498250874562
-within_response,2,Subjective emotional and experiential effects,0.02,VR Only,Control,entry_mass,Feeling welcomed,0.0019473497059128793,0.006769873784284086,-0.004822524078371206,0.3953023488255872,0.7169986435353751
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,reach_probability,,0.30921308434638084,0.432828636000723,-0.12361555165434218,0.45527236381809094,0.45527236381809094
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.53819552885083,0.3853073463268366,0.3853073463268366
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Calm and relaxation,0.09694807115017876,0.06956773495120164,0.027380336198977118,0.7486256871564217,0.8234882558720639
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Compassionate and professional care,0.004736405416971996,0.08354496145133986,-0.07880855603436786,0.3288355822088955,0.7234382808595702
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.00390720214694473,0.051015855411215366,-0.047108653264270633,0.19440279860069964,0.7234382808595702
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Movement and sense of place,0.004965596305911391,0.003156478812216479,0.001809117493694912,0.6091954022988506,0.8234882558720639
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.10083014928503359,0.10026398646209084,0.0005661628229427507,0.9940029985007496,0.9940029985007496
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Waiting experience,0.07716178031333291,0.006396968917846106,0.0707648113954868,0.2843578210894553,0.7234382808595702
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.00457915928121349,0.01312967342389904,-0.00855051414268555,0.6856571714142928,0.8234882558720639
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.004362686053374806,0.08833689834410241,-0.0839742122907276,0.07396301849075462,0.7234382808595702
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.0027240832431224137,0.003836993767953672,-0.0011129105248312583,0.4587706146926537,0.8234882558720639
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Feeling well and stable,0.0035099889658324764,0.0062815837096687295,-0.002771594743836253,0.3078460769615192,0.7234382808595702
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,VR Only,entry_mass,Feeling welcomed,0.005487962184464267,0.0072975007491889125,-0.0018095385647246458,0.6866566716641679,0.8234882558720639
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,reach_probability,,0.30921308434638084,0.3657337600513588,-0.056520675704977985,0.7326336831584208,0.7326336831584208
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,route_distribution_jsd,,,,0.5256088470624938,0.4272863568215892,0.4272863568215892
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Calm and relaxation,0.09694807115017876,0.07979717985050122,0.017150891299677534,0.8515742128935532,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Compassionate and professional care,0.004736405416971996,0.0843573905792496,-0.0796209851622776,0.3118440779610195,0.8575712143928036
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Surgical concerns and coping,0.00390720214694473,0.004105997730044621,-0.00019879558309989116,0.9805097451274363,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Movement and sense of place,0.004965596305911391,0.004466001483661575,0.0004995948222498159,0.8825587206396801,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.10083014928503359,0.008423276996335613,0.09240687228869797,0.21689155422288856,0.8575712143928036
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Waiting experience,0.07716178031333291,0.07643930252920732,0.0007224777841255969,0.9855072463768116,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Positive appraisal and optimism,0.00457915928121349,0.051898184516292016,-0.04731902523507853,0.2913543228385807,0.8575712143928036
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.004362686053374806,0.03984454262702945,-0.035481856573654644,0.5087456271864068,0.9327003165084125
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Anxiety and nervousness,0.0027240832431224137,0.004533871681960899,-0.0018097884388384856,0.2318840579710145,0.8575712143928036
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Feeling well and stable,0.0035099889658324764,0.0031273752098135766,0.0003826137560188998,0.8895552223888056,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Art,Control,entry_mass,Feeling welcomed,0.005487962184464267,0.008740636847262975,-0.003252674662798708,0.4832583708145927,0.9327003165084125
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,reach_probability,,0.432828636000723,0.3657337600513588,0.0670948759493642,0.6771614192903548,0.6771614192903548
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,route_distribution_jsd,,,,0.475545105313228,0.6151924037981009,0.6151924037981009
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Calm and relaxation,0.06956773495120164,0.07979717985050122,-0.010229444899299583,0.9070464767616192,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Compassionate and professional care,0.08354496145133986,0.0843573905792496,-0.0008124291279097418,0.9855072463768116,0.9855072463768116
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Surgical concerns and coping,0.051015855411215366,0.004105997730044621,0.046909857681170744,0.20739630184907545,0.7732800266533401
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Movement and sense of place,0.003156478812216479,0.004466001483661575,-0.0013095226714450962,0.7231384307846077,0.9308678993836416
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.10026398646209084,0.008423276996335613,0.09184070946575522,0.2303848075962019,0.7732800266533401
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Waiting experience,0.006396968917846106,0.07643930252920732,-0.07004233361136121,0.2898550724637681,0.7732800266533401
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Positive appraisal and optimism,0.01312967342389904,0.051898184516292016,-0.038768511092392974,0.4217891054472764,0.7732800266533401
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.08833689834410241,0.03984454262702945,0.04849235571707296,0.3538230884557721,0.7732800266533401
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Anxiety and nervousness,0.003836993767953672,0.004533871681960899,-0.0006968779140072274,0.6501749125437282,0.9308678993836416
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Feeling well and stable,0.0062815837096687295,0.0031273752098135766,0.003154208499855153,0.23738130934532733,0.7732800266533401
-within_response,2,Subjective emotional and experiential effects,0.1,VR Only,Control,entry_mass,Feeling welcomed,0.0072975007491889125,0.008740636847262975,-0.0014431360980740621,0.7616191904047976,0.9308678993836416
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,reach_probability,,0.2889049938533241,0.34836033244577913,-0.059455338592455054,0.543728135932034,0.543728135932034
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.346601877170221,0.431784107946027,0.431784107946027
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Calm and relaxation,0.08152731930145893,0.05936802897119072,0.022159290330268207,0.6931534232883558,0.8471875173524349
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Compassionate and professional care,0.011785162043482978,0.0587962692930144,-0.04701110724953143,0.3458270864567716,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.010722152090480875,0.032727611814046015,-0.02200545972356514,0.33383308345827084,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Movement and sense of place,0.013374435674241894,0.009220924973463027,0.004153510700778866,0.3963018490754623,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.0667084598687234,0.05993609483630376,0.006772365032419639,0.8605697151424287,0.8605697151424287
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Waiting experience,0.0527589889378454,0.013861412823123573,0.038897576114721825,0.32233883058470764,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.012529655428600272,0.01536792815575569,-0.0028382727271554185,0.8505747126436781,0.8605697151424287
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.011518190092007025,0.0559431906123294,-0.044425000520322375,0.127936031984008,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.008386007958344911,0.01101677225944768,-0.0026307643011027684,0.3888055972013993,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Feeling well and stable,0.010603044319786498,0.01547277682531488,-0.004869732505528381,0.2563718140929535,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,VR Only,entry_mass,Feeling welcomed,0.008991578138351863,0.01664932188178994,-0.007657743743438078,0.07596201899050475,0.5449150424787607
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,reach_probability,,0.2889049938533241,0.3233602335194528,-0.034455239666128734,0.7236381809095452,0.7236381809095452
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,route_distribution_jsd,,,,0.3668461358377742,0.3258370814592704,0.3258370814592704
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Calm and relaxation,0.08152731930145893,0.06351196032548992,0.01801535897596901,0.7486256871564217,0.9149869509689599
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Compassionate and professional care,0.011785162043482978,0.06512490333579252,-0.05333974129230954,0.2588705647176412,0.6794602698650676
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Surgical concerns and coping,0.010722152090480875,0.010438184586152801,0.00028396750432807365,0.9765117441279361,0.9780109945027486
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Movement and sense of place,0.013374435674241894,0.01000720916673531,0.0033672265075065846,0.48575712143928035,0.7633326194045834
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.0667084598687234,0.01121156188732111,0.05549689798140228,0.13243378310844578,0.6794602698650676
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Waiting experience,0.0527589889378454,0.05344774608640089,-0.0006887571485554925,0.9780109945027486,0.9780109945027486
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Positive appraisal and optimism,0.012529655428600272,0.040548407090480125,-0.02801875166187985,0.2048975512243878,0.6794602698650676
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.011518190092007025,0.03314052310313885,-0.021622333011131825,0.4852573713143428,0.7633326194045834
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Anxiety and nervousness,0.008386007958344911,0.013276010796413008,-0.004890002838068097,0.095952023988006,0.6794602698650676
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Feeling well and stable,0.010603044319786498,0.009124376978174318,0.0014786673416121807,0.7461269365317341,0.9149869509689599
-within_response,2,Subjective emotional and experiential effects,0.5,VR Art,Control,entry_mass,Feeling welcomed,0.008991578138351863,0.013529350163353961,-0.004537772025002098,0.30884557721139433,0.6794602698650676
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,reach_probability,,0.34836033244577913,0.3233602335194528,0.02500009892632632,0.7906046976511744,0.7906046976511744
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,route_distribution_jsd,,,,0.3163392334441318,0.5882058970514743,0.5882058970514743
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Calm and relaxation,0.05936802897119072,0.06351196032548992,-0.004143931354299198,0.9480259870064968,0.9480259870064969
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Compassionate and professional care,0.0587962692930144,0.06512490333579252,-0.006328634042778114,0.8925537231384307,0.9480259870064969
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Surgical concerns and coping,0.032727611814046015,0.010438184586152801,0.022289427227893212,0.32283858070964516,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Movement and sense of place,0.009220924973463027,0.01000720916673531,-0.0007862841932722818,0.8730634682658671,0.9480259870064969
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.05993609483630376,0.01121156188732111,0.04872453294898264,0.1934032983508246,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Waiting experience,0.013861412823123573,0.05344774608640089,-0.03958633326327732,0.31584207896051975,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Positive appraisal and optimism,0.01536792815575569,0.040548407090480125,-0.025180478934724436,0.27436281859070466,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.0559431906123294,0.03314052310313885,0.02280266750919055,0.44227886056971516,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Anxiety and nervousness,0.01101677225944768,0.013276010796413008,-0.0022592385369653283,0.46776611694152925,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Feeling well and stable,0.01547277682531488,0.009124376978174318,0.006348399847140562,0.12693653173413294,0.6926536731634182
-within_response,2,Subjective emotional and experiential effects,0.5,VR Only,Control,entry_mass,Feeling welcomed,0.01664932188178994,0.013529350163353961,0.00311997171843598,0.5037481259370314,0.6926536731634182
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,reach_probability,,0.19785255792206782,0.23707095116646665,-0.039218393244398825,0.8570714642678661,0.8570714642678661
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.9168991524385554,0.07946026986506746,0.07946026986506746
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Calm and relaxation,0.05799739553655761,0.0015025117351594045,0.05649488380139821,0.527736131934033,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Compassionate and professional care,0.05470435917334139,0.0010213288354012037,0.05368303033794019,0.45027486256871563,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.0011395529326314793,0.0010902473832581233,4.9305549373355973e-05,0.9945027486256871,0.994502748625687
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Movement and sense of place,0.0013239944737895232,0.0008939851677868835,0.00043000930600263975,0.9130434782608695,0.994502748625687
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.0011670870794284528,0.06385675544630978,-0.06268966836688133,0.2913543228385807,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Waiting experience,0.07359786395188075,0.0018374217322638705,0.07176044221961689,0.5092453773113443,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.0011652327939428988,0.012024738306534473,-0.010859505512591575,0.6626686656671664,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.0011047366375283578,0.049853900638492224,-0.048749164000963865,0.3583208395802099,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.0005975773140820793,0.10144059670832496,-0.10084301939424288,0.1969015492253873,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Feeling well and stable,0.0008130407164924928,0.0015878500044745841,-0.0007748092879820913,0.8215892053973014,0.994502748625687
-within_response,3,Surgical concerns and coping,0.02,VR Art,VR Only,entry_mass,Feeling welcomed,0.004241717312392779,0.001961615208461163,0.002280102103931616,0.6211894052973513,0.9111694152923538
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,reach_probability,,0.19785255792206782,0.4944961978829163,-0.2966436399608485,0.111944027986007,0.111944027986007
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,route_distribution_jsd,,,,0.6734677991587098,0.872063968015992,0.872063968015992
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Calm and relaxation,0.05799739553655761,0.0756365655330312,-0.017639169996473594,0.7706146926536732,0.7706146926536732
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Compassionate and professional care,0.05470435917334139,0.0855908598045412,-0.030886500631199812,0.6696651674162919,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.0011395529326314793,0.0994922292836897,-0.09835267635105822,0.12243878060969515,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Movement and sense of place,0.0013239944737895232,0.04794506680330414,-0.046621072329514616,0.24587706146926536,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.0011670870794284528,0.0068558685957886365,-0.005688781516360184,0.6826586706646677,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Waiting experience,0.07359786395188075,0.0010428609384858087,0.07255500301339494,0.5292353823088456,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Positive appraisal and optimism,0.0011652327939428988,0.053830911614493465,-0.052665678820550565,0.4007996001999001,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.0011047366375283578,0.032741766217523456,-0.0316370295799951,0.5747126436781609,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Anxiety and nervousness,0.0005975773140820793,0.04912510482767336,-0.04852752751359128,0.6101949025487257,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Feeling well and stable,0.0008130407164924928,0.036013991272041926,-0.035200950555549435,0.47476261869065467,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Art,Control,entry_mass,Feeling welcomed,0.004241717312392779,0.0062209729923434634,-0.0019792556799506844,0.6606696651674163,0.7509245377311344
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,reach_probability,,0.23707095116646665,0.4944961978829163,-0.2574252467164497,0.16541729135432284,0.16541729135432284
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,route_distribution_jsd,,,,0.7089090878105581,0.7766116941529235,0.7766116941529235
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Calm and relaxation,0.0015025117351594045,0.0756365655330312,-0.0741340537978718,0.31984007996002,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Compassionate and professional care,0.0010213288354012037,0.0855908598045412,-0.08456953096914,0.20689655172413793,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.0010902473832581233,0.0994922292836897,-0.09840198190043158,0.12143928035982009,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Movement and sense of place,0.0008939851677868835,0.04794506680330414,-0.04705108163551726,0.23488255872063968,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.06385675544630978,0.0068558685957886365,0.05700088685052115,0.351824087956022,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Waiting experience,0.0018374217322638705,0.0010428609384858087,0.0007945607937780619,0.7896051974012993,0.7896051974012992
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Positive appraisal and optimism,0.012024738306534473,0.053830911614493465,-0.041806173307958994,0.519240379810095,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.049853900638492224,0.032741766217523456,0.017112134420968768,0.769615192403798,0.7896051974012992
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Anxiety and nervousness,0.10144059670832496,0.04912510482767336,0.0523154918806516,0.5517241379310345,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Feeling well and stable,0.0015878500044745841,0.036013991272041926,-0.034426141267567344,0.5197401299350325,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.02,VR Only,Control,entry_mass,Feeling welcomed,0.001961615208461163,0.0062209729923434634,-0.0042593577838823,0.4337831084457771,0.6743295019157087
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,reach_probability,,0.206031626125791,0.24024490890522443,-0.03421328277943342,0.8440779610194903,0.8440779610194903
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.7386829139485889,0.12743628185907047,0.12743628185907047
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Calm and relaxation,0.0560848277464675,0.006580912454265202,0.0495039152922023,0.5232383808095952,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Compassionate and professional care,0.04721615672788977,0.004254720596530238,0.04296143613135953,0.4472763618190905,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.0046868741380470475,0.004396213181121747,0.00029066095692530016,0.9865067466266867,0.9865067466266866
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Movement and sense of place,0.005487107812688434,0.0037523678834771182,0.0017347399292113154,0.8885557221389305,0.9774112943528236
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.004948008683740235,0.056682378349938,-0.051734369666197766,0.25787106446776614,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Waiting experience,0.06639819521457585,0.00645007867205585,0.05994811654252,0.5422288855572214,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.004771115462920755,0.01321478855032289,-0.008443673087402135,0.6811594202898551,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.004455556813169151,0.04316969919119122,-0.03871414237802207,0.3853073463268366,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.002785122400463836,0.0881659949801202,-0.08538087257965637,0.20939530234882558,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Feeling well and stable,0.0035960658091998745,0.006242894462954381,-0.0026468286537545066,0.7871064467766117,0.9620189905047476
-within_response,3,Surgical concerns and coping,0.1,VR Art,VR Only,entry_mass,Feeling welcomed,0.005602595316628574,0.007334860583247596,-0.0017322652666190222,0.6931534232883558,0.9530859570214892
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,reach_probability,,0.206031626125791,0.4617981985568527,-0.2557665724310617,0.09045477261369315,0.09045477261369315
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,route_distribution_jsd,,,,0.5380028170143788,0.8835582208895553,0.8835582208895553
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Calm and relaxation,0.0560848277464675,0.07089092657321765,-0.014806098826750144,0.7726136931534233,0.7946026986506746
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Compassionate and professional care,0.04721615672788977,0.07952651553754794,-0.03231035880965817,0.5787106446776612,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.0046868741380470475,0.08872735975986328,-0.08404048562181622,0.1054472763618191,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Movement and sense of place,0.005487107812688434,0.04093711070916603,-0.035450002896477595,0.2983508245877061,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.004948008683740235,0.00800242899567684,-0.0030544203119366054,0.7946026986506747,0.7946026986506746
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Waiting experience,0.06639819521457585,0.004349724199692046,0.0620484710148838,0.5407296351824088,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Positive appraisal and optimism,0.004771115462920755,0.04921801404430509,-0.044446898581384335,0.3808095952023988,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.004455556813169151,0.03252047712446854,-0.02806492031129939,0.5552223888055972,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Anxiety and nervousness,0.002785122400463836,0.04612124312366535,-0.04333612072320151,0.592703648175912,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Feeling well and stable,0.0035960658091998745,0.033360854318145935,-0.02976478850894606,0.5082458770614693,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Art,Control,entry_mass,Feeling welcomed,0.005602595316628574,0.008143544171104041,-0.0025409488544754673,0.5857071464267866,0.7244155699927813
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,reach_probability,,0.24024490890522443,0.4617981985568527,-0.2215532896516283,0.14842578710644677,0.14842578710644677
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,route_distribution_jsd,,,,0.5867632163483689,0.744127936031984,0.744127936031984
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Calm and relaxation,0.006580912454265202,0.07089092657321765,-0.06431001411895244,0.3148425787106447,0.6926536731634183
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Compassionate and professional care,0.004254720596530238,0.07952651553754794,-0.07527179494101771,0.16691654172913542,0.6926536731634183
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.004396213181121747,0.08872735975986328,-0.08433114657874152,0.09945027486256872,0.6926536731634183
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Movement and sense of place,0.0037523678834771182,0.04093711070916603,-0.03718474282568891,0.25087456271864067,0.6926536731634183
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.056682378349938,0.00800242899567684,0.04867994935426116,0.28835582208895555,0.6926536731634183
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Waiting experience,0.00645007867205585,0.004349724199692046,0.002100354472363804,0.8045977011494253,0.8605697151424287
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Positive appraisal and optimism,0.01321478855032289,0.04921801404430509,-0.0360032254939822,0.49025487256371814,0.8080959520239881
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.04316969919119122,0.03252047712446854,0.010649222066722683,0.7891054472763618,0.8605697151424287
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Anxiety and nervousness,0.0881659949801202,0.04612124312366535,0.04204475185645486,0.5782108945527237,0.8080959520239881
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Feeling well and stable,0.006242894462954381,0.033360854318145935,-0.027117959855191553,0.5877061469265368,0.8080959520239881
-within_response,3,Surgical concerns and coping,0.1,VR Only,Control,entry_mass,Feeling welcomed,0.007334860583247596,0.008143544171104041,-0.0008086835878564451,0.8605697151424287,0.8605697151424287
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,reach_probability,,0.22727327975101644,0.24334048259511346,-0.016067202844097017,0.8620689655172413,0.8620689655172413
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.41460613598418106,0.3328335832083958,0.3328335832083958
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Calm and relaxation,0.05231298680424169,0.02028212704661217,0.03203085975762952,0.47626186906546725,0.8999785821375027
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Compassionate and professional care,0.03368888975381365,0.01227756766195684,0.02141132209185681,0.5247376311844077,0.8999785821375027
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.011934257365050565,0.011082535531649399,0.0008517218334011655,0.9570214892553723,0.9570214892553724
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Movement and sense of place,0.014303207299681323,0.009996003185691773,0.004307204113989551,0.7646176911544228,0.9345327336331835
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.013654968095880148,0.03782110703941367,-0.024166138943533526,0.2783608195902049,0.8999785821375027
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Waiting experience,0.04833596002875658,0.013907459236087846,0.03442850079266873,0.5727136431784108,0.8999785821375027
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.012831435968393489,0.015428306684255889,-0.0025968707158624,0.8680659670164917,0.9548725637181409
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.011742223410399384,0.032240063803862344,-0.02049784039346296,0.44427786106946526,0.8999785821375027
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.00852962049323306,0.05813653209823792,-0.04960691160500486,0.2108945527236382,0.8999785821375027
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Feeling well and stable,0.010816675634297106,0.015472785638178135,-0.004656110003881029,0.7631184407796102,0.9345327336331835
-within_response,3,Surgical concerns and coping,0.5,VR Art,VR Only,entry_mass,Feeling welcomed,0.009123054897269441,0.016695994669167488,-0.007572939771898046,0.08095952023988005,0.8905547226386806
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,reach_probability,,0.22727327975101644,0.37687372689034293,-0.1496004471393265,0.06896551724137931,0.06896551724137931
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,route_distribution_jsd,,,,0.3239144208865961,0.8515742128935532,0.8515742128935532
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Calm and relaxation,0.05231298680424169,0.05836915088009046,-0.0060561640758487675,0.8480759620189905,0.8480759620189905
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Compassionate and professional care,0.03368888975381365,0.06205585087790269,-0.02836696112408904,0.367816091954023,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.011934257365050565,0.06090603573202642,-0.04897177836697586,0.07246376811594203,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Movement and sense of place,0.014303207299681323,0.027617513578363992,-0.013314306278682669,0.45977011494252873,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.013654968095880148,0.010880808724083268,0.0027741593717968797,0.8370814592703648,0.8480759620189905
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Waiting experience,0.04833596002875658,0.011734413653520244,0.036601546375236334,0.5567216391804098,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Positive appraisal and optimism,0.012831435968393489,0.03852107798366104,-0.025689642015267553,0.31334332833583206,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.011742223410399384,0.029729729532740837,-0.017987506122341453,0.5167416291854073,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Anxiety and nervousness,0.00852962049323306,0.0375628686362252,-0.029033248142992137,0.5157421289355323,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Feeling well and stable,0.010816675634297106,0.026577657852483203,-0.015760982218186097,0.5557221389305347,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Art,Control,entry_mass,Feeling welcomed,0.009123054897269441,0.012918619439245545,-0.003795564541976104,0.3983008495752124,0.6804375589982787
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,reach_probability,,0.24334048259511346,0.37687372689034293,-0.13353324429522948,0.1054472763618191,0.1054472763618191
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,route_distribution_jsd,,,,0.3608578505690792,0.6816591704147926,0.6816591704147926
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Calm and relaxation,0.02028212704661217,0.05836915088009046,-0.03808702383347829,0.35132433783108447,0.6478903405440137
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Compassionate and professional care,0.01227756766195684,0.06205585087790269,-0.04977828321594585,0.10394802598700649,0.5717141429285357
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.011082535531649399,0.06090603573202642,-0.04982350020037703,0.06446776611694154,0.5717141429285357
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Movement and sense of place,0.009996003185691773,0.027617513578363992,-0.01762151039267222,0.3073463268365817,0.6478903405440137
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.03782110703941367,0.010880808724083268,0.026940298315330406,0.18340829585207397,0.6478903405440137
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Waiting experience,0.013907459236087846,0.011734413653520244,0.002173045582567602,0.8430784607696152,0.8960519740129935
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Positive appraisal and optimism,0.015428306684255889,0.03852107798366104,-0.02309277129940515,0.3728135932033983,0.6478903405440137
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.032240063803862344,0.029729729532740837,0.0025103342711215067,0.8960519740129935,0.8960519740129935
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Anxiety and nervousness,0.05813653209823792,0.0375628686362252,0.020573663462012726,0.6661669165417291,0.8142040091065579
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Feeling well and stable,0.015472785638178135,0.026577657852483203,-0.011104872214305068,0.655672163918041,0.8142040091065579
-within_response,3,Surgical concerns and coping,0.5,VR Only,Control,entry_mass,Feeling welcomed,0.016695994669167488,0.012918619439245545,0.003777375229921942,0.4122938530734633,0.6478903405440137
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,reach_probability,,0.4735767873456766,0.47465737993852264,-0.0010805925928460414,0.9945027486256871,0.9945027486256871
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.6464394288165326,0.3073463268365817,0.3073463268365817
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Compassionate and professional care,0.05826432894410585,0.0005100020179654228,0.05775432692614043,0.3353323338330835,0.7377311344327836
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.0593820294381764,0.027717543462580017,0.03166448597559639,0.5327336331834083,0.7806096951524238
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.0009060609600792184,0.0007375372379428594,0.00016852372213635892,0.9930034982508745,0.9930034982508746
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Movement and sense of place,0.09940214524399452,0.0009081403641206817,0.09849400487987384,0.025487256371814093,0.280359820089955
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.0012350612043513865,0.028050871892368587,-0.0268158106880172,0.5287356321839081,0.7806096951524238
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Waiting experience,0.024739393579845774,0.0014196372565886861,0.02331975632325709,0.2478760619690155,0.6816591704147926
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.0014623307625033005,0.002096110773342321,-0.0006337800108390207,0.5677161419290355,0.7806096951524238
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.09035348758203418,0.0007723688233225007,0.08958111875871168,0.062468765617191405,0.3435782108945527
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.0065108909432302605,0.001079467412159171,0.005431423531071089,0.9390304847576212,0.9930034982508746
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Feeling well and stable,0.1284060422580187,0.4102408133323035,-0.2818347710742848,0.15642178910544727,0.5735465600533066
-across_questions,0,Calm and relaxation,0.02,VR Art,VR Only,entry_mass,Feeling welcomed,0.002915016429337046,0.0011248873658288605,0.0017901290635081854,0.6831584207896052,0.8349714031872952
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,reach_probability,,0.4735767873456766,0.4695537692811041,0.004023018064572503,0.9880059970014993,0.9880059970014993
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,route_distribution_jsd,,,,0.7183808653558019,0.15642178910544727,0.15642178910544727
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Compassionate and professional care,0.05826432894410585,0.07571122120207338,-0.017446892257967528,0.7926036981509246,0.8665667166416792
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.0593820294381764,0.032240782143663826,0.027141247294512574,0.6046976511744128,0.8665667166416792
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Surgical concerns and coping,0.0009060609600792184,0.11844296979368178,-0.11753690883360256,0.0734632683658171,0.26936531734132935
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Movement and sense of place,0.09940214524399452,0.0004743712239413676,0.09892777402005315,0.021989005497251374,0.24187906046976512
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.0012350612043513865,0.006522629125577703,-0.0052875679212263165,0.8665667166416792,0.8665667166416792
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Waiting experience,0.024739393579845774,0.0004290398720494347,0.02431035370779634,0.2283858070964518,0.5024487756121939
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Positive appraisal and optimism,0.0014623307625033005,0.0009568688421897163,0.0005054619203135841,0.6596701649175413,0.8665667166416792
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.09035348758203418,0.0011881865947209554,0.08916530098731322,0.06446776611694154,0.26936531734132935
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Anxiety and nervousness,0.0065108909432302605,0.17579794982480126,-0.169287058881571,0.1584207896051974,0.43565717141429283
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Feeling well and stable,0.1284060422580187,0.05369594089226176,0.07471010136575693,0.7251374312843578,0.8665667166416792
-across_questions,0,Calm and relaxation,0.02,VR Art,Control,entry_mass,Feeling welcomed,0.002915016429337046,0.004093809766142917,-0.001178793336805871,0.7606196901549226,0.8665667166416792
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,reach_probability,,0.47465737993852264,0.4695537692811041,0.005103610657418545,0.9825087456271864,0.9825087456271864
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,route_distribution_jsd,,,,0.7893798802323614,0.06946526736631684,0.06946526736631684
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Compassionate and professional care,0.0005100020179654228,0.07571122120207338,-0.07520121918410796,0.19740129935032483,0.5428535732133932
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.027717543462580017,0.032240782143663826,-0.00452323868108381,0.92103948025987,0.9770114942528736
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Surgical concerns and coping,0.0007375372379428594,0.11844296979368178,-0.11770543255573893,0.07296351824087956,0.41504247876061967
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Movement and sense of place,0.0009081403641206817,0.0004743712239413676,0.00043376914017931415,0.9770114942528736,0.9770114942528736
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.028050871892368587,0.006522629125577703,0.021528242766790884,0.5882058970514743,0.9243235525094596
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Waiting experience,0.0014196372565886861,0.0004290398720494347,0.0009905973845392513,0.719640179910045,0.9770114942528736
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Positive appraisal and optimism,0.002096110773342321,0.0009568688421897163,0.0011392419311526047,0.3268365817091454,0.71904047976012
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.0007723688233225007,0.0011881865947209554,-0.00041581777139845463,0.9435282358820589,0.9770114942528736
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Anxiety and nervousness,0.001079467412159171,0.17579794982480126,-0.1747184824126421,0.1504247876061969,0.5428535732133932
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Feeling well and stable,0.4102408133323035,0.05369594089226176,0.35654487244004174,0.07546226886556721,0.41504247876061967
-across_questions,0,Calm and relaxation,0.02,VR Only,Control,entry_mass,Feeling welcomed,0.0011248873658288605,0.004093809766142917,-0.0029689224003140564,0.5527236381809095,0.9243235525094596
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,reach_probability,,0.44547037247103655,0.45325335855094107,-0.007782986079904519,0.9645177411294353,0.9645177411294353
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.57951074523797,0.3118440779610195,0.3118440779610195
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Compassionate and professional care,0.04722030259236925,0.0022337823414796433,0.0449865202508896,0.38580709645177413,0.8487756121939031
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.05903062262164526,0.027992053443853176,0.031038569177792085,0.5047476261869065,0.884272149639466
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.004159089743631798,0.0030873773132730313,0.0010717124303587667,0.9775112443778111,0.977511244377811
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Movement and sense of place,0.09272671180993708,0.003545773679552819,0.08918093813038426,0.015992003998001,0.175912043978011
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.005667584644993562,0.02816615843358096,-0.022498573788587398,0.5627186406796602,0.884272149639466
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Waiting experience,0.02458301723310619,0.005543800436656109,0.01903921679645008,0.2908545727136432,0.7998500749625187
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.005368252504352272,0.003817017091441792,0.0015512354129104803,0.6761619190404797,0.9297226386806596
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.0718699734998347,0.0033907939048511537,0.06847917959498355,0.1089455272363818,0.5460603031817425
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.016808893514439704,0.004657341136756933,0.012151552377682772,0.8900549725137431,0.977511244377811
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Feeling well and stable,0.11347860839385507,0.366637702612951,-0.2531590942190959,0.1489255372313843,0.5460603031817425
-across_questions,0,Calm and relaxation,0.1,VR Art,VR Only,entry_mass,Feeling welcomed,0.004557315912871732,0.004181558156544477,0.00037575775632725517,0.9505247376311844,0.977511244377811
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,reach_probability,,0.44547037247103655,0.44625848418601316,-0.0007881117149766137,0.9950024987506247,0.9950024987506247
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,route_distribution_jsd,,,,0.6322645184895475,0.18790604697651175,0.18790604697651175
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Compassionate and professional care,0.04722030259236925,0.06982596252718459,-0.022605659934815343,0.663168415792104,0.8710644677661169
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.05903062262164526,0.031524754726254225,0.027505867895391035,0.5547226386806596,0.8710644677661169
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Surgical concerns and coping,0.004159089743631798,0.10248612943120838,-0.09832703968757658,0.06196901549225387,0.3408295852073963
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Movement and sense of place,0.09272671180993708,0.0020811249739531167,0.09064558683598396,0.015492253873063468,0.17041479260369816
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.005667584644993562,0.015288624885736846,-0.009621040240743284,0.7966016991504248,0.8710644677661169
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Waiting experience,0.02458301723310619,0.001992720306799792,0.022590296926306395,0.22688655672163918,0.4991504247876062
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Positive appraisal and optimism,0.005368252504352272,0.004167635020706451,0.0012006174836458215,0.7546226886556722,0.8710644677661169
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.0718699734998347,0.005196090345313815,0.06667388315452089,0.12093953023488256,0.44344494419456937
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Anxiety and nervousness,0.016808893514439704,0.15987953160719648,-0.14307063809275677,0.1679160419790105,0.4617691154422789
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Feeling well and stable,0.11347860839385507,0.04832559440709497,0.0651530139867601,0.7271364317841079,0.8710644677661169
-across_questions,0,Calm and relaxation,0.1,VR Art,Control,entry_mass,Feeling welcomed,0.004557315912871732,0.005490315954564574,-0.0009330000416928417,0.8710644677661169,0.8710644677661169
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,reach_probability,,0.45325335855094107,0.44625848418601316,0.0069948743649279055,0.9720139930034982,0.9720139930034982
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,route_distribution_jsd,,,,0.7313671919106938,0.05847076461769116,0.05847076461769116
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Compassionate and professional care,0.0022337823414796433,0.06982596252718459,-0.06759218018570495,0.18290854572713644,0.5029985007496252
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.027992053443853176,0.031524754726254225,-0.0035327012824010497,0.9380309845077461,0.9480259870064969
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Surgical concerns and coping,0.0030873773132730313,0.10248612943120838,-0.09939875211793535,0.059470264867566215,0.3930534732633683
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Movement and sense of place,0.003545773679552819,0.0020811249739531167,0.0014646487055997022,0.9480259870064968,0.9480259870064969
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.02816615843358096,0.015288624885736846,0.012877533547844114,0.719640179910045,0.9480259870064969
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Waiting experience,0.005543800436656109,0.001992720306799792,0.0035510801298563165,0.7096451774112944,0.9480259870064969
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Positive appraisal and optimism,0.003817017091441792,0.004167635020706451,-0.00035061792926465883,0.9235382308845578,0.9480259870064969
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.0033907939048511537,0.005196090345313815,-0.0018052964404626616,0.9325337331334332,0.9480259870064969
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Anxiety and nervousness,0.004657341136756933,0.15987953160719648,-0.15522219047043956,0.13393303348325838,0.4910877894386141
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Feeling well and stable,0.366637702612951,0.04832559440709497,0.318312108205856,0.07146426786606697,0.3930534732633683
-across_questions,0,Calm and relaxation,0.1,VR Only,Control,entry_mass,Feeling welcomed,0.004181558156544477,0.005490315954564574,-0.0013087577980200969,0.808095952023988,0.9480259870064969
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,reach_probability,,0.3622870158628602,0.38225229064368793,-0.019965274780827713,0.8390804597701149,0.8390804597701149
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.4162172025737602,0.41329335332333833,0.41329335332333833
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Compassionate and professional care,0.02968450995904616,0.0070638395153235466,0.022620670443722613,0.5107446276861569,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.047797847500086865,0.028180771620863215,0.01961707587922365,0.5382308845577212,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.01391337059975256,0.008448392104439267,0.005464978495313293,0.8595702148925537,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Movement and sense of place,0.06487228316456935,0.008830435495181917,0.056041847669387426,0.005497251374312844,0.06046976511744128
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.019448405312241252,0.025982012561079418,-0.006533607248838166,0.8130934532733634,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Waiting experience,0.02223574150970497,0.014103722434478709,0.00813201907522626,0.4862568715642179,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.01135280564293697,0.008237632633736837,0.0031151730092001326,0.6306846576711644,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.04145054449475885,0.010951895997839703,0.030498648496919148,0.29235382308845576,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.020358197176653728,0.013603011491341976,0.006755185685311752,0.9090454772613693,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Feeling well and stable,0.08239851639403538,0.24733254895004264,-0.16493403255600725,0.14742628685657172,0.8108445777111445
-across_questions,0,Calm and relaxation,0.5,VR Art,VR Only,entry_mass,Feeling welcomed,0.008774794109074096,0.009518027839360708,-0.0007432337302866118,0.8505747126436781,0.9090454772613693
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,reach_probability,,0.3622870158628602,0.37008413350781777,-0.007797117644957552,0.9425287356321839,0.9425287356321839
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,route_distribution_jsd,,,,0.4597806471412397,0.2703648175912044,0.2703648175912044
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Compassionate and professional care,0.02968450995904616,0.05295447318840839,-0.02326996322936223,0.4877561219390305,0.8858427928892697
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.047797847500086865,0.028918308377529553,0.018879539122557312,0.5637181409295352,0.8858427928892697
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Surgical concerns and coping,0.01391337059975256,0.06415227580333448,-0.050238905203581916,0.09095452273863068,0.4910877894386141
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Movement and sense of place,0.06487228316456935,0.006631197311590321,0.058241085852979026,0.00399800099950025,0.04397801099450275
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.019448405312241252,0.01932224751682592,0.00012615779541533256,0.9950024987506247,0.9950024987506247
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Waiting experience,0.02223574150970497,0.006797811147293867,0.015437930362411102,0.23138430784607697,0.6363068465767117
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Positive appraisal and optimism,0.01135280564293697,0.012405642646755621,-0.0010528370038186512,0.8730634682658671,0.9950024987506247
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.04145054449475885,0.01577509434803972,0.025675450146719132,0.3818090954522739,0.8399800099950026
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Anxiety and nervousness,0.020358197176653728,0.1168830304931715,-0.09652483331651777,0.13393303348325838,0.4910877894386141
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Feeling well and stable,0.08239851639403538,0.03705763499105398,0.0453408814029814,0.7026486756621689,0.9661419290354822
-across_questions,0,Calm and relaxation,0.5,VR Art,Control,entry_mass,Feeling welcomed,0.008774794109074096,0.009186417683814434,-0.0004116235747403385,0.9150424787606197,0.9950024987506247
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,reach_probability,,0.38225229064368793,0.37008413350781777,0.012168157135870161,0.8980509745127436,0.8980509745127436
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,route_distribution_jsd,,,,0.58857835435629,0.04697651174412794,0.04697651174412794
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Compassionate and professional care,0.0070638395153235466,0.05295447318840839,-0.04589063367308484,0.17541229385307347,0.48238380809595205
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.028180771620863215,0.028918308377529553,-0.0007375367566663377,0.9860069965017492,0.9860069965017492
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Surgical concerns and coping,0.008448392104439267,0.06415227580333448,-0.05570388369889521,0.06346826586706647,0.3875562218890555
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Movement and sense of place,0.008830435495181917,0.006631197311590321,0.002199238183591596,0.9095452273863068,0.9860069965017492
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.025982012561079418,0.01932224751682592,0.006659765044253498,0.8070964517741129,0.9860069965017492
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Waiting experience,0.014103722434478709,0.006797811147293867,0.007305911287184842,0.5537231384307846,0.9860069965017492
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Positive appraisal and optimism,0.008237632633736837,0.012405642646755621,-0.004168010013018784,0.5187406296851574,0.9860069965017492
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.010951895997839703,0.01577509434803972,-0.004823198350200016,0.862568715642179,0.9860069965017492
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Anxiety and nervousness,0.013603011491341976,0.1168830304931715,-0.10328001900182952,0.11694152923538231,0.4287856071964018
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Feeling well and stable,0.24733254895004264,0.03705763499105398,0.21027491395898867,0.0704647676161919,0.3875562218890555
-across_questions,0,Calm and relaxation,0.5,VR Only,Control,entry_mass,Feeling welcomed,0.009518027839360708,0.009186417683814434,0.0003316101555462733,0.935032483758121,0.9860069965017492
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,reach_probability,,0.280962432925898,0.4153421348458689,-0.1343797019199709,0.39730134932533734,0.39730134932533734
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.6730031189687313,0.1924037981009495,0.1924037981009495
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Calm and relaxation,0.05214180217873822,0.10732332993846629,-0.055181527759728066,0.5817091454272864,0.7415181298239769
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.030347447104728784,0.07008739795989963,-0.03973995085517085,0.5527236381809095,0.7415181298239769
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.026128131915028677,0.0005956383315365879,0.025532493583492088,0.5332333833083458,0.7415181298239769
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Movement and sense of place,0.0008060519581506246,0.0006641124366518856,0.00014193952149873905,0.9280359820089955,0.9950024987506247
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.04259416825022504,0.0006990901682029215,0.041895078082022114,0.15992003998001,0.6065300682991838
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Waiting experience,0.026130338573411155,0.05845949197186896,-0.03232915339845781,0.5242378810594702,0.7415181298239769
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.09864274002957685,0.004823751471029108,0.09381898855854774,0.16541729135432284,0.6065300682991838
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.0006498835752468961,0.000654128278794983,-4.244703548086904e-06,0.9950024987506247,0.9950024987506247
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.0007161983479516489,0.0008631361856377731,-0.00014693783768612422,0.6066966516741629,0.7415181298239769
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Feeling well and stable,0.0010000166966255787,0.0012006323114268705,-0.00020061561480129182,0.5722138930534733,0.7415181298239769
-across_questions,1,Compassionate and professional care,0.02,VR Art,VR Only,entry_mass,Feeling welcomed,0.0018056542962144966,0.16997142579235386,-0.16816577149613937,0.07196401799100449,0.6065300682991838
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,reach_probability,,0.280962432925898,0.44295113126214175,-0.16198869833624374,0.3248375812093953,0.3248375812093953
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,route_distribution_jsd,,,,0.4910284102424563,0.7596201899050474,0.7596201899050474
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Calm and relaxation,0.05214180217873822,0.19448628730949474,-0.14234448513075654,0.1469265367316342,0.4274112943528236
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.030347447104728784,0.06008637542630738,-0.0297389283215786,0.632183908045977,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Surgical concerns and coping,0.026128131915028677,0.02920858124126521,-0.0030804493262365333,0.8650674662668666,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Movement and sense of place,0.0008060519581506246,0.026212370463659804,-0.02540631850550918,0.4757621189405297,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.04259416825022504,0.0008033091920717685,0.04179085905815327,0.15542228885557222,0.4274112943528236
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Waiting experience,0.026130338573411155,0.0007383992502372895,0.025391939323173865,0.6316841579210395,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Positive appraisal and optimism,0.09864274002957685,0.07798559814763593,0.020657141881940913,0.776111944027986,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.0006498835752468961,0.044823066801965294,-0.0441731832267184,0.015992003998001,0.175912043978011
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Anxiety and nervousness,0.0007161983479516489,0.0011055463055353995,-0.00038934795758375064,0.14842578710644677,0.4274112943528236
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Feeling well and stable,0.0010000166966255787,0.0008455914866298958,0.00015442520999568287,0.6756621689155422,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Art,Control,entry_mass,Feeling welcomed,0.0018056542962144966,0.006656005637339012,-0.004850351341124515,0.9260369815092454,0.9260369815092454
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,reach_probability,,0.4153421348458689,0.44295113126214175,-0.027608996416272846,0.8525737131434283,0.8525737131434283
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,route_distribution_jsd,,,,0.640359723876463,0.2593703148425787,0.2593703148425787
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Calm and relaxation,0.10732332993846629,0.19448628730949474,-0.08716295737102846,0.39580209895052476,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.07008739795989963,0.06008637542630738,0.010001022533592245,0.8780609695152424,0.8855572213893054
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Surgical concerns and coping,0.0005956383315365879,0.02920858124126521,-0.02861294290972862,0.46326836581709147,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Movement and sense of place,0.0006641124366518856,0.026212370463659804,-0.025548258027007918,0.4577711144427786,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.0006990901682029215,0.0008033091920717685,-0.00010421902386884702,0.8855572213893054,0.8855572213893054
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Waiting experience,0.05845949197186896,0.0007383992502372895,0.05772109272163167,0.22588705647176413,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Positive appraisal and optimism,0.004823751471029108,0.07798559814763593,-0.07316184667660683,0.29035482258870565,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.000654128278794983,0.044823066801965294,-0.04416893852317031,0.02148925537231384,0.23638180909545226
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Anxiety and nervousness,0.0008631361856377731,0.0011055463055353995,-0.00024241011989762642,0.3933033483258371,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Feeling well and stable,0.0012006323114268705,0.0008455914866298958,0.0003550408247969747,0.34182908545727136,0.5662168915542228
-across_questions,1,Compassionate and professional care,0.02,VR Only,Control,entry_mass,Feeling welcomed,0.16997142579235386,0.006656005637339012,0.16331542015501485,0.08295852073963018,0.456271864067966
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,reach_probability,,0.26973382874450863,0.37094339279676847,-0.10120956405225984,0.4522738630684658,0.4522738630684658
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.5929532076288254,0.16891554222888555,0.16891554222888555
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Calm and relaxation,0.052079511371171325,0.1030566683333576,-0.05097715696218627,0.5787106446776612,0.7451829640735189
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.029354875937379,0.06660203570057195,-0.037247159763192955,0.5392303848075962,0.7451829640735189
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.02599017566884436,0.0025345705283435116,0.023455605140500848,0.4827586206896552,0.7451829640735189
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Movement and sense of place,0.0035397201347706336,0.0027186133996264456,0.000821106735144188,0.8750624687656172,0.9425287356321839
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.04110739228998111,0.0030612140937105016,0.038046178196270604,0.11444277861069466,0.6120273196734966
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Waiting experience,0.025672630759439614,0.04922144557425305,-0.023548814814813437,0.6096951524237881,0.7451829640735189
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.07916727467472565,0.006195731909666798,0.07297154276505885,0.16691654172913542,0.6120273196734966
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.002647930303476656,0.002884942301509549,-0.00023701199803289295,0.9425287356321839,0.9425287356321839
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.0027758842432418903,0.0037004484511833115,-0.0009245642079414211,0.4002998500749625,0.7451829640735189
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Feeling well and stable,0.00424766928777818,0.005288163398261214,-0.0010404941104830345,0.5057471264367817,0.7451829640735189
-across_questions,1,Compassionate and professional care,0.1,VR Art,VR Only,entry_mass,Feeling welcomed,0.003150764073700238,0.12567955910628453,-0.12252879503258429,0.059470264867566215,0.6120273196734966
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,reach_probability,,0.26973382874450863,0.4230131137554617,-0.15327928501095306,0.2673663168415792,0.2673663168415792
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,route_distribution_jsd,,,,0.4271460427581239,0.743128435782109,0.743128435782109
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Calm and relaxation,0.052079511371171325,0.18017905814225388,-0.12809954677108254,0.16541729135432284,0.4548975512243878
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.029354875937379,0.05583809241852854,-0.026483216481149537,0.6411794102948526,0.8816216891554223
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Surgical concerns and coping,0.02599017566884436,0.027273643713366685,-0.0012834680445223262,0.9195402298850575,0.9195402298850575
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Movement and sense of place,0.0035397201347706336,0.024643998558763265,-0.02110427842399263,0.4942528735632184,0.8816216891554223
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.04110739228998111,0.0030073734396877795,0.03810001885029333,0.10944527736131934,0.4012993503248376
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Waiting experience,0.025672630759439614,0.003165847512956164,0.02250678324648345,0.6081959020489756,0.8816216891554223
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Positive appraisal and optimism,0.07916727467472565,0.0706231352937173,0.008544139381008342,0.8855572213893054,0.9195402298850575
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.002647930303476656,0.042207388696760786,-0.03955945839328413,0.00849575212393803,0.09345327336331834
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Anxiety and nervousness,0.0027758842432418903,0.004922069584485877,-0.0021461853412439863,0.038980509745127435,0.2143928035982009
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Feeling well and stable,0.00424766928777818,0.0034879008196442643,0.0007597684681339154,0.638680659670165,0.8816216891554223
-across_questions,1,Compassionate and professional care,0.1,VR Art,Control,entry_mass,Feeling welcomed,0.003150764073700238,0.00766460557529711,-0.004513841501596872,0.9115442278860569,0.9195402298850575
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,reach_probability,,0.37094339279676847,0.4230131137554617,-0.05206972095869322,0.6781609195402298,0.6781609195402298
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,route_distribution_jsd,,,,0.5578053136873582,0.2493753123438281,0.2493753123438281
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Calm and relaxation,0.1030566683333576,0.18017905814225388,-0.07712238980889628,0.4217891054472764,0.5594980287633962
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.06660203570057195,0.05583809241852854,0.010763943282043414,0.8615692153923038,0.9477261369315342
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Surgical concerns and coping,0.0025345705283435116,0.027273643713366685,-0.024739073185023174,0.4577711144427786,0.5594980287633962
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Movement and sense of place,0.0027186133996264456,0.024643998558763265,-0.02192538515913682,0.447776111944028,0.5594980287633962
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.0030612140937105016,0.0030073734396877795,5.384065402272214e-05,0.9880059970014993,0.9880059970014993
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Waiting experience,0.04922144557425305,0.003165847512956164,0.04605559806129689,0.26186906546726635,0.48559053806430114
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Positive appraisal and optimism,0.006195731909666798,0.0706231352937173,-0.06442740338405051,0.23138430784607697,0.48559053806430114
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.002884942301509549,0.042207388696760786,-0.03932244639525124,0.013493253373313344,0.14842578710644677
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Anxiety and nervousness,0.0037004484511833115,0.004922069584485877,-0.0012216211333025652,0.26486756621689156,0.48559053806430114
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Feeling well and stable,0.005288163398261214,0.0034879008196442643,0.0018002625786169499,0.2463768115942029,0.48559053806430114
-across_questions,1,Compassionate and professional care,0.1,VR Only,Control,entry_mass,Feeling welcomed,0.12567955910628453,0.00766460557529711,0.11801495353098743,0.063968015992004,0.351824087956022
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,reach_probability,,0.2519880557519584,0.30583251175479287,-0.053844456002834495,0.5312343828085957,0.5312343828085957
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.3909704976446969,0.21489255372313842,0.21489255372313842
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Calm and relaxation,0.05440324404595992,0.08971546012422424,-0.03531221607826432,0.6201899050474763,0.8229385307346326
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Subjective emotional and experiential effects,0.025168268414354523,0.052951836808403215,-0.02778356839404869,0.5027486256871564,0.7900335546512458
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Surgical concerns and coping,0.024200625945433235,0.007235655994114352,0.01696496995131888,0.35782108945527236,0.7228885557221388
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Movement and sense of place,0.010464589161308822,0.007406925969448457,0.003057663191860365,0.7481259370314842,0.8229385307346326
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Nature imagery and sensory responses,0.035886359438410884,0.009144351598848023,0.026742007839562862,0.046476761619190406,0.2831084457771115
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Waiting experience,0.023194976993457222,0.03365696545877906,-0.010461988465321839,0.7306346826586707,0.8229385307346326
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Positive appraisal and optimism,0.04494289738294165,0.009548188360700073,0.03539470902224158,0.21039480259870064,0.7228885557221388
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,No perceived change and brief appraisals,0.007216867502351671,0.009221258898111111,-0.0020043913957594403,0.8435782108945528,0.8435782108945528
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Anxiety and nervousness,0.007417133528411901,0.010618947642946287,-0.0032018141145343853,0.39430284857571213,0.7228885557221388
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Feeling well and stable,0.012269946351299445,0.01640434105966123,-0.0041343947083617855,0.37881059470264866,0.7228885557221388
-across_questions,1,Compassionate and professional care,0.5,VR Art,VR Only,entry_mass,Feeling welcomed,0.0068231469880291485,0.05992857983955681,-0.05310543285152766,0.05147426286856572,0.2831084457771115
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,reach_probability,,0.2519880557519584,0.36718225162358126,-0.11519419587162288,0.1889055472263868,0.1889055472263868
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,route_distribution_jsd,,,,0.3042182642094418,0.6301849075462269,0.6301849075462269
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Calm and relaxation,0.05440324404595992,0.14260802396570377,-0.08820477991974385,0.21339330334832585,0.586831584207896
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Subjective emotional and experiential effects,0.025168268414354523,0.0433435370167183,-0.01817526860236378,0.6406796601699151,0.8809345327336332
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Surgical concerns and coping,0.024200625945433235,0.02233454777469323,0.0018660781707400056,0.9195402298850575,0.9195402298850575
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Movement and sense of place,0.010464589161308822,0.020710667580469026,-0.010246078419160204,0.56071964017991,0.8809345327336332
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Nature imagery and sensory responses,0.035886359438410884,0.0077596199865600166,0.028126739451850867,0.027486256871564217,0.10078294186240212
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Waiting experience,0.023194976993457222,0.009042432341354142,0.01415254465210308,0.584207896051974,0.8809345327336332
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Positive appraisal and optimism,0.04494289738294165,0.05045414061469386,-0.005511243231752207,0.848575712143928,0.9195402298850575
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,No perceived change and brief appraisals,0.007216867502351671,0.03510413903486386,-0.027887271532512192,0.008995502248875561,0.05772113943028486
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Anxiety and nervousness,0.007417133528411901,0.01577901226834853,-0.008361878739936629,0.010494752623688156,0.05772113943028486
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Feeling well and stable,0.012269946351299445,0.0097371275508216,0.0025328188004778446,0.6151924037981009,0.8809345327336332
-across_questions,1,Compassionate and professional care,0.5,VR Art,Control,entry_mass,Feeling welcomed,0.0068231469880291485,0.0103090034893549,-0.0034858565013257507,0.8730634682658671,0.9195402298850575
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,reach_probability,,0.30583251175479287,0.36718225162358126,-0.06134973986878839,0.4757621189405297,0.4757621189405297
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,route_distribution_jsd,,,,0.3671302663473327,0.2978510744627686,0.2978510744627686
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Calm and relaxation,0.08971546012422424,0.14260802396570377,-0.05289256384147953,0.46026986506746626,0.5625520573046809
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Subjective emotional and experiential effects,0.052951836808403215,0.0433435370167183,0.009608299791684913,0.823088455772114,0.8655672163918041
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Surgical concerns and coping,0.007235655994114352,0.02233454777469323,-0.015098891780578877,0.44177911044477763,0.5625520573046809
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Movement and sense of place,0.007406925969448457,0.020710667580469026,-0.013303741611020568,0.3968015992003998,0.5625520573046809
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Nature imagery and sensory responses,0.009144351598848023,0.0077596199865600166,0.001384731612288007,0.8655672163918041,0.8655672163918041
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Waiting experience,0.03365696545877906,0.009042432341354142,0.024614533117424918,0.33983008495752126,0.5625520573046809
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Positive appraisal and optimism,0.009548188360700073,0.05045414061469386,-0.04090595225399379,0.1359320339830085,0.3386306846576711
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,No perceived change and brief appraisals,0.009221258898111111,0.03510413903486386,-0.025882880136752752,0.025487256371814093,0.280359820089955
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Anxiety and nervousness,0.010618947642946287,0.01577901226834853,-0.005160064625402243,0.15242378810594703,0.3386306846576711
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Feeling well and stable,0.01640434105966123,0.0097371275508216,0.00666721350883963,0.1539230384807596,0.3386306846576711
-across_questions,1,Compassionate and professional care,0.5,VR Only,Control,entry_mass,Feeling welcomed,0.05992857983955681,0.0103090034893549,0.04961957635020191,0.06596701649175413,0.3386306846576711
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,reach_probability,,0.7575150264518212,0.06106353310380133,0.6964514933480199,0.006496751624187906,0.006496751624187906
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.6008426257094852,0.7491254372813593,0.7491254372813593
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Anxiety & fear,0.022231260146177798,0.0031972625715561602,0.01903399757462164,0.672663668165917,0.7567466266866567
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Surgery & coping,0.02655651075178894,0.01876093102094649,0.0077955797308424495,0.2988505747126437,0.6724137931034483
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Video & nature,0.23552038338923295,0.002859628099193801,0.23266075529003916,0.10194902548725637,0.4857571214392804
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Feeling well,0.34024343637442345,0.004893455247264458,0.33534998112715897,0.10794602698650675,0.4857571214392804
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Relaxed,0.01413379911200877,0.00360680975165198,0.01052698936035679,0.2383808095952024,0.6724137931034483
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Confident & calm,0.10652884590048768,0.015509525366410273,0.09101932053407741,0.4512743628185907,0.7567466266866567
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Comfort & peace,0.0023175828785102237,0.002922699262332957,-0.0006051163838227333,0.8980509745127436,0.8980509745127436
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Fine / as usual,0.0038327417710056493,0.006138069232014693,-0.002305327461009044,0.6611694152923538,0.7567466266866567
+within_response,1,Feeling calmer,0.02,VR Art,VR Only,entry_mass,Emotion & unease,0.006150466128185729,0.0031751525524305177,0.002975313575755211,0.6441779110444777,0.7567466266866567
+within_response,1,Feeling calmer,0.02,VR Art,Control,reach_probability,,0.7575150264518212,0.12711901305124415,0.630396013400577,0.014992503748125937,0.014992503748125937
+within_response,1,Feeling calmer,0.02,VR Art,Control,route_distribution_jsd,,,,0.4604880328582607,0.9245377311344328,0.9245377311344328
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Anxiety & fear,0.022231260146177798,0.004034310236077136,0.018196949910100662,0.6846576711644178,0.77023988005997
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Surgery & coping,0.02655651075178894,0.0030360153904377416,0.023520495361351198,0.12393803098450774,0.4308845577211394
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Video & nature,0.23552038338923295,0.0036424376780223935,0.23187794571121056,0.09795102448775612,0.4308845577211394
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Feeling well,0.34024343637442345,0.08271452138849972,0.25752891498592373,0.23938030984507747,0.4308845577211394
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Relaxed,0.01413379911200877,0.003513453295758538,0.01062034581625023,0.23488255872063968,0.4308845577211394
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Confident & calm,0.10652884590048768,0.004463741954954323,0.10206510394553336,0.42828585707146427,0.6424287856071964
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Comfort & peace,0.0023175828785102237,0.01794774827962929,-0.015630165401119066,0.20439780109945027,0.4308845577211394
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Fine / as usual,0.0038327417710056493,0.004078867994109327,-0.0002461262231036776,0.9650174912543729,0.9650174912543729
+within_response,1,Feeling calmer,0.02,VR Art,Control,entry_mass,Emotion & unease,0.006150466128185729,0.003687916833755683,0.002462549294430046,0.6741629185407296,0.77023988005997
+within_response,1,Feeling calmer,0.02,VR Only,Control,reach_probability,,0.06106353310380133,0.12711901305124415,-0.06605547994744282,0.8175912043978011,0.8175912043978011
+within_response,1,Feeling calmer,0.02,VR Only,Control,route_distribution_jsd,,,,0.6284764218680516,0.6991504247876063,0.6991504247876063
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Anxiety & fear,0.0031972625715561602,0.004034310236077136,-0.0008370476645209761,0.9105447276361819,0.9775112443778112
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Surgery & coping,0.01876093102094649,0.0030360153904377416,0.01572491563050875,0.2028985507246377,0.9130434782608696
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Video & nature,0.002859628099193801,0.0036424376780223935,-0.0007828095788285925,0.9685157421289355,0.9775112443778112
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Feeling well,0.004893455247264458,0.08271452138849972,-0.07782106614123525,0.7546226886556722,0.9775112443778112
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Relaxed,0.00360680975165198,0.003513453295758538,9.335645589344209e-05,0.9775112443778111,0.9775112443778112
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Confident & calm,0.015509525366410273,0.004463741954954323,0.01104578341145595,0.7861069465267366,0.9775112443778112
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Comfort & peace,0.002922699262332957,0.01794774827962929,-0.015025049017296335,0.19940029985007496,0.9130434782608696
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Fine / as usual,0.006138069232014693,0.004078867994109327,0.0020592012379053665,0.6996501749125438,0.9775112443778112
+within_response,1,Feeling calmer,0.02,VR Only,Control,entry_mass,Emotion & unease,0.0031751525524305177,0.003687916833755683,-0.0005127642813251652,0.9295352323838081,0.9775112443778112
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,reach_probability,,0.6267905035273549,0.12943807911595417,0.4973524244114007,0.004497751124437781,0.004497751124437781
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.4390250375883013,0.7651174412793603,0.7651174412793603
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Anxiety & fear,0.035622890465303675,0.011852395121617329,0.023770495343686346,0.6616691654172914,0.9015492253873063
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Surgery & coping,0.025079317914809718,0.018521246849774194,0.006558071065035524,0.4107946026986507,0.8257871064467766
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Video & nature,0.19075795563155878,0.010372250941728486,0.18038570468983028,0.06546726636681659,0.5892053973013492
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Feeling well,0.21857764356208614,0.018150635024732402,0.20042700853735373,0.19290354822588707,0.8257871064467766
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Relaxed,0.019115222112894376,0.013107668287416784,0.006007553825477591,0.4587706146926537,0.8257871064467766
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Confident & calm,0.10229229060471079,0.017695663098450387,0.0845966275062604,0.3468265867066467,0.8257871064467766
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Comfort & peace,0.0094415343528951,0.011318567146762543,-0.001877032793867443,0.8605697151424287,0.9015492253873063
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Fine / as usual,0.013987651597656463,0.017468460047900588,-0.003480808450244125,0.7296351824087957,0.9015492253873063
+within_response,1,Feeling calmer,0.1,VR Art,VR Only,entry_mass,Emotion & unease,0.011915997285439902,0.01095119259757145,0.0009648046878684528,0.9015492253873063,0.9015492253873063
+within_response,1,Feeling calmer,0.1,VR Art,Control,reach_probability,,0.6267905035273549,0.1913796101003173,0.4354108934270376,0.013493253373313344,0.013493253373313344
+within_response,1,Feeling calmer,0.1,VR Art,Control,route_distribution_jsd,,,,0.38895387004016696,0.8530734632683659,0.8530734632683659
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Anxiety & fear,0.035622890465303675,0.015026852372537222,0.02059603809276645,0.6806596701649176,0.8751338616406084
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Surgery & coping,0.025079317914809718,0.011543718807100398,0.01353559910770932,0.15542228885557222,0.6011994002998501
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Video & nature,0.19075795563155878,0.008468774947746732,0.18228918068381206,0.05547226386806597,0.4992503748125937
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Feeling well,0.21857764356208614,0.08259537110525196,0.1359822724568342,0.43428285857071464,0.651424287856072
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Relaxed,0.019115222112894376,0.011457985212542411,0.007657236900351964,0.3553223388305847,0.6395802098950525
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Confident & calm,0.10229229060471079,0.014268593171816755,0.08802369743289404,0.33233383308345826,0.6395802098950525
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Comfort & peace,0.0094415343528951,0.022774085549353628,-0.013332551196458528,0.20039980009995004,0.6011994002998501
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Fine / as usual,0.013987651597656463,0.01311282597818173,0.0008748256194747329,0.9405297351324338,0.9710144927536233
+within_response,1,Feeling calmer,0.1,VR Art,Control,entry_mass,Emotion & unease,0.011915997285439902,0.01213140295578643,-0.0002154056703465284,0.9710144927536232,0.9710144927536233
+within_response,1,Feeling calmer,0.1,VR Only,Control,reach_probability,,0.12943807911595417,0.1913796101003173,-0.06194153098436311,0.7566216891554223,0.7566216891554223
+within_response,1,Feeling calmer,0.1,VR Only,Control,route_distribution_jsd,,,,0.30689798955682535,0.9460269865067467,0.9460269865067467
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Anxiety & fear,0.011852395121617329,0.015026852372537222,-0.003174457250919893,0.8850574712643678,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Surgery & coping,0.018521246849774194,0.011543718807100398,0.006977528042673795,0.3963018490754623,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Video & nature,0.010372250941728486,0.008468774947746732,0.0019034759939817545,0.9545227386306847,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Feeling well,0.018150635024732402,0.08259537110525196,-0.06444473608051957,0.7276361819090454,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Relaxed,0.013107668287416784,0.011457985212542411,0.001649683074874373,0.8210894552723638,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Confident & calm,0.017695663098450387,0.014268593171816755,0.0034270699266336323,0.9205397301349325,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Comfort & peace,0.011318567146762543,0.022774085549353628,-0.011455518402591085,0.24437781109445278,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Fine / as usual,0.017468460047900588,0.01311282597818173,0.004355634069718858,0.6671664167916042,0.9545227386306847
+within_response,1,Feeling calmer,0.1,VR Only,Control,entry_mass,Emotion & unease,0.01095119259757145,0.01213140295578643,-0.0011802103582149812,0.8845577211394303,0.9545227386306847
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,reach_probability,,0.4379912749469072,0.2283191022561489,0.2096721726907583,0.006496751624187906,0.006496751624187906
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.26805416823688316,0.6446776611694153,0.6446776611694153
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Anxiety & fear,0.03589784879823513,0.025716261464513213,0.010181587333721914,0.7396301849075462,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Surgery & coping,0.022978801062670057,0.019848226250712652,0.0031305748119574046,0.5582208895552224,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Video & nature,0.109693924110277,0.02151918370315358,0.08817474040712342,0.033483258370814596,0.3013493253373314
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Feeling well,0.09924417518476351,0.04004460425116692,0.059199570933596596,0.456271864067966,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Relaxed,0.02605936798680082,0.027265450426289587,-0.0012060824394887655,0.8760619690154923,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Confident & calm,0.07487662150481848,0.020343339069057796,0.05453328243576069,0.10844577711144428,0.48800599700149927
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Comfort & peace,0.021613187172146123,0.0254355265416931,-0.0038223393695469773,0.7051474262868566,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Fine / as usual,0.029194636526698403,0.026297713023714295,0.0028969235029841084,0.7806096951524237,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,VR Only,entry_mass,Emotion & unease,0.018432712600497676,0.021848797525847747,-0.0034160849253500707,0.6241879060469765,0.8760619690154923
+within_response,1,Feeling calmer,0.5,VR Art,Control,reach_probability,,0.4379912749469072,0.2632194578496063,0.17477181709730089,0.030484757621189407,0.030484757621189407
+within_response,1,Feeling calmer,0.5,VR Art,Control,route_distribution_jsd,,,,0.2831037668351011,0.5812093953023488,0.5812093953023488
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Anxiety & fear,0.03589784879823513,0.03392210581204594,0.0019757429861891884,0.9450274862568716,0.9450274862568716
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Surgery & coping,0.022978801062670057,0.025975545356740862,-0.002996744294070805,0.6036981509245377,0.7685532233883059
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Video & nature,0.109693924110277,0.016015028437899682,0.0936788956723773,0.01999000499750125,0.17991004497751126
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Feeling well,0.09924417518476351,0.06451370730078447,0.034730467883979044,0.6831584207896052,0.7685532233883059
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Relaxed,0.02605936798680082,0.021797689056455245,0.004261678930345576,0.6261869065467266,0.7685532233883059
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Confident & calm,0.07487662150481848,0.024554865005666088,0.050321756499152395,0.15142428785607195,0.6814092953523238
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Comfort & peace,0.021613187172146123,0.03032033903950658,-0.008707151867360458,0.41829085457271364,0.7685532233883059
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Fine / as usual,0.029194636526698403,0.023578564305039258,0.005616072221659146,0.5817091454272864,0.7685532233883059
+within_response,1,Feeling calmer,0.5,VR Art,Control,entry_mass,Emotion & unease,0.018432712600497676,0.022541613535468165,-0.004108900934970489,0.5412293853073463,0.7685532233883059
+within_response,1,Feeling calmer,0.5,VR Only,Control,reach_probability,,0.2283191022561489,0.2632194578496063,-0.034900355593457416,0.6701649175412294,0.6701649175412294
+within_response,1,Feeling calmer,0.5,VR Only,Control,route_distribution_jsd,,,,0.1062319057541797,0.9955022488755623,0.9955022488755623
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Anxiety & fear,0.025716261464513213,0.03392210581204594,-0.008205844347532725,0.7781109445277361,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Surgery & coping,0.019848226250712652,0.025975545356740862,-0.00612731910602821,0.2683658170914543,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Video & nature,0.02151918370315358,0.016015028437899682,0.005504155265253899,0.8810594702648675,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Feeling well,0.04004460425116692,0.06451370730078447,-0.024469103049617552,0.7341329335332334,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Relaxed,0.027265450426289587,0.021797689056455245,0.005467761369834342,0.5327336331834083,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Confident & calm,0.020343339069057796,0.024554865005666088,-0.004211525936608292,0.88055972013993,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Comfort & peace,0.0254355265416931,0.03032033903950658,-0.00488481249781348,0.6506746626686657,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Fine / as usual,0.026297713023714295,0.023578564305039258,0.0027191487186750372,0.7841079460269865,0.9190404797601199
+within_response,1,Feeling calmer,0.5,VR Only,Control,entry_mass,Emotion & unease,0.021848797525847747,0.022541613535468165,-0.0006928160096204179,0.9190404797601199,0.9190404797601199
+within_response,3,Video & nature,0.02,VR Art,VR Only,reach_probability,,0.49889054044322867,0.3732196503857023,0.12567089005752635,0.6381809095452274,0.6381809095452274
+within_response,3,Video & nature,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.7189284439689392,0.6676661669165417,0.6676661669165417
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Anxiety & fear,0.0018507938353872063,0.15117176683166905,-0.14932097299628186,0.20389805097451275,0.6308095952023988
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Feeling calmer,0.12159906253538956,0.07860459313022264,0.04299446940516692,0.729135432283858,0.7611194402798601
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Surgery & coping,0.012347631279155767,0.02473644270543721,-0.012388811426281442,0.280359820089955,0.6308095952023988
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Feeling well,0.005542308449901503,0.004535519613914093,0.0010067888359874102,0.7611194402798601,0.7611194402798601
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Relaxed,0.011395160989548351,0.0029071450252272798,0.00848801596432107,0.20739630184907545,0.6308095952023988
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Confident & calm,0.16571921201224052,0.015153163297217772,0.15056604871502274,0.36481759120439783,0.6566716641679161
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Comfort & peace,0.1672337763478522,0.0028289325503646915,0.1644048437974875,0.2753623188405797,0.6308095952023988
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Fine / as usual,0.0031553545859495384,0.005673469742379245,-0.002518115156429707,0.607696151924038,0.7611194402798601
+within_response,3,Video & nature,0.02,VR Art,VR Only,entry_mass,Emotion & unease,0.010047240407804048,0.08760861748927033,-0.07756137708146628,0.47926036981509246,0.7188905547226386
+within_response,3,Video & nature,0.02,VR Art,Control,reach_probability,,0.49889054044322867,0.051107361602483733,0.4477831788407449,0.09145427286356822,0.09145427286356822
+within_response,3,Video & nature,0.02,VR Art,Control,route_distribution_jsd,,,,0.4532838360700403,0.9730134932533733,0.9730134932533733
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Anxiety & fear,0.0018507938353872063,0.0036676566410187112,-0.001816862805631505,0.8100949525237381,0.9045477261369316
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Feeling calmer,0.12159906253538956,0.00208717460007742,0.11951188793531214,0.32083958020989506,0.5209895052473763
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Surgery & coping,0.012347631279155767,0.0031426194737092994,0.009205011805446469,0.3268365817091454,0.5209895052473763
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Feeling well,0.005542308449901503,0.0014777534122379127,0.00406455503766359,0.3263368315842079,0.5209895052473763
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Relaxed,0.011395160989548351,0.0031913562365819955,0.008203804752966355,0.21489255372313842,0.5209895052473763
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Confident & calm,0.16571921201224052,0.004230054567788874,0.16148915744445164,0.32283858070964516,0.5209895052473763
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Comfort & peace,0.1672337763478522,0.026055209409388602,0.1411785669384636,0.3473263368315842,0.5209895052473763
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Fine / as usual,0.0031553545859495384,0.003683290292096928,-0.0005279357061473895,0.9045477261369316,0.9045477261369316
+within_response,3,Video & nature,0.02,VR Art,Control,entry_mass,Emotion & unease,0.010047240407804048,0.0035722469695839837,0.0064749934382200645,0.8725637181409296,0.9045477261369316
+within_response,3,Video & nature,0.02,VR Only,Control,reach_probability,,0.3732196503857023,0.051107361602483733,0.32211228878321857,0.23138430784607697,0.23138430784607697
+within_response,3,Video & nature,0.02,VR Only,Control,route_distribution_jsd,,,,0.6648339285823284,0.7791104447776112,0.7791104447776112
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Anxiety & fear,0.15117176683166905,0.0036676566410187112,0.14750411019065035,0.21039480259870064,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Feeling calmer,0.07860459313022264,0.00208717460007742,0.07651741853014522,0.6326836581709145,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Surgery & coping,0.02473644270543721,0.0031426194737092994,0.02159382323172791,0.16841579210394803,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Feeling well,0.004535519613914093,0.0014777534122379127,0.0030577662016761805,0.4177911044477761,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Relaxed,0.0029071450252272798,0.0031913562365819955,-0.00028421121135471577,0.9090454772613693,0.9090454772613694
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Confident & calm,0.015153163297217772,0.004230054567788874,0.010923108729428898,0.7991004497751124,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Comfort & peace,0.0028289325503646915,0.026055209409388602,-0.02322627685902391,0.7381309345327336,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Fine / as usual,0.005673469742379245,0.003683290292096928,0.0019901794502823174,0.6711644177911045,0.8989880059970015
+within_response,3,Video & nature,0.02,VR Only,Control,entry_mass,Emotion & unease,0.08760861748927033,0.0035722469695839837,0.08403637051968635,0.46676661669165415,0.8989880059970015
+within_response,3,Video & nature,0.1,VR Art,VR Only,reach_probability,,0.44864112213397767,0.3779205660756574,0.07072055605832028,0.7106446776611695,0.7106446776611695
+within_response,3,Video & nature,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.591153184045153,0.5167416291854073,0.5167416291854073
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Anxiety & fear,0.007410363252183565,0.12160531463408836,-0.11419495138190479,0.20839580209895053,0.7496251874062968
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Feeling calmer,0.10336753938554996,0.07880743165420269,0.024560107731347272,0.7491254372813593,0.8427661169415291
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Surgery & coping,0.015544090919497317,0.023650294304673473,-0.008106203385176156,0.36881559220389803,0.7496251874062968
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Feeling well,0.01667101850773337,0.016902865109623265,-0.0002318466018898964,0.9795102448775612,0.9795102448775612
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Relaxed,0.01607399178233927,0.010920634764214922,0.0051533570181243465,0.4257871064467766,0.7496251874062968
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Confident & calm,0.1379265651227483,0.017029755747138702,0.1208968093756096,0.24887556221889057,0.7496251874062968
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Comfort & peace,0.12627425005627385,0.010783428558280708,0.11549082149799314,0.3053473263368316,0.7496251874062968
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Fine / as usual,0.011778626974512903,0.01627513960342249,-0.004496512628909587,0.6166916541729135,0.7928892696508888
+within_response,3,Video & nature,0.1,VR Art,VR Only,entry_mass,Emotion & unease,0.013594676133139104,0.08194570170001281,-0.0683510255668737,0.49975012493753124,0.7496251874062968
+within_response,3,Video & nature,0.1,VR Art,Control,reach_probability,,0.44864112213397767,0.11765075005167386,0.3309903720823038,0.07246376811594203,0.07246376811594203
+within_response,3,Video & nature,0.1,VR Art,Control,route_distribution_jsd,,,,0.38512877621065034,0.9455272363818091,0.9455272363818091
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Anxiety & fear,0.007410363252183565,0.01374949437812949,-0.006339131125945925,0.7636181909045477,0.9780109945027485
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Feeling calmer,0.10336753938554996,0.008814862284111762,0.09455267710143819,0.35082458770614694,0.784407796101949
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Surgery & coping,0.015544090919497317,0.011867987670628088,0.003676103248869229,0.6771614192903548,0.9780109945027485
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Feeling well,0.01667101850773337,0.006913866336742758,0.00975715217099061,0.2733633183408296,0.784407796101949
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Relaxed,0.01607399178233927,0.010624564329117701,0.005449427453221568,0.4112943528235882,0.784407796101949
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Confident & calm,0.1379265651227483,0.01357435665018145,0.12435220847256687,0.2283858070964518,0.784407796101949
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Comfort & peace,0.12627425005627385,0.028408271479567333,0.09786597857670652,0.4357821089455272,0.784407796101949
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Fine / as usual,0.011778626974512903,0.012052491621149054,-0.0002738646466361513,0.9780109945027486,0.9780109945027485
+within_response,3,Video & nature,0.1,VR Art,Control,entry_mass,Emotion & unease,0.013594676133139104,0.01164485530204623,0.0019498208310928748,0.9480259870064968,0.9780109945027485
+within_response,3,Video & nature,0.1,VR Only,Control,reach_probability,,0.3779205660756574,0.11765075005167386,0.2602698160239835,0.17091454272863568,0.17091454272863568
+within_response,3,Video & nature,0.1,VR Only,Control,route_distribution_jsd,,,,0.4260502253107134,0.9085457271364318,0.9085457271364318
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Anxiety & fear,0.12160531463408836,0.01374949437812949,0.10785582025595887,0.2518740629685157,0.8200899550224888
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Feeling calmer,0.07880743165420269,0.008814862284111762,0.06999256937009093,0.592703648175912,0.9527736131934033
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Surgery & coping,0.023650294304673473,0.011867987670628088,0.011782306634045385,0.2368815592203898,0.8200899550224888
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Feeling well,0.016902865109623265,0.006913866336742758,0.009988998772880507,0.2733633183408296,0.8200899550224888
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Relaxed,0.010920634764214922,0.010624564329117701,0.0002960704350972211,0.9565217391304348,0.9565217391304349
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Confident & calm,0.017029755747138702,0.01357435665018145,0.0034553990969572526,0.9175412293853074,0.9565217391304349
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Comfort & peace,0.010783428558280708,0.028408271479567333,-0.017624842921286625,0.7511244377811095,0.9565217391304349
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Fine / as usual,0.01627513960342249,0.012052491621149054,0.004222647982273436,0.6351824087956022,0.9527736131934033
+within_response,3,Video & nature,0.1,VR Only,Control,entry_mass,Emotion & unease,0.08194570170001281,0.01164485530204623,0.07030084639796658,0.5057471264367817,0.9527736131934033
+within_response,3,Video & nature,0.5,VR Art,VR Only,reach_probability,,0.36431212099988236,0.34616887082640696,0.0181432501734754,0.8175912043978011,0.8175912043978011
+within_response,3,Video & nature,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.358704745689352,0.3268365817091454,0.3268365817091454
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Anxiety & fear,0.01698803114555701,0.07337974762869869,-0.056391716483141674,0.2318840579710145,0.8941529235382308
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Feeling calmer,0.08054368253206785,0.062404897236527146,0.018138785295540708,0.7236381809095452,0.9303919468837011
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Surgery & coping,0.01967352720748959,0.0225376114192483,-0.002864084211758707,0.6176911544227887,0.926536731634183
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Feeling well,0.028782449777487985,0.037838773662334714,-0.009056323884846729,0.3503248375812094,0.8941529235382308
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Relaxed,0.023039503941483172,0.024374775427456082,-0.0013352714859729102,0.8605697151424287,0.9681409295352323
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Confident & calm,0.0839461318807031,0.019789530258320726,0.06415660162238238,0.06146926536731634,0.553223388305847
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Comfort & peace,0.06811612645213522,0.0243436032781233,0.04377252317401192,0.45977011494252873,0.8941529235382308
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Fine / as usual,0.02551066635699951,0.025148310661343085,0.00036235569565642653,0.9740129935032483,0.9740129935032483
+within_response,3,Video & nature,0.5,VR Art,VR Only,entry_mass,Emotion & unease,0.017712001705958942,0.056351621254354875,-0.03863961954839593,0.496751624187906,0.8941529235382308
+within_response,3,Video & nature,0.5,VR Art,Control,reach_probability,,0.36431212099988236,0.21994261248921304,0.14436950851066932,0.07896051974012994,0.07896051974012994
+within_response,3,Video & nature,0.5,VR Art,Control,route_distribution_jsd,,,,0.2701980415832488,0.7811094452773614,0.7811094452773614
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Anxiety & fear,0.01698803114555701,0.03130501895482013,-0.014316987809263118,0.6741629185407296,0.8045977011494253
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Feeling calmer,0.08054368253206785,0.02235901239397743,0.05818467013809042,0.3173413293353323,0.7578710644677661
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Surgery & coping,0.01967352720748959,0.02598301477968524,-0.0063094875721956475,0.3003498250874563,0.7578710644677661
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Feeling well,0.028782449777487985,0.020172484067525677,0.008609965709962308,0.33683158420789605,0.7578710644677661
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Relaxed,0.023039503941483172,0.020797762324350707,0.002241741617132465,0.7656171914042978,0.8045977011494253
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Confident & calm,0.0839461318807031,0.023498076220523457,0.06044805566017965,0.07946026986506746,0.7151424287856072
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Comfort & peace,0.06811612645213522,0.03186641601445751,0.036249710437677704,0.5507246376811594,0.8045977011494253
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Fine / as usual,0.02551066635699951,0.02233809737970016,0.0031725689772993497,0.7211394302848576,0.8045977011494253
+within_response,3,Video & nature,0.5,VR Art,Control,entry_mass,Emotion & unease,0.017712001705958942,0.02162273035417271,-0.00391072864821377,0.8045977011494253,0.8045977011494253
+within_response,3,Video & nature,0.5,VR Only,Control,reach_probability,,0.34616887082640696,0.21994261248921304,0.12622625833719392,0.13993003498250875,0.13993003498250875
+within_response,3,Video & nature,0.5,VR Only,Control,route_distribution_jsd,,,,0.20736142291994358,0.9470264867566217,0.9470264867566217
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Anxiety & fear,0.07337974762869869,0.03130501895482013,0.042074728673878556,0.48225887056471767,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Feeling calmer,0.062404897236527146,0.02235901239397743,0.040045884842549714,0.5787106446776612,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Surgery & coping,0.0225376114192483,0.02598301477968524,-0.0034454033604369404,0.567216391804098,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Feeling well,0.037838773662334714,0.020172484067525677,0.017666289594809037,0.05147426286856572,0.46326836581709147
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Relaxed,0.024374775427456082,0.020797762324350707,0.0035770131031053753,0.6491754122938531,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Confident & calm,0.019789530258320726,0.023498076220523457,-0.0037085459622027313,0.8835582208895553,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Comfort & peace,0.0243436032781233,0.03186641601445751,-0.007522812736334213,0.84007996001999,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Fine / as usual,0.025148310661343085,0.02233809737970016,0.002810213281642923,0.7471264367816092,0.8835582208895553
+within_response,3,Video & nature,0.5,VR Only,Control,entry_mass,Emotion & unease,0.056351621254354875,0.02162273035417271,0.03472889090018216,0.6021989005497251,0.8835582208895553
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,reach_probability,,0.29585841906369376,0.47738877013403114,-0.18153035107033738,0.5432283858070964,0.5432283858070964
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,route_distribution_jsd,,,,0.8565813845749747,0.23938030984507747,0.23938030984507747
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Feeling calmer,0.23264467908551228,0.0016015276923679437,0.23104315139314435,0.06296851574212893,0.31709145427286356
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Surgery & coping,0.029854102696208973,0.021637209827954654,0.008216892868254319,0.8225887056471765,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Video & nature,0.004702256324901644,0.002469547848846705,0.002232708476054939,0.63968015992004,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Feeling well,0.004744465912862296,0.25007762100471836,-0.24533315509185608,0.0704647676161919,0.31709145427286356
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Relaxed,0.010660714868464028,0.18752204482009344,-0.1768613299516294,0.3968015992003998,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Confident & calm,0.002981710799571176,0.00354314883446462,-0.0005614380348934441,0.9675162418790605,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Comfort & peace,0.0030879901774339977,0.0029389736728662606,0.00014901650456773706,0.9825087456271864,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Fine / as usual,0.0027803577184783348,0.0042438476610211235,-0.0014634899425427887,0.7586206896551724,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,VR Only,entry_mass,Emotion & unease,0.0044021414802610116,0.0033548487716980203,0.0010472927085629913,0.8040979510244878,0.9825087456271864
+within_response,0,Anxiety & fear,0.02,VR Art,Control,reach_probability,,0.29585841906369376,0.5934687552131437,-0.29761033614944993,0.2613693153423288,0.2613693153423288
+within_response,0,Anxiety & fear,0.02,VR Art,Control,route_distribution_jsd,,,,0.8127075085054759,0.4047976011994003,0.4047976011994003
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Feeling calmer,0.23264467908551228,0.002743526853229037,0.22990115223228325,0.059470264867566215,0.30359820089955025
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Surgery & coping,0.029854102696208973,0.13404249492590076,-0.10418839222969178,0.5392303848075962,0.9706146926536732
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Video & nature,0.004702256324901644,0.004832736615229211,-0.0001304802903275672,0.9800099950024987,0.9800099950024987
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Feeling well,0.004744465912862296,0.0019397879108818802,0.0028046780019804155,0.8630684657671165,0.9800099950024987
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Relaxed,0.010660714868464028,0.21331661245356687,-0.20265589758510283,0.30434782608695654,0.6847826086956522
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Confident & calm,0.002981710799571176,0.19628837028987978,-0.1933066594903086,0.18990504747626186,0.5697151424287855
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Comfort & peace,0.0030879901774339977,0.03428717800202541,-0.031199187824591412,0.06746626686656672,0.30359820089955025
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Fine / as usual,0.0027803577184783348,0.00216978372715558,0.0006105739913227549,0.9090454772613693,0.9800099950024987
+within_response,0,Anxiety & fear,0.02,VR Art,Control,entry_mass,Emotion & unease,0.0044021414802610116,0.0038482644352751455,0.0005538770449858661,0.8970514742628686,0.9800099950024987
+within_response,0,Anxiety & fear,0.02,VR Only,Control,reach_probability,,0.47738877013403114,0.5934687552131437,-0.11607998507911255,0.6876561719140429,0.6876561719140429
+within_response,0,Anxiety & fear,0.02,VR Only,Control,route_distribution_jsd,,,,0.6774167873326621,0.7241379310344828,0.7241379310344828
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Feeling calmer,0.0016015276923679437,0.002743526853229037,-0.0011419991608610932,0.9245377311344328,0.9245377311344328
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Surgery & coping,0.021637209827954654,0.13404249492590076,-0.1124052850979461,0.5067466266866567,0.9245377311344328
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Video & nature,0.002469547848846705,0.004832736615229211,-0.002363188766382506,0.6241879060469765,0.9245377311344328
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Feeling well,0.25007762100471836,0.0019397879108818802,0.2481378330938365,0.06596701649175413,0.29685157421289354
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Relaxed,0.18752204482009344,0.21331661245356687,-0.02579456763347343,0.8545727136431784,0.9245377311344328
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Confident & calm,0.00354314883446462,0.19628837028987978,-0.19274522145541514,0.2158920539730135,0.6476761619190405
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Comfort & peace,0.0029389736728662606,0.03428717800202541,-0.03134820432915915,0.051974012993503245,0.29685157421289354
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Fine / as usual,0.0042438476610211235,0.00216978372715558,0.0020740639338655436,0.6941529235382309,0.9245377311344328
+within_response,0,Anxiety & fear,0.02,VR Only,Control,entry_mass,Emotion & unease,0.0033548487716980203,0.0038482644352751455,-0.0004934156635771252,0.9085457271364318,0.9245377311344328
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,reach_probability,,0.3029905467124044,0.42707573894124184,-0.12408519222883746,0.544727636181909,0.544727636181909
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,route_distribution_jsd,,,,0.7075154378946674,0.12743628185907047,0.12743628185907047
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Feeling calmer,0.187227387468934,0.007449068470515744,0.17977831899841826,0.07896051974012994,0.3553223388305847
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Surgery & coping,0.027710003852365044,0.022360182542644245,0.005349821309720799,0.881559220389805,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Video & nature,0.0165460890954564,0.009433622226058851,0.007112466869397548,0.5067466266866567,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Feeling well,0.014717196586962857,0.19899439550918366,-0.1842771989222208,0.047976011994003,0.3553223388305847
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Relaxed,0.015114216401421285,0.14526514336023083,-0.13015092695880953,0.37631184407796103,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Confident & calm,0.011463190841664724,0.008331019010240165,0.003132171831424559,0.9230384807596201,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Comfort & peace,0.010793791186752805,0.011208376387812899,-0.0004145852010600942,0.9720139930034982,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Fine / as usual,0.010563028265629004,0.012940767130866702,-0.0023777388652376982,0.8215892053973014,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,VR Only,entry_mass,Emotion & unease,0.008855643013218263,0.011093164303688709,-0.0022375212904704456,0.7461269365317341,0.9720139930034981
+within_response,0,Anxiety & fear,0.1,VR Art,Control,reach_probability,,0.3029905467124044,0.48749115299333645,-0.18450060628093207,0.32033983008495753,0.32033983008495753
+within_response,0,Anxiety & fear,0.1,VR Art,Control,route_distribution_jsd,,,,0.6656283531394847,0.28585707146426786,0.28585707146426786
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Feeling calmer,0.187227387468934,0.011027226655627366,0.17620016081330664,0.08895552223888056,0.40029985007496255
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Surgery & coping,0.027710003852365044,0.11208280005456595,-0.0843727962022009,0.519240379810095,0.7414863996573143
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Video & nature,0.0165460890954564,0.00936944329036383,0.00717664580509257,0.5172413793103449,0.7414863996573143
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Feeling well,0.014717196586962857,0.008594194507177477,0.00612300207978538,0.863568215892054,0.8680659670164917
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Relaxed,0.015114216401421285,0.14372888266828135,-0.12861466626686008,0.3748125937031484,0.7414863996573143
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Confident & calm,0.011463190841664724,0.14566573437586733,-0.1342025435342026,0.13393303348325838,0.4017991004497752
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Comfort & peace,0.010793791186752805,0.03561138136659544,-0.024817590179842634,0.06846576711644178,0.40029985007496255
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Fine / as usual,0.010563028265629004,0.008757618592488697,0.0018054096731403065,0.8680659670164917,0.8680659670164917
+within_response,0,Anxiety & fear,0.1,VR Art,Control,entry_mass,Emotion & unease,0.008855643013218263,0.01265387148236903,-0.0037982284691507676,0.5767116441779111,0.7414863996573143
+within_response,0,Anxiety & fear,0.1,VR Only,Control,reach_probability,,0.42707573894124184,0.48749115299333645,-0.06041541405209461,0.7706146926536732,0.7706146926536732
+within_response,0,Anxiety & fear,0.1,VR Only,Control,route_distribution_jsd,,,,0.5897633825294969,0.5432283858070964,0.5432283858070964
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Feeling calmer,0.007449068470515744,0.011027226655627366,-0.003578158185111622,0.9090454772613693,0.9965017491254373
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Surgery & coping,0.022360182542644245,0.11208280005456595,-0.0897226175119217,0.4862568715642179,0.9965017491254373
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Video & nature,0.009433622226058851,0.00936944329036383,6.417893569502127e-05,0.9965017491254373,0.9965017491254373
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Feeling well,0.19899439550918366,0.008594194507177477,0.1904002010020062,0.041979010494752625,0.27886056971514245
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Relaxed,0.14526514336023083,0.14372888266828135,0.0015362606919494814,0.9820089955022488,0.9965017491254373
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Confident & calm,0.008331019010240165,0.14566573437586733,-0.13733471536562716,0.14492753623188406,0.43478260869565216
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Comfort & peace,0.011208376387812899,0.03561138136659544,-0.02440300497878254,0.06196901549225387,0.27886056971514245
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Fine / as usual,0.012940767130866702,0.008757618592488697,0.004183148538378005,0.6996501749125438,0.9965017491254373
+within_response,0,Anxiety & fear,0.1,VR Only,Control,entry_mass,Emotion & unease,0.011093164303688709,0.01265387148236903,-0.001560707178680322,0.8360819590204898,0.9965017491254373
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,reach_probability,,0.31273043978160336,0.3513222150382349,-0.038591775256631544,0.665167416291854,0.665167416291854
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,route_distribution_jsd,,,,0.44640840986513747,0.062468765617191405,0.062468765617191405
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Feeling calmer,0.12253820969109304,0.021502598371882935,0.1010356113192101,0.0769615192403798,0.34632683658170915
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Surgery & coping,0.024353668678747786,0.022493975563128633,0.0018596931156191522,0.9225387306346826,0.9695152423788106
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Video & nature,0.032060259383173376,0.02086531204336476,0.011194947339808616,0.26686656671664166,0.6260869565217391
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Feeling well,0.026197968248835697,0.1194841796778322,-0.09328621142899651,0.020989505247376312,0.1889055472263868
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Relaxed,0.02183301394547073,0.08143088199032256,-0.05959786804485183,0.34782608695652173,0.6260869565217391
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Confident & calm,0.02550763634816149,0.01601155183128765,0.00949608451687384,0.7646176911544228,0.9695152423788106
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Comfort & peace,0.021363996674835375,0.025159987524895344,-0.0037959908500599694,0.7151424287856072,0.9695152423788106
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Fine / as usual,0.02330124625401812,0.022738992541916893,0.0005622537121012273,0.9695152423788106,0.9695152423788106
+within_response,0,Anxiety & fear,0.5,VR Art,VR Only,entry_mass,Emotion & unease,0.015574440557267713,0.0216347354936039,-0.0060602949363361865,0.312343828085957,0.6260869565217391
+within_response,0,Anxiety & fear,0.5,VR Art,Control,reach_probability,,0.31273043978160336,0.36598424691738274,-0.053253807135779374,0.5037481259370314,0.5037481259370314
+within_response,0,Anxiety & fear,0.5,VR Art,Control,route_distribution_jsd,,,,0.40311897119908896,0.2063968015992004,0.2063968015992004
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Feeling calmer,0.12253820969109304,0.026147052176578204,0.09639115751451484,0.10344827586206896,0.3058470764617691
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Surgery & coping,0.024353668678747786,0.07322365009429962,-0.048869981415551836,0.3553223388305847,0.532983508245877
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Video & nature,0.032060259383173376,0.016417472288398745,0.01564278709477463,0.11444277861069466,0.3058470764617691
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Feeling well,0.026197968248835697,0.02349466595301203,0.002703302295823669,0.9380309845077461,0.9380309845077461
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Relaxed,0.02183301394547073,0.07028184850941416,-0.04844883456394343,0.4662668665667166,0.5994859713000642
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Confident & calm,0.02550763634816149,0.07495598117005367,-0.049448344821892184,0.1679160419790105,0.3058470764617691
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Comfort & peace,0.021363996674835375,0.03727913219257024,-0.015915135517734862,0.12543728135932034,0.3058470764617691
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Fine / as usual,0.02330124625401812,0.02053475814221901,0.002766488111799109,0.7891054472763618,0.887743628185907
+within_response,0,Anxiety & fear,0.5,VR Art,Control,entry_mass,Emotion & unease,0.015574440557267713,0.023649686390837102,-0.008075245833569389,0.16991504247876063,0.3058470764617691
+within_response,0,Anxiety & fear,0.5,VR Only,Control,reach_probability,,0.3513222150382349,0.36598424691738274,-0.01466203187914783,0.8715642178910544,0.8715642178910544
+within_response,0,Anxiety & fear,0.5,VR Only,Control,route_distribution_jsd,,,,0.3808816583489782,0.30484757621189407,0.30484757621189407
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Feeling calmer,0.021502598371882935,0.026147052176578204,-0.0046444538046952685,0.889055472263868,0.8890554722638682
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Surgery & coping,0.022493975563128633,0.07322365009429962,-0.05072967453117099,0.3118440779610195,0.7016491754122939
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Video & nature,0.02086531204336476,0.016417472288398745,0.004447839754966015,0.671664167916042,0.8890554722638682
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Feeling well,0.1194841796778322,0.02349466595301203,0.09598951372482017,0.014992503748125937,0.13493253373313344
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Relaxed,0.08143088199032256,0.07028184850941416,0.011149033480908399,0.8325837081459271,0.8890554722638682
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Confident & calm,0.01601155183128765,0.07495598117005367,-0.05894442933876602,0.079960019990005,0.3598200899550225
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Comfort & peace,0.025159987524895344,0.03727913219257024,-0.012119144667674893,0.2543728135932034,0.7016491754122939
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Fine / as usual,0.022738992541916893,0.02053475814221901,0.002204234399697882,0.8510744627686156,0.8890554722638682
+within_response,0,Anxiety & fear,0.5,VR Only,Control,entry_mass,Emotion & unease,0.0216347354936039,0.023649686390837102,-0.0020149508972332024,0.7591204397801099,0.8890554722638682

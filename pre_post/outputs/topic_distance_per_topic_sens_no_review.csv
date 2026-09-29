@@ -1,0 +1,15 @@
+timepoint,topic,label,n_descriptors,nearest_topic_other_timepoint,distance,null_95th_percentile,far_from_every_topic_of_other_timepoint
+pre,0,Anxious & nervous,40,Surgery & coping,0.035376668,0.1929415464401245,False
+pre,1,Calm & tranquil,16,Comfort & peace,0.034301758,0.1929415464401245,False
+pre,2,Optimism,16,Surgery & coping,0.15681463,0.1929415464401245,False
+pre,3,Feeling well,10,Feeling calmer,0.047734916,0.1929415464401245,False
+pre,4,Expecting it to go well,14,Fine / as usual,0.121659696,0.1929415464401245,False
+post,0,Anxiety & fear,9,Anxious & nervous,0.21106768,0.1929415464401245,True
+post,1,Feeling calmer,15,Feeling well,0.047734916,0.1929415464401245,False
+post,2,Surgery & coping,13,Anxious & nervous,0.035376668,0.1929415464401245,False
+post,3,Video & nature,6,Optimism,0.2841925,0.1929415464401245,True
+post,4,Feeling well,7,Calm & tranquil,0.10707009,0.1929415464401245,False
+post,5,Relaxed,5,Calm & tranquil,0.088312685,0.1929415464401245,False
+post,6,Confident & calm,9,Calm & tranquil,0.113869905,0.1929415464401245,False
+post,7,Comfort & peace,5,Calm & tranquil,0.034301758,0.1929415464401245,False
+post,8,Fine / as usual,5,Calm & tranquil,0.06057769,0.1929415464401245,False

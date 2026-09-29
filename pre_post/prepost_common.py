@@ -40,6 +40,26 @@ TOPIC_LABELS = {
 }
 
 
+# Labels of the SEPARATE per-timepoint topic models (fit_timepoint_topics.py: one BERTopic model per timepoint, fitted on that
+# timepoint's descriptors only). Interpretations written after reading sample descriptors of every topic.
+from timepoint_topic_labels import TOPIC_LABELS_POST, TOPIC_LABELS_PRE  # noqa: E402  (single source of truth)
+TIME_LABELS = {"pre": TOPIC_LABELS_PRE, "post": TOPIC_LABELS_POST}
+
+
+def label_time(time: str, t: int) -> str:
+    return TIME_LABELS[time].get(int(t), f"Topic {int(t)}")
+
+
+def load_units_time(time: str, drop_review: bool = False, drop_outlier: bool = True) -> pd.DataFrame:
+    """Descriptors of one timepoint with the topics of that timepoint's own topic model."""
+    u = pd.read_csv(OUT / f"{time}_units_with_topics.csv")
+    if drop_review:
+        u = u[~u.needs_review]
+    if drop_outlier:
+        u = u[u.Topic >= 0]
+    return u.sort_values(["participant_id", "sentence_number"]).reset_index(drop=True)
+
+
 def label(t: int) -> str:
     return TOPIC_LABELS.get(int(t), f"Topic {int(t)}")
 

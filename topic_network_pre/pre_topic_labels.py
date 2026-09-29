@@ -1,20 +1,10 @@
-"""Topic labels for the shared pre+post BERTopic model (pre_post/), used by the pre-interview topic-network analysis.
-Short labels written after reading sample descriptors of every topic; topics 2, 8 and 9 overlap in meaning."""
+"""Topic labels of the pre-interview topic model: single source of truth is pre_post/timepoint_topic_labels.py, shared with
+pre_post/ and topic_network_pre/ so that clusters, labels and parameters are identical everywhere."""
+import sys
+from pathlib import Path
 
-TOPIC_LABELS = {
-    -1: "Unassigned",
-    0: "Anxiety & fear",
-    1: "Feeling fine",
-    2: "Calm & tranquil",
-    3: "The surgery",
-    4: "Mixed emotions",
-    5: "Optimism",
-    6: "Video & nature",
-    7: "Expecting it to go well",
-    8: "Feeling calmer",
-    9: "Relaxed",
-    10: "Wanting it over",
-}
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "pre_post"))
+from timepoint_topic_labels import TOPIC_LABELS_PRE as TOPIC_LABELS  # noqa: E402
 
 
 def topic_label(topic: int) -> str:

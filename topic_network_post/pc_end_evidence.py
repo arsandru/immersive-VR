@@ -38,16 +38,11 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
-from all_questions.topic_labels import short_topic_label  # noqa: E402
+from post_topic_labels import short_topic_label  # noqa: E402
 from topic_network_analysis import CONDITIONS, DEFAULT_INPUT, DEFAULT_OUTPUT, load_data  # noqa: E402
 
 
-PC_END_LABELS = {
-    (4, "high"): "Enjoyment",
-    (4, "low"): "Worries (surgery, care)",
-    (6, "high"): "Relief",
-    (6, "low"): "Worries (anxiety)",
-}
+PC_END_LABELS: dict = {}  # no PC separates the post-interview conditions after FDR, so nothing is labelled
 # keyword check written after seeing the evidence (exploratory): share of sentences per end
 # that contain any stem of a lexicon; stems are matched inside the cleaned Portuguese tokens
 LEXICONS = {
@@ -92,6 +87,11 @@ def main() -> None:
     E = np.stack([lookup[i] for i in df["document_id"]]).astype(np.float64)
     tests = pd.read_csv(out / "pc_condition_tests.csv")
     pcs = tests.loc[tests.p_fdr < 0.05, "PC"].astype(int).tolist()
+    if not pcs:
+        print("No PC passes FDR < .05 in pc_condition_tests.csv (smallest adjusted p = "
+              f"{tests.p_fdr.min():.3f}); no end evidence to collect.")
+        pd.DataFrame(columns=["PC", "end", "label"]).to_csv(out / "pc_end_labels.csv", index=False)
+        return
     pca = PCA(n_components=int(max(pcs)), random_state=0).fit(E)
     S = pca.transform(E)
     sd = S.std(axis=0)

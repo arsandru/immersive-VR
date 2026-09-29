@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from all_questions.topic_labels import short_topic_label  # noqa: E402
+from post_topic_labels import short_topic_label  # noqa: E402
 from q3.plot_topic_differences import CONDITION_COLORS, CONDITION_ORDER  # noqa: E402
 from topic_network_analysis import DEFAULT_INPUT, DEFAULT_OUTPUT, load_data  # noqa: E402
 
@@ -56,7 +56,7 @@ def stars_text(p):
     return "***" if p < 0.001 else "**" if p < 0.01 else "*" if p < 0.05 else "n.s."
 
 
-SHORT_TEST = {"sentence PERMANOVA (cosine), pseudo-F": "Sentence-level\nPERMANOVA",
+SHORT_TEST = {"sentence PERMANOVA (cosine), pseudo-F": "Descriptor-level\nPERMANOVA",
               "participant-centroid PERMANOVA, pseudo-F": "Participant-level\nPERMANOVA",
               "dispersion of participant centroids, F": "Dispersion\n(spread)"}
 COLS = [("all three", "All three"), ("VR Art vs VR Only", "VR Art\nvs VR Only"),
@@ -154,7 +154,7 @@ def draw_pc_inset(ax, out):
     res = pd.read_csv(out / "pc_condition_tests.csv")
     ld = pd.read_csv(out / "pc_topic_loadings.csv", index_col=0)
     sig = res[res.p_fdr < 0.05].reset_index(drop=True)
-    lab = pd.read_csv(out / "pc_end_labels.csv")
+    lab = pd.read_csv(out / "pc_end_labels.csv") if (out / "pc_end_labels.csv").exists() else pd.DataFrame(columns=["PC", "end", "label"])
 
     def end_label(pc, end, col):
         r = lab[(lab.PC == pc) & (lab.end == end)]
@@ -173,6 +173,9 @@ def draw_pc_inset(ax, out):
         sp.set_linewidth(1.3)
     box.text(0.5, 0.93, f"PCs that separate the conditions (FDR over first {len(res)} PCs)",
              ha="center", va="center", fontsize=8.2, fontweight="bold")
+    if len(sig) == 0:
+        box.text(0.5, 0.5, f"No PC separates the conditions\n(smallest FDR-adjusted p = {res.p_fdr.min():.3f}, PC{int(res.loc[res.p_fdr.idxmin(), 'PC'])})",
+                 ha="center", va="center", fontsize=9, color="#444444")
     n = max(len(sig), 1)
     row_h = 0.74 / n
     for i, r in sig.iterrows():
@@ -223,6 +226,10 @@ def main() -> None:
     # axes = the two PCs that separate the conditions most (largest eta^2 among those passing the FDR test)
     pct = pd.read_csv(out / "pc_condition_tests.csv")
     AX = (pct[pct.p_fdr < 0.05].sort_values("eta_squared", ascending=False).PC.astype(int).head(2) - 1).tolist()
+    AX_SELECTED = len(AX) >= 2
+    for k_ in (0, 1, 2):  # fewer than two PCs pass the test: fall back to the leading PCs
+        if len(AX) < 2 and k_ not in AX:
+            AX.append(k_)
     pca = PCA(n_components=max(AX) + 1, random_state=0).fit(E)
     S, C2 = pca.transform(E)[:, AX], pca.transform(cent)[:, AX]
     topics = sorted(df["Topic"].unique())
@@ -261,9 +268,9 @@ def main() -> None:
     ax.grid(color="#eeeeee")
     ax.set_axisbelow(True)
     t1 = content_p("VR Art vs Control")
-    ax.set_title("Semantic space of all sentences\n"
-                 "small dots = sentences, dots = participants, diamond + ellipse = condition mean "
-                 "with 95% bootstrap region; axes = the two PCs that separate the conditions best (picked for display, tests use the full embedding)\n"
+    ax.set_title("Semantic space of the post-interview descriptors\n"
+                 "small dots = descriptors, dots = participants, diamond + ellipse = condition mean "
+                 "with 95% bootstrap region; " + ("axes = the two PCs that separate the conditions best (picked for display, tests use the full embedding)" if AX_SELECTED else f"axes = PC{AX[0] + 1} and PC{AX[1] + 1} (no PC separates the conditions after FDR)") + "\n"
                  f"VR Art vs Control (participant-level PERMANOVA): p = {t1.p_perm:.3f}, "
                  f"Holm {t1.p_holm:.3f}", fontsize=10.5)
 

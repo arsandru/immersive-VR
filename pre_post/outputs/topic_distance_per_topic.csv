@@ -1,0 +1,21 @@
+timepoint,topic,label,n_descriptors,nearest_topic_other_timepoint,distance,null_95th_percentile,far_from_every_topic_of_other_timepoint
+pre,0,Anxious & nervous,37,Anxiety & fear,0.041349053,0.19455522298812866,False
+pre,1,Calm & tranquil,26,Feeling calmer,0.05150503,0.19455522298812866,False
+pre,2,Optimism,14,Confident & calm,0.13504231,0.19455522298812866,False
+pre,3,Feeling well,13,Feeling well,0.035695255,0.19455522298812866,False
+pre,4,Expecting it to go well,11,Anxiety & fear,0.19117188,0.19455522298812866,False
+pre,5,Physical discomfort,10,Emotion & unease,0.20062882,0.19455522298812866,True
+pre,6,Wanting it over,7,Surgery & coping,0.10029042,0.19455522298812866,False
+pre,7,Calm but a bit anxious,7,Anxiety & fear,0.11822057,0.19455522298812866,False
+pre,8,Relaxed,5,Video & nature,0.17973417,0.19455522298812866,False
+pre,9,Trusting the team,5,Surgery & coping,0.1637612,0.19455522298812866,False
+post,0,Anxiety & fear,17,Anxious & nervous,0.041349053,0.19455522298812866,False
+post,1,Feeling calmer,15,Calm & tranquil,0.05150503,0.19455522298812866,False
+post,2,Surgery & coping,13,Wanting it over,0.10029042,0.19455522298812866,False
+post,3,Video & nature,13,Relaxed,0.17973417,0.19455522298812866,False
+post,4,Feeling well,11,Feeling well,0.035695255,0.19455522298812866,False
+post,5,Relaxed,9,Calm & tranquil,0.091113925,0.19455522298812866,False
+post,6,Confident & calm,9,Calm & tranquil,0.057124794,0.19455522298812866,False
+post,7,Comfort & peace,9,Calm & tranquil,0.09442514,0.19455522298812866,False
+post,8,Fine / as usual,8,Feeling well,0.10179305,0.19455522298812866,False
+post,9,Emotion & unease,5,Anxious & nervous,0.17838633,0.19455522298812866,False

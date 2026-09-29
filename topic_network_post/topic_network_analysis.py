@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Topic-network analysis with (probabilistic) semantic betweenness centrality.
 
-Nodes are the sentence-level BERTopic topics from ``all_questions``. Two graphs
+Nodes are the BERTopic topics of the post-interview Q1 descriptors (topic model fitted on the post descriptors only, see prepare_post_data.py). Two graphs
 are built for every condition:
 
 * flow graph      - directed; edge A->B when a sentence in topic A is followed by
@@ -45,17 +45,14 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from all_questions.topic_labels import topic_label  # noqa: E402
+from post_topic_labels import topic_label  # noqa: E402
 from q3.q3_topic_analysis import EMBED_INSTRUCTION, MODEL_ID  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_INPUT = (
-    BASE_DIR / "all_questions" / "outputs"
-    / "combined_questions_sentence_topic_assignments.csv"
-)
+DEFAULT_INPUT = HERE / "outputs" / "post_descriptor_topic_assignments.csv"
 DEFAULT_OUTPUT = HERE / "outputs"
 CONDITIONS = ["VR Art", "VR Only", "Control"]
-SCOPES = ["within_response", "across_questions"]
+SCOPES = ["within_response"]  # one Q1 list per participant, so the across-question scope coincides with it
 # graph key -> measures computed on it
 MEASURES = {
     "flow": ["SBC_hop", "PSBC_hop", "SBC_prob"],

@@ -1,0 +1,21 @@
+{
+ "time": "post",
+ "n_units": 125,
+ "min_cluster_size": 5,
+ "min_samples": 2,
+ "n_topics_excl_outlier": 10,
+ "outlier_share": 0.128,
+ "topic_sizes": {
+  "-1": 16,
+  "0": 17,
+  "1": 15,
+  "2": 13,
+  "3": 13,
+  "4": 11,
+  "5": 9,
+  "6": 9,
+  "7": 9,
+  "8": 8,
+  "9": 5
+ }
+}

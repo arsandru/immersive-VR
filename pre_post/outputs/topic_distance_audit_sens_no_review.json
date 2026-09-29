@@ -1,0 +1,7 @@
+{
+ "n_perm_requested": 500,
+ "n_perm_valid": 500,
+ "n_pre_topics": 5,
+ "n_post_topics": 9,
+ "null_far_threshold_95th": 0.1929415464401245
+}

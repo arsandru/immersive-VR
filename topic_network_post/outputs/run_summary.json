@@ -1,11 +1,11 @@
 {
-  "input": "/Users/razvan/immersive VR/all_questions/outputs/combined_questions_sentence_topic_assignments.csv",
-  "n_sentences": 324,
-  "n_participants": 51,
+  "input": "/Users/razvan/immersive VR/topic_network_post/outputs/post_descriptor_topic_assignments.csv",
+  "n_sentences": 109,
+  "n_participants": 48,
   "participants_per_condition": {
-    "VR Art": 17,
-    "VR Only": 17,
-    "Control": 17
+    "VR Art": 16,
+    "VR Only": 16,
+    "Control": 16
   },
   "topics": [
     0,
@@ -17,9 +17,7 @@
     6,
     7,
     8,
-    9,
-    10,
-    11
+    9
   ],
   "outlier_topic_included": false,
   "knn": 3,

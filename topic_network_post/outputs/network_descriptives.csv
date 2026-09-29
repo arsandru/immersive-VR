@@ -1,10 +1,7 @@
 graph,scope,condition,n_transitions,self_transition_share,n_edges,density
-flow,within_response,VR Art,75.0,0.29333333333333333,35,0.26515151515151514
-flow,across_questions,VR Art,97.0,0.26804123711340205,44,0.3333333333333333
-semantic,centroids,VR Art,,,27,0.4090909090909091
-flow,within_response,VR Only,59.0,0.2542372881355932,33,0.25
-flow,across_questions,VR Only,83.0,0.2289156626506024,45,0.3409090909090909
-semantic,centroids,VR Only,,,24,0.36363636363636365
-flow,within_response,Control,75.0,0.3333333333333333,41,0.3106060606060606
-flow,across_questions,Control,93.0,0.26881720430107525,48,0.36363636363636365
-semantic,centroids,Control,,,27,0.4090909090909091
+flow,within_response,VR Art,22.0,0.2727272727272727,14,0.15555555555555556
+semantic,centroids,VR Art,,,22,0.4888888888888889
+flow,within_response,VR Only,19.0,0.21052631578947367,15,0.16666666666666666
+semantic,centroids,VR Only,,,22,0.4888888888888889
+flow,within_response,Control,20.0,0.2,14,0.15555555555555556
+semantic,centroids,Control,,,19,0.4222222222222222

@@ -1,28 +1,28 @@
 scope,target_topic,target_label,condition,smooth,reach_prob,ci_low,ci_high
-within_response,5,Optimism,VR Art,0.02,0.7132237769121447,,
-within_response,5,Optimism,VR Only,0.02,0.2453724007468983,,
-within_response,5,Optimism,Control,0.02,0.07487389419008604,,
-within_response,5,Optimism,VR Art,0.1,0.5793933531746032,0.28785138411458344,0.7126520521660055
-within_response,5,Optimism,VR Only,0.1,0.26730361764705884,0.11857466091579862,0.4460934597298989
-within_response,5,Optimism,Control,0.1,0.14266095679012347,0.0813332375217014,0.2553887304377642
-within_response,5,Optimism,VR Art,0.5,0.40433751897127845,,
-within_response,5,Optimism,VR Only,0.5,0.2863026887822483,,
-within_response,5,Optimism,Control,0.5,0.21963480433178562,,
-within_response,2,Calm & tranquil,VR Art,0.02,0.4630711835494287,,
-within_response,2,Calm & tranquil,VR Only,0.02,0.36106988464468726,,
-within_response,2,Calm & tranquil,Control,0.02,0.44075599557608464,,
-within_response,2,Calm & tranquil,VR Art,0.1,0.4156736111111112,0.18582991512345684,0.5941153040382915
-within_response,2,Calm & tranquil,VR Only,0.1,0.3110529722222222,0.11108265775576438,0.4760569473379629
-within_response,2,Calm & tranquil,Control,0.1,0.3787008547008547,0.1451346765625,0.5291290913112582
-within_response,2,Calm & tranquil,VR Art,0.5,0.3424177789802789,,
-within_response,2,Calm & tranquil,VR Only,0.5,0.2779095138893365,,
-within_response,2,Calm & tranquil,Control,0.5,0.30022047793476364,,
-within_response,3,The surgery,VR Art,0.02,0.30077988688484786,,
-within_response,3,The surgery,VR Only,0.02,0.21722728579320877,,
-within_response,3,The surgery,Control,0.02,0.6371114881872484,,
-within_response,3,The surgery,VR Art,0.1,0.30650920758928574,0.148532412933224,0.4855234851125635
-within_response,3,The surgery,VR Only,0.1,0.24964552314814814,0.09545094753726144,0.4861534256044238
-within_response,3,The surgery,Control,0.1,0.5367687665343914,0.23810765542328044,0.7048281047247026
-within_response,3,The surgery,VR Art,0.5,0.30043299875530877,,
-within_response,3,The surgery,VR Only,0.5,0.2800555071822841,,
-within_response,3,The surgery,Control,0.5,0.4030983581180487,,
+within_response,1,Calm & tranquil,VR Art,0.02,0.4791466278041769,,
+within_response,1,Calm & tranquil,VR Only,0.02,0.43058986321118414,,
+within_response,1,Calm & tranquil,Control,0.02,0.5048015586669425,,
+within_response,1,Calm & tranquil,VR Art,0.1,0.44431527825957107,0.2271632331631794,0.626673132157817
+within_response,1,Calm & tranquil,VR Only,0.1,0.3909231667638056,0.17525771309664742,0.6253537036507618
+within_response,1,Calm & tranquil,Control,0.1,0.4624615683894094,0.1815487543178328,0.7112508901929495
+within_response,1,Calm & tranquil,VR Art,0.5,0.3895915761641287,,
+within_response,1,Calm & tranquil,VR Only,0.5,0.3335887221762743,,
+within_response,1,Calm & tranquil,Control,0.5,0.37891731247689975,,
+within_response,5,Physical discomfort,VR Art,0.02,0.22756462254878038,,
+within_response,5,Physical discomfort,VR Only,0.02,0.4681109753706704,,
+within_response,5,Physical discomfort,Control,0.02,0.19548818290787265,,
+within_response,5,Physical discomfort,VR Art,0.1,0.24380202209355448,0.13058098009820426,0.4033699447004386
+within_response,5,Physical discomfort,VR Only,0.1,0.41134224611263936,0.13432188887294824,0.6571819113573991
+within_response,5,Physical discomfort,Control,0.1,0.23733297291721905,0.07193560520249322,0.46101010387571106
+within_response,5,Physical discomfort,VR Art,0.5,0.2660987265749386,,
+within_response,5,Physical discomfort,VR Only,0.5,0.3519964521810409,,
+within_response,5,Physical discomfort,Control,0.5,0.2774177287432486,,
+within_response,4,Expecting it to go well,VR Art,0.02,0.19609949692495343,,
+within_response,4,Expecting it to go well,VR Only,0.02,0.45521509573104135,,
+within_response,4,Expecting it to go well,Control,0.02,0.5767985120226591,,
+within_response,4,Expecting it to go well,VR Art,0.1,0.22486281393161459,0.06946793711608125,0.5407586808125163
+within_response,4,Expecting it to go well,VR Only,0.1,0.41221028717642705,0.16997060118111848,0.6149310746937605
+within_response,4,Expecting it to go well,Control,0.1,0.5252899171187696,0.25267783306397656,0.7368927215335598
+within_response,4,Expecting it to go well,VR Art,0.5,0.2663736178148823,,
+within_response,4,Expecting it to go well,VR Only,0.5,0.3444285807178677,,
+within_response,4,Expecting it to go well,Control,0.5,0.42827879640619576,,

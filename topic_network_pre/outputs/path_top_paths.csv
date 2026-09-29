@@ -1,46 +1,46 @@
 scope,target_label,condition,path,n_steps,probability
-within_response,Optimism,VR Art,Anxiety & fear > Optimism,1,0.13999999999999999
-within_response,Optimism,VR Art,Calm & tranquil > Optimism,1,0.05500000000000001
-within_response,Optimism,VR Art,Anxiety & fear > The surgery > Optimism,2,0.04033333333333334
-within_response,Optimism,VR Art,Anxiety & fear > Mixed emotions > Optimism,2,0.04033333333333334
-within_response,Optimism,VR Art,The surgery > Optimism,1,0.03666666666666666
-within_response,Optimism,VR Only,Anxiety & fear > Optimism,1,0.12352941176470589
-within_response,Optimism,VR Only,Anxiety & fear > The surgery > Optimism,2,0.012352941176470589
-within_response,Optimism,VR Only,Anxiety & fear > Relaxed > Anxiety & fear > Optimism,3,0.007926470588235294
-within_response,Optimism,VR Only,Relaxed > Anxiety & fear > Optimism,2,0.007205882352941176
-within_response,Optimism,VR Only,Anxiety & fear > Calm & tranquil > Optimism,2,0.006470588235294119
-within_response,Optimism,Control,Anxiety & fear > Wanting it over > Optimism,2,0.026888888888888893
-within_response,Optimism,Control,Anxiety & fear > The surgery > Optimism,2,0.00688888888888889
-within_response,Optimism,Control,Anxiety & fear > Optimism,1,0.006666666666666667
-within_response,Optimism,Control,Calm & tranquil > Expecting it to go well > Optimism,2,0.0052499999999999995
-within_response,Optimism,Control,Calm & tranquil > Optimism,1,0.005000000000000001
-within_response,Calm & tranquil,VR Art,Anxiety & fear > Calm & tranquil,1,0.07857142857142858
-within_response,Calm & tranquil,VR Art,Feeling fine > Video & nature > Calm & tranquil,2,0.05499999999999999
-within_response,Calm & tranquil,VR Art,Feeling fine > Calm & tranquil,1,0.05238095238095238
-within_response,Calm & tranquil,VR Art,Anxiety & fear > Optimism > Calm & tranquil,2,0.0275
-within_response,Calm & tranquil,VR Art,Optimism > Calm & tranquil,1,0.02619047619047619
-within_response,Calm & tranquil,VR Only,Anxiety & fear > Calm & tranquil,1,0.06470588235294118
-within_response,Calm & tranquil,VR Only,Feeling fine > Calm & tranquil,1,0.06470588235294117
-within_response,Calm & tranquil,VR Only,Mixed emotions > Expecting it to go well > Feeling fine > Calm & tranquil,3,0.024872941176470587
-within_response,Calm & tranquil,VR Only,Expecting it to go well > Feeling fine > Calm & tranquil,2,0.020058823529411764
-within_response,Calm & tranquil,VR Only,Anxiety & fear > The surgery > Calm & tranquil,2,0.012352941176470589
-within_response,Calm & tranquil,Control,Anxiety & fear > The surgery > Calm & tranquil,2,0.08743589743589744
-within_response,Calm & tranquil,Control,Feeling fine > Calm & tranquil,1,0.05641025641025641
-within_response,Calm & tranquil,Control,The surgery > Calm & tranquil,1,0.05641025641025641
-within_response,Calm & tranquil,Control,Anxiety & fear > Expecting it to go well > The surgery > Calm & tranquil,3,0.01706410256410256
-within_response,Calm & tranquil,Control,Relaxed > Feeling fine > Calm & tranquil,2,0.01551282051282051
-within_response,The surgery,VR Art,Anxiety & fear > The surgery,1,0.06875
-within_response,The surgery,VR Art,Feeling fine > The surgery,1,0.04583333333333334
-within_response,The surgery,VR Art,Anxiety & fear > Optimism > The surgery,2,0.024062500000000004
-within_response,The surgery,VR Art,Optimism > The surgery,1,0.02291666666666667
-within_response,The surgery,VR Art,Calm & tranquil > Optimism > The surgery,2,0.009453125000000001
-within_response,The surgery,VR Only,Anxiety & fear > The surgery,1,0.11666666666666667
-within_response,The surgery,VR Only,Anxiety & fear > Relaxed > Anxiety & fear > The surgery,3,0.007486111111111111
-within_response,The surgery,VR Only,Relaxed > Anxiety & fear > The surgery,2,0.006805555555555554
-within_response,The surgery,VR Only,Anxiety & fear > Calm & tranquil > The surgery,2,0.006111111111111112
-within_response,The surgery,VR Only,Feeling fine > Calm & tranquil > The surgery,2,0.0061111111111111106
-within_response,The surgery,Control,Anxiety & fear > The surgery,1,0.22142857142857145
-within_response,The surgery,Control,Calm & tranquil > Expecting it to go well > The surgery,2,0.06187499999999999
-within_response,The surgery,Control,Anxiety & fear > Expecting it to go well > The surgery,2,0.043214285714285705
-within_response,The surgery,Control,Anxiety & fear > Wanting it over > Expecting it to go well > The surgery,3,0.015845238095238093
-within_response,The surgery,Control,Feeling fine > Calm & tranquil > Expecting it to go well > The surgery,3,0.015124999999999996
+within_response,Calm & tranquil,VR Art,Anxious & nervous > Calm & tranquil,1,0.17079889807162535
+within_response,Calm & tranquil,VR Art,Feeling well > Relaxed > Calm & tranquil,2,0.03992740471869328
+within_response,Calm & tranquil,VR Art,Calm but a bit anxious > Calm & tranquil,1,0.02564102564102564
+within_response,Calm & tranquil,VR Art,Optimism > Anxious & nervous > Calm & tranquil,2,0.020264276042396227
+within_response,Calm & tranquil,VR Art,Optimism > Relaxed > Calm & tranquil,2,0.019625334522747544
+within_response,Calm & tranquil,VR Only,Anxious & nervous > Calm & tranquil,1,0.0625
+within_response,Calm & tranquil,VR Only,Anxious & nervous > Physical discomfort > Calm & tranquil,2,0.04525862068965517
+within_response,Calm & tranquil,VR Only,Anxious & nervous > Optimism > Expecting it to go well > Calm & tranquil,3,0.02534185493460166
+within_response,Calm & tranquil,VR Only,Anxious & nervous > Expecting it to go well > Calm & tranquil,2,0.023706896551724137
+within_response,Calm & tranquil,VR Only,Expecting it to go well > Calm & tranquil,1,0.023706896551724137
+within_response,Calm & tranquil,Control,Anxious & nervous > Trusting the team > Calm & tranquil,2,0.10572082379862699
+within_response,Calm & tranquil,Control,Anxious & nervous > Calm & tranquil,1,0.09565217391304348
+within_response,Calm & tranquil,Control,Feeling well > Calm & tranquil,1,0.07586206896551724
+within_response,Calm & tranquil,Control,Anxious & nervous > Expecting it to go well > Optimism > Calm & tranquil,3,0.01953638565332718
+within_response,Calm & tranquil,Control,Feeling well > Physical discomfort > Feeling well > Calm & tranquil,3,0.016659365417109953
+within_response,Physical discomfort,VR Art,Feeling well > Physical discomfort,1,0.05057471264367816
+within_response,Physical discomfort,VR Art,Anxious & nervous > Physical discomfort,1,0.04444444444444445
+within_response,Physical discomfort,VR Art,Calm & tranquil > Feeling well > Physical discomfort,2,0.018858367426456264
+within_response,Physical discomfort,VR Art,Anxious & nervous > Feeling well > Physical discomfort,2,0.016858237547892722
+within_response,Physical discomfort,VR Art,Anxious & nervous > Calm & tranquil > Feeling well > Physical discomfort,3,0.008857718033638547
+within_response,Physical discomfort,VR Only,Anxious & nervous > Physical discomfort,1,0.11229946524064172
+within_response,Physical discomfort,VR Only,Anxious & nervous > Calm & tranquil > Physical discomfort,2,0.034055727554179564
+within_response,Physical discomfort,VR Only,Calm & tranquil > Physical discomfort,1,0.034055727554179564
+within_response,Physical discomfort,VR Only,Feeling well > Physical discomfort,1,0.013071895424836602
+within_response,Physical discomfort,VR Only,Calm but a bit anxious > Physical discomfort,1,0.013071895424836602
+within_response,Physical discomfort,Control,Calm & tranquil > Physical discomfort,1,0.05314009661835749
+within_response,Physical discomfort,Control,Feeling well > Physical discomfort,1,0.05057471264367816
+within_response,Physical discomfort,Control,Anxious & nervous > Trusting the team > Calm & tranquil > Physical discomfort,3,0.011236029582462774
+within_response,Physical discomfort,Control,Anxious & nervous > Calm & tranquil > Physical discomfort,2,0.010165931526990132
+within_response,Physical discomfort,Control,Feeling well > Calm & tranquil > Physical discomfort,2,0.00806263534899217
+within_response,Expecting it to go well,VR Art,Calm & tranquil > Expecting it to go well,1,0.04971751412429379
+within_response,Expecting it to go well,VR Art,Anxious & nervous > Expecting it to go well,1,0.04444444444444445
+within_response,Expecting it to go well,VR Art,Anxious & nervous > Calm & tranquil > Expecting it to go well,2,0.023352165725047083
+within_response,Expecting it to go well,VR Art,Feeling well > Relaxed > Calm & tranquil > Expecting it to go well,3,0.005459001097132076
+within_response,Expecting it to go well,VR Art,Calm & tranquil > Relaxed > Calm & tranquil > Expecting it to go well,3,0.005366475654807803
+within_response,Expecting it to go well,VR Only,Anxious & nervous > Optimism > Expecting it to go well,2,0.0668103448275862
+within_response,Expecting it to go well,VR Only,Anxious & nervous > Expecting it to go well,1,0.0625
+within_response,Expecting it to go well,VR Only,Anxious & nervous > Physical discomfort > Expecting it to go well,2,0.04525862068965517
+within_response,Expecting it to go well,VR Only,Optimism > Expecting it to go well,1,0.023706896551724137
+within_response,Expecting it to go well,VR Only,Feeling well > Expecting it to go well,1,0.01388888888888889
+within_response,Expecting it to go well,Control,Anxious & nervous > Expecting it to go well,1,0.12173913043478263
+within_response,Expecting it to go well,Control,Calm & tranquil > Expecting it to go well,1,0.10144927536231885
+within_response,Expecting it to go well,Control,Wanting it over > Expecting it to go well,1,0.07719298245614034
+within_response,Expecting it to go well,Control,Anxious & nervous > Wanting it over > Expecting it to go well,2,0.03691838291380625
+within_response,Expecting it to go well,Control,Anxious & nervous > Trusting the team > Calm & tranquil > Expecting it to go well,3,0.021450601930156205

@@ -24,12 +24,12 @@ from matplotlib.patches import FancyArrowPatch
 from sklearn.manifold import MDS
 
 warnings.filterwarnings("ignore")
-from prepost_common import (COLORS, CONDITIONS, DARK, OUT, TOPIC_LABELS, counts_from, embeddings, label, load_units,  # noqa: E402
+from prepost_common import (COLORS, CONDITIONS, DARK, OUT, TIME_LABELS, counts_from, label_time, load_units_time,  # noqa: E402
                             pagerank, transition_matrix)
 
 ORDER = ["VR Art", "VR Only", "Control"]  # as in topic_network_post figures
-K = [t for t in sorted(TOPIC_LABELS) if t >= 0]
-kidx = {t: i for i, t in enumerate(K)}
+# each timepoint has its OWN topics (fit_timepoint_topics.py): topic ids of pre and post are unrelated
+K_OF = {tm: [t for t in sorted(TIME_LABELS[tm]) if t >= 0] for tm in ("pre", "post")}
 NODE_AREA = 1100.0  # marker area (pt^2) for a node with the maximal PageRank of the figure
 MIN_COUNT = 1
 
@@ -41,7 +41,14 @@ def save(fig, name):
     print(f"Wrote {OUT / name}.[pdf|png]")
 
 
-def mds_layout(u, E):
+def mds_layout(time):
+    """MDS of the topic centroids of this timepoint's own descriptors (angular order on the rings)."""
+    u = load_units_time(time)
+    z = np.load(OUT / "unit_embeddings.npz")
+    lk = dict(zip(z["document_id"].tolist(), z["emb"]))
+    E = np.stack([lk[i] for i in u["document_id"]])
+    E = E / np.linalg.norm(E, axis=1, keepdims=True)
+    K = K_OF[time]
     cent = np.stack([E[(u.Topic == t).to_numpy()].mean(axis=0) for t in K])
     cent /= np.linalg.norm(cent, axis=1, keepdims=True)
     dist = np.clip(1 - cent @ cent.T, 0, None)
@@ -51,7 +58,8 @@ def mds_layout(u, E):
     return {t: xy[i] for i, t in enumerate(K)}
 
 
-def core_layout(pr, mds):
+def core_layout(pr, mds, time):
+    K = K_OF[time]
     ranked = np.argsort(-pr)
     order = [K[i] for i in ranked]
     out = {order[0]: np.zeros(2)}
@@ -64,6 +72,8 @@ def core_layout(pr, mds):
 
 
 def panel_data(u, cond, time):
+    K = K_OF[time]
+    kidx = {t: i for i, t in enumerate(K)}
     sub = u[(u.condition_label == cond) & (u.time == time)]
     C = np.zeros((len(K), len(K)))
     for _, g in sub.groupby("participant_id"):
@@ -73,8 +83,10 @@ def panel_data(u, cond, time):
     return pr, C, sub.participant_id.nunique(), int(C.sum())
 
 
-def draw_panel(ax, pr, C, mds, vmax, cmap, norm, title, color):
-    xy = core_layout(pr, mds)
+def draw_panel(ax, pr, C, mds, vmax, cmap, norm, title, color, time):
+    K = K_OF[time]
+    kidx = {t: i for i, t in enumerate(K)}
+    xy = core_layout(pr, mds, time)
     ax.add_patch(plt.Circle((0, 0), 2.8, color=color, alpha=0.16, lw=0, zorder=0))
     rad = lambda p: (NODE_AREA * p / vmax / np.pi) ** 0.5  # noqa: E731
     for i, j in zip(*np.nonzero(C)):
@@ -86,7 +98,7 @@ def draw_panel(ax, pr, C, mds, vmax, cmap, norm, title, color):
     for t in K:
         p = pr[kidx[t]]
         ax.scatter(*xy[t], s=NODE_AREA * p / vmax, color=cmap(norm(p)), edgecolor="#333333", linewidth=1.0, zorder=3)
-        txt = textwrap.fill(label(t), 13)
+        txt = textwrap.fill(label_time(time, t), 13)
         box = dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.85)
         if np.linalg.norm(xy[t]) > 0.5:
             u_ = xy[t] / np.linalg.norm(xy[t])
@@ -104,9 +116,8 @@ def draw_panel(ax, pr, C, mds, vmax, cmap, norm, title, color):
 
 
 def main() -> None:
-    u = load_units()
-    E = embeddings(u)
-    mds = mds_layout(u, E)
+    u = pd.concat([load_units_time("pre"), load_units_time("post")], ignore_index=True)
+    mds = {tm: mds_layout(tm) for tm in ("pre", "post")}
     cmap = plt.get_cmap("magma_r")
     data = {(c, t): panel_data(u, c, t) for c in ORDER for t in ("pre", "post")}
     vmax = max(d[0].max() for d in data.values())
@@ -118,10 +129,10 @@ def main() -> None:
     fig, axes = plt.subplots(1, 3, figsize=(27, 8.6))
     for ax, c in zip(axes, ORDER):
         pr, C, n, nt = data[(c, "pre")]
-        draw_panel(ax, pr, C, mds, vmax, cmap, norm, f"{c}  (pre; {n} participants, {nt} transitions)", DARK[c])
+        draw_panel(ax, pr, C, mds["pre"], vmax, cmap, norm, f"{c}  (pre; {n} participants, {nt} transitions)", DARK[c], "pre")
     cax = fig.add_axes([0.38, 0.06, 0.24, 0.02])
     fig.colorbar(ScalarMappable(norm, cmap), cax=cax, orientation="horizontal", label="PageRank")
-    fig.suptitle("Core topic network of the pre-interview descriptors, within response\n" + sub_, fontsize=12.5, y=0.985)
+    fig.suptitle("Core topic network of the pre-interview descriptors (topics extracted from the pre descriptors only), within response\n" + sub_, fontsize=12.5, y=0.985)
     fig.subplots_adjust(bottom=0.12, top=0.9, wspace=0.03)
     save(fig, "core_network_within_response_pre")
 
@@ -130,10 +141,10 @@ def main() -> None:
     for r, time in enumerate(("pre", "post")):
         for ax, c in zip(axes[r], ORDER):
             pr, C, n, nt = data[(c, time)]
-            draw_panel(ax, pr, C, mds, vmax, cmap, norm, f"{c} - {time}  ({n} participants, {nt} transitions)", DARK[c])
+            draw_panel(ax, pr, C, mds[time], vmax, cmap, norm, f"{c} - {time}  ({n} participants, {nt} transitions)", DARK[c], time)
     cax = fig.add_axes([0.38, 0.045, 0.24, 0.012])
     fig.colorbar(ScalarMappable(norm, cmap), cax=cax, orientation="horizontal", label="PageRank")
-    fig.suptitle("Core topic networks before (top) and after (bottom) VR, within response\n" + sub_, fontsize=12.5, y=0.99)
+    fig.suptitle("Core topic networks before (top) and after (bottom) VR, within response; each row uses the topics extracted from its own timepoint's descriptors\n" + sub_, fontsize=12.5, y=0.99)
     fig.subplots_adjust(bottom=0.08, top=0.93, wspace=0.03, hspace=0.06)
     save(fig, "core_network_pre_vs_post")
 

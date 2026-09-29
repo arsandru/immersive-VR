@@ -1,0 +1,151 @@
+document_id,participant_id,time,condition_number,condition_label,sentence_number,sentence,needs_review,response_id,question_id,content_text,included_in_model,Topic,Name,Probability,Representative_document
+1,1,pre,3,Control,1,a ansiedade está a aumentar,False,1_pre,Q1,ansiedade aumentar,True,0,0_ansiosa_apreensiva_nervosa_medo,0.44145882668916836,False
+2,1,pre,3,Control,2,O medo está presente,False,1_pre,Q1,medo presente,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+3,1,pre,3,Control,3,quero ver se me desfecho,False,1_pre,Q1,quero ver desfecho,True,6,6_acabe_operatório_operações_processo,0.1398147173215706,False
+4,1,pre,3,Control,4,"Quanto mais depressa me desfecho, melhor",False,1_pre,Q1,quanto depressa desfecho melhor,True,4,4_correr_vai correr_vai_frente,1.0,False
+5,2,pre,2,VR Only,1,estou muito assustada,False,2_pre,Q1,assustada,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+6,2,pre,2,VR Only,2,estou num carrossel de emoções,False,2_pre,Q1,carrossel emoções,True,0,0_ansiosa_apreensiva_nervosa_medo,0.3715863210643194,False
+7,2,pre,2,VR Only,3,estou no nono círculo do inferno Dante,False,2_pre,Q1,nono círculo inferno dante,True,5,5_fome_sede_bocadinho_intranquila,0.08906483394143064,False
+8,2,pre,2,VR Only,4,espero que seja só esta fase e que daqui para a frente corra tudo,False,2_pre,Q1,espero seja fase daqui frente corra,True,4,4_correr_vai correr_vai_frente,1.0,False
+9,2,pre,2,VR Only,5,"não há de ser assim muito, muito, muito mal, já sendo mal",False,2_pre,Q1,mal sendo mal,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.27972541010757446,False
+10,2,pre,2,VR Only,6,"vou ficar bem, sem ser bem",False,2_pre,Q1,vou ficar,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.27972541010757446,False
+11,2,pre,2,VR Only,7,talvez aí no final do dia consiga relaxar mais um bocadinho,False,2_pre,Q1,talvez aí final dia consiga relaxar bocadinho,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.5096896598869102,False
+12,3,pre,1,VR Art,1,Estou confiante na equipa,False,3_pre,Q1,confiante equipa,True,2,2_otimista_confiante_melhor_ficar,0.27222593049985744,False
+13,3,pre,1,VR Art,2,Não digo que estou a 100%,False,3_pre,Q1,digo,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.27972541010757457,False
+14,3,pre,1,VR Art,3,"estou um bocadinho arreciosa, porque é uma coisa que é desconhecida",False,3_pre,Q1,bocadinho arreciosa desconhecida,True,8,8_descontraída_bocadinho_abaixo_alparazola,1.0,False
+15,3,pre,1,VR Art,4,sinto-me segura,False,3_pre,Q1,sinto segura,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+16,4,pre,3,Control,1,Estou-me a sentir ótima,False,4_pre,Q1,sentir ótima,True,3,3_disposta_super disposta_super_ótima acordei,0.5424424961512072,False
+17,4,pre,3,Control,2,Acordei super bem disposta,False,4_pre,Q1,acordei super disposta,True,3,3_disposta_super disposta_super_ótima acordei,0.3989652783857292,True
+18,4,pre,3,Control,3,Tenho andado super bem disposta,False,4_pre,Q1,andado super disposta,True,3,3_disposta_super disposta_super_ótima acordei,0.23956640119335607,True
+19,4,pre,3,Control,4,Venho completamente tranquila,False,4_pre,Q1,venho completamente tranquila,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+20,4,pre,3,Control,5,Sei que vai correr bem,False,4_pre,Q1,sei vai correr,True,4,4_correr_vai correr_vai_frente,1.0,False
+21,4,pre,3,Control,6,"Estou muito habituada a fazer operações, isto para mim não é uma novidade, não é a primeira vez, já devo ter feito 10 operações na vida, perdi a conta, é um processo normal",False,4_pre,Q1,habituada fazer operações mim novidade primeira vez devo feito operações vida perdi conta processo normal,True,6,6_acabe_operatório_operações_processo,1.0,True
+22,4,pre,3,Control,7,"Hoje me acordei como se viesse a operar a hernia inguinal que fui operada em fevereiro, estou super tranquila",False,4_pre,Q1,hoje acordei viesse operar hernia inguinal operada fevereiro super tranquila,True,6,6_acabe_operatório_operações_processo,1.0,True
+23,5,pre,2,VR Only,1,"Me senti muito bem, sinto que vai ser um momento só mesmo que me vai fazer ficar melhor e me vai fazer ultrapassar o drama que tenho vivido",False,5_pre,Q1,senti sinto vai momento vai fazer ficar melhor vai fazer ultrapassar drama vivido,True,2,2_otimista_confiante_melhor_ficar,0.22077417384207904,True
+24,7,pre,2,VR Only,1,"levemente nervosa, mas não muito",True,7_pre,Q1,levemente nervosa,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+25,7,pre,2,VR Only,2,Não sei até que ponto isso está mascarado,True,7_pre,Q1,sei ponto mascarado,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.5384296258629877,False
+26,7,pre,2,VR Only,3,"Fome, sono, incomodada nesse sentido",True,7_pre,Q1,fome sono incomodada nesse sentido,True,5,5_fome_sede_bocadinho_intranquila,0.6161543144163996,True
+27,7,pre,2,VR Only,4,estou com sono,True,7_pre,Q1,sono,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+28,7,pre,2,VR Only,5,estou com fome,True,7_pre,Q1,fome,True,5,5_fome_sede_bocadinho_intranquila,1.0,True
+29,7,pre,2,VR Only,6,estou com sede,True,7_pre,Q1,sede,True,5,5_fome_sede_bocadinho_intranquila,1.0,False
+30,7,pre,2,VR Only,7,Nariz entupido,True,7_pre,Q1,nariz entupido,True,5,5_fome_sede_bocadinho_intranquila,0.11724238689552383,False
+31,9,pre,3,Control,1,sinto-me numa mistura de emoções,False,9_pre,Q1,sinto mistura emoções,True,0,0_ansiosa_apreensiva_nervosa_medo,0.37175102179486214,False
+32,9,pre,3,Control,2,estou ligeiramente nervosa,False,9_pre,Q1,ligeiramente nervosa,True,0,0_ansiosa_apreensiva_nervosa_medo,0.3811665184909807,False
+33,9,pre,3,Control,3,muito confiante porque sei que estou muito bem entregue nas mãos do meu cirurgião e de toda a equipa que me vai assistir nesta cirurgia,False,9_pre,Q1,confiante sei entregue mãos cirurgião equipa vai assistir nesta cirurgia,True,9,9_vou_equipa_confiante_assistir,1.0,True
+34,12,pre,1,VR Art,1,Ansiosa,False,12_pre,Q1,ansiosa,True,0,0_ansiosa_apreensiva_nervosa_medo,0.3945634399995052,False
+35,12,pre,1,VR Art,2,com esperança,False,12_pre,Q1,esperança,True,2,2_otimista_confiante_melhor_ficar,1.0,False
+36,13,pre,3,Control,1,"Sinto-me tranquila, relaxada, sem stress",False,13_pre,Q1,sinto tranquila relaxada stress,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.5622733896224811,False
+37,13,pre,3,Control,2,"com fome só, é a única coisa",False,13_pre,Q1,fome única,True,5,5_fome_sede_bocadinho_intranquila,1.0,False
+38,13,pre,3,Control,3,de resto estou bem,False,13_pre,Q1,resto,True,3,3_disposta_super disposta_super_ótima acordei,1.0,False
+39,14,pre,1,VR Art,1,"Senti bem, tranquila",False,14_pre,Q1,senti tranquila,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.495355893939888,False
+40,14,pre,1,VR Art,2,Estou tranquila,False,14_pre,Q1,tranquila,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,True
+41,15,pre,2,VR Only,1,"Um bocadinho ansiosa, não muito",True,15_pre,Q1,bocadinho ansiosa,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+42,15,pre,2,VR Only,2,"tem que tentar estar tranquila, mas um bocadinho, um bocadinho normal",True,15_pre,Q1,tentar tranquila bocadinho bocadinho normal,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+43,16,pre,3,Control,1,"Um bocadinho ansiosa, mas nada demais",True,16_pre,Q1,bocadinho ansiosa demais,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+44,16,pre,3,Control,2,"Estou confiante nos médicos, na equipa",True,16_pre,Q1,confiante médicos equipa,True,9,9_vou_equipa_confiante_assistir,1.0,False
+45,16,pre,3,Control,3,isso ajuda-me a acalmar,True,16_pre,Q1,ajuda acalmar,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+46,16,pre,3,Control,4,"Não sou uma pessoa, normalmente, que fico muito nervosa com atos médicos",True,16_pre,Q1,sou pessoa normalmente fico nervosa atos médicos,True,0,0_ansiosa_apreensiva_nervosa_medo,0.1890225216032337,False
+47,16,pre,3,Control,5,Sinto-me relativamente tranquila,True,16_pre,Q1,sinto relativamente tranquila,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.6533471829217179,False
+48,16,pre,3,Control,6,"Sei que não estou super calma, mas tenho alguma tranquilidade",True,16_pre,Q1,sei super calma alguma tranquilidade,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.5634773095873983,False
+49,17,pre,1,VR Art,1,"Tu me senti calma, tu me senti bem",False,17_pre,Q1,tu senti calma tu senti,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.34773246992751267,False
+50,17,pre,1,VR Art,2,Não estou com stress,False,17_pre,Q1,stress,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.5001134933249336,False
+51,18,pre,2,VR Only,1,tranquila e ao mesmo tempo um bocadinho ansiosa,False,18_pre,Q1,tranquila tempo bocadinho ansiosa,True,7,7_ansiosa_fundo_pensar_tranquila,1.0,False
+52,18,pre,2,VR Only,2,Estou tranquila e um pouco ansiosa,False,18_pre,Q1,tranquila pouco ansiosa,True,7,7_ansiosa_fundo_pensar_tranquila,1.0,False
+53,19,pre,2,VR Only,1,"Estranhamente tranquila, mas consciente de alguma ansiedade de fundo",True,19_pre,Q1,estranhamente tranquila consciente alguma ansiedade fundo,True,7,7_ansiosa_fundo_pensar_tranquila,1.0,True
+54,19,pre,2,VR Only,2,"Só receio, porque é uma cirurgia. Não pelo tumor, mas pela cirurgia",True,19_pre,Q1,receio cirurgia tumor cirurgia,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.2628101152329472,True
+55,20,pre,3,Control,1,Estou tranquila e feliz que me vou operar,False,20_pre,Q1,tranquila feliz vou operar,True,6,6_acabe_operatório_operações_processo,1.0,False
+56,21,pre,1,VR Art,1,"ansiosa, com medo, com receio, com incerteza",False,21_pre,Q1,ansiosa medo receio incerteza,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+57,21,pre,1,VR Art,2,com vontade de chorar,False,21_pre,Q1,vontade chorar,True,5,5_fome_sede_bocadinho_intranquila,1.0,False
+58,22,pre,3,Control,1,"Bem, relaxada",False,22_pre,Q1,relaxada,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.4695987322651585,False
+59,22,pre,3,Control,2,"a conversar também, com as perguntas que está a fazer e isso também é bom",False,22_pre,Q1,conversar perguntas fazer,True,2,2_otimista_confiante_melhor_ficar,0.16171355562387055,False
+60,22,pre,3,Control,3,"Sempre me distraio mais um bocadinho do que para pensar, assim não tenho que pensar",False,22_pre,Q1,distraio bocadinho pensar pensar,True,7,7_ansiosa_fundo_pensar_tranquila,1.0,True
+61,22,pre,3,Control,4,Mas estou bem,False,22_pre,Q1,,True,3,3_disposta_super disposta_super_ótima acordei,1.0,False
+62,23,pre,2,VR Only,1,"sinto-me um bocadinho, um bocado, ansiosa e apreensiva, porque não sei se vai correr bem ou não",True,23_pre,Q1,sinto bocadinho bocado ansiosa apreensiva sei vai correr,True,0,0_ansiosa_apreensiva_nervosa_medo,0.4384289571685652,False
+63,23,pre,2,VR Only,2,"eu sou otimista, eu sou uma pessoa otimista",True,23_pre,Q1,sou otimista sou pessoa otimista,True,2,2_otimista_confiante_melhor_ficar,1.0,True
+64,23,pre,2,VR Only,3,"Penso que vai correr bem, porque eu já passei por uma situação desta",True,23_pre,Q1,penso vai correr passei situação desta,True,4,4_correr_vai correr_vai_frente,1.0,False
+65,23,pre,2,VR Only,4,"já sei como é que é, mais ou menos",True,23_pre,Q1,sei menos,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.5384296258629877,False
+66,24,pre,1,VR Art,1,"Feliz, porque tenho a possibilidade de me tratar, há um monte de gente que não tem e gostaria de estar no meu lugar",True,24_pre,Q1,feliz possibilidade tratar monte gente gostaria lugar,True,2,2_otimista_confiante_melhor_ficar,0.17224751359699264,False
+67,24,pre,1,VR Art,2,"apreensiva pelo pós, pelo que não posso fazer, porque era um paquete, e claro que não posso fazer essas coisas durante os primeiros tempos, daí a minha parte apreensiva",True,24_pre,Q1,apreensiva pós posso fazer paquete claro posso fazer durante primeiros tempos daí parte apreensiva,True,0,0_ansiosa_apreensiva_nervosa_medo,0.18832231710877276,True
+68,24,pre,1,VR Art,3,"como tenho dois filhos adolescentes, a vida é horror",True,24_pre,Q1,dois filhos adolescentes vida horror,True,0,0_ansiosa_apreensiva_nervosa_medo,0.4002036047508103,False
+69,24,pre,1,VR Art,4,Acho que está tudo bem,True,24_pre,Q1,,True,3,3_disposta_super disposta_super_ótima acordei,0.21370149258973903,False
+70,24,pre,1,VR Art,5,"Sou uma nova Karina, completamente diferente, para melhor, acho eu",True,24_pre,Q1,sou nova karina completamente diferente melhor,True,8,8_descontraída_bocadinho_abaixo_alparazola,1.0,True
+71,24,pre,1,VR Art,6,"O cancro tira-nos muita coisa, mas dá-nos muita coisa",True,24_pre,Q1,cancro tira dá,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.27972541010757435,False
+72,25,pre,2,VR Only,1,"Sinto-me tranquila, calma, segura",False,25_pre,Q1,sinto tranquila calma segura,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.6328643509135901,True
+73,26,pre,3,Control,1,Sinto-me bem,False,26_pre,Q1,sinto,True,3,3_disposta_super disposta_super_ótima acordei,1.0,False
+74,26,pre,3,Control,2,um bocadinho intranquila,False,26_pre,Q1,bocadinho intranquila,True,5,5_fome_sede_bocadinho_intranquila,0.09268238388017838,False
+75,27,pre,1,VR Art,1,Sinto-me com algum receio,False,27_pre,Q1,sinto receio,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+76,27,pre,1,VR Art,2,mas ao mesmo tempo confiante na competência de quem me está a tratar e com esperança de que o problema fique resolvido,False,27_pre,Q1,tempo confiante competência tratar esperança problema fique resolvido,True,9,9_vou_equipa_confiante_assistir,1.0,True
+77,28,pre,2,VR Only,1,Expectant,False,28_pre,Q1,expectant,True,0,0_ansiosa_apreensiva_nervosa_medo,0.21735232236010688,False
+78,29,pre,3,Control,1,Desejamos que isto acabe e depois vamos ver o pós-operatório,False,29_pre,Q1,desejamos acabe vamos ver pós operatório,True,6,6_acabe_operatório_operações_processo,1.0,True
+79,31,pre,1,VR Art,1,Fica bem,False,31_pre,Q1,fica,True,3,3_disposta_super disposta_super_ótima acordei,0.32335932628367714,False
+80,32,pre,2,VR Only,1,bem,True,32_pre,Q1,,True,3,3_disposta_super disposta_super_ótima acordei,0.35759727356436355,False
+81,32,pre,2,VR Only,2,"Não muito bem, mas é bem dentro do possível",True,32_pre,Q1,dentro possível,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.27972541010757446,False
+82,35,pre,1,VR Art,1,bem disposta,False,35_pre,Q1,disposta,True,3,3_disposta_super disposta_super_ótima acordei,0.26056478391437016,True
+83,35,pre,1,VR Art,2,com receio da cirurgia,False,35_pre,Q1,receio cirurgia,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.26281011523294695,True
+84,36,pre,3,Control,1,Pouco nervosa,False,36_pre,Q1,pouco nervosa,True,0,0_ansiosa_apreensiva_nervosa_medo,0.477447035875571,False
+85,36,pre,3,Control,2,Sempre que faço uma cirurgia tenho medo de não acordar,False,36_pre,Q1,faço cirurgia medo acordar,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.26281011523294695,False
+86,37,pre,2,VR Only,1,descontraída,False,37_pre,Q1,descontraída,True,8,8_descontraída_bocadinho_abaixo_alparazola,1.0,False
+87,37,pre,2,VR Only,2,mas um pouco ansiosa,False,37_pre,Q1,pouco ansiosa,True,0,0_ansiosa_apreensiva_nervosa_medo,0.513909188902363,False
+88,37,pre,2,VR Only,3,"descontraída, também tomei um bocadinho de alparazola, caí para o meio e disse, tome, menina",False,37_pre,Q1,descontraída tomei bocadinho alparazola caí meio disse tome menina,True,8,8_descontraída_bocadinho_abaixo_alparazola,1.0,True
+89,37,pre,2,VR Only,4,"eu estou um pouco receosa, mas acho que também pelo facto de criar a imagem ou imaginar, eu que não percebo nada, nem nunca vi, mas a cortar, a tirar, é isso que me assusta, porque eu sei que não estou a sentir nada, mas não faço ideia o quanto",False,37_pre,Q1,pouco receosa facto criar imagem imaginar percebo nunca vi cortar tirar assusta sei sentir faço ideia quanto,True,0,0_ansiosa_apreensiva_nervosa_medo,0.7153722411277759,True
+90,37,pre,2,VR Only,5,mas fico com positiva quando penso que é para melhor e para eu ficar bem,False,37_pre,Q1,fico positiva penso melhor ficar,True,2,2_otimista_confiante_melhor_ficar,0.24346345369990935,False
+91,38,pre,1,VR Art,1,"uns e outros, eu acho que eu já capto",True,38_pre,Q1,outros capto,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.5384296258629876,False
+92,39,pre,3,Control,1,"Estou com comissões por causa das meias, mas esse é o único desconforto que tenho",False,39_pre,Q1,comissões causa meias único desconforto,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.5384296258629878,False
+93,40,pre,2,VR Only,1,Na expectativa de correr bem,False,40_pre,Q1,expectativa correr,True,4,4_correr_vai correr_vai_frente,1.0,False
+94,41,pre,1,VR Art,1,parece que estou tranquila,False,41_pre,Q1,parece tranquila,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+95,41,pre,1,VR Art,2,mas raciosa do que é que tudo isto está a acontecer,False,41_pre,Q1,raciosa acontecer,True,4,4_correr_vai correr_vai_frente,0.5186508392370388,False
+96,42,pre,3,Control,1,"Sinto-me tranquila, confiante, bem acolhida, bem recebida, bem tratada",False,42_pre,Q1,sinto tranquila confiante acolhida recebida tratada,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.31067760215763196,False
+97,43,pre,2,VR Only,1,ligeiramente ansiosa,False,43_pre,Q1,ligeiramente ansiosa,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+98,43,pre,2,VR Only,2,mas tranquila porque confio nos profissionais,False,43_pre,Q1,tranquila confio profissionais,True,9,9_vou_equipa_confiante_assistir,1.0,False
+99,43,pre,2,VR Only,3,o facto de ter existido aqui um contratempo nos horários da última refeição e do jejum fiquei logo no início de manhã mais ansiosa e com estresse,False,43_pre,Q1,facto existido contratempo horários última refeição jejum fiquei logo início manhã ansiosa estresse,True,0,0_ansiosa_apreensiva_nervosa_medo,0.188039022383988,True
+100,43,pre,2,VR Only,4,"mas entretanto, conversando com os profissionais, ajudou a diminuir essa ansiedade",False,43_pre,Q1,entretanto conversando profissionais ajudou diminuir ansiedade,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.2998468245638113,False
+101,44,pre,1,VR Art,1,"Não me sinto ansiosa, na verdade, nem sei",True,44_pre,Q1,sinto ansiosa verdade sei,True,7,7_ansiosa_fundo_pensar_tranquila,1.0,False
+102,44,pre,1,VR Art,2,"Eu acho que a ansiedade que tenho é... Nem sei bem se a sinto, eu acho que é uma coisa que se manifesta de outra forma",True,44_pre,Q1,ansiedade sei sinto manifesta outra forma,True,0,0_ansiosa_apreensiva_nervosa_medo,0.45143128911233216,False
+103,44,pre,1,VR Art,3,"Há dois ou três dias tenho um tico nervoso no olho, mas agora até parou",True,44_pre,Q1,dois três dias tico nervoso olho agora parou,True,0,0_ansiosa_apreensiva_nervosa_medo,0.2668036984744539,False
+104,44,pre,1,VR Art,4,estou só a respirar fundo e tentar estar-me tranquila,True,44_pre,Q1,respirar fundo tentar tranquila,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+105,44,pre,1,VR Art,5,Não quero estressar com nada,True,44_pre,Q1,quero estressar,True,7,7_ansiosa_fundo_pensar_tranquila,0.27382421035522253,False
+106,44,pre,1,VR Art,6,"fazer as coisas com calma com sensibilidade, não vale a pena estarmos a estressar, vai acontecer vai correr bem",True,44_pre,Q1,fazer calma sensibilidade vale pena estarmos estressar vai acontecer vai correr,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.29875902301200924,False
+107,44,pre,1,VR Art,7,é importante manter-me serena,True,44_pre,Q1,importante manter serena,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+108,44,pre,1,VR Art,8,sinto-me bem,True,44_pre,Q1,sinto,True,3,3_disposta_super disposta_super_ótima acordei,1.0,False
+109,44,pre,1,VR Art,9,Sinto um bocadinho de fome,True,44_pre,Q1,sinto bocadinho fome,True,5,5_fome_sede_bocadinho_intranquila,1.0,True
+110,44,pre,1,VR Art,10,Um bocadinho de sede,True,44_pre,Q1,bocadinho sede,True,5,5_fome_sede_bocadinho_intranquila,0.08408445160211872,False
+111,44,pre,1,VR Art,11,Estou muito otimista,True,44_pre,Q1,otimista,True,2,2_otimista_confiante_melhor_ficar,1.0,False
+112,44,pre,1,VR Art,12,"Estou com uma energia positiva em relação àquilo, mesmo o pós-operatório",True,44_pre,Q1,energia positiva relação àquilo pós operatório,True,6,6_acabe_operatório_operações_processo,1.0,False
+113,44,pre,1,VR Art,13,"vou ser uma boa paciente, vou fazer tudo o que me disserem e vai correr bem e vou me livrar disto",True,44_pre,Q1,vou paciente vou fazer disserem vai correr vou livrar disto,True,9,9_vou_equipa_confiante_assistir,1.0,True
+114,44,pre,1,VR Art,14,"Eu não sou assim muito de ficar nervosa, ansiosa, porque eu acho que no fundo não serve nada",True,44_pre,Q1,sou ficar nervosa ansiosa fundo serve,True,7,7_ansiosa_fundo_pensar_tranquila,1.0,True
+115,44,pre,1,VR Art,15,"eu aprendi a ser otimista, a olhar mais para o futuro, de pensar de uma forma positiva sobre o futuro",True,44_pre,Q1,aprendi otimista olhar futuro pensar forma positiva sobre futuro,True,2,2_otimista_confiante_melhor_ficar,1.0,True
+116,44,pre,1,VR Art,16,"saía muito fragilizada, porque era uma coisa que eu não escolhi",True,44_pre,Q1,saía fragilizada escolhi,True,0,0_ansiosa_apreensiva_nervosa_medo,0.2193850805725124,False
+117,44,pre,1,VR Art,17,acho que até estou mais serena até do que os dias que se deu,True,44_pre,Q1,serena dias deu,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.5753784727438895,False
+118,44,pre,1,VR Art,18,"eu também vinha assim um bocadinho abaixo, mas ficava assim sensibilizada",True,44_pre,Q1,vinha bocadinho abaixo ficava sensibilizada,True,8,8_descontraída_bocadinho_abaixo_alparazola,1.0,True
+119,45,pre,3,Control,1,Sinta-te tranquila e confiante,False,45_pre,Q1,sinta te tranquila confiante,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.3484631277670773,False
+120,45,pre,3,Control,2,acho que vai correr tudo bem,False,45_pre,Q1,vai correr,True,4,4_correr_vai correr_vai_frente,0.46413171636509076,True
+121,46,pre,2,VR Only,1,"Sinto-me bem, sinto-me meio disposta, muito pouco ansiosa e quero mesmo é despachar a situação",True,46_pre,Q1,sinto sinto meio disposta pouco ansiosa quero despachar situação,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.5598633853066133,False
+122,47,pre,1,VR Art,1,"tenho mais receio depois da cirurgia do que antes, porque de outra vez a coisa não correu muito bem com a fisioterapia",False,47_pre,Q1,receio cirurgia antes outra vez correu fisioterapia,True,-1,-1_cirurgia_receio cirurgia_receio_mal,0.26281011523294684,True
+123,49,pre,2,VR Only,1,Estou normal,False,49_pre,Q1,normal,True,3,3_disposta_super disposta_super_ótima acordei,1.0,False
+124,50,pre,1,VR Art,1,preocupada,False,50_pre,Q1,preocupada,True,0,0_ansiosa_apreensiva_nervosa_medo,0.4267938545387184,False
+125,50,pre,1,VR Art,2,mas ao mesmo tempo também aliviada porque estou a avançar com isto de despachar,False,50_pre,Q1,tempo aliviada avançar despachar,True,4,4_correr_vai correr_vai_frente,0.19843919655100667,False
+126,51,pre,3,Control,1,"Sinto-me um pouco ansiosa, com algum receio",False,51_pre,Q1,sinto pouco ansiosa receio,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+127,51,pre,3,Control,2,"penso que isto vai, com a ajuda de todos, e minha também, isto vai correr bem",False,51_pre,Q1,penso vai ajuda vai correr,True,4,4_correr_vai correr_vai_frente,0.20316014173074748,True
+128,52,pre,2,VR Only,1,"eu estou preocupada por saber o que é que vai acontecer, é a primeira vez, logo é sempre um desconhecido",False,52_pre,Q1,preocupada saber vai acontecer primeira vez logo desconhecido,True,0,0_ansiosa_apreensiva_nervosa_medo,0.22890360693817927,False
+129,52,pre,2,VR Only,2,"espero que ocorra tudo bem, e acredito que sim",False,52_pre,Q1,espero ocorra acredito,True,2,2_otimista_confiante_melhor_ficar,0.15057215012660075,False
+130,52,pre,2,VR Only,3,parece-me que estou bem entregue,False,52_pre,Q1,parece entregue,True,3,3_disposta_super disposta_super_ótima acordei,0.27626234109357034,False
+131,53,pre,1,VR Art,1,ansiosa,True,53_pre,Q1,ansiosa,True,0,0_ansiosa_apreensiva_nervosa_medo,0.38844617674032156,False
+132,53,pre,1,VR Art,2,"Estou ansiosa, mas estou tranquila, sei que estou em boas mãos e vai correr tudo bem",True,53_pre,Q1,ansiosa tranquila sei boas mãos vai correr,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.23006664235663438,False
+133,54,pre,2,VR Only,1,estou apreensiva,False,54_pre,Q1,apreensiva,True,0,0_ansiosa_apreensiva_nervosa_medo,0.29818743226580924,False
+134,54,pre,2,VR Only,2,acho que vai correr tudo bem,False,54_pre,Q1,vai correr,True,4,4_correr_vai correr_vai_frente,0.4494013147238258,True
+135,54,pre,2,VR Only,3,"mas fica sempre aquele medo de não se acordar, tenho filhos pequeninos",False,54_pre,Q1,fica medo acordar filhos pequeninos,True,0,0_ansiosa_apreensiva_nervosa_medo,0.4407375339798644,False
+136,56,pre,1,VR Art,1,Estou tranquila e muito confiante,False,56_pre,Q1,tranquila confiante,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.239813538160873,True
+137,56,pre,1,VR Art,2,Estou otimista,False,56_pre,Q1,otimista,True,2,2_otimista_confiante_melhor_ficar,1.0,False
+138,57,pre,2,VR Only,1,Expectante,False,57_pre,Q1,expectante,True,0,0_ansiosa_apreensiva_nervosa_medo,0.24358584882269788,False
+139,57,pre,2,VR Only,2,"Não tenho grandes palavras neste momento, mas estou expectante",False,57_pre,Q1,grandes palavras neste momento expectante,True,0,0_ansiosa_apreensiva_nervosa_medo,0.2519315375101848,False
+140,58,pre,3,Control,1,Espectando com alguma ansiedade e algum medo que algo corra mal,False,58_pre,Q1,espectando alguma ansiedade medo algo corra mal,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+141,58,pre,3,Control,2,Perdemos o controle durante o momento da anestesia e isso traz alguma ansiedade,False,58_pre,Q1,perdemos controle durante momento anestesia traz alguma ansiedade,True,0,0_ansiosa_apreensiva_nervosa_medo,0.27057355619812373,False
+142,59,pre,1,VR Art,1,"Um bocadinho ansiosa, não muito",False,59_pre,Q1,bocadinho ansiosa,True,0,0_ansiosa_apreensiva_nervosa_medo,1.0,False
+143,59,pre,1,VR Art,2,mas confiante,False,59_pre,Q1,confiante,True,2,2_otimista_confiante_melhor_ficar,0.31634954486864053,False
+144,59,pre,1,VR Art,3,Quero que acabe este processo,False,59_pre,Q1,quero acabe processo,True,6,6_acabe_operatório_operações_processo,0.1673537911201174,False
+145,60,pre,3,Control,1,luta comigo própria para relaxar e para estar tranquila e confiante,False,60_pre,Q1,luta comigo própria relaxar tranquila confiante,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,1.0,False
+146,60,pre,3,Control,2,estou confiante,False,60_pre,Q1,confiante,True,2,2_otimista_confiante_melhor_ficar,0.2988699691472257,False
+147,60,pre,3,Control,3,sinto que tenho que fazer isto e estou inquieta para me despachar,False,60_pre,Q1,sinto fazer inquieta despachar,True,0,0_ansiosa_apreensiva_nervosa_medo,0.23144196492445665,False
+148,60,pre,3,Control,4,"já que não há nada a resolver para trás, tenho que ir para a frente",False,60_pre,Q1,resolver trás ir frente,True,4,4_correr_vai correr_vai_frente,0.26541849025725045,False
+149,60,pre,3,Control,5,"estou confiante, vou ficar melhor",False,60_pre,Q1,confiante vou ficar melhor,True,2,2_otimista_confiante_melhor_ficar,0.4046090971884399,False
+150,60,pre,3,Control,6,"estou nas mãos certas, estou com as pessoas certas, num lugar certo",False,60_pre,Q1,mãos certas pessoas certas lugar certo,True,1,1_tranquila_tranquila confiante_calma_sinto tranquila,0.2189324816570293,False

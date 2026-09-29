@@ -170,7 +170,7 @@ def semantic_space():
         sp.set_linewidth(1.3)
     axt = box.inset_axes([0.335, 0.03, 0.655, 0.62])
     cmap = LinearSegmentedColormap.from_list("p", ["#c0392b", "#f5b7a5", "#ffffff"])
-    rows = [("Topic composition", "topic"), ("Semantic space", "semantic")]
+    rows = [("Topic composition\n(shared topics)", "topic"), ("Semantic space", "semantic")]
     cols = SEM_COLS + [("interaction", "Change\ndiffers?")]
     for i, (rname, key) in enumerate(rows):
         for j, (cn, _) in enumerate(cols):
@@ -296,15 +296,15 @@ def overview():
     time = "pre vs post (paired)"
     inter = "interaction (change differs by condition)"
     table = [
-        ("Baseline: topic composition", [get(ct, base, "topic", "all three"), None, None, None]),
+        ("Baseline: topic composition (shared topics)", [get(ct, base, "topic", "all three"), None, None, None]),
         ("Baseline: semantic space", [get(ct, base, "semantic", "all three"), None, None, None]),
-        ("Baseline: PageRank", [get(pt, base, "GJSD", "all three"), None, None, None]),
-        ("Pre->post: topic composition", [get(ct, time, "topic", c) for c in ["all conditions"] + CONDITIONS]),
+        ("Baseline: PageRank (shared topics)", [get(pt, base, "GJSD", "all three"), None, None, None]),
+        ("Pre->post: topic composition (shared topics)", [get(ct, time, "topic", c) for c in ["all conditions"] + CONDITIONS]),
         ("Pre->post: semantic space", [get(ct, time, "semantic", c) for c in ["all conditions"] + CONDITIONS]),
-        ("Pre->post: path distributions (JSD)", [None] + [get(pt, time, "JSD", c) for c in CONDITIONS]),
-        ("Interaction: topic composition", [get(ct, inter, "topic", "all three"), None, None, None]),
+        ("Pre->post: path distributions, JSD (shared topics)", [None] + [get(pt, time, "JSD", c) for c in CONDITIONS]),
+        ("Interaction: topic composition (shared topics)", [get(ct, inter, "topic", "all three"), None, None, None]),
         ("Interaction: semantic space", [get(ct, inter, "semantic", "all three"), None, None, None]),
-        ("Interaction: PageRank change", [get(pt, inter, "PageRank change, omnibus", "all three"), None, None, None]),
+        ("Interaction: PageRank change (shared topics)", [get(pt, inter, "PageRank change, omnibus", "all three"), None, None, None]),
     ]
     cmap = LinearSegmentedColormap.from_list("p", ["#c0392b", "#f5b7a5", "#ffffff"])
     fig, ax = plt.subplots(figsize=(10, 0.55 * len(table) + 1.6))
@@ -423,6 +423,149 @@ def path_jsd():
     save(fig, "prepost_path_jsd")
 
 
+def topic_distance_detail():
+    """Detail figure: all topic pairs, chance distribution and the A/B distances (topics extracted separately per timepoint)."""
+    D = pd.read_csv(OUT / "topic_distance_matrix.csv", index_col=0)
+    per = pd.read_csv(OUT / "topic_distance_per_topic.csv")
+    tests = pd.read_csv(OUT / "topic_distance_tests.csv")
+    z = np.load(OUT / "topic_distance_null.npz")
+    fig = plt.figure(figsize=(32, 8.0))
+    gs = fig.add_gridspec(1, 4, width_ratios=[1.5, 0.85, 1.0, 1.0], wspace=1.05)
+    ax = fig.add_subplot(gs[0])
+    sizes_pre = per[per.timepoint == "pre"].set_index("label").n_descriptors
+    sizes_post = per[per.timepoint == "post"].set_index("label").n_descriptors
+    im = ax.imshow(D.values, cmap="viridis_r", vmin=0, vmax=D.values.max(), aspect="auto")
+    for i in range(D.shape[0]):
+        for j in range(D.shape[1]):
+            best_row = j == int(np.argmin(D.values[i]))
+            best_col = i == int(np.argmin(D.values[:, j]))
+            ax.text(j, i, f"{D.values[i, j]:.2f}", ha="center", va="center", fontsize=8.5,
+                    color="white" if D.values[i, j] < 0.55 * D.values.max() else "#222222",
+                    fontweight="bold" if (best_row or best_col) else "normal")
+            if best_row:
+                ax.add_patch(plt.Rectangle((j - 0.5, i - 0.5), 1, 1, fill=False, ec="#c0392b", lw=2.2))
+            if best_col:
+                ax.add_patch(plt.Rectangle((j - 0.42, i - 0.42), 0.84, 0.84, fill=False, ec="#f39c12", lw=1.6, ls="--"))
+    ax.set_xticks(range(D.shape[1]))
+    ax.set_xticklabels([f"{c} ({sizes_post[c]})" for c in D.columns], rotation=45, ha="left", fontsize=9.5)
+    ax.xaxis.tick_top()
+    ax.set_yticks(range(D.shape[0]))
+    ax.set_yticklabels([f"{r} ({sizes_pre[r]})" for r in D.index], fontsize=9.5)
+    ax.set_xlabel("post topics (number of descriptors)", fontsize=10.5)
+    ax.xaxis.set_label_position("top")
+    ax.set_ylabel("pre topics (number of descriptors)", fontsize=10.5)
+    fig.colorbar(im, ax=ax, fraction=0.04, pad=0.02, label="cosine distance between topic centres")
+    ax.text(0.5, -0.045, "Distance between every pre and post topic.\nRed box = closest post topic to a pre topic; "
+            "dashed = closest pre topic to a post topic", transform=ax.transAxes, ha="center", va="top", fontsize=9.5)
+    S = tests[tests.analysis.str.startswith("set distance S")].iloc[0]
+    M = tests[tests.analysis.str.startswith("set distance M")].iloc[0]
+    ax2 = fig.add_subplot(gs[1])
+    ax2.hist(z["S"], bins=40, color="#cfcfcf", edgecolor="white", label="chance: S with pre/post swapped within participants")
+    ax2.axvline(S.statistic, color="#c0392b", lw=2.4, label=f"observed S = {S.statistic:.3f}")
+    ax2.set_yticks([])
+    ax2.set_xlabel("set distance S (size-weighted nearest-counterpart distance)")
+    ax2.set_title(f"Are the pre topics further from the post topics\nthan chance?  p = {S.p_perm:.3f} (M = {M.statistic:.3f}, p = {M.p_perm:.3f})",
+                  fontsize=10.5)
+    ax2.legend(fontsize=8, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.14))
+    for sp in ("top", "right", "left"):
+        ax2.spines[sp].set_visible(False)
+    ax3 = fig.add_subplot(gs[2])
+    cs = tests[tests.analysis.str.startswith("set distance S within")].set_index("comparison")
+    ca = tests[tests.analysis.str.startswith("post descriptors")].set_index("comparison")
+    cb = tests[tests.analysis.str.startswith("pre descriptors")].set_index("comparison")
+    for k, c in enumerate(CONDITIONS):
+        for off, tb, nm, mk in ((0.25, cs, "S", "D"), (0.0, ca, "A", "o"), (-0.25, cb, "B", "s")):
+            r = tb.loc[c]
+            y = (2 - k) + off
+            ax3.plot([0, r.null_95], [y, y], lw=8, color="#dcdcdc", solid_capstyle="butt", zorder=1)
+            ax3.plot(r.null_mean, y, "|", color="#777777", ms=12, mew=2, zorder=2)
+            ax3.scatter(r.statistic, y, s=75, color=DARK[c], edgecolor="#333333", lw=1, zorder=3, marker=mk)
+            ax3.text(1.03, y, f"{nm}: p = {r.p_perm:.3f}, FDR {r.p_fdr:.3f}", transform=ax3.get_yaxis_transform(), va="center", fontsize=8.5)
+    ax3.set_yticks([2, 1, 0])
+    ax3.set_yticklabels(CONDITIONS, fontsize=11)
+    ax3.set_xlim(left=0)
+    ax3.set_xlabel("distance to the nearest topic of the other timepoint")
+    ax3.set_title("Within each condition\nS (diamond) = topic-set distance with the condition's own topic centres;\nA (circle) = post descriptors to nearest pre topic; B (square) = pre descriptors to nearest post topic\n(grey bar = up to the 95th percentile under chance, tick = chance mean)",
+                  fontsize=9)
+    ax3.grid(axis="x", color="#e6e6e6")
+    for sp in ("top", "right"):
+        ax3.spines[sp].set_visible(False)
+    ax4 = fig.add_subplot(gs[3])
+    rows_, ylabs = [], []
+    for key, nm in (("S: set distance", "S"), ("A: post descriptors", "A"), ("B: pre descriptors", "B")):
+        sub = tests[tests.analysis.str.startswith("between conditions, " + key)].set_index("comparison")
+        for pair in ("VR Art vs Control", "VR Only vs Control", "VR Art vs VR Only"):
+            rows_.append(sub.loc[pair])
+            ylabs.append(f"{nm}: {pair}")
+    for k, r in enumerate(rows_):
+        y = len(rows_) - 1 - k
+        ax4.plot([-r.null_95, r.null_95], [y, y], lw=8, color="#dcdcdc", solid_capstyle="butt", zorder=1)
+        ax4.scatter(r.statistic, y, s=70, color="#444444", edgecolor="white", lw=0.8, zorder=3)
+        ax4.text(1.03, y, f"p = {r.p_perm:.2f}, FDR {r.p_fdr:.2f}", transform=ax4.get_yaxis_transform(), va="center", fontsize=8.5)
+    ax4.axvline(0, color="#777777", lw=1)
+    ax4.set_yticks(range(len(rows_)))
+    ax4.set_yticklabels(ylabs[::-1], fontsize=9.5)
+    ax4.set_xlabel("difference between the two conditions (first minus second)")
+    ax4.set_title("Between conditions\ndot = observed difference; grey bar = 95% of the differences\nwhen condition labels are shuffled across participants", fontsize=9)
+    ax4.grid(axis="x", color="#e6e6e6")
+    ax4.set_axisbelow(True)
+    for sp in ("top", "right"):
+        ax4.spines[sp].set_visible(False)
+    fig.suptitle("How far are the topics extracted from the pre interview from those extracted from the post interview? "
+                 "(topics fitted separately per timepoint, compared in the embedding space)", fontsize=12, y=1.13)
+    save(fig, "topic_distance_detail")
+
+
+def topic_distance():
+    """Main figure: topic-set distance S between the pre and post topics, within and between conditions."""
+    tests = pd.read_csv(OUT / "topic_distance_tests.csv")
+    fig, (ax, ax2) = plt.subplots(1, 2, figsize=(15.5, 4.8), gridspec_kw={"width_ratios": [1, 1], "wspace": 0.75})
+    ov = tests[tests.analysis.str.startswith("set distance S (")].iloc[0]
+    cs = tests[tests.analysis.str.startswith("set distance S within")].set_index("comparison")
+    rows = [("All participants", ov, "#444444")] + [(c, cs.loc[c], DARK[c]) for c in CONDITIONS]
+    for k, (name, r, col) in enumerate(rows):
+        y = len(rows) - 1 - k
+        ax.plot([0, r.null_95], [y, y], lw=13, color="#dcdcdc", solid_capstyle="butt", zorder=1)
+        ax.plot(r.null_mean, y, "|", color="#777777", ms=17, mew=2.2, zorder=2)
+        ax.scatter(r.statistic, y, s=130, marker="D", color=col, edgecolor="white", lw=1.2, zorder=3)
+        fdr = "" if pd.isna(r.p_fdr) else f", FDR {r.p_fdr:.3f}"
+        ax.text(1.03, y, f"p = {r.p_perm:.3f}{fdr}", transform=ax.get_yaxis_transform(), va="center", fontsize=10,
+                fontweight="bold" if (r.p_perm < 0.05 if pd.isna(r.p_fdr) else r.p_fdr < 0.05) else "normal")
+    ax.set_yticks(range(len(rows)))
+    ax.set_yticklabels([r[0] for r in rows][::-1], fontsize=11.5)
+    ax.set_xlim(left=0)
+    ax.set_xlabel("topic-set distance S (cosine distance to the nearest topic of the other timepoint, size-weighted)")
+    ax.set_title("Within: how far are the post topics from the pre topics?\n"
+                 "diamond = observed; grey bar = up to the 95th percentile expected by chance, tick = chance mean\n"
+                 "(chance: pre/post labels swapped within participants, topics refitted 1000 times)", fontsize=9.6)
+    ax.grid(axis="x", color="#e6e6e6")
+    ax.set_axisbelow(True)
+    for sp in ("top", "right"):
+        ax.spines[sp].set_visible(False)
+    pairs = ("VR Art vs Control", "VR Only vs Control", "VR Art vs VR Only")
+    bt = tests[tests.analysis.str.startswith("between conditions, S:")].set_index("comparison")
+    for k, pair in enumerate(pairs):
+        r = bt.loc[pair]
+        y = len(pairs) - 1 - k
+        ax2.plot([-r.null_95, r.null_95], [y, y], lw=13, color="#dcdcdc", solid_capstyle="butt", zorder=1)
+        ax2.scatter(r.statistic, y, s=110, color="#444444", edgecolor="white", lw=1, zorder=3)
+        ax2.text(1.03, y, f"p = {r.p_perm:.3f}, FDR {r.p_fdr:.3f}", transform=ax2.get_yaxis_transform(), va="center", fontsize=10)
+    ax2.axvline(0, color="#777777", lw=1)
+    ax2.set_yticks(range(len(pairs)))
+    ax2.set_yticklabels(pairs[::-1], fontsize=11.5)
+    ax2.set_xlabel("difference in S between the two conditions (first minus second)")
+    ax2.set_title("Between: do the conditions differ in how far their topics move?\n"
+                  "dot = observed difference; grey bar = 95% of differences when condition labels\nare shuffled across participants (topics fixed)",
+                  fontsize=9.6)
+    ax2.grid(axis="x", color="#e6e6e6")
+    ax2.set_axisbelow(True)
+    for sp in ("top", "right"):
+        ax2.spines[sp].set_visible(False)
+    fig.suptitle("Distance between the topics extracted from the pre interview and those extracted from the post interview "
+                 "(topics fitted separately per timepoint)", fontsize=11.5, y=1.08)
+    save(fig, "topic_distance")
+
+
 ORDER_C = ["VR Art", "VR Only", "Control"]
 
 
@@ -433,3 +576,5 @@ if __name__ == "__main__":
     overview()
     between()
     path_jsd()
+    topic_distance()
+    topic_distance_detail()

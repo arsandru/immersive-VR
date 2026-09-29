@@ -1,0 +1,101 @@
+PC,end,score_sd,condition,topic,sentence
+1,low,-1.5739962025744085,VR Only,Surgery worries,"Se eu agora não estar com os óculos, e esse cara está focado noutras questões, ou noutros assuntos, ou até mesmo na cirurgia, que é uma coisa que eu acho que a gente agora tem que tentar um bocadinho esquecer."
+1,low,-1.5613908690039457,Control,Surgery worries,"Desde a primeira, porque está a terceira operação."
+1,low,-1.5053345498642507,VR Only,Surgery worries,Eu fiz um exame às nove e meia e a cirurgia era para ser às três e meia.
+1,low,-1.4804520553086733,VR Art,Caring staff,"Às vezes parece que das experiências que eu tive, não só da minha parte, mas do acompanhamento que fiz a outros doentes, nomeadamente os meus pais, Às vezes nós não sabermos se as pessoas estão a ser, no mínimo, profissionais, deixam-nos muito mais incertos."
+1,low,-1.4740756890094138,VR Only,Personal effects,"Foi tipo assim, ok, é tecnologia, é sempre por isso que eu perguntei se era o mesmo vídeo."
+1,high,2.4655175973806904,VR Art,Calm,Sinto mais tranquilidade dentro de mim.
+1,high,2.43291738485172,VR Only,Calm,"Sinto que estou mais tranquila e mais sossegada, mais relaxada."
+1,high,2.3531983386085367,VR Art,Calm,"Me sinto mais tranquila, gostei muito."
+1,high,2.2862558802278192,VR Art,Calm,Sinto uma calma.
+1,high,2.2845349408802678,Control,Calm,"Sim, sinto-me mais tranquila."
+2,low,-3.0782638664341855,VR Art,Caring staff,"Foram todos muito atenciosos, totalmente excelentes."
+2,low,-2.727447208326819,Control,Caring staff,A atenciosidade de todas as pessoas.
+2,low,-2.5546986760984822,Control,Caring staff,São coisas que são amistosas e boas.
+2,low,-2.522453329928059,VR Only,Welcomed,"Sim, todo o acolhimento é um acolhimento de excelência."
+2,low,-2.448844919844154,Control,Caring staff,"As pessoas tratam muito bem os doentes, os pacientes."
+2,high,1.9886822725925,VR Art,Calm,"Sim, agora foi menos ansiosa."
+2,high,1.9868858688604596,Control,Anxiety,"sim, acho que sinto sinto um pouco mais de ansiedade acho eu, nada assim de extraordinário mas pronto, ficar aqui sozinha sem ninguém para falar ou para abstrair daqui acho que aumenta um bocadinho a ansiedade"
+2,high,1.8981663142127272,VR Art,Calm,"Não é que antes estivesse estressada, mas estou um bocadinho mais calma."
+2,high,1.774451102027521,Control,Anxiety,Durante estes 12 minutos estive a fazer aqui uma técnica própria que desenvolvi para não escalar a ansiedade durante o período que tenho de esperar até a entrada na sala de cirurgia.
+2,high,1.7658176955332758,Control,Anxiety,"Não, quer dizer, como digo, à medida que se aproxima e ir para o bloco, a ansiedade aumenta e o receio de que algo possa correr mal também."
+3,low,-2.204194833374122,VR Only,Caring staff,"O cuidado no detalhe, a preocupação com que sempre nos tratam, o rigor no trato das pessoas é muito importante e faz-nos sentir muito bem."
+3,low,-2.165891490779987,Control,Caring staff,Sempre acho que toda a pessoa que trabalha nesta instituição tem sempre uma delicadeza e um cuidado para tratar com os pacientes.
+3,low,-2.072915463879251,VR Only,Caring staff,"Com muita atenção, muita disponibilidade, com algum carinho ou muito carinho, muita preocupação."
+3,low,-2.071152126242783,VR Only,Nature & senses,"É assim, eu acho que é muito bom para quem vem com medo, ansiosa, acho que é bom porque ouvir a água, os passarinhos, mas..."
+3,low,-1.910885292077722,VR Art,Caring staff,"Às vezes parece que das experiências que eu tive, não só da minha parte, mas do acompanhamento que fiz a outros doentes, nomeadamente os meus pais, Às vezes nós não sabermos se as pessoas estão a ser, no mínimo, profissionais, deixam-nos muito mais incertos."
+3,high,2.7099645787231794,VR Art,No change,Hoje não.
+3,high,2.521869948130257,VR Only,No change,Não é significativo.
+3,high,2.3690662538529654,VR Only,Optimism,Acho que não houve nenhuma falha.
+3,high,2.1825145034827353,VR Art,No change,"Não, é igual."
+3,high,2.1513506530050983,Control,Optimism,Não tenho razão de queixa.
+4,low,-3.2214488530997305,Control,Surgery worries,"E que a cirurgia seja feita rapidamente, mas tranquila, mas tranquila e confiante, que vai correr tudo bem."
+4,low,-2.5180386400473105,Control,Surgery worries,"É sempre uma cirurgia, pronto."
+4,low,-2.4826456464161235,VR Only,Surgery worries,"Mas pronto, a pessoa sabe que vai ser operada, não é?"
+4,low,-2.4625302809551504,Control,Surgery worries,Ligeiramente a aguardar a entrada para a cirurgia.
+4,low,-2.366362792764917,Control,Surgery worries,"A minha técnica consta em fazer uma revisão do que tenho para fazer depois da cirurgia e organizar os meus pensamentos, organizar os meus planos, de maneira a que não foque no que realmente me preocupa no imediato que vai acontecer."
+4,high,2.19648027347689,VR Art,Nature & senses,"Entretanto, saímos daí e, outra vez, ar, mar, montanhas ao fundo, portanto, é a parte que eu mais gosto."
+4,high,2.0456189588630584,VR Art,Nature & senses,"Natureza, coisas que eu adoro, natureza."
+4,high,1.9689110563695917,VR Art,Calm,"Mas naquele bocadinho eu gostei de ver o filme, achei interessante."
+4,high,1.9639329707224904,VR Art,Calm,"Mas sabe, eu acho que aquilo tudo, a fotografia e tudo, é tudo tão bonito que nós, às tantas, estamos a olhar para aquilo."
+4,high,1.9022678324890299,VR Art,Calm,"A sensação de nós estarmos a viajar com o vídeo, então há momentos bem bonitos, quando vamos atrás do pássaro parece que estamos mesmo lá, então isso cria um sentimento muito agradável, esquecendo-nos que estamos aqui."
+5,low,-2.5980107602292017,Control,Calm,um bocadinho mais calma.
+5,low,-2.5957627725440346,VR Only,Calm,Um bocadinho mais calma.
+5,low,-2.343273390348393,VR Only,Nature & senses,"O barulho dos pássaros, o barulho da água, o verde, o céu, tudo."
+5,low,-2.074126770459815,Control,Calm,Acho que uma voz calma para estas situações é o ideal.
+5,low,-2.044618484226712,Control,Calm,Também não acho que falar muito alto e ser muito expansivo traga tranquilidade.
+5,high,2.869782559557457,VR Only,Welcomed,"O facto de depois chegar cá e ser acolhida e de estar já em tratamento pré-operatório, sinto muito, muito bem acolhida."
+5,high,2.3440772802847385,Control,Caring staff,E depois estava a dizer que eu é que afastei a mão da outra enfermeira.
+5,high,2.317987964783371,Control,Caring staff,Porque a minha intranquilidade deve-se ao facto desta experiência com o enfermeiro que bateu-me imenso nas mãos.
+5,high,2.1963405312742235,Control,Caring staff,Faço isto aos meus doentes.
+5,high,2.1226596852228936,VR Only,Personal effects,Não me senti no açougue.
+6,low,-3.109048451066922,Control,Anxiety,"Estou-me a sentir, ou seja, um pouco, não diria ansiosa, mas pode ser ansiosa."
+6,low,-2.9937675659888248,VR Art,Anxiety,"Eu sou muito ansiosa e, portanto, continuo com a minha realidade, não é?"
+6,low,-2.467721773739614,Control,Anxiety,"sim, acho que sinto sinto um pouco mais de ansiedade acho eu, nada assim de extraordinário mas pronto, ficar aqui sozinha sem ninguém para falar ou para abstrair daqui acho que aumenta um bocadinho a ansiedade"
+6,low,-2.2613085903068733,Control,Anxiety,"Então, os níveis de ansiedade são os mesmos."
+6,low,-2.237917637217844,Control,Personal effects,Porque sinto muito tudo isto.
+6,high,2.8848906576266473,VR Art,Surgery worries,durante o vídeo eu abstraí-me completamente do sítio onde estava estava completamente envolvida no vídeo após tirar os óculos senti-me um bocadinho mais calma mas como entretanto entrou o doutor Pedro o meu pensamento voltou outra vez para a cirurgia mas acho que o facto desse vídeo ser neste momento eu acho que sim que faz muito sentido principalmente para quem está com descansamentos
+6,high,2.1623792896137175,VR Only,Calm,"As imagens e, inclusivamente, o áudio eram muito bons."
+6,high,2.0308796894314494,VR Art,Waiting,"Depois a coisa acalma e voltamos, outra vez, ao melhor."
+6,high,1.9725155261656326,VR Only,Personal effects,Ajudou a descontrair um bocadinho.
+6,high,1.8978662453949315,Control,Surgery worries,Também me trouxe tranquilidade ver o doutor David como vai operar.
+7,low,-3.0838083156432545,Control,Caring staff,E depois acho que um bom profissional não põe a culpa no doente.
+7,low,-2.9921618047595597,VR Art,No change,"Não prejudicou, mas também não melhorou."
+7,low,-2.289495458649194,VR Only,Personal effects,Se uma outra pessoa que não tivesse a mesma religião talvez pensasse diferente.
+7,low,-2.1611988671254805,VR Only,No change,Não é significativo.
+7,low,-2.1223821914803214,VR Only,No change,Não tenho outra palavra para usar.
+7,high,2.868699879037418,Control,Waiting,"ansiosa por esto passar, para ver se acaba rápido."
+7,high,2.268552590290432,Control,Anxiety,"Não, quer dizer, como digo, à medida que se aproxima e ir para o bloco, a ansiedade aumenta e o receio de que algo possa correr mal também."
+7,high,2.128031201019842,VR Art,Place & movement,A gente irá andar.
+7,high,2.0835716833381737,VR Art,Nature & senses,Parece que vamos andar no mar.
+7,high,2.0706509208439776,VR Art,Calm,O filme é um bocadinho assustador.
+8,low,-2.169279295899203,Control,Surgery worries,"A minha técnica consta em fazer uma revisão do que tenho para fazer depois da cirurgia e organizar os meus pensamentos, organizar os meus planos, de maneira a que não foque no que realmente me preocupa no imediato que vai acontecer."
+8,low,-2.1675692823949833,VR Art,Optimism,E realmente aí há muito mais coisas a realçar de positivo.
+8,low,-2.144711520925174,Control,Surgery worries,"E então, por um lado, estou descansada porque estou com um ótimo cirurgião, mas sei que o que eu faço também, e que às vezes as coisas não correm tão bem como nós queremos."
+8,low,-2.031665805618341,Control,Surgery worries,"Carlos Mavioso, que já é terceira cirurgia com ele, e que toda a equipa que envolve todo este processo e toda a equipa que envolve normalmente este tipo de cirurgias, sinto-me mais confiante."
+8,low,-1.9927025685604693,Control,Surgery worries,"Porque sou médica, sou cirurgiã e sou cirurgiã de mama."
+8,high,2.82300484016585,Control,Waiting,E foi 12 minutos.
+8,high,2.522420637218561,VR Only,Waiting,O tempo de espera.
+8,high,2.5086750288646344,Control,Welcomed,Toda a gente me acolheu.
+8,high,2.432787496892172,VR Art,Caring staff,"As pessoas com quem encontrei, acho que foram todas muito atenciosas."
+8,high,2.4309176551562857,Control,Waiting,O tempo me custou muito a passar.
+9,low,-3.240557763271014,VR Art,Calm,O filme é um bocadinho assustador.
+9,low,-2.5203979100107907,VR Art,Calm,São imagens muito fortes.
+9,low,-2.46393400229397,Control,Surgery worries,"É uma cirurgia, ponto."
+9,low,-2.3379393403940907,Control,Surgery worries,Sei o tipo de cirurgia que me vão fazer.
+9,low,-2.299958979077254,VR Art,Calm,Tem muitas cores escuras e fantasmas.
+9,high,3.2056156171562447,VR Art,Place & movement,obrigou-me a ir lá acima e depois vim cá abaixo e depois pude ir para cima.
+9,high,2.934205844336589,Control,Place & movement,"Porque se vai abaixo, depois é muito mais difícil caminhar para cima."
+9,high,2.8681709515720457,VR Art,Waiting,"Depois a coisa acalma e voltamos, outra vez, ao melhor."
+9,high,2.675125932969935,Control,Waiting,Agora estou melhor do que quando entrei.
+9,high,2.275623786561061,Control,Place & movement,"Não é andar com o bico à procura, ainda por cima numa zona que é fácil de acesso."
+10,low,-2.9060278747785526,VR Art,Nature & senses,"Mas depois põe-nos em diversas situações em que quando nós entramos numa floresta, obviamente umas árvores muito elevadas, muito grandes, eu fiquei com uma sensação, não é bem assustadora, mas é de claustrofobia."
+10,low,-2.5877817808581303,VR Art,Nature & senses,Parece que vamos andar no mar.
+10,low,-2.5346118470914654,VR Art,Nature & senses,"Estou bem, mas eu tenho muito medo das alturas."
+10,low,-2.382235140617087,VR Only,Nature & senses,"Da espiritualidade, assim, porque como foi uma imagem de cachoeira de natureza, especificamente, tem uma conexão com a minha religião."
+10,low,-2.314187162740238,VR Art,Place & movement,E depois as árvores ficam lá em cima e nós ficamos no chão.
+10,high,2.2357050466300135,VR Only,Personal effects,"Foi tipo assim, ok, é tecnologia, é sempre por isso que eu perguntei se era o mesmo vídeo."
+10,high,2.141638509576241,Control,Waiting,"Falou em 12 minutos, não foi?"
+10,high,2.076494902162258,VR Art,Calm,"Mas naquele bocadinho eu gostei de ver o filme, achei interessante."
+10,high,1.9720100069088122,VR Art,Personal effects,"Eu acho que a diferença, eu já estava calma, acho que a diferença foi explotar um bocadinho mais de sentimentos mais de alegria, mais bem disposta, digamos."
+10,high,1.8835893752266293,VR Art,Waiting,"Sim, sim, sinto que durante estes minutinhos deu para desligar, não é?"

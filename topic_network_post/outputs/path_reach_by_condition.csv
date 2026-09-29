@@ -1,46 +1,28 @@
 scope,target_topic,target_label,condition,smooth,reach_prob,ci_low,ci_high
-within_response,0,Calm and relaxation,VR Art,0.02,0.5006682740451971,,
-within_response,0,Calm and relaxation,VR Only,0.02,0.2330393836932674,,
-within_response,0,Calm and relaxation,Control,0.02,0.4027747801310645,,
-within_response,0,Calm and relaxation,VR Art,0.1,0.4622371171080946,0.2966520962568353,0.5781663854186525
-within_response,0,Calm and relaxation,VR Only,0.1,0.2434282750454526,0.12847464222603158,0.3806612511793038
-within_response,0,Calm and relaxation,Control,0.1,0.37948080481641727,0.18710491067315513,0.5919357086870531
-within_response,0,Calm and relaxation,VR Art,0.5,0.3663077433117058,,
-within_response,0,Calm and relaxation,VR Only,0.5,0.25090955269022036,,
-within_response,0,Calm and relaxation,Control,0.5,0.3220711539444271,,
-within_response,2,Subjective emotional and experiential effects,VR Art,0.02,0.31523556601719493,,
-within_response,2,Subjective emotional and experiential effects,VR Only,0.02,0.4716400020673623,,
-within_response,2,Subjective emotional and experiential effects,Control,0.02,0.38019726382850505,,
-within_response,2,Subjective emotional and experiential effects,VR Art,0.1,0.30921308434638084,0.14018677949512207,0.453990647948131
-within_response,2,Subjective emotional and experiential effects,VR Only,0.1,0.432828636000723,0.19479102119712857,0.6350048558533358
-within_response,2,Subjective emotional and experiential effects,Control,0.1,0.3657337600513588,0.12834855715602947,0.5164947355094813
-within_response,2,Subjective emotional and experiential effects,VR Art,0.5,0.2889049938533241,,
-within_response,2,Subjective emotional and experiential effects,VR Only,0.5,0.34836033244577913,,
-within_response,2,Subjective emotional and experiential effects,Control,0.5,0.3233602335194528,,
-within_response,3,Surgical concerns and coping,VR Art,0.02,0.19785255792206782,,
-within_response,3,Surgical concerns and coping,VR Only,0.02,0.23707095116646665,,
-within_response,3,Surgical concerns and coping,Control,0.02,0.4944961978829163,,
-within_response,3,Surgical concerns and coping,VR Art,0.1,0.206031626125791,0.07003914258787441,0.3813330430961183
-within_response,3,Surgical concerns and coping,VR Only,0.1,0.24024490890522443,0.10409525342551988,0.36977963947861514
-within_response,3,Surgical concerns and coping,Control,0.1,0.4617981985568527,0.25304839768158827,0.6537128785375448
-within_response,3,Surgical concerns and coping,VR Art,0.5,0.22727327975101644,,
-within_response,3,Surgical concerns and coping,VR Only,0.5,0.24334048259511346,,
-within_response,3,Surgical concerns and coping,Control,0.5,0.37687372689034293,,
-across_questions,0,Calm and relaxation,VR Art,0.02,0.4735767873456766,,
-across_questions,0,Calm and relaxation,VR Only,0.02,0.47465737993852264,,
-across_questions,0,Calm and relaxation,Control,0.02,0.4695537692811041,,
-across_questions,0,Calm and relaxation,VR Art,0.1,0.44547037247103655,0.22329137636065857,0.6427207913832016
-across_questions,0,Calm and relaxation,VR Only,0.1,0.45325335855094107,0.183089507951294,0.7864363263452814
-across_questions,0,Calm and relaxation,Control,0.1,0.44625848418601316,0.2457819879028279,0.6605093912236935
-across_questions,0,Calm and relaxation,VR Art,0.5,0.3622870158628602,,
-across_questions,0,Calm and relaxation,VR Only,0.5,0.38225229064368793,,
-across_questions,0,Calm and relaxation,Control,0.5,0.37008413350781777,,
-across_questions,1,Compassionate and professional care,VR Art,0.02,0.280962432925898,,
-across_questions,1,Compassionate and professional care,VR Only,0.02,0.4153421348458689,,
-across_questions,1,Compassionate and professional care,Control,0.02,0.44295113126214175,,
-across_questions,1,Compassionate and professional care,VR Art,0.1,0.26973382874450863,0.09331350727059794,0.45883553498746993
-across_questions,1,Compassionate and professional care,VR Only,0.1,0.37094339279676847,0.19894724260480917,0.5486303202634847
-across_questions,1,Compassionate and professional care,Control,0.1,0.4230131137554617,0.234104954346286,0.5777653230288541
-across_questions,1,Compassionate and professional care,VR Art,0.5,0.2519880557519584,,
-across_questions,1,Compassionate and professional care,VR Only,0.5,0.30583251175479287,,
-across_questions,1,Compassionate and professional care,Control,0.5,0.36718225162358126,,
+within_response,1,Feeling calmer,VR Art,0.02,0.7575150264518212,,
+within_response,1,Feeling calmer,VR Only,0.02,0.06106353310380133,,
+within_response,1,Feeling calmer,Control,0.02,0.12711901305124415,,
+within_response,1,Feeling calmer,VR Art,0.1,0.6267905035273549,0.30648484106430973,0.8093688149704457
+within_response,1,Feeling calmer,VR Only,0.1,0.12943807911595417,0.09567106135856722,0.20891149946446427
+within_response,1,Feeling calmer,Control,0.1,0.1913796101003173,0.09401003638575667,0.37479143084076316
+within_response,1,Feeling calmer,VR Art,0.5,0.4379912749469072,,
+within_response,1,Feeling calmer,VR Only,0.5,0.2283191022561489,,
+within_response,1,Feeling calmer,Control,0.5,0.2632194578496063,,
+within_response,3,Video & nature,VR Art,0.02,0.49889054044322867,,
+within_response,3,Video & nature,VR Only,0.02,0.3732196503857023,,
+within_response,3,Video & nature,Control,0.02,0.051107361602483733,,
+within_response,3,Video & nature,VR Art,0.1,0.44864112213397767,0.1710539050822314,0.6598572565595229
+within_response,3,Video & nature,VR Only,0.1,0.3779205660756574,0.16118919094871953,0.6047704636802709
+within_response,3,Video & nature,Control,0.1,0.11765075005167386,0.08914876597684084,0.18189179873788472
+within_response,3,Video & nature,VR Art,0.5,0.36431212099988236,,
+within_response,3,Video & nature,VR Only,0.5,0.34616887082640696,,
+within_response,3,Video & nature,Control,0.5,0.21994261248921304,,
+within_response,0,Anxiety & fear,VR Art,0.02,0.29585841906369376,,
+within_response,0,Anxiety & fear,VR Only,0.02,0.47738877013403114,,
+within_response,0,Anxiety & fear,Control,0.02,0.5934687552131437,,
+within_response,0,Anxiety & fear,VR Art,0.1,0.3029905467124044,0.1482724069584899,0.5048340551710178
+within_response,0,Anxiety & fear,VR Only,0.1,0.42707573894124184,0.14275948165821573,0.6733613637327086
+within_response,0,Anxiety & fear,Control,0.1,0.48749115299333645,0.19018890173544856,0.6839817889232549
+within_response,0,Anxiety & fear,VR Art,0.5,0.31273043978160336,,
+within_response,0,Anxiety & fear,VR Only,0.5,0.3513222150382349,,
+within_response,0,Anxiety & fear,Control,0.5,0.36598424691738274,,

@@ -1,11 +1,11 @@
 {
   "input": "/Users/razvan/immersive VR/topic_network_pre/outputs/pre_descriptor_topic_assignments.csv",
   "n_sentences": 135,
-  "n_participants": 51,
+  "n_participants": 47,
   "participants_per_condition": {
-    "VR Art": 17,
-    "VR Only": 18,
-    "Control": 16
+    "VR Art": 15,
+    "VR Only": 17,
+    "Control": 15
   },
   "topics": [
     0,
@@ -17,8 +17,7 @@
     6,
     7,
     8,
-    9,
-    10
+    9
   ],
   "outlier_topic_included": false,
   "knn": 3,

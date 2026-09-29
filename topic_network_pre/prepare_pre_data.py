@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Prepare the pre-interview descriptors for the topic-network scripts (same input format as the post analysis).
+"""Prepare the pre-interview Q1 descriptors for the topic-network scripts.
 
-Takes the pre units of pre_post/outputs/prepost_units_with_topics.csv (one shared BERTopic model fitted on pre + post
-descriptors, so topics mean the same at both timepoints) and writes
-  outputs/pre_descriptor_topic_assignments.csv  one row per pre descriptor, in the column layout of the post analysis
-  outputs/sentence_embeddings.npz               cached Qwen3 embeddings of those descriptors (from pre_post)
-Every participant has one 'response' (their pre Q1 list), so the within-response and across-question flow scopes of the
-post analysis coincide; only within_response is used here.
+Takes pre_post/outputs/pre_units_with_topics.csv: the clusters of the BERTopic model fitted on the PRE descriptors only
+(pre_post/fit_timepoint_topics.py; same parameters and label source as topic_network_post/ and the core networks of pre_post/),
+and writes
+  outputs/pre_descriptor_topic_assignments.csv   one row per pre descriptor, in the column layout the scripts expect
+  outputs/sentence_embeddings.npz                cached Qwen3 embeddings of those descriptors (from pre_post)
+Every participant has one 'response' (their pre Q1 list), so the within-response and across-question flow scopes coincide;
+only within_response is used.
 """
 from pathlib import Path
 
@@ -15,8 +16,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 PP = HERE.parent / "pre_post" / "outputs"
-u = pd.read_csv(PP / "prepost_units_with_topics.csv")
-u = u[u.time == "pre"].copy()
+u = pd.read_csv(PP / "pre_units_with_topics.csv")  # topics of a BERTopic model fitted on the PRE descriptors only
 u["response_id"] = u["participant_id"]
 u["question_id"] = "Q1"
 u["included_in_model"] = True

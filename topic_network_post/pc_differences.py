@@ -28,7 +28,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
-from all_questions.topic_labels import short_topic_label  # noqa: E402
+from post_topic_labels import short_topic_label  # noqa: E402
 from topic_network_analysis import CONDITIONS, DEFAULT_INPUT, DEFAULT_OUTPUT, bh_fdr, load_data  # noqa: E402
 from global_distribution_tests import holm  # noqa: E402
 
