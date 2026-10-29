@@ -1,18 +1,85 @@
 
+----- Model specification -----
+descriptor level : y ~ condition + (1 | participant), lmer (REML), condition WEC-coded (weighted effect coding; reference = Control; weights = n descriptors per group)
+inference        : CR2 cluster-robust (clubSandwich::vcovCR, cluster = participant); coef_test Satterthwaite; contrasts by Wald_test(test = 'HTZ'); BH-FDR over 3 pairs
+participant level: lm(mean projection ~ condition) (treatment-coded; omnibus test and pairs equal to the WEC model); emmeans pairs, adjust = 'fdr'; Cohen's d with pooled SD
+subset           : noreview 
+condition
+Control  VR Art VR Only 
+     29      24      30 
+participants per condition:
+
+Control  VR Art VR Only 
+     12      11      15 
+
+----- lmer summary -----
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: y ~ wA + wO + (1 | participant)
+   Data: d
+
+REML criterion at convergence: -16.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.1873 -0.7206  0.1310  0.7504  1.7312 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ participant (Intercept) 0.008848 0.09407 
+ Residual                0.034049 0.18452 
+Number of obs: 83, groups:  participant, 38
+
+Fixed effects:
+            Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)  0.14273    0.02611 30.77991   5.468 5.74e-06 ***
+wA           0.06778    0.04096 30.86579   1.655    0.108    
+wO          -0.01001    0.03449 32.08817  -0.290    0.774    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+   (Intr) wA    
+wA  0.001       
+wO -0.021 -0.470
+
+ICC (participant) = 0.206 
+singular fit: FALSE 
+
+----- residual diagnostics (descriptor level) -----
+residual SD = 0.1682 
+
+	Shapiro-Wilk normality test
+
+data:  r
+W = 0.97576, p-value = 0.1181
+
+random-intercept SD = 0.0532 
+
+	Shapiro-Wilk normality test
+
+data:  re
+W = 0.97457, p-value = 0.5286
+
+null device 
+          1 
+
 ===== post ( noreview ) descriptors: 83  participants: 38 
 Alternative hypothesis: two-sided 
-            Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt)
-      (Intercept)   0.0970 0.0436          0  2.223        10.1       0.0503
-  conditionVR Art   0.1135 0.0604          0  1.878        18.5       0.0762
- conditionVR Only   0.0357 0.0647          0  0.553        21.9       0.5861
- Sig.
-    .
-    .
-     
+       Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+ (Intercept)   0.1427 0.0260          0  5.490        31.0       <0.001  ***
+          wA   0.0678 0.0376          0  1.803        16.4       0.0898    .
+          wO  -0.0100 0.0361          0 -0.277        25.4       0.7841     
            contrast estimate  ci_low ci_high   df p_value p_fdr
   VR Art vs Control   0.1135 -0.0132    0.24 18.5  0.0762 0.229
  VR Only vs Control   0.0357 -0.0984    0.17 21.9  0.5861 0.586
   VR Art vs VR Only   0.0778 -0.0548    0.21 19.5  0.2347 0.352
+
+WEC: weighted grand mean = 0.1427 ; group deviations from it (CR2 Wald, 95% CI):
+   group n_descriptors deviation  ci_low ci_high p_value
+ Control            29   -0.0457 -0.1194  0.0279  0.2101
+  VR Art            24    0.0678 -0.0118  0.1473  0.0898
+ VR Only            30   -0.0100 -0.0844  0.0644  0.7841
 
 Participant-level means: F test for condition
 Analysis of Variance Table
@@ -21,6 +88,40 @@ Response: mean_projection
           Df  Sum Sq  Mean Sq F value Pr(>F)
 condition  2 0.05964 0.029818  1.1525 0.3275
 Residuals 35 0.90553 0.025872               
+
+----- lm summary and diagnostics (participant level) -----
+
+Call:
+lm(formula = mean_projection ~ condition, data = pm)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.39992 -0.08315  0.03864  0.11346  0.25141 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)  
+(Intercept)       0.11539    0.04643   2.485   0.0179 *
+conditionVR Art   0.09646    0.06714   1.437   0.1597  
+conditionVR Only  0.01993    0.06230   0.320   0.7509  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1608 on 35 degrees of freedom
+Multiple R-squared:  0.06179,	Adjusted R-squared:  0.008176 
+F-statistic: 1.153 on 2 and 35 DF,  p-value: 0.3275
+
+
+	Shapiro-Wilk normality test
+
+data:  resid(am)
+W = 0.94599, p-value = 0.06571
+
+
+	Bartlett test of homogeneity of variances
+
+data:  mean_projection by condition
+Bartlett's K-squared = 2.511, df = 2, p-value = 0.2849
+
  contrast             estimate         SE df t.ratio p.value   cohens_d
  Control - VR Art  -0.09646166 0.06714215 35  -1.437  0.3581 -0.6687849
  Control - VR Only -0.01992960 0.06229654 35  -0.320  0.7509 -0.1128753
@@ -31,3 +132,44 @@ P value adjustment: fdr method for 3 tests
 1   Control 12 0.1153944 0.1680646 0.327542
 2    VR Art 11 0.2118560 0.1123258 0.327542
 3   VR Only 15 0.1353240 0.1829637 0.327542
+
+----- sessionInfo -----
+R version 4.4.3 (2025-02-28)
+Platform: aarch64-apple-darwin20
+Running under: macOS 26.4.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.0
+
+locale:
+[1] C.UTF-8/UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Lisbon
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_4.0.2      emmeans_1.11.2     clubSandwich_0.6.1 lmerTest_3.1-3    
+[5] lme4_1.1-37        Matrix_1.7-2      
+
+loaded via a namespace (and not attached):
+ [1] sandwich_3.1-1      generics_0.1.3      tidyr_1.3.1        
+ [4] lattice_0.22-7      magrittr_2.0.3      grid_4.4.3         
+ [7] estimability_1.5.1  RColorBrewer_1.1-3  mvtnorm_1.3-3      
+[10] backports_1.5.0     purrr_1.0.4         scales_1.4.0       
+[13] numDeriv_2016.8-1.1 textshaping_1.0.5   reformulas_0.4.0   
+[16] Rdpack_2.6.3        cli_3.6.4           rlang_1.1.5        
+[19] rbibutils_2.3       splines_4.4.3       withr_3.0.2        
+[22] tools_4.4.3         pbkrtest_0.5.4      parallel_4.4.3     
+[25] nloptr_2.2.1        coda_0.19-4.1       minqa_1.2.8        
+[28] dplyr_1.1.4         boot_1.3-31         broom_1.0.8        
+[31] vctrs_0.6.5         R6_2.6.1            zoo_1.8-14         
+[34] lifecycle_1.0.4     MASS_7.3-64         ragg_1.3.3         
+[37] pkgconfig_2.0.3     pillar_1.10.1       gtable_0.3.6       
+[40] glue_1.8.0          Rcpp_1.0.14         systemfonts_1.3.2  
+[43] tibble_3.2.1        tidyselect_1.2.1    farver_2.1.2       
+[46] xtable_1.8-4        nlme_3.1-167        svglite_2.2.2      
+[49] labeling_0.4.3      compiler_4.4.3      S7_0.2.0           

@@ -11,18 +11,49 @@ here <- dirname(normalizePath(sub("--file=", "", script_args[grep("--file=", scr
 tm <- sub(".*_", "", basename(here))
 stopifnot(tm %in% c("pre", "post"))
 tag <- subset
+sink(file.path(here, paste0("log_", tag, ".txt")), split = TRUE)  # full console output is also written to log_<subset>.txt
 
 d <- read.csv(file.path(here, "projection_descriptors.csv"), stringsAsFactors = FALSE)
 d$y <- d$projection
 if (subset == "noreview") d <- d[!(as.character(d$needs_review) %in% c("True", "TRUE")), ]
 d$participant <- factor(d$participant_id)
 d$condition <- relevel(factor(d$condition_label), ref = "Control")
-m <- lmer(y ~ condition + (1 | participant), data = d)
+# Weighted effect coding (WEC) of condition: the intercept is the sample-weighted grand mean (weights = n descriptors) and each
+# coefficient is that group's deviation from it; the reference group (Control) is coded -n_k / n_Control. The model is equivalent to the
+# treatment-coded one (same fit, same pairwise contrasts); only the coefficients' meaning changes.
+nk <- table(d$condition)
+nA <- as.numeric(nk["VR Art"]); nO <- as.numeric(nk["VR Only"]); nC <- as.numeric(nk["Control"])
+d$wA <- ifelse(d$condition == "VR Art", 1, ifelse(d$condition == "Control", -nA / nC, 0))
+d$wO <- ifelse(d$condition == "VR Only", 1, ifelse(d$condition == "Control", -nO / nC, 0))
+m <- lmer(y ~ wA + wO + (1 | participant), data = d)
 V <- vcovCR(m, cluster = d$participant, type = "CR2")
+mt <- lmer(y ~ condition + (1 | participant), data = d)  # treatment-coded twin: emmeans / figure and an equivalence check
+stopifnot(max(abs(fitted(m) - fitted(mt))) < 1e-6, abs(sigma(m) - sigma(mt)) < 1e-6)  # same fit; REML logLik is not comparable across codings
+
+cat("\n----- Model specification -----\n")
+cat("descriptor level : y ~ condition + (1 | participant), lmer (REML), condition WEC-coded (weighted effect coding; reference = Control; weights = n descriptors per group)\n")
+cat("inference        : CR2 cluster-robust (clubSandwich::vcovCR, cluster = participant); coef_test Satterthwaite; contrasts by Wald_test(test = 'HTZ'); BH-FDR over 3 pairs\n")
+cat("participant level: lm(mean projection ~ condition) (treatment-coded; omnibus test and pairs equal to the WEC model); emmeans pairs, adjust = 'fdr'; Cohen's d with pooled SD\n")
+cat("subset           :", subset, "\n")
+print(table(condition = d$condition, useNA = "ifany"))
+cat("participants per condition:\n"); print(table(unique(d[, c("participant", "condition")])$condition))
+cat("\n----- lmer summary -----\n"); print(summary(m))
+vc <- as.data.frame(VarCorr(m))
+cat("\nICC (participant) =", round(vc$vcov[vc$grp == "participant"] / sum(vc$vcov), 3), "\n")
+cat("singular fit:", isSingular(m), "\n")
+cat("\n----- residual diagnostics (descriptor level) -----\n")
+r <- resid(m)
+cat("residual SD =", round(sd(r), 4), "\n"); print(shapiro.test(r))
+re <- ranef(m)$participant[, 1]; cat("random-intercept SD =", round(sd(re), 4), "\n"); print(shapiro.test(re))
+pdf(file.path(here, paste0("diagnostics_", tm, "_", tag, ".pdf")), width = 10, height = 4.5)
+par(mfrow = c(1, 2)); qqnorm(r, main = "Residuals (descriptor level)"); qqline(r)
+plot(fitted(m), r, xlab = "Fitted", ylab = "Residual", main = "Residuals vs fitted"); abline(h = 0, lty = 2)
+dev.off()
 b <- fixef(m); nm <- names(b)
 cat("\n=====", tm, "(", subset, ") descriptors:", nrow(d), " participants:", nlevels(droplevels(d$participant)), "\n")
 print(coef_test(m, vcov = V))
-L <- list("VR Art vs Control" = c(0, 1, 0), "VR Only vs Control" = c(0, 0, 1), "VR Art vs VR Only" = c(0, 1, -1))
+# b = (weighted grand mean, dev_VR Art, dev_VR Only); dev_Control = -(nA * dev_Art + nO * dev_Only) / nC
+L <- list("VR Art vs Control" = c(0, 1 + nA / nC, nO / nC), "VR Only vs Control" = c(0, nA / nC, 1 + nO / nC), "VR Art vs VR Only" = c(0, 1, -1))
 res <- do.call(rbind, lapply(names(L), function(n) {
   l <- L[[n]]; est <- sum(l * b)
   w <- Wald_test(m, constraints = matrix(l, nrow = 1, dimnames = list(NULL, nm)), vcov = V, test = "HTZ")
@@ -30,11 +61,20 @@ res <- do.call(rbind, lapply(names(L), function(n) {
   data.frame(contrast = n, estimate = est, ci_low = est - tc * se, ci_high = est + tc * se, df = w$df_denom, p_value = w$p_val)
 }))
 res$p_fdr <- p.adjust(res$p_value, method = "BH")
-em <- as.data.frame(emmeans(m, ~ condition))
+em <- as.data.frame(emmeans(mt, ~ condition))
 write.csv(res, file.path(here, paste0("models_descriptor_level_", tag, ".csv")), row.names = FALSE)
 write.csv(data.frame(condition = em$condition, estimated_mean = em$emmean, ci_low = em$lower.CL, ci_high = em$upper.CL),
           file.path(here, paste0("models_descriptor_means_", tag, ".csv")), row.names = FALSE)
 print(format(res, digits = 3), row.names = FALSE)
+cat("\nWEC: weighted grand mean =", round(b[1], 4), "; group deviations from it (CR2 Wald, 95% CI):\n")
+Dv <- list("Control" = c(0, -nA / nC, -nO / nC), "VR Art" = c(0, 1, 0), "VR Only" = c(0, 0, 1))
+dev <- do.call(rbind, lapply(names(Dv), function(n) {
+  l <- Dv[[n]]; est <- sum(l * b); w <- Wald_test(m, constraints = matrix(l, nrow = 1, dimnames = list(NULL, nm)), vcov = V, test = "HTZ")
+  se <- abs(est) / sqrt(w$Fstat); tc <- qt(0.975, w$df_denom)
+  data.frame(group = n, n_descriptors = as.integer(nk[n]), deviation = est, ci_low = est - tc * se, ci_high = est + tc * se, p_value = w$p_val)
+}))
+print(format(dev, digits = 3), row.names = FALSE)
+write.csv(dev, file.path(here, paste0("models_descriptor_level_wec_deviations_", tag, ".csv")), row.names = FALSE)
 
 # ---- model-based figure (same design as semantic_projection/word_level.R -> semantic_projection_primary_final.pdf):
 # model-estimated condition means standardised by the residual SD of the mixed model, 95% CI, dashed line at 0,
@@ -73,6 +113,8 @@ if (tag == "all") {  # primary run: the folder's headline figure
 pm <- aggregate(y ~ participant + condition, data = d, FUN = mean); names(pm)[3] <- "mean_projection"
 am <- lm(mean_projection ~ condition, data = pm)
 cat("\nParticipant-level means: F test for condition\n"); print(anova(am))
+cat("\n----- lm summary and diagnostics (participant level) -----\n"); print(summary(am))
+print(shapiro.test(resid(am))); print(bartlett.test(mean_projection ~ condition, data = pm))
 pw <- as.data.frame(pairs(emmeans(am, ~ condition), adjust = "fdr"))
 sds <- tapply(pm$mean_projection, pm$condition, sd); ns <- table(pm$condition)
 dcalc <- function(a, b2) {
@@ -86,3 +128,6 @@ agg <- data.frame(condition = names(ns), n = as.integer(ns), mean = as.numeric(t
 write.csv(agg, file.path(here, paste0("models_participant_level_means_", tag, ".csv")), row.names = FALSE)
 write.csv(pm, file.path(here, paste0("participant_means_", tag, ".csv")), row.names = FALSE)
 print(pw); print(agg)
+
+cat("\n----- sessionInfo -----\n"); print(sessionInfo())
+sink()

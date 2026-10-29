@@ -1,0 +1,40 @@
+{
+ "model": "Qwen/Qwen3-Embedding-0.6B",
+ "questions": [
+  "Como se sente agora?",
+  "Sente alguma diferença em relação a como se sentia antes?",
+  "Que aspetos do cuidado prestado foram mais importantes para si?"
+ ],
+ "participants_in_file": 60,
+ "empty_answers_per_question": {
+  "Como se sente agora?": 9,
+  "Sente alguma diferença em relação a como se sentia antes?": 29,
+  "Que aspetos do cuidado prestado foram mais importantes para si?": 10
+ },
+ "no_condition": [
+  11,
+  33
+ ],
+ "all_empty": [
+  6,
+  8,
+  10,
+  11,
+  23,
+  30,
+  48,
+  55
+ ],
+ "participants": 51,
+ "by_condition": {
+  "Control": 17,
+  "VR Only": 17,
+  "VR Art": 17
+ },
+ "n_answers_distribution": {
+  "1": 1,
+  "2": 22,
+  "3": 28
+ },
+ "probe_sign_correct": 9
+}
