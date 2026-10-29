@@ -9,8 +9,9 @@ Participants' scores = PC coordinates of their mean embedding.
   variance between groups, Benjamini-Hochberg across the PCs. Pairwise
   (Holm over 3 pairs, permutation of mean differences) only for PCs whose
   omnibus test survives FDR < .05.
-* What a PC means: score of each topic's centroid on the PC (in SD units of the
-  sentence scores), plus the sentences at both ends. PC signs are arbitrary.
+* What a PC means: read from sentences only, no topic model (pc_sentence_interpretation.py:
+  typical sentences and word association; labels in pc_end_evidence.py). The five
+  sentences at each end are listed in pc_extreme_sentences.csv. PC signs are arbitrary.
 """
 from __future__ import annotations
 
@@ -28,7 +29,6 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
-from all_questions.topic_labels import short_topic_label  # noqa: E402
 from topic_network_analysis import CONDITIONS, DEFAULT_INPUT, DEFAULT_OUTPUT, bh_fdr, load_data  # noqa: E402
 from global_distribution_tests import holm  # noqa: E402
 
@@ -118,15 +118,6 @@ def main() -> None:
     res = pd.DataFrame(rows)
     res.to_csv(out / "pc_condition_tests.csv", index=False)
 
-    topics = sorted(df["Topic"].unique())
-    grand = E.mean(axis=0)
-    load = np.array([[np.dot(E[(df["Topic"] == t).to_numpy()].mean(axis=0) - grand, pca.components_[k]) / sd[k]
-                      for t in topics] for k in range(K)]).T  # (topics, K)
-    ld = pd.DataFrame(load, index=[short_topic_label(t) for t in topics],
-                      columns=[f"PC{k + 1}" for k in range(K)])
-    ld.index.name = "topic"
-    ld.to_csv(out / "pc_topic_loadings.csv")
-
     ex = []
     for k in range(K):
         order = np.argsort(S[:, k])
@@ -134,16 +125,12 @@ def main() -> None:
             for i in idx:
                 ex.append({"PC": k + 1, "end": end, "score_sd": S[i, k] / sd[k],
                            "condition": df["condition_label"].iloc[i],
-                           "topic": short_topic_label(df["Topic"].iloc[i]),
                            "sentence": df["sentence"].iloc[i]})
     pd.DataFrame(ex).to_csv(out / "pc_extreme_sentences.csv", index=False)
 
     show = res[["PC", "variance_explained", "F", "eta_squared", "p_perm", "p_fdr"]].round(4)
     print(show.to_string(index=False))
     print("cumulative variance of the first", K, "PCs:", round(float(pca.explained_variance_ratio_.sum()), 3))
-    top = ld.apply(lambda c: pd.Series({"high": ", ".join(c.sort_values(ascending=False).index[:2]),
-                                        "low": ", ".join(c.sort_values().index[:2])}))
-    print(top.T.to_string())
 
 
 if __name__ == "__main__":

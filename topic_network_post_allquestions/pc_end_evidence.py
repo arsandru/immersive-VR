@@ -1,27 +1,25 @@
 #!/usr/bin/env python3
 """Evidence for what sits at each end of the PCs that separate the conditions.
 
-Three independent, pre-specified checks (PCs = those with omnibus FDR < .05 in
-pc_condition_tests.csv; ends = top / bottom quartile of sentence scores):
+Two checks on the words plus a look at who is at each end (PCs = those with omnibus FDR < .05 in
+pc_condition_tests.csv; ends = top / bottom quartile of sentence scores). No topic model is used;
+typical sentences and word association per PC are in pc_sentence_interpretation.py:
 
 1. Distinctive words: weighted log-odds ratio with an informative Dirichlet prior
    (Monroe, Colaresi & Quinn 2008), z-scored, top-quartile vs bottom-quartile
    sentences. A word counts as *supported* when |z| > 1.96, it occurs in >= 3
    participants, and its sign and |z| > 1.96 hold in >= 90% of participant-level
    cluster bootstraps (2000).
-2. Topic positions: mean PC score of each topic's sentences (in SD units) with
-   a participant-cluster bootstrap 95% CI; a topic sits at an end when its CI
-   excludes 0.
+2. Keyword shares: share of end sentences containing enjoyment / relief / worry stems (fixed stem lists written after
+   seeing the evidence, so exploratory).
 3. Who is at each end: share of end sentences from each condition versus the
    condition's share of all sentences.
 
-Labels (PC_END_LABELS below) are written after inspecting this evidence by a fixed
-rule: the label must be consistent with the topics whose bootstrap CI excludes 0 at
-that end (largest |position| first) and must not contradict the leading words. With
-~80 sentences per end no single word reaches the strict support threshold, so the
-words only corroborate the direction; the topic positions carry the evidence.
-The labels are an interpretation and are stored with their evidence in
-pc_end_labels.csv.
+Labels (PC_END_LABELS below) are written after inspecting this evidence and the typical sentences
+and word table of pc_sentence_interpretation.py: a label must be consistent with the leading words and the
+typical sentences of that end. With ~80 sentences per end no single word reaches the strict support
+threshold, so the words only corroborate the direction. The labels are an interpretation and are stored
+with their evidence in pc_end_labels.csv.
 """
 from __future__ import annotations
 
@@ -38,21 +36,20 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
-from all_questions.topic_labels import short_topic_label  # noqa: E402
 from topic_network_analysis import CONDITIONS, DEFAULT_INPUT, DEFAULT_OUTPUT, load_data  # noqa: E402
 
 
 # Revised after a review of the evidence: the earlier PC4 "Enjoyment" label rested on an enjoyment-word share of 16% and no word reaches
-# the strict support threshold, so PC4 is labelled by the topics at its ends (content, not emotion). PC6 is mixed: Surgery worries sits at
-# the HIGH end and Feeling well at the LOW end, which contradicted the earlier "Relief" / "Worries (anxiety)" labels; the PC6 labels
-# below name the topics that actually mark each end and the PC6 group effect is not robust (see README).
-# PC4 low end renamed "Procedure & care" after reading its typical sentences (pc_sentence_interpretation.py): they are state reports about the
-# procedure and care, including calm and confident ones, so "concerns" overstated the worry content.
+# the strict support threshold, so PC4 is labelled by what its typical sentences and words are about (content, not emotion). PC4 low end:
+# "Procedure & care": its typical sentences are state reports about the procedure and care, including calm and confident ones.
+# PC6 (tentative; its group effect is not robust, see README): after grammatical/discourse words were excluded from the word table, its
+# content words are anxiety/fear/worry words at the low end and calm/relaxed (plus images and surgery) at the high end. Embeddings are
+# poor at negation, so the low end is "anxiety wording" (it also contains negated mentions such as "sem medo"), not necessarily anxiety.
 PC_END_LABELS = {
     (4, "high"): "Experience & senses",
     (4, "low"): "Procedure & care",
-    (6, "high"): "Surgery, calm (mixed)",
-    (6, "low"): "Anxiety, feeling well (mixed)",
+    (6, "high"): "Calm, relaxed",
+    (6, "low"): "Anxiety, fear (wording)",
 }
 # keyword check written after seeing the evidence (exploratory): share of sentences per end
 # that contain any stem of a lexicon; stems are matched inside the cleaned Portuguese tokens
@@ -117,7 +114,7 @@ def main() -> None:
     rows_of = {p: np.nonzero(pid == p)[0] for p in upid}
     prior = args.alpha0 * X.sum(axis=0) / X.sum()
 
-    word_rows, topic_rows, who_rows = [], [], []
+    word_rows, who_rows = [], []
     for k in pcs:
         s = S[:, k - 1]
         lo_cut, hi_cut = np.percentile(s, [25, 75])
@@ -142,21 +139,6 @@ def main() -> None:
                               "count_high": ya[j], "count_low": yb[j], "n_participants": npart,
                               "bootstrap_stability": stable[j],
                               "supported": bool(abs(zobs[j]) > 1.96 and npart >= 3 and stable[j] >= 0.90)})
-        # topic positions with cluster bootstrap CI
-        topics = sorted(df["Topic"].unique())
-        for t in topics:
-            m = (df["Topic"] == t).to_numpy()
-            obs = s[m].mean() / sd[k - 1]
-            bs = []
-            for _ in range(args.n_boot):
-                samp = np.concatenate([rows_of[p] for p in rng.choice(upid, len(upid))])
-                sel = samp[m[samp]]
-                if len(sel):
-                    bs.append(s[sel].mean() / sd[k - 1])
-            lo_ci, hi_ci = np.percentile(bs, [2.5, 97.5])
-            topic_rows.append({"PC": k, "topic": short_topic_label(t), "n_sentences": int(m.sum()),
-                               "position_sd": obs, "ci_low": lo_ci, "ci_high": hi_ci,
-                               "excludes_zero": bool(lo_ci > 0 or hi_ci < 0)})
         for end, mask in (("high", hi), ("low", lo)):
             for c in CONDITIONS:
                 cm = (df["condition_label"] == c).to_numpy()
@@ -165,16 +147,12 @@ def main() -> None:
                                  "share_of_all": cm.mean()})
     words = pd.DataFrame(word_rows)
     words.to_csv(out / "pc_end_words.csv", index=False)
-    pd.DataFrame(topic_rows).to_csv(out / "pc_end_topic_positions.csv", index=False)
     pd.DataFrame(who_rows).to_csv(out / "pc_end_condition_shares.csv", index=False)
 
-    tp = pd.DataFrame(topic_rows)
     who = pd.DataFrame(who_rows)
     lab_rows = []
     for k in pcs:
         for end in ("high", "low"):
-            t = tp[(tp.PC == k) & tp.excludes_zero & ((tp.position_sd > 0) == (end == "high"))]
-            t = t.reindex(t.position_sd.abs().sort_values(ascending=False).index)
             w = words[(words.PC == k) & (words.end == end)].reindex(
                 words[(words.PC == k) & (words.end == end)].z.abs().sort_values(ascending=False).index).head(6)
             sh = who[(who.PC == k) & (who.end == end)]
@@ -185,8 +163,6 @@ def main() -> None:
             lab_rows.append({
                 **lex,
                 "PC": k, "end": end, "label": PC_END_LABELS.get((k, end), ""),
-                "topics_CI_excludes_0": "; ".join(f"{r.topic} ({r.position_sd:+.2f} SD, CI {r.ci_low:+.2f}..{r.ci_high:+.2f})"
-                                                   for r in t.itertuples()),
                 "leading_words_unsupported": "; ".join(f"{r.word} ({GLOSS.get(r.word, '?')}, z={r.z:+.1f})" for r in w.itertuples()),
                 "share_of_end_by_condition": "; ".join(f"{r.condition} {100 * r.share_of_end:.0f}% (overall {100 * r.share_of_all:.0f}%)"
                                                         for r in sh.itertuples())})
@@ -198,9 +174,6 @@ def main() -> None:
             w = words[(words.PC == k) & (words.end == end) & words.supported].sort_values("z", key=abs, ascending=False)
             print(f"\\nPC{k} {end} end - supported words ({len(w)}):")
             print(w.head(15)[["word", "z", "count_high", "count_low", "n_participants", "bootstrap_stability"]].round(2).to_string(index=False))
-    tp = pd.DataFrame(topic_rows)
-    print("\\nTopics whose position CI excludes 0:")
-    print(tp[tp.excludes_zero].round(2).to_string(index=False))
     print("\\nCondition shares at the ends:")
     print(pd.DataFrame(who_rows).round(2).to_string(index=False))
 

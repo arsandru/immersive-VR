@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Figures for the topic-free embedding-space analysis.
+"""Figures for the topic-free embedding-space analysis (no topic model: PCs are read from sentences, see pc_sentence_interpretation.py).
 
   semantic_space_by_condition.*   PCA map of the sentence embeddings with condition centroids,
                                   plus a heat table of the content tests
@@ -24,7 +24,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from all_questions.topic_labels import short_topic_label  # noqa: E402
 from q3.plot_topic_differences import CONDITION_COLORS, CONDITION_ORDER  # noqa: E402
 from topic_network_analysis import DEFAULT_INPUT, DEFAULT_OUTPUT, load_data  # noqa: E402
 
@@ -36,6 +35,16 @@ def save(fig, base: Path) -> None:
     fig.savefig(base.with_suffix(".png"), dpi=250, bbox_inches="tight")
     plt.close(fig)
     print(f"Wrote {base}.[pdf|png]")
+
+
+def rep_words(words, pc, end, n=4):
+    """Representative words of one PC end: the n lemmas with the strongest evidence in that direction, ranked by the association
+    (SD difference) divided by its bootstrap standard error, among lemmas whose participant-cluster bootstrap CI excludes 0. This
+    favours words that are both strongly associated and used by many participants over rare words with large raw differences."""
+    w = words[(words.PC == pc) & ((words.ci_low > 0) | (words.ci_high < 0))].copy()
+    w["z"] = w.mean_diff_sd / ((w.ci_high - w.ci_low) / 3.92)
+    w = w[w.z > 0].nlargest(n, "z") if end == "high" else w[w.z < 0].nsmallest(n, "z")
+    return ", ".join(w.word)
 
 
 def ellipse(ax, pts, color, n_std2=5.991):
@@ -88,9 +97,9 @@ def draw_test_table(ax, tests, short=True, fs=11):
 
 
 def draw_pc_profile(out):
-    """One row per PC: group means, test result, and the topics at the ends of the PC."""
+    """One row per PC: group means, test result, sentence-based label for the PCs that pass FDR, and a word matrix."""
     res = pd.read_csv(out / "pc_condition_tests.csv")
-    ld = pd.read_csv(out / "pc_topic_loadings.csv", index_col=0)
+    words = pd.read_csv(out / "pc_sentence_words.csv")
     K = len(res)
     fig = plt.figure(figsize=(17, 0.62 * K + 2.6))
     gs = fig.add_gridspec(1, 3, width_ratios=[2.3, 4.6, 2.6], wspace=0.04)
@@ -116,28 +125,48 @@ def draw_pc_profile(out):
     ax_d.set_axisbelow(True)
     for sp in ("right", "bottom"):
         ax_d.spines[sp].set_visible(False)
-    vmax = np.abs(ld.values).max()
-    im = ax_h.imshow(ld.values.T, aspect="auto", cmap="RdBu_r", vmin=-vmax, vmax=vmax, zorder=2)
+    # word matrix (sentence-based): difference in mean PC score (SD) between sentences containing the word and those that do not.
+    # Columns = the words that go most strongly with each end of the PCs that pass FDR (bootstrap CI excluding 0; up to 6 per end, ranked by association / bootstrap SE);
+    # dots mark cells whose participant-cluster bootstrap 95% CI excludes 0.
+    sig_pcs = [int(p) for p in res.PC[res.p_fdr < 0.05]]
+    cols = []
+    for pc in sig_pcs:
+        w = words[(words.PC == pc) & ((words.ci_low > 0) | (words.ci_high < 0))].copy()
+        w["z"] = w.mean_diff_sd / ((w.ci_high - w.ci_low) / 3.92)  # same ranking as rep_words
+        for part in (w[w.z > 0].nlargest(6, "z"), w[w.z < 0].nsmallest(6, "z")):
+            cols += [x for x in part.word if x not in cols]
+    ref = words[words.PC == sig_pcs[0]].set_index("word").mean_diff_sd
+    cols = sorted(cols, key=lambda x: ref[x])
+    D = words.pivot(index="PC", columns="word", values="mean_diff_sd").loc[:, cols]
+    Fl = words.assign(sig=(words.ci_low > 0) | (words.ci_high < 0)).pivot(index="PC", columns="word", values="sig").loc[:, cols]
+    im = ax_h.imshow(D.values, aspect="auto", cmap="RdBu_r", vmin=-2, vmax=2, zorder=2)
+    for i in range(D.shape[0]):
+        for j in range(D.shape[1]):
+            if Fl.values[i, j]:
+                ax_h.plot(j, i, "o", ms=3.2, color="#222222", zorder=5)
     for i, r in res.iterrows():
         if r.p_fdr < 0.05:
-            ax_h.add_patch(plt.Rectangle((-0.5, i - 0.5), ld.shape[0], 1, fill=False, ec="#222222", lw=1.6, zorder=4))
-    ax_h.set_xticks(range(ld.shape[0]))
-    ax_h.set_xticklabels(ld.index, rotation=40, ha="left", fontsize=10)
+            ax_h.add_patch(plt.Rectangle((-0.5, i - 0.5), D.shape[1], 1, fill=False, ec="#222222", lw=1.6, zorder=4))
+    ax_h.set_xticks(range(D.shape[1]))
+    ax_h.set_xticklabels(D.columns, rotation=45, ha="left", fontsize=9)
     ax_h.xaxis.tick_top()
     ax_h.set_yticks([])
     ax_h.tick_params(length=0)
     ax_t.set_xlim(0, 1)
     ax_t.set_ylim(K - 0.5, -0.5)
     ax_t.axis("off")
+    lab = pd.read_csv(out / "pc_end_labels.csv")  # sentence-based labels (pc_end_evidence.py), written for the PCs that pass FDR
     for i, r in res.iterrows():
-        col = ld[f"PC{int(r.PC)}"].sort_values()
         star = "*" if r.p_fdr < 0.05 else ""
-        ax_t.text(0.0, i - 0.16, f"F = {r.F:.1f}   eta² = {r.eta_squared:.2f}   p(FDR) = {r.p_fdr:.3f}{star}",
+        ax_t.text(0.0, i - 0.26 if star else i, f"F = {r.F:.1f}   eta² = {r.eta_squared:.2f}   p(FDR) = {r.p_fdr:.3f}{star}",
                   fontsize=9.5, va="center", fontweight="bold" if star else "normal")
-        ax_t.text(0.0, i + 0.20, f"high: {', '.join(col.index[::-1][:2])}   |   low: {', '.join(col.index[:2])}",
-                  fontsize=8.3, va="center", color="#444444")
+        ends = {e: lab[(lab.PC == int(r.PC)) & (lab.end == e)] for e in ("high", "low")}
+        if star and all(len(v) for v in ends.values()):  # only PCs that separate the conditions are interpreted
+            for dy, e in ((0.06, "high"), (0.30, "low")):
+                ax_t.text(0.0, i + dy, f"{e}: {ends[e].label.iloc[0]} ({rep_words(words, int(r.PC), e)})",
+                          fontsize=7.6, va="center", color="#444444")
     fig.colorbar(im, ax=ax_h, orientation="horizontal", fraction=0.035, pad=0.02, shrink=0.5,
-                 label="where each topic sits on the PC, in SD (red = high end, blue = low end)")
+                 label="words that go with the ends of the labelled PCs: sentences containing the word minus those without, in SD of the PC (dot: bootstrap CI excludes 0)")
     from matplotlib.lines import Line2D
     fig.legend([Line2D([], [], marker="o", ls="", color=CONDITION_COLORS[c], mec="white", ms=9)
                 for c in CONDITION_ORDER], CONDITION_ORDER, loc="lower left", bbox_to_anchor=(0.06, 0.02),
@@ -152,14 +181,12 @@ def draw_pc_profile(out):
 def draw_pc_inset(ax, out):
     """Bordered box next to the heat table: the PCs that separate the conditions and what they point toward."""
     res = pd.read_csv(out / "pc_condition_tests.csv")
-    ld = pd.read_csv(out / "pc_topic_loadings.csv", index_col=0)
     sig = res[res.p_fdr < 0.05].reset_index(drop=True)
     lab = pd.read_csv(out / "pc_end_labels.csv")
 
-    def end_label(pc, end, col):
+    def end_label(pc, end):
         r = lab[(lab.PC == pc) & (lab.end == end)]
-        text = r["label"].iloc[0] if len(r) and isinstance(r["label"].iloc[0], str) and r["label"].iloc[0] else None
-        return text or (col.index[-1] if end == "high" else col.index[0])
+        return r["label"].iloc[0] if len(r) and isinstance(r["label"].iloc[0], str) else ""
 
     box = ax.inset_axes([0.398, 0.018, 0.375, 0.165])
     box.set_zorder(10)
@@ -177,7 +204,6 @@ def draw_pc_inset(ax, out):
     row_h = 0.74 / n
     for i, r in sig.iterrows():
         yc = 0.845 - (i + 0.5) * row_h
-        col = ld[f"PC{int(r.PC)}"].sort_values()
         box.text(0.015, yc + 0.09, f"PC{int(r.PC)}", fontsize=9, fontweight="bold", va="center")
         box.text(0.015, yc - 0.09, f"{100 * r.variance_explained:.1f}% var., p(FDR) {r.p_fdr:.3f}", fontsize=7,
                  va="center", color="#333333")
@@ -193,8 +219,8 @@ def draw_pc_inset(ax, out):
         d.set_xticks([])
         for sp in ("left", "right", "top"):
             d.spines[sp].set_visible(False)
-        box.text(0.535, yc + 0.09, "high: " + end_label(int(r.PC), "high", col), fontsize=8.2, va="center")
-        box.text(0.535, yc - 0.09, "low:  " + end_label(int(r.PC), "low", col), fontsize=8.2, va="center")
+        box.text(0.535, yc + 0.09, "high: " + end_label(int(r.PC), "high"), fontsize=8.2, va="center")
+        box.text(0.535, yc - 0.09, "low:  " + end_label(int(r.PC), "low"), fontsize=8.2, va="center")
     box.text(0.5, 0.035, "dots = group means in SD units of the PC (bars: 95% bootstrap CI, line = 0)",
              fontsize=6.4, color="#666666", va="center", ha="center")
 
@@ -225,9 +251,6 @@ def main() -> None:
     AX = (pct[pct.p_fdr < 0.05].sort_values("eta_squared", ascending=False).PC.astype(int).head(2) - 1).tolist()
     pca = PCA(n_components=max(AX) + 1, random_state=0).fit(E)
     S, C2 = pca.transform(E)[:, AX], pca.transform(cent)[:, AX]
-    topics = sorted(df["Topic"].unique())
-    tcent = {t: E[(df["Topic"] == t).to_numpy()].mean(axis=0) for t in topics}
-    T2 = {t: pca.transform(v[None, :])[0][AX] for t, v in tcent.items()}
     ev = pca.explained_variance_ratio_[AX]
 
     def content_p(comp):
@@ -249,12 +272,34 @@ def main() -> None:
         mu = C2[m].mean(axis=0)
         ax.scatter(*mu, s=150, marker="D", color=DARK[c], edgecolor="white", lw=1.5, zorder=6,
                    label=f"{c} (participant mean)")
-    for t in topics:
-        ax.text(*T2[t], short_topic_label(t), fontsize=8.5, color="#444444", ha="center", va="center",
-                style="italic", zorder=5,
-                bbox=dict(boxstyle="round,pad=0.12", fc="white", ec="none", alpha=0.7))
+    # representative words of the PC ends, drawn at the mean position of the sentences that contain them
+    wpos = pd.read_csv(out / "pc_sentence_word_positions.csv").set_index("word")
+    wl = pd.read_csv(out / "pc_sentence_words.csv")
+    shown = []
+    for k in AX:
+        for end in ("high", "low"):
+            shown += [w for w in rep_words(wl, k + 1, end).split(", ") if w and w not in shown]
+    texts = [ax.text(wpos.loc[w, f"PC{AX[0] + 1}"], wpos.loc[w, f"PC{AX[1] + 1}"], w, fontsize=9.5, color="#333333", ha="center",
+                     va="center", style="italic", zorder=5, bbox=dict(boxstyle="round,pad=0.12", fc="white", ec="none", alpha=0.75))
+             for w in shown]
+    try:
+        from adjustText import adjust_text
+        adjust_text(texts, ax=ax, expand=(1.2, 1.4))
+    except ImportError:
+        pass
     ax.set_xlabel(f"PC{AX[0] + 1} ({100 * ev[0]:.1f}% of variance)")
     ax.set_ylabel(f"PC{AX[1] + 1} ({100 * ev[1]:.1f}% of variance)")
+    lab_ = pd.read_csv(out / "pc_end_labels.csv")  # sentence-based labels of the PC ends (pc_end_evidence.py)
+
+    words_ = pd.read_csv(out / "pc_sentence_words.csv")
+
+    def end_lab(pc, end):
+        r = lab_[(lab_.PC == pc) & (lab_.end == end)]
+        return (r["label"].iloc[0] + "\n" + rep_words(words_, pc, end)) if len(r) else ""
+    ax.text(0.0, -0.062, f"\u2190 {end_lab(AX[0] + 1, 'low')}", transform=ax.transAxes, ha="left", va="top", fontsize=9.5, color="#333333")
+    ax.text(1.0, -0.062, f"{end_lab(AX[0] + 1, 'high')} \u2192", transform=ax.transAxes, ha="right", va="top", fontsize=9.5, color="#333333")
+    ax.text(-0.052, 0.0, f"\u2190 {end_lab(AX[1] + 1, 'low')}", transform=ax.transAxes, ha="right", va="bottom", rotation=90, fontsize=9.5, color="#333333")
+    ax.text(-0.052, 1.0, f"{end_lab(AX[1] + 1, 'high')} \u2192", transform=ax.transAxes, ha="right", va="top", rotation=90, fontsize=9.5, color="#333333")
     ax.legend(loc="lower right", frameon=True, framealpha=0.9, fontsize=10)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
@@ -264,6 +309,7 @@ def main() -> None:
     ax.set_title("Semantic space of all sentences\n"
                  "small dots = sentences, dots = participants, diamond + ellipse = condition mean "
                  "with 95% bootstrap region; axes = the two PCs that separate the conditions best (picked for display, tests use the full embedding)\n"
+                 "italic words = representative words of the PC ends, at the mean position of the sentences that contain them\n"
                  f"VR Art vs Control (participant-level PERMANOVA): p = {t1.p_perm:.3f}, "
                  f"Holm {t1.p_holm:.3f}", fontsize=10.5)
 

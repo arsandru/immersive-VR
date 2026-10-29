@@ -6,16 +6,18 @@ PCs = PCA of the Qwen3 sentence embeddings (10 components, as in pc_differences.
   A  Representative sentences per PC end. Ends = top / bottom quartile of the sentence scores. Within an end, sentences are
      ranked by cosine similarity to the end's mean embedding (how typical they are of that end); at most one sentence per
      participant; the 8 most typical are kept.
-  B  Word association on ALL sentences: for each word used in sentences of >= 5 participants, the difference in mean PC score
+  B  Word association on ALL sentences, for each of the first 10 PCs: for each word used in sentences of >= 5 participants, the difference in mean PC score
      (SD units) between sentences that contain the word and sentences that do not, with a participant-cluster bootstrap 95% CI
-     (2000 resamples) and a bootstrap p-value, Benjamini-Hochberg over the words of each PC. Words are lower-cased alphabetic
-     tokens of >= 3 letters; function words are removed (the standard Portuguese stop-word list of q3/, without its evaluative
-     terms such as "bem" or "bom", which matter here); no stemming, so inflected forms are separate words.
+     (2000 resamples) and a bootstrap p-value, Benjamini-Hochberg over the words of each PC. Words are the lower-cased lemmas of the
+     content words of each sentence: spaCy pt_core_news_sm part-of-speech tagging, keeping NOUN and ADJ, and VERB only if it expresses a state of the speaker (STATE_VERBS; action, communication, modal and existence verbs are dropped; vague nouns, hedges and discourse words such as coisa, vez, facto, bocadinho, pronto, mesmo are dropped, VAGUE_WORDS) (lemmas the tagger labels AUX anywhere in the corpus are dropped everywhere; auxiliaries,
+     adverbs, pronouns, determiners, conjunctions, adpositions, interjections and numbers are dropped), alphabetic lemmas of >= 3
+     letters. No hand-made word lists. Limits of the tagger: some first-person preterites stay unlemmatized (e.g. "gostei"),
+     "bem" is tagged as an adverb and so is dropped, and tags on short fragments are sometimes wrong.
   C  Nuisance checks: association of each PC with sentence length (Spearman, participant-cluster bootstrap CI) and with question
      (eta^2), and the condition difference on the PC within each question (participant-level permutation ANOVA, 10000
      permutations, BH over the 6 tests; Q2 has only 6 to 10 participants per group).
 
-Outputs: pc_sentence_representatives.csv, pc_sentence_words.csv, pc_sentence_nuisance.csv
+Outputs: pc_sentence_representatives.csv, pc_sentence_words.csv, pc_sentence_word_positions.csv, pc_sentence_nuisance.csv
 """
 from __future__ import annotations
 
@@ -27,23 +29,39 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import spacy
 from scipy.stats import spearmanr
 from sklearn.decomposition import PCA
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from q3.q3_topic_analysis import PORTUGUESE_STOP_WORDS as _SW  # noqa: E402
 from topic_network_analysis import CONDITIONS, DEFAULT_INPUT, DEFAULT_OUTPUT, bh_fdr, load_data  # noqa: E402
 from pc_differences import anova_F  # noqa: E402
 
-STOP = set(_SW[: _SW.index("algum")])  # function words only (the rest of the list are evaluative/discourse terms)
-PCS = (4, 6)
+NLP = spacy.load("pt_core_news_sm", disable=["parser", "ner"])
+CONTENT_POS = {"NOUN", "ADJ", "VERB"}
+# Verbs are kept only if they express an affective or experiential state of the speaker (feel, like, relax, become, seem, worry,
+# calm, frighten, ...); action, communication, modal, existence and cognition-activity verbs (fazer, haver, poder, passar, falar, dizer,
+# achar, ver, tratar, saber, entrar, pensar) are dropped. spaCy cannot tell state from action verbs, so this is an explicit class list
+# written after the first tables (post hoc, exploratory); "sinto" is listed because the tagger leaves that form unlemmatized.
+# Vague placeholder nouns, hedges and discourse markers that the tagger labels NOUN or ADJ are dropped too (explicit list, post hoc).
+VAGUE_WORDS = {"coisa", "vez", "facto", "bocadinho", "pronto", "mesmo"}
+STATE_VERBS = {"sentir", "sinto", "gostar", "relaxar", "ficar", "parecer", "preocupar", "acalmar", "tranquilizar", "assustar",
+               "ansiar", "incomodar", "agradar", "emocionar", "confiar", "receber", "acolher"}
+PCS = (4, 6)  # PCs that separate the conditions (representatives, nuisance checks)
+WORD_PCS = tuple(range(1, 11))  # the word table covers all 10 PCs (it feeds the PC profile figure)
 N_REP, MIN_PART, N_BOOT, N_PERM = 8, 5, 2000, 10000
 
 
-def tokens(text: str) -> set[str]:
-    return {w for w in re.findall(r"[a-záàâãéêíóôõúç]+", str(text).lower()) if len(w) >= 3 and w not in STOP}
+def lemma_sets(texts) -> list[set[str]]:
+    """Lower-cased lemmas of the content words (NOUN, ADJ, VERB) of each sentence. A lemma that the tagger labels AUX anywhere in
+    the corpus (ser, estar, ter, haver, poder, ir, ...) is treated as a function word everywhere, because the tagger is inconsistent
+    on copulas and modals."""
+    docs = list(NLP.pipe([str(x) for x in texts], batch_size=64))
+    aux = {t.lemma_.lower() for d in docs for t in d if t.pos_ == "AUX"}
+    return [{t.lemma_.lower() for t in d if t.pos_ in CONTENT_POS and t.is_alpha and len(t.lemma_) >= 3 and t.lemma_.lower() not in aux
+             and t.lemma_.lower() not in VAGUE_WORDS and (t.pos_ != "VERB" or t.lemma_.lower() in STATE_VERBS)} for d in docs]
 
 
 def main() -> None:
@@ -60,15 +78,15 @@ def main() -> None:
     lookup = dict(zip(z["document_id"].tolist(), z["emb"]))
     E = np.stack([lookup[i] for i in df["document_id"]]).astype(np.float64)
     pca = PCA(n_components=10, random_state=0).fit(E)
-    S = pca.transform(E)
-    S = S / S.std(axis=0)  # SD units of each PC
+    S_raw = pca.transform(E)  # PC coordinates in embedding units (the map's axes)
+    S = S_raw / S_raw.std(axis=0)  # SD units of each PC
     cond_of = df.drop_duplicates("participant_id").set_index("participant_id")["condition_label"]
     pids = list(cond_of.index)
     lab0 = np.array([CONDITIONS.index(cond_of[p]) for p in pids])
     row_p = np.array([pids.index(x) for x in df["participant_id"]])
     En = E / np.linalg.norm(E, axis=1, keepdims=True)
     n_words_sent = df["sentence"].astype(str).str.split().str.len().to_numpy()
-    toks = [tokens(t) for t in df["sentence"]]
+    toks = lemma_sets(df["sentence"])
 
     # ---- A: representative sentences
     rep = []
@@ -116,9 +134,16 @@ def main() -> None:
         with np.errstate(invalid="ignore", divide="ignore"):
             return has / c - (tot - has) / (n - c)
 
+    # where each word sits in the PC space: mean raw PC coordinates of the sentences that contain it (for the labels on the map)
+    pos = pd.DataFrame(np.stack([S_raw[X[:, j] > 0].mean(axis=0) for j in range(len(vocab))]), columns=[f"PC{k}" for k in range(1, 11)])
+    pos.insert(0, "word", vocab)
+    pos.insert(1, "n_sentences", X.sum(axis=0).astype(int))
+    pos.insert(2, "n_participants", [len(part_n[w]) for w in vocab])
+    pos.to_csv(out / "pc_sentence_word_positions.csv", index=False)
+
     word_rows = []
     boot_w = np.stack([np.bincount(rng.integers(0, P, P), minlength=P) for _ in range(N_BOOT)])
-    for pc in PCS:
+    for pc in WORD_PCS:
         s = S[:, pc - 1]
         obs = diffs(s, np.ones(len(df)))
         B = np.stack([diffs(s, bw[row_p].astype(float)) for bw in boot_w])
@@ -164,7 +189,7 @@ def main() -> None:
     nu.to_csv(out / "pc_sentence_nuisance.csv", index=False)
 
     pd.set_option("display.width", 250)
-    print(f"{len(df)} sentences, vocabulary {len(vocab)} words (>= {MIN_PART} participants)")
+    print(f"{len(df)} sentences, vocabulary {len(vocab)} lemmas (>= {MIN_PART} participants); spaCy {spacy.__version__}, pt_core_news_sm {NLP.meta['version']}")
     for pc in PCS:
         w = words[words.PC == pc]
         sig = w[(w.ci_low > 0) | (w.ci_high < 0)].sort_values("mean_diff_sd")

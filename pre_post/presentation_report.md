@@ -99,7 +99,7 @@
 **Caveats.**
 - This is a **post-only comparison, not a change**: the pre-to-post tests show no reliable difference in the size of change between conditions (slide 2). Read it as "the groups talk about different things afterwards".
 - With 16 per group, participant-level tests are weaker than descriptor-level tests (participants with more descriptors count more at descriptor level).
-- **Supplementary analysis of the whole post interview** (all three questions, 324 sentences, its own topic model with 12 topics; `topic_network_post_allquestions/`): the same pattern, VR Art differs from Control (sentence-level PERMANOVA Holm .010, participant-level Holm .034) along two PCs, "Enjoyment vs Worries (surgery, care)" (PC4) and "Relief vs Worries (anxiety)" (PC6); it uses questions 2 and 3 that are asked only after the intervention, and its axes were chosen for display, so it is exploratory.
+- **Supplementary analysis of the whole post interview** (all three questions, 324 sentences, its own topic model with 12 topics; `topic_network_post_allquestions/`): the same pattern, VR Art differs from Control (sentence-level PERMANOVA Holm .010, participant-level Holm .034) along two PCs, PC4 "Experience & senses vs Procedure & care" (robust: it holds within question 1 and after removing sentences that mention the stimulus) and PC6 ("Calm, relaxed" vs "Anxiety, fear wording", tentative: it does not survive removing stimulus-word sentences); it uses questions 2 and 3 that are asked only after the intervention, and its axes were chosen for display, so it is exploratory.
 
 ---
 
