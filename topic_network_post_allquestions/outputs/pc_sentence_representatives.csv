@@ -1,0 +1,33 @@
+PC,end,rank,typicality_cosine,score_sd,participant_id,condition,question,n_words,sentence
+4,high,1,0.8365721684011318,1.494352804536149,50,VR Art,Q1,3,"Portanto, essa sensação..."
+4,high,2,0.8069300645909935,1.4832928895257402,7,VR Only,Q1,7,"Então, ver aquilo foi um pouco emocionante."
+4,high,3,0.8038975521966906,1.036669147446497,31,VR Art,Q3,5,Tem sido maravilhoso para mim.
+4,high,4,0.7905684874763235,0.8211907105041932,46,VR Only,Q2,17,"É claro que se sente um bocadinho, mas não é assim uma diferença, no meu caso, significativa."
+4,high,5,0.7842018153455554,0.9569859028099779,35,VR Art,Q3,1,Espetacular.
+4,high,6,0.7827677481545945,1.6064819511237418,27,VR Art,Q2,7,Estive distraída e numa dimensão completamente diferente.
+4,high,7,0.7787912401974091,1.547689578332699,17,VR Art,Q3,5,"Foi fantástico, foi mesmo fantástico."
+4,high,8,0.7756567391840996,1.0171674718281378,4,Control,Q3,9,Acho que foi assim o que eu mais valorizei.
+4,low,1,0.8342782115606064,-1.7978584316607515,5,VR Only,Q1,9,E estou muito mais tranquila agora para o procedimento.
+4,low,2,0.8116568166358777,-2.3520372065435406,52,VR Only,Q1,55,"É mesmo só essa ansiosa, ansiosa, pode mais depressa melhor, pode mais depressa isto, pode mais depressa sai, mas é mesmo, a preocupação é mesmo o cuidado e o pós, o que é que vai vir a seguir, vai correr tudo bem, é certo, mas não deixa de ser uma cirurgia, não deixa de ser..."
+4,low,3,0.8066352501784004,-1.415168720804916,22,Control,Q3,2,Bem tratada.
+4,low,4,0.8036472763823006,-0.7223836323511575,35,VR Art,Q1,3,Estou bem disposta.
+4,low,5,0.8008490303720516,-3.2214488530997305,45,Control,Q1,18,"E que a cirurgia seja feita rapidamente, mas tranquila, mas tranquila e confiante, que vai correr tudo bem."
+4,low,6,0.799579830426825,-1.1383666415617695,26,Control,Q1,13,"Preocupada um bocadinho, não é uma situação confortável, mas pronto, mas tudo bem."
+4,low,7,0.7952959283343946,-2.5180386400473105,9,Control,Q1,5,"É sempre uma cirurgia, pronto."
+4,low,8,0.7928863414076179,-2.4625302809551504,42,Control,Q1,8,Ligeiramente a aguardar a entrada para a cirurgia.
+6,high,1,0.8591772547086942,0.8618450884580003,15,VR Only,Q2,13,"Estou um bocadinho mais calma, fiquei mais relaxada e soube-me bem este bocadinho."
+6,high,2,0.8473386053897207,1.4778532689337076,54,VR Only,Q1,12,"Estou um bocadinho mais calma, foi bom, gostei de ver as imagens."
+6,high,3,0.8354194275064983,1.7887897692706418,38,VR Art,Q2,5,Fez com que eu relaxasse.
+6,high,4,0.827290813448678,1.1434522137158931,5,VR Only,Q1,9,E estou muito mais tranquila agora para o procedimento.
+6,high,5,0.825592104491194,1.5410225209000399,22,Control,Q1,12,Eu acho que estava um bocadinho mais relaxada até vocês saírem daqui.
+6,high,6,0.825262771294145,1.2674955526337768,19,VR Only,Q1,3,Sinto-me mais relaxada.
+6,high,7,0.8223773955705683,0.8390275709465106,59,VR Art,Q1,8,Eu acho que estou um bocadinho mais calma.
+6,high,8,0.8191726087513361,1.7331348505961832,12,VR Art,Q1,7,Durante a experiência eu senti muito relaxamento.
+6,low,1,0.8656851774723766,-1.154314037823925,26,Control,Q1,3,"Estou tranquila, não..."
+6,low,2,0.8432684296404305,-1.660322634998819,44,VR Art,Q3,3,Estou segura também.
+6,low,3,0.842502169473011,-1.4542063505147358,4,Control,Q1,11,"Sinto-me igualmente otimista, sinto-me igualmente sem medo, sinto-me mais tranquila porque..."
+6,low,4,0.835805637503829,-3.109048451066922,45,Control,Q1,14,"Estou-me a sentir, ou seja, um pouco, não diria ansiosa, mas pode ser ansiosa."
+6,low,5,0.8312439410729822,-1.203810277499066,49,VR Only,Q2,16,"u não sei porquê, mas eu estou tão tranquila hoje que não é normal, acho eu."
+6,low,6,0.8307905190802954,-1.3658594296504372,56,VR Art,Q1,12,"Sinto-me tranquila, estou em paz, nada, com medo de nada, sinto-me bem."
+6,low,7,0.829618598204438,-1.350464680141051,60,Control,Q1,3,"Estou tranquila, confiante."
+6,low,8,0.8276679360461514,-0.7336042076433501,52,VR Only,Q1,5,Eu estou me sentindo bem.

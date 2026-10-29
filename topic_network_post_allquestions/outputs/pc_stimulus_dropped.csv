@@ -1,0 +1,36 @@
+document_id,participant_id,condition_label,question_id
+10,5,VR Only,Q1
+11,5,VR Only,Q1
+14,7,VR Only,Q1
+16,7,VR Only,Q1
+17,7,VR Only,Q1
+18,7,VR Only,Q1
+34,12,VR Art,Q1
+40,17,VR Art,Q1
+47,19,VR Only,Q1
+51,21,VR Art,Q1
+67,25,VR Only,Q1
+91,34,Control,Q1
+95,35,VR Art,Q1
+96,35,VR Art,Q1
+98,35,VR Art,Q1
+198,37,VR Only,Q2
+105,38,VR Art,Q1
+116,41,VR Art,Q1
+118,41,VR Art,Q1
+122,42,Control,Q1
+132,44,VR Art,Q1
+211,46,VR Only,Q2
+212,46,VR Only,Q2
+225,49,VR Only,Q2
+227,49,VR Only,Q2
+141,50,VR Art,Q1
+142,50,VR Art,Q1
+145,50,VR Art,Q1
+148,50,VR Art,Q1
+229,50,VR Art,Q2
+231,50,VR Art,Q2
+232,50,VR Art,Q2
+235,50,VR Art,Q2
+165,54,VR Only,Q1
+243,56,VR Art,Q2

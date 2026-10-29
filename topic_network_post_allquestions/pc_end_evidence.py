@@ -42,11 +42,17 @@ from all_questions.topic_labels import short_topic_label  # noqa: E402
 from topic_network_analysis import CONDITIONS, DEFAULT_INPUT, DEFAULT_OUTPUT, load_data  # noqa: E402
 
 
+# Revised after a review of the evidence: the earlier PC4 "Enjoyment" label rested on an enjoyment-word share of 16% and no word reaches
+# the strict support threshold, so PC4 is labelled by the topics at its ends (content, not emotion). PC6 is mixed: Surgery worries sits at
+# the HIGH end and Feeling well at the LOW end, which contradicted the earlier "Relief" / "Worries (anxiety)" labels; the PC6 labels
+# below name the topics that actually mark each end and the PC6 group effect is not robust (see README).
+# PC4 low end renamed "Procedure & care" after reading its typical sentences (pc_sentence_interpretation.py): they are state reports about the
+# procedure and care, including calm and confident ones, so "concerns" overstated the worry content.
 PC_END_LABELS = {
-    (4, "high"): "Enjoyment",
-    (4, "low"): "Worries (surgery, care)",
-    (6, "high"): "Relief",
-    (6, "low"): "Worries (anxiety)",
+    (4, "high"): "Experience & senses",
+    (4, "low"): "Procedure & care",
+    (6, "high"): "Surgery, calm (mixed)",
+    (6, "low"): "Anxiety, feeling well (mixed)",
 }
 # keyword check written after seeing the evidence (exploratory): share of sentences per end
 # that contain any stem of a lexicon; stems are matched inside the cleaned Portuguese tokens
