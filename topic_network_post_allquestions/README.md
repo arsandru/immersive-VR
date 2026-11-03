@@ -101,3 +101,15 @@ What the PC differences say (exploratory; sentences are the Portuguese sentences
 * Limits: the vocabulary is small (23 content lemmas used by at least 5 participants), words are not stemmed, and representative sentences are short and sometimes fragments; read them as illustration, with the word table as the quantitative part.
 
 Map axes: `semantic_space_by_condition` (no topic labels; the ends of each PC axis carry the sentence-based labels with their representative words, and the same words are drawn in the plot at the mean position of the sentences that contain them) now uses the two PCs that separate the conditions most (largest eta^2 among those passing the FDR test: PC4 and PC6), picked for display after seeing the data; the tests use the full embedding and do not depend on the axes.
+
+## PC4 and presence (`pc4_presence.py`, exploratory)
+
+Does a participant's mean PC4 score go with their presence score (`presence`, 0-10, `data/anxiety_fear_mechanism_items.csv`; `participant` = interview participant number, condition labels checked against `participant_conditions.csv`)? **Primary test (one, no multiplicity correction): pooled Spearman correlation**, 51 participants (17 per group), permutation p (10000, two-sided), participant bootstrap CI. Condition is a confound (Control has lower presence and lower PC4), so the correlation is repeated within groups as confound checks (sensitivity analyses, reported whatever they show). Presence has a floor: 9 of 17 Control participants score 0, none in the VR groups.
+
+| analysis | n | rho [95% CI] | p (perm) |
+|:--|:--|:--|:--|
+| **primary: pooled** | 51 | 0.31 [0.04, 0.54] | 0.030 |
+| confound check: within group (group means removed) | 51 | -0.09 [-0.37, 0.20] | 0.53 |
+| confound check: VR Art / VR Only / Control (descriptive) | 17 each | -0.08 / -0.07 / -0.15 | 0.76 / 0.78 / 0.56 |
+
+The pooled correlation is positive, but the confound checks show no association within groups: it is carried by the group difference (Control low on both), so the data do not show that PC4 tracks presence beyond condition. Outputs: `outputs/pc4_presence.csv`, `.pdf`, `.png`.

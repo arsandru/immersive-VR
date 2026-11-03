@@ -6,17 +6,9 @@ Read this first, then `CLAUDE.md`. Update or replace this file at the end of eac
 
 `main` is pushed at `2056cc3` (sentence-based PC labels, spaCy content-word filter for the word table, representative words on the figures). Untracked: `data/anxiety_fear_mechanism_items.csv` (not committed; commit only when asked).
 
-## Blocked task: PC4 vs presence
+## PC4 vs presence: done (not yet committed)
 
-Request: does each participant's mean PC4 score (full-interview sentence embedding space, `topic_network_post_allquestions/`) correlate with their presence score in `data/anxiety_fear_mechanism_items.csv`?
-
-**Blocker.** The CSV identifies participants as S01–S58, 58 rows (Control 20: S01–S20; VR Art 19: S21–S39; VR Only 19: S40–S58). The interview data use participant ids 1–60 (`enrollment_number` in `data/participant_conditions.csv`). The user said "S01–S58 corresponds to the participant id from the interview data", but joining on that id gives condition agreement in only 21 of 56 matched ids (about chance), and the S-numbers are grouped by condition, so they cannot be enrollment ids. The user then agreed it does not work and is sorting out a key. Do not run the analysis until a key (S-number to interview participant id) exists and the condition labels agree for every matched participant.
-
-**Analysis as agreed once the key exists (one script, no extras).**
-1. Predictor: participant mean PC4 score from the existing PCA (sentence level, participant mean as in the PC4 group test; 51 usable participants minus any without presence).
-2. Spearman correlation of mean PC4 with presence; rho, participant-bootstrap CI, permutation p. One pre-specified test, no multiplicity correction. Exploratory.
-3. Group confound: report the pooled correlation and a within-group correlation (rank correlation of residuals after removing group means), plus per group. Check how many participants score 0 on presence (floor effect, mostly Control).
-4. Do not add PC6, other PCs or other columns.
+The presence file was corrected; `participant` (P0001, ...) now maps to the interview participant number (condition labels agree for all 58). `topic_network_post_allquestions/pc4_presence.py` ran: 51 participants (17 per group); primary (user decision): pooled Spearman rho 0.31 [0.04, 0.54], p = 0.030, one test so no correction; confound checks: within group (group means removed) rho -0.09 [-0.37, 0.20], p = 0.53; per group -0.08 / -0.07 / -0.15. Presence has a floor (9 of 17 Control zeros, none in VR). Reading: the pooled link is the group difference. Results are in the folder README. No further analyses were requested (PC6, other columns).
 
 ## Offered, not requested
 
