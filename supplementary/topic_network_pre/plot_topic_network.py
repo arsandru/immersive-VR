@@ -20,7 +20,7 @@ from matplotlib.colors import Normalize
 from matplotlib.patches import FancyArrowPatch
 from sklearn.manifold import MDS
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
 from pre_topic_labels import short_topic_label, topic_label  # noqa: E402

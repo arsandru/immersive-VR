@@ -3,7 +3,7 @@ pre_post/ and topic_network_pre/ so that clusters, labels and parameters are ide
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "pre_post"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "pre_post"))
 from timepoint_topic_labels import TOPIC_LABELS_PRE as TOPIC_LABELS  # noqa: E402
 
 

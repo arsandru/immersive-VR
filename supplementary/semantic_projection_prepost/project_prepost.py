@@ -26,7 +26,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE.parent / "pre_post"))
+sys.path.insert(0, str(HERE.parent.parent / "pre_post"))
 from prepare_and_model import load_units  # noqa: E402
 
 MODEL_ID = "Qwen/Qwen3-Embedding-0.6B"

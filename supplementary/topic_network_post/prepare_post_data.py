@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-PP = HERE.parent / "pre_post" / "outputs"
+PP = HERE.parent.parent / "pre_post" / "outputs"
 u = pd.read_csv(PP / "post_units_with_topics.csv")
 u["response_id"] = u["participant_id"]
 u["question_id"] = "Q1"

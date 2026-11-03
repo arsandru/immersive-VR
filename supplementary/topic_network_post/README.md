@@ -1,13 +1,13 @@
 # Topic network analysis of the post-interview descriptors
 
-The analysis of `topic_network_pre/` (topic flow graphs, betweenness / PageRank / semantic centrality, PageRank and path tests, global distribution tests, embedding-space content tests, PC differences, core networks, semantic-space map) run on the **post-interview Q1 descriptors** (`data/consensus_post_q1.csv`, one unit per rater-consensus descriptor). It is the mirror image of `topic_network_pre/`: same scripts, same statistics, same topic-model parameters, and the clusters and labels are the very ones shown in the post row of `pre_post/outputs/core_network_pre_vs_post.pdf`.
+The analysis of `supplementary/topic_network_pre/` (topic flow graphs, betweenness / PageRank / semantic centrality, PageRank and path tests, global distribution tests, embedding-space content tests, PC differences, core networks, semantic-space map) run on the **post-interview Q1 descriptors** (`data/consensus_post_q1.csv`, one unit per rater-consensus descriptor). It is the mirror image of `supplementary/topic_network_pre/`: same scripts, same statistics, same topic-model parameters, and the clusters and labels are the very ones shown in the post row of `pre_post/outputs/core_network_pre_vs_post.pdf`.
 
-* **Input.** `prepare_post_data.py` reads `pre_post/outputs/post_units_with_topics.csv`: the clusters of a BERTopic model fitted on the post descriptors only (`pre_post/fit_timepoint_topics.py`), with the parameters and labels of `pre_post/timepoint_topic_labels.py` (single source shared with `pre_post/` and `topic_network_pre/`; `pre_post/check_topic_consistency.py` verifies clusters, labels, parameters and the central topic of every panel). Labels are interpretations written after reading sample descriptors. 109 descriptors (unassigned topic dropped), 48 participants (16 per condition), 10 topics.
+* **Input.** `prepare_post_data.py` reads `pre_post/outputs/post_units_with_topics.csv`: the clusters of a BERTopic model fitted on the post descriptors only (`pre_post/fit_timepoint_topics.py`), with the parameters and labels of `pre_post/timepoint_topic_labels.py` (single source shared with `pre_post/` and `supplementary/topic_network_pre/`; `pre_post/check_topic_consistency.py` verifies clusters, labels, parameters and the central topic of every panel). Labels are interpretations written after reading sample descriptors. 109 descriptors (unassigned topic dropped), 48 participants (16 per condition), 10 topics.
 * **One flow scope.** Each participant has one Q1 list, so the within-response and across-question scopes coincide; only `within_response` is run.
 * **The earlier analysis of the full post interview** (three questions, 324 sentences, its own topic model with 12 topics) is kept unchanged in `topic_network_post_allquestions/`.
 * No PC survives the FDR test (smallest adjusted p = .446), so the semantic-space map uses PC1 and PC2 and `pc_end_evidence.py` exits early.
 
-Statistics are those of `topic_network_pre/` (pairs Holm-adjusted; the newer `pre_post/` analyses use BH-FDR).
+Statistics are those of `supplementary/topic_network_pre/` (pairs Holm-adjusted; the newer `pre_post/` analyses use BH-FDR).
 
 ## Run order (from this folder)
 ```

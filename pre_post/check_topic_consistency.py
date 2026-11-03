@@ -26,10 +26,10 @@ from timepoint_topic_labels import TOPIC_LABELS_POST, TOPIC_LABELS_PRE, TOPIC_MO
 
 for t, labels in (("pre", TOPIC_LABELS_PRE), ("post", TOPIC_LABELS_POST)):
     src = pd.read_csv(HERE / "outputs" / f"{t}_units_with_topics.csv").set_index("document_id").Topic
-    tn = pd.read_csv(ROOT / f"topic_network_{t}" / "outputs" / f"{t}_descriptor_topic_assignments.csv").set_index("document_id").Topic
+    tn = pd.read_csv(ROOT / "supplementary" / f"topic_network_{t}" / "outputs" / f"{t}_descriptor_topic_assignments.csv").set_index("document_id").Topic
     check(f"{t}: clusters in topic_network_{t} identical to pre_post/{t}_units_with_topics.csv", src.equals(tn), f"{len(tn)} descriptors")
     # labels: every module reads the same dict
-    sys.path.insert(0, str(ROOT / f"topic_network_{t}"))
+    sys.path.insert(0, str(ROOT / "supplementary" / f"topic_network_{t}"))
     mod = __import__(f"{t}_topic_labels")
     check(f"{t}: labels in topic_network_{t} identical to the shared source", mod.TOPIC_LABELS == labels)
     sys.path.pop(0)
@@ -53,7 +53,7 @@ from prepost_common import label_time, load_units_time  # noqa: E402
 
 u = pd.concat([load_units_time("pre"), load_units_time("post")], ignore_index=True)
 for t in ("pre", "post"):
-    tn = pd.read_csv(ROOT / f"topic_network_{t}" / "outputs" / "pagerank_within_condition_topic_tests.csv")
+    tn = pd.read_csv(ROOT / "supplementary" / f"topic_network_{t}" / "outputs" / "pagerank_within_condition_topic_tests.csv")
     tn = tn[(tn.scope == "within_response") & tn.is_top].set_index("condition").topic_label
     for c in pcn.ORDER:
         pr, C, n, nt = pcn.panel_data(u, c, t)

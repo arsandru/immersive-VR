@@ -21,7 +21,7 @@ from sklearn.decomposition import PCA
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
 from post_topic_labels import short_topic_label  # noqa: E402

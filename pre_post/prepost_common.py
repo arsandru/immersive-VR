@@ -10,7 +10,7 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 BASE_DIR = HERE.parent
 sys.path.insert(0, str(BASE_DIR))
-sys.path.insert(0, str(BASE_DIR / "topic_network_post"))
+sys.path.insert(0, str(BASE_DIR / "supplementary" / "topic_network_post"))
 
 from pagerank_within_condition_tests import counts_from, pagerank, transition_matrix  # noqa: E402,F401
 from global_distribution_tests import gjsd_terms, holm  # noqa: E402,F401

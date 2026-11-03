@@ -1,4 +1,4 @@
-> **Renamed.** This is the original analysis of the full post interview (three questions, 324 sentences, its own topic model). It was called `topic_network_post/`; that name now belongs to the analysis of the post Q1 descriptors, which mirrors `topic_network_pre/` and uses the same clusters, labels and parameters as `pre_post/`.
+> **Renamed.** This is the original analysis of the full post interview (three questions, 324 sentences, its own topic model). It was called `topic_network_post/` (the folder at that name is now `supplementary/topic_network_post/`); that name now belongs to the analysis of the post Q1 descriptors, which mirrors `supplementary/topic_network_pre/` and uses the same clusters, labels and parameters as `pre_post/`.
 
 # Topic network and semantic betweenness centrality
 

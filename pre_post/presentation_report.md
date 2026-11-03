@@ -4,7 +4,7 @@
 
 **Topics.** Topics are extracted separately for each timepoint: one BERTopic model on the pre descriptors only and one on the post descriptors only (10 topics each, identical parameters), so neither timepoint's topics are shaped by the other interview. The clusters, labels and parameters are the same in the core networks (slide 1), `topic_network_pre` (slide 4) and `topic_network_post` (slide 5); `check_topic_consistency.py` verifies it. A few tests compare topic categories across timepoints (topic composition change, per-topic PageRank change, flow-graph JSD pre vs post), which needs one common set of topics; these still use one model fitted on pre and post descriptors together ("shared-topic model", 11 topics) and are reported as such. All semantic-space and relief-projection results do not use topics.
 
-**Sources.** Slide 6 compares the two topic sets directly (`topic_distance`). Slides 1-3 use the Q1 descriptors at both timepoints (`pre_post/`, `semantic_projection_prepost/`); slide 4 uses the pre descriptors (`topic_network_pre/`); slide 5 uses the post-interview Q1 descriptors (`topic_network_post/`); a supplementary analysis of the full post interview (three questions) is in `topic_network_post_allquestions/`.
+**Sources.** Slide 6 compares the two topic sets directly (`topic_distance`). Slides 1-3 use the Q1 descriptors at both timepoints (`pre_post/`, `supplementary/semantic_projection_prepost/`); slide 4 uses the pre descriptors (`supplementary/topic_network_pre/`); slide 5 uses the post-interview Q1 descriptors (`supplementary/topic_network_post/`); a supplementary analysis of the full post interview (three questions) is in `topic_network_post_allquestions/`.
 
 **One-sentence message.** From pre to post, everyone's language moves from worry and anticipation toward calm; VR Art and VR Only shift significantly, Control does not reach significance, but the size of the change does not reliably differ between conditions.
 
@@ -70,7 +70,7 @@
 
 ---
 
-## Slide 4 - Semantic space before VR (`topic_network_pre/outputs/semantic_space_by_condition.pdf`)
+## Slide 4 - Semantic space before VR (`supplementary/topic_network_pre/outputs/semantic_space_by_condition.pdf`)
 
 **What it shows.** All pre-interview descriptors (small dots), each participant's average (large dots) and each condition's mean (diamond, with an ellipse for the 95% bootstrap region) in the embedding space of the descriptors. Axes are the first two principal components; no PC separates the conditions, so the plain leading PCs are used. Topic names sit at each topic's centre; the topics are extracted from the pre descriptors only. The heat table gives the permutation p-values; the right box states that no PC separates the conditions.
 
@@ -85,7 +85,7 @@
 
 ---
 
-## Slide 5 - Semantic space after VR (`topic_network_post/outputs/semantic_space_by_condition.pdf`)
+## Slide 5 - Semantic space after VR (`supplementary/topic_network_post/outputs/semantic_space_by_condition.pdf`)
 
 **What it shows.** The same kind of map as slide 4 for the **post-interview** Q1 descriptors: small dots are descriptors, large dots participants' averages, diamonds and ellipses the condition means (95% bootstrap region). Axes are PC1 (13.1% of the variance) and PC2 (7.5%); no PC separates the conditions. Topic names sit at each topic's centre; the topics are extracted from the post descriptors only, with exactly the same procedure, parameters and labels as for the pre interview. The heat table gives the test p-values.
 

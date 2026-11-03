@@ -15,17 +15,26 @@ Participant 33 has no condition (excluded); participant 48 has no pre descriptor
 
 ## Analyses
 
-Each folder has its own README with method, run order and outputs.
+Each folder has its own README with method, run order and outputs. The main analyses sit at the top level; the rest is in `supplementary/`.
 
 | Folder | Analysis | Data |
 |---|---|---|
-| `semantic_projection_pre/`, `semantic_projection_post/`, `semantic_projection_prepost/` | Qwen3-Embedding-0.6B projection of Q1 descriptors on a distress–relief axis (Portuguese anchors); group, and pre vs post, contrasts | `consensus_*_q1.csv` |
+| `semantic_projection_post/` | Qwen3-Embedding-0.6B projection of the post Q1 descriptors on a distress–relief axis (Portuguese anchors); group contrasts | `consensus_post_q1.csv` |
 | `pre_post/` | Shared and per-timepoint BERTopic topics, composition, PageRank, JSD and topic-distance tests, pre vs post | `consensus_*_q1.csv` |
-| `topic_network_pre/`, `topic_network_post/` | Topic flow graphs and centrality for the Q1 descriptors, per timepoint (clusters from `pre_post/`) | `consensus_*_q1.csv` |
 | `q3/` | BERTopic on the care question (Q3) | `immerse_interviewPost.csv` |
 | `all_questions/` | BERTopic on all three post questions | `immerse_interviewPost.csv` |
-| `topic_network_post_allquestions/` | Topic network of the full post interview (the former `topic_network_post/`) | `all_questions/outputs` |
+| `topic_network_post_allquestions/` | Topic network and embedding-space analyses of the full post interview (the former `topic_network_post/`); PC differences, nearest-neighbour test, PC4 vs presence | `all_questions/outputs`, `anxiety_fear_mechanism_items.csv` |
 | `transcribe/` | WhisperX transcription and diarization | `data/audio/` |
+
+Supplementary (`supplementary/`):
+
+| Folder | Analysis | Data |
+|---|---|---|
+| `semantic_projection_pre/`, `semantic_projection_prepost/` | Same projection for the pre descriptors, and pre vs post contrasts | `consensus_*_q1.csv` |
+| `semantic_projection_fullresponse/` | Projection of the three post answers concatenated per participant | `immerse_interviewPost.csv` |
+| `topic_network_pre/`, `topic_network_post/` | Topic flow graphs and centrality for the Q1 descriptors, per timepoint (clusters from `pre_post/`) | `consensus_*_q1.csv` |
+
+Scripts import shared helpers from `q3/` and `all_questions/` (as `q3`, `all_questions`); run them from the repository root.
 
 ## Environment
 
@@ -55,6 +64,6 @@ python3 pre_post/check_topic_consistency.py
 
 Topic analyses: `python3 q3/q3_topic_analysis.py`; `python3 all_questions/all_questions_topic_analysis.py` then `test_topic_differences.py` and `plot_topic_differences.py`.
 
-Semantic projection (Portuguese descriptors): `python3 semantic_projection_prepost/project_prepost.py`, then `Rscript semantic_projection_prepost/models_prepost.R`. The `_pre` and `_post` folders are run the same way with `project.py` and `models.R`.
+Semantic projection (Portuguese descriptors): `python3 supplementary/semantic_projection_prepost/project_prepost.py`, then `Rscript supplementary/semantic_projection_prepost/models_prepost.R`. The `_pre` and `_post` folders are run the same way with `project.py` and `models.R`.
 
 Generated outputs are tracked in git: re-running overwrites them.

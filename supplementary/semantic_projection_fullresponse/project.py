@@ -20,7 +20,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE.parent / "data"
+DATA = HERE.parent.parent / "data"
 MODEL_ID = "Qwen/Qwen3-Embedding-0.6B"
 EMBED_INSTRUCTION = "Instruct: Represent the emotional valence and intensity of this word or short phrase.\nText: "
 DISTRESS_PT = ["angustiado", "perigo", "apreensivo", "angústia", "tormento", "agitado"]

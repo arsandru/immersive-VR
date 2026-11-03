@@ -42,7 +42,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
 from pre_topic_labels import topic_label  # noqa: E402

@@ -24,7 +24,7 @@ from sklearn.decomposition import PCA
 HERE = Path(__file__).resolve().parent
 TIME = HERE.name.split("_")[-1]  # semantic_projection_pre -> "pre"
 assert TIME in ("pre", "post"), HERE.name
-sys.path.insert(0, str(HERE.parent / "pre_post"))
+sys.path.insert(0, str(HERE.parent.parent / "pre_post"))
 from prepare_and_model import load_units  # noqa: E402
 
 MODEL_ID = "Qwen/Qwen3-Embedding-0.6B"
