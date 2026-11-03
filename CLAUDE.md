@@ -1,5 +1,7 @@
 # Immersive VR: working rules
 
+**Start of every session: read `HANDOFF.md` in this folder first (state, blocked tasks, open items), then this file. Update `HANDOFF.md` before ending a session.**
+
 Analysis workspace for a paper. Portuguese-language interviews from a three-group study (pre and post). The README is stale; trust this file and the per-folder READMEs, and check the code when they disagree.
 
 ## Design
